@@ -1,0 +1,17 @@
+<resources>
+  <string name="app_name">70mai Dash Cam Configurator</string>
+  
+  <!-- actions -->
+  <string name="action_retry">Retry</string>
+  <string name="action_connect_automatically">Connect automatically</string>
+  
+  <!-- connect to dash cam screen -->
+  <string name="connect_to_dash_cam">Connect to dash cam</string>
+  <string name="checking_connection_to_dash_cam">Checking connection to dash cam</string>
+  <string name="not_connected_to_dash_cam">Not connected to dash cam</string>
+  <string name="not_connected_to_dash_cam_message">Would you like to retry or connect to your dash cam automatically?</string>
+  <string name="connecting_to_dash_cam">Connecting to dash cam</string>
+  
+  <!-- errors -->
+  <string name="error_no_location_access">Coarse location permission is required to scan for nearby WiFi networks</string>
+</resources>
