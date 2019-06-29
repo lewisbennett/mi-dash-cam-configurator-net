@@ -7,7 +7,7 @@ namespace MiCamConfig.App.Core
         #region Lifecycle
         public override void Initialize()
         {
-            // register app start
+            RegisterCustomAppStart<AppStart>();
         }
         #endregion
     }
