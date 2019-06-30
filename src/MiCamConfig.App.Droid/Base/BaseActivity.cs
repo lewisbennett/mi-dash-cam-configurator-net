@@ -5,6 +5,7 @@ using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Droid.Attributes;
 using MiCamConfig.App.Droid.Services;
 using MvvmCross;
+using MvvmCross.Binding.BindingContext;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System.Reflection;
 
@@ -18,6 +19,11 @@ namespace MiCamConfig.App.Droid.Base
         /// Gets the layout attributes for this activity.
         /// </summary>
         public ActivityLayoutAttribute LayoutAttribute { get; private set; }
+
+        /// <summary>
+        /// Gets the permissions service.
+        /// </summary>
+        public IPermissionsService PermissionsService { get; } = Mvx.IoCProvider.Resolve<IPermissionsService>();
 
         /// <summary>
         /// Gets the toolbar for this activity.
@@ -126,6 +132,13 @@ namespace MiCamConfig.App.Droid.Base
 
                 SupportActionBar?.SetDisplayHomeAsUpEnabled(LayoutAttribute.EnableBackButton);
             }
+
+            var set = this.CreateBindingSet<BaseActivity<TViewModel>, TViewModel>();
+
+            set.Bind(WifiScanningService).For(view => view.IsConnectedToSSIDInteraction).To(viewModel => viewModel.WifiService.IsConnectedToSSIDInteraction).OneWay();
+            set.Bind(WifiScanningService).For(view => view.IsConnectedToSSIDPatternInteraction).To(viewModel => viewModel.WifiService.IsConnectedToSSIDPatternInteraction).OneWay();
+
+            set.Apply();
         }
         #endregion
     }

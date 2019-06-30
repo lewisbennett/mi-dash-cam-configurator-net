@@ -1,4 +1,5 @@
-﻿using MvvmCross;
+﻿using MiCamConfig.App.Core.Services;
+using MvvmCross;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
@@ -45,6 +46,11 @@ namespace MiCamConfig.App.Core.Base
                 RaisePropertyChanged(() => Title);
             }
         }
+
+        /// <summary>
+        /// Gets the WiFi service.
+        /// </summary>
+        public IWifiService WifiService { get; } = Mvx.IoCProvider.Resolve<IWifiService>();
         #endregion
 
         #region Event Handlers

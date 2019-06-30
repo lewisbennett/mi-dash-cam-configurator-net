@@ -61,6 +61,24 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Continue.
+        /// </summary>
+        internal static string ActionContinue {
+            get {
+                return ResourceManager.GetString("ActionContinue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Settings &gt; WiFi.
+        /// </summary>
+        internal static string MessageWifiDirectory {
+            get {
+                return ResourceManager.GetString("MessageWifiDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Connect To Dashcam.
         /// </summary>
         internal static string TitleConnectToDashcam {

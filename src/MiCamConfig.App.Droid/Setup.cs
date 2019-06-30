@@ -26,6 +26,7 @@ namespace MiCamConfig.App.Droid
         {
             base.InitializeFirstChance();
 
+            Mvx.IoCProvider.RegisterSingleton<IPermissionsService>(() => new PermissionsService());
             Mvx.IoCProvider.RegisterSingleton<IWifiScanningService>(() => new WifiScanningService());
         }
         #endregion

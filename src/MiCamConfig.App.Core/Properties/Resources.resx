@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActionContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="MessageWifiDirectory" xml:space="preserve">
+    <value>Settings &gt; WiFi</value>
+  </data>
   <data name="TitleConnectToDashcam" xml:space="preserve">
     <value>Connect To Dashcam</value>
   </data>

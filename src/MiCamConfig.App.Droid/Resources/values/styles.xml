@@ -6,6 +6,7 @@
   <style name="AppTheme.Light" parent="AppTheme.Base">
     <item name="windowForegroundColor">@android:color/white</item>
     <item name="textColorTitle">@android:color/black</item>
+    <item name="textColorInactive">@color/light_black</item>
     <item name="actionBarColor">@android:color/white</item>
     <item name="android:windowLightStatusBar">true</item>
   </style>
@@ -13,6 +14,7 @@
   <style name="AppTheme.Dark" parent="AppTheme.Base">
     <item name="windowForegroundColor">@android:color/black</item>
     <item name="textColorTitle">@android:color/white</item>
+    <item name="textColorInactive">@color/dark_white</item>
     <item name="actionBarColor">@android:color/black</item>
     <item name="android:windowLightStatusBar">false</item>
   </style>
@@ -30,5 +32,24 @@
     <item name="android:stateListAnimator">@drawable/an_toolbar_elevation</item>
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">?attr/actionBarSize</item>
+  </style>
+
+  <style name="AppTheme.Widgets.TextViewTitle" parent="android:Widget.TextView">
+    <item name="android:textColor">?attr/textColorTitle</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">24sp</item>
+  </style>
+
+  <style name="AppTheme.Widgets.TextViewInactiveTitle" parent="android:Widget.TextView">
+    <item name="android:textColor">?attr/textColorInactive</item>
+    <item name="android:textSize">24sp</item>
+  </style>
+
+  <style name="AppTheme.Widgets.Button" parent="android:Widget.Button">
+    <item name="android:backgroundTint">@color/turquoise</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textAllCaps">false</item>
+    <item name="android:enabled">true</item>
   </style>
 </resources>
