@@ -88,11 +88,29 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Nothing to display..
+        /// </summary>
+        internal static string MessageNothingToDisplay {
+            get {
+                return ResourceManager.GetString("MessageNothingToDisplay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Settings &gt; WiFi.
         /// </summary>
         internal static string MessageWifiDirectory {
             get {
                 return ResourceManager.GetString("MessageWifiDirectory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Actions.
+        /// </summary>
+        internal static string TitleActions {
+            get {
+                return ResourceManager.GetString("TitleActions", resourceCulture);
             }
         }
         

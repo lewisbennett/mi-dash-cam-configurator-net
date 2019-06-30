@@ -2,12 +2,13 @@
 using Android.Runtime;
 using Android.Util;
 using Android.Views;
+using MvvmCross.Droid.Support.V7.RecyclerView;
 using System;
 using System.Collections.Generic;
 
 namespace MiCamConfig.App.Droid.Views
 {
-    public class ElevationScrollView : ExtendedScrollView
+    public class ElevationMvxRecyclerView : ExtendedMvxRecyclerView
     {
         #region Properties
         /// <summary>
@@ -17,14 +18,14 @@ namespace MiCamConfig.App.Droid.Views
         #endregion
 
         #region Event Handlers
-        public override void OnScrollChanged(int dx, int dy)
+        public override void OnScrolled(int dx, int dy)
         {
-            base.OnScrollChanged(dx, dy);
+            base.OnScrolled(dx, dy);
 
             if (ElevationViews.Count < 1)
                 return;
 
-            var selected = dy != 0;
+            var selected = VerticalScrollPosition != 0;
 
             foreach (var view in ElevationViews)
                 view.Selected = selected;
@@ -32,28 +33,23 @@ namespace MiCamConfig.App.Droid.Views
         #endregion
 
         #region Constructors
-        public ElevationScrollView(Context context)
-            : base(context)
-        {
-        }
-
-        public ElevationScrollView(Context context, IAttributeSet attrs)
+        public ElevationMvxRecyclerView(Context context, IAttributeSet attrs)
             : base(context, attrs)
         {
         }
 
-        public ElevationScrollView(IntPtr javaReference, JniHandleOwnership transfer)
+        public ElevationMvxRecyclerView(IntPtr javaReference, JniHandleOwnership transfer)
             : base(javaReference, transfer)
         {
         }
 
-        public ElevationScrollView(Context context, IAttributeSet attrs, int defStyleAttr)
-            : base(context, attrs, defStyleAttr)
+        public ElevationMvxRecyclerView(Context context, IAttributeSet attrs, int defStyle)
+            : base(context, attrs, defStyle)
         {
         }
 
-        public ElevationScrollView(Context context, IAttributeSet attrs, int defStyleAttr, int defStyleRes)
-            : base(context, attrs, defStyleAttr, defStyleRes)
+        public ElevationMvxRecyclerView(Context context, IAttributeSet attrs, int defStyle, IMvxRecyclerAdapter adapter)
+            : base(context, attrs, defStyle, adapter)
         {
         }
         #endregion

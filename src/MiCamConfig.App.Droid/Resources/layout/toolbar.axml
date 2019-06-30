@@ -9,6 +9,14 @@
         android:layout_height="?attr/actionBarSize"
 		android:background="?attr/actionBarColor"
         android:theme="@style/AppTheme.ActionBar.TitleTextStyle"
-        app:popupTheme="@style/Theme.AppCompat.Light.NoActionBar"
-        app:MvxBind="Title Title" />
+        app:popupTheme="@style/Theme.AppCompat.Light.NoActionBar">
+        <TextView
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textColorTitle"
+            android:gravity="center"
+            android:id="@+id/toolbar_text"
+            app:MvxBind="Text Title" />
+    </android.support.v7.widget.Toolbar>
 </android.support.design.widget.AppBarLayout>

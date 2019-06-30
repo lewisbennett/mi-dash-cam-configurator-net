@@ -51,7 +51,7 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             if (WifiService.IsConnectedToSSID(AppCore.DashcamSSID))
             {
-                // Navigate to next ViewModel.
+                NavigationService.Navigate<ActionsViewModel>().ConfigureAwait(false);
                 return;
             }
 

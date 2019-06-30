@@ -64,10 +64,13 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ActionsActivity.cs" />
     <Compile Include="Activities\ConnectToDashcamActivity.cs" />
+    <Compile Include="Activities\ListActivity.cs" />
     <Compile Include="Activities\SplashScreenActivity.cs" />
     <Compile Include="Attributes\ActivityLayoutAttribute.cs" />
     <Compile Include="Base\BaseActivity.cs" />
+    <Compile Include="Helper\DimensionHelper.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,8 +81,11 @@
     <Compile Include="Services\PermissionsService.cs" />
     <Compile Include="Services\WifiScanningService.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="Views\ElevationScrollView.cs" />
-    <Compile Include="Views\ExtendedScrollView.cs" />
+    <Compile Include="TemplateSelectors\BaseModelTemplateSelector.cs" />
+    <Compile Include="Views\ElevationMvxRecyclerView.cs" />
+    <Compile Include="Views\ElevationNestedScrollView.cs" />
+    <Compile Include="Views\ExtendedMvxRecyclerView.cs" />
+    <Compile Include="Views\ExtendedNestedScrollView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -160,6 +166,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-nodpi\ba_dashcam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_list.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\content_list.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <MiCamConfig.App.Droid.Views.ElevationScrollView
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
@@ -45,7 +45,7 @@
                 android:textSize="16sp"
                 app:MvxBind="Text WifiDirectory" />
         </LinearLayout>
-    </MiCamConfig.App.Droid.Views.ElevationScrollView>
+    </ScrollView>
     <Button
         style="@style/AppTheme.Widgets.Button"
         android:layout_width="match_parent"
