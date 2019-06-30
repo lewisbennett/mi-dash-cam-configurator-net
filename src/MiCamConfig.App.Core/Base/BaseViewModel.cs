@@ -29,6 +29,11 @@ namespace MiCamConfig.App.Core.Base
         }
 
         /// <summary>
+        /// Gets the messaging service.
+        /// </summary>
+        public IMessagingService MessagingService { get; } = Mvx.IoCProvider.Resolve<IMessagingService>();
+
+        /// <summary>
         /// Gets the navigation service.
         /// </summary>
         public IMvxNavigationService NavigationService { get; } = Mvx.IoCProvider.Resolve<IMvxNavigationService>();

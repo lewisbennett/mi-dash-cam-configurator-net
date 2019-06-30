@@ -28,6 +28,7 @@ namespace MiCamConfig.App.Droid
 
             Mvx.IoCProvider.RegisterSingleton<IPermissionsService>(() => new PermissionsService());
             Mvx.IoCProvider.RegisterSingleton<IWifiScanningService>(() => new WifiScanningService());
+            Mvx.IoCProvider.RegisterSingleton<IMessagingService>(() => new MessagingService());
         }
         #endregion
     }

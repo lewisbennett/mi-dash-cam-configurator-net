@@ -70,6 +70,24 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Okay.
+        /// </summary>
+        internal static string ActionOkay {
+            get {
+                return ResourceManager.GetString("ActionOkay", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A connection to your dashcam could not be established. If you are connected to your dashcam you should check that the app has the required permissions and try again..
+        /// </summary>
+        internal static string MessageNotConnectedToDashcam {
+            get {
+                return ResourceManager.GetString("MessageNotConnectedToDashcam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Settings &gt; WiFi.
         /// </summary>
         internal static string MessageWifiDirectory {
@@ -84,6 +102,15 @@ namespace MiCamConfig.App.Core.Properties {
         internal static string TitleConnectToDashcam {
             get {
                 return ResourceManager.GetString("TitleConnectToDashcam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not Connected.
+        /// </summary>
+        internal static string TitleNotConnected {
+            get {
+                return ResourceManager.GetString("TitleNotConnected", resourceCulture);
             }
         }
     }

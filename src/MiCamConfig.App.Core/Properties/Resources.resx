@@ -120,10 +120,19 @@
   <data name="ActionContinue" xml:space="preserve">
     <value>Continue</value>
   </data>
+  <data name="ActionOkay" xml:space="preserve">
+    <value>Okay</value>
+  </data>
+  <data name="MessageNotConnectedToDashcam" xml:space="preserve">
+    <value>A connection to your dashcam could not be established. If you are connected to your dashcam you should check that the app has the required permissions and try again.</value>
+  </data>
   <data name="MessageWifiDirectory" xml:space="preserve">
     <value>Settings &gt; WiFi</value>
   </data>
   <data name="TitleConnectToDashcam" xml:space="preserve">
     <value>Connect To Dashcam</value>
+  </data>
+  <data name="TitleNotConnected" xml:space="preserve">
+    <value>Not Connected</value>
   </data>
 </root>

@@ -21,6 +21,11 @@ namespace MiCamConfig.App.Droid.Base
         public ActivityLayoutAttribute LayoutAttribute { get; private set; }
 
         /// <summary>
+        /// Gets the messaging service.
+        /// </summary>
+        public IMessagingService MessagingService { get; } = Mvx.IoCProvider.Resolve<IMessagingService>();
+
+        /// <summary>
         /// Gets the permissions service.
         /// </summary>
         public IPermissionsService PermissionsService { get; } = Mvx.IoCProvider.Resolve<IPermissionsService>();
@@ -115,6 +120,13 @@ namespace MiCamConfig.App.Droid.Base
             Initialize();
             SetupView();
         }
+
+        protected override void OnResume()
+        {
+            base.OnResume();
+
+            MessagingService.Context = this;
+        }
         #endregion
 
         #region Private Methods
@@ -137,6 +149,8 @@ namespace MiCamConfig.App.Droid.Base
 
             set.Bind(WifiScanningService).For(view => view.IsConnectedToSSIDInteraction).To(viewModel => viewModel.WifiService.IsConnectedToSSIDInteraction).OneWay();
             set.Bind(WifiScanningService).For(view => view.IsConnectedToSSIDPatternInteraction).To(viewModel => viewModel.WifiService.IsConnectedToSSIDPatternInteraction).OneWay();
+
+            set.Bind(MessagingService).For(view => view.AlertInteraction).To(viewModel => viewModel.MessagingService.AlertInteraction).OneWay();
 
             set.Apply();
         }

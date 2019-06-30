@@ -1,4 +1,5 @@
 ﻿using MiCamConfig.App.Core.Base;
+using MiCamConfig.App.Core.Interactions;
 using MiCamConfig.App.Core.Properties;
 using MvvmCross.Commands;
 
@@ -48,6 +49,20 @@ namespace MiCamConfig.App.Core.ViewModels
         #region Event Handlers
         private void ContinueButton_Click()
         {
+            if (WifiService.IsConnectedToSSID(AppCore.DashcamSSID))
+            {
+                // Navigate to next ViewModel.
+                return;
+            }
+
+            var config = new AlertConfig
+            {
+                Title = Resources.TitleNotConnected,
+                Message = Resources.MessageNotConnectedToDashcam,
+                OkButtonText = Resources.ActionOkay
+            };
+
+            MessagingService.Alert(config);
         }
         #endregion
     }

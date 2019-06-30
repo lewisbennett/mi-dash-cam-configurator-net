@@ -1,6 +1,10 @@
 <resources>
   <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/turquoise</item>
     <item name="colorPrimaryDark">?attr/windowForegroundColor</item>
+    <item name="colorControlNormal">@color/turquoise</item>
+    <item name="colorControlActivated">@color/turquoise</item>
+    <item name="colorAccent">@color/turquoise</item>
   </style>
 
   <style name="AppTheme.Light" parent="AppTheme.Base">
