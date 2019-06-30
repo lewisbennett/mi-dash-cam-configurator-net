@@ -83,12 +83,9 @@
     <Compile Include="Setup.cs" />
     <Compile Include="TemplateSelectors\BaseModelTemplateSelector.cs" />
     <Compile Include="Views\ElevationMvxRecyclerView.cs" />
-    <Compile Include="Views\ElevationNestedScrollView.cs" />
     <Compile Include="Views\ExtendedMvxRecyclerView.cs" />
-    <Compile Include="Views\ExtendedNestedScrollView.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
