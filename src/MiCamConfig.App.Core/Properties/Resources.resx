@@ -132,6 +132,9 @@
   <data name="MessageWifiDirectory" xml:space="preserve">
     <value>Settings &gt; WiFi</value>
   </data>
+  <data name="MessagingLoading" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
   <data name="TitleActions" xml:space="preserve">
     <value>Actions</value>
   </data>

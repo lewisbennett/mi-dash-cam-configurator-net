@@ -1,5 +1,5 @@
 <resources>
-  <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+  <style name="AppTheme.Base" parent="Theme.AppCompat.DayNight.NoActionBar">
     <item name="colorPrimary">@color/turquoise</item>
     <item name="colorPrimaryDark">?attr/windowBackgroundColor</item>
     <item name="colorControlNormal">@color/turquoise</item>
@@ -30,6 +30,12 @@
     <item name="android:stateListAnimator">@drawable/an_toolbar_elevation</item>
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">?attr/actionBarSize</item>
+  </style>
+
+  <style name="AppTheme.Dialog.Base" parent="Theme.AppCompat.Dialog">
+    <item name="colorAccent">@color/turquoise</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
   </style>
 
   <style name="AppTheme.Widgets.TextViewTitle" parent="android:Widget.TextView">

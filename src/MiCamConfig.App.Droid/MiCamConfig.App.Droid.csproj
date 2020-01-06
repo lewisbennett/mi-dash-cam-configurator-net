@@ -71,6 +71,7 @@
     <Compile Include="Activities\SplashScreenActivity.cs" />
     <Compile Include="Attributes\ActivityLayoutAttribute.cs" />
     <Compile Include="Base\BaseActivity.cs" />
+    <Compile Include="DialogFragments\LoadingDialogFragment.cs" />
     <Compile Include="Helper\DimensionHelper.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -175,6 +176,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values-night\styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\dialog_loading.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\ba_loading_dialog.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
