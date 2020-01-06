@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="?attr/windowForegroundColor">
+    android:background="?attr/windowBackgroundColor">
     <include
         layout="@layout/toolbar" />
     <include

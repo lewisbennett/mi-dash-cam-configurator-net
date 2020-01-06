@@ -6,15 +6,4 @@
   <attr name="actionBarColor" format="color" />
   <attr name="windowForegroundColor" format="color" />
   <attr name="windowBackgroundColor" format="color" />
-  <attr name="rippleColor" format="color" />
-
-  <declare-styleable name="AppTheme">
-    <attr name="textColorTitle" />
-    <attr name="textColorInactive" />
-    <attr name="textColorSubtitle" />
-    <attr name="actionBarColor" />
-    <attr name="windowForegroundColor" />
-    <attr name="windowBackgroundColor" />
-    <attr name="rippleColor" />
-  </declare-styleable>
 </resources>

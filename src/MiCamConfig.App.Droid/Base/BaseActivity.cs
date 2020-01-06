@@ -18,7 +18,7 @@ namespace MiCamConfig.App.Droid.Base
         /// <summary>
         /// Gets the layout attributes for this activity.
         /// </summary>
-        public ActivityLayoutAttribute LayoutAttribute { get; private set; }
+        public ActivityLayoutAttribute LayoutAttributes { get; private set; }
 
         /// <summary>
         /// Gets the messaging service.
@@ -39,8 +39,6 @@ namespace MiCamConfig.App.Droid.Base
         #region Public Methods
         public override void SetContentView(View view)
         {
-            SetTheme();
-
             base.SetContentView(view);
 
             SetSupportActionBar();
@@ -48,8 +46,6 @@ namespace MiCamConfig.App.Droid.Base
 
         public override void SetContentView(int layoutResId)
         {
-            SetTheme();
-
             base.SetContentView(layoutResId);
 
             SetSupportActionBar();
@@ -57,8 +53,6 @@ namespace MiCamConfig.App.Droid.Base
 
         public override void SetContentView(View view, ViewGroup.LayoutParams @params)
         {
-            SetTheme();
-
             base.SetContentView(view, @params);
 
             SetSupportActionBar();
@@ -73,14 +67,6 @@ namespace MiCamConfig.App.Droid.Base
 
             if (Toolbar != null)
                 SetSupportActionBar(Toolbar);
-        }
-
-        /// <summary>
-        /// Sets the theme automatically.
-        /// </summary>
-        public void SetTheme()
-        {
-            SetTheme(Resource.Style.AppTheme_Light);
         }
         #endregion
 
@@ -127,18 +113,18 @@ namespace MiCamConfig.App.Droid.Base
         #region Private Methods
         private void Initialize()
         {
-            LayoutAttribute = GetType().GetCustomAttribute<ActivityLayoutAttribute>(true);
+            LayoutAttributes = GetType().GetCustomAttribute<ActivityLayoutAttribute>(true);
         }
 
         private void SetupView()
         {
-            if (LayoutAttribute != null)
-            {
-                if (LayoutAttribute.LayoutResourceId != 0)
-                    SetContentView(LayoutAttribute.LayoutResourceId);
+            if (LayoutAttributes == null)
+                return;
 
-                SupportActionBar?.SetDisplayHomeAsUpEnabled(LayoutAttribute.EnableBackButton);
-            }
+            if (LayoutAttributes.LayoutResourceId != 0)
+                SetContentView(LayoutAttributes.LayoutResourceId);
+
+            SupportActionBar?.SetDisplayHomeAsUpEnabled(LayoutAttributes.EnableBackButton);
         }
         #endregion
     }
