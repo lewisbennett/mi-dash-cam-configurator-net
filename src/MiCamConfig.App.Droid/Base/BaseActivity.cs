@@ -4,7 +4,6 @@ using Android.Views;
 using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Droid.Attributes;
-using MiCamConfig.App.Droid.Services;
 using MvvmCross;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System.Reflection;
@@ -24,11 +23,6 @@ namespace MiCamConfig.App.Droid.Base
         /// Gets the messaging service.
         /// </summary>
         public IMessagingService MessagingService { get; } = Mvx.IoCProvider.Resolve<IMessagingService>();
-
-        /// <summary>
-        /// Gets the permissions service.
-        /// </summary>
-        public IPermissionsService PermissionsService { get; } = Mvx.IoCProvider.Resolve<IPermissionsService>();
 
         /// <summary>
         /// Gets the toolbar for this activity.

@@ -27,8 +27,7 @@ namespace MiCamConfig.App.Droid
         {
             base.InitializeFirstChance();
 
-            Mvx.IoCProvider.RegisterSingleton<IPermissionsService>(() => new PermissionsService());
-            Mvx.IoCProvider.RegisterSingleton<IMessagingService>(() => new Services.MessagingService());
+            Mvx.IoCProvider.RegisterSingleton<IMessagingService>(() => new MessagingService());
         }
         #endregion
     }
