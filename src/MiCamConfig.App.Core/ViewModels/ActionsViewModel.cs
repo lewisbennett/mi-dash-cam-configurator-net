@@ -5,11 +5,13 @@ namespace MiCamConfig.App.Core.ViewModels
 {
     public class ActionsViewModel : ListViewModel<ActionModel>
     {
-        #region Properties
-        /// <summary>
-        /// Gets the title for this ViewModel.
-        /// </summary>
-        public override string Title => Resources.TitleActions;
+        #region Lifecycle
+        public override void Prepare()
+        {
+            base.Prepare();
+
+            Title = Resources.TitleActions;
+        }
         #endregion
     }
 }

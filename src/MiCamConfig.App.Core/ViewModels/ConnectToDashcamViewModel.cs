@@ -48,7 +48,7 @@ namespace MiCamConfig.App.Core.ViewModels
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
-                // Navigate to actions.
+                await NavigationService.Navigate<ActionsViewModel>().ConfigureAwait(false);
                 return;
             }
 
