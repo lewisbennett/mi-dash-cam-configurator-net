@@ -1,4 +1,6 @@
-﻿using System.Text.RegularExpressions;
+﻿using MiCam.Api.Client;
+using System;
+using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core
 {
@@ -6,9 +8,36 @@ namespace MiCamConfig.App.Core
     {
         #region Properties
         /// <summary>
-        /// Gets the Regex that represents the SSID of a compatible dashcam.
+        /// Gets the app's CamClient.
         /// </summary>
-        public static Regex DashcamSSID { get; } = new Regex("70mai_d[0-9]{2}_[0-9a-zA-Z]{4}");
+        public static CamClient CamClient { get; } = new CamClient();
+        #endregion
+
+        #region Public Methods
+        /// <summary>
+        /// Breaks down an exception to a user readable error message.
+        /// </summary>
+        public static void HandleException(Exception exception)
+        {
+        }
+
+        /// <summary>
+        /// Runs a task and handles any exceptions.
+        /// </summary>
+        public static async Task<bool> RunTaskAsync(Func<Task> task)
+        {
+            try
+            {
+                await task.Invoke().ConfigureAwait(false);
+
+                return true;
+            }
+            catch (Exception e)
+            {
+                HandleException(e);
+                return false;
+            }
+        }
         #endregion
     }
 }

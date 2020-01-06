@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCamConfig.App.Core", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCamConfig.App.Droid", "src\MiCamConfig.App.Droid\MiCamConfig.App.Droid.csproj", "{F06E1194-4449-460C-8F08-BE30791F1D40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCam.Api.Client", "src\MiCam.Api.Client\MiCam.Api.Client.csproj", "{D27F7F0E-7875-4619-817D-CA704541D80F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{F06E1194-4449-460C-8F08-BE30791F1D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F06E1194-4449-460C-8F08-BE30791F1D40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F06E1194-4449-460C-8F08-BE30791F1D40}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D27F7F0E-7875-4619-817D-CA704541D80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27F7F0E-7875-4619-817D-CA704541D80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27F7F0E-7875-4619-817D-CA704541D80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27F7F0E-7875-4619-817D-CA704541D80F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

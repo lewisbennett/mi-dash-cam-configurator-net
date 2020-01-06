@@ -3,6 +3,7 @@ using MvvmCross;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
+using System;
 using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.Base
@@ -37,6 +38,14 @@ namespace MiCamConfig.App.Core.Base
         /// Gets the navigation service.
         /// </summary>
         public IMvxNavigationService NavigationService { get; } = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
+
+        /// <summary>
+        /// Runs a task and handles any exceptions.
+        /// </summary>
+        public Task<bool> RunTaskAsync(Func<Task> task)
+        {
+            return AppCore.RunTaskAsync(task);
+        }
 
         /// <summary>
         /// Gets or sets the title for this ViewModel.
