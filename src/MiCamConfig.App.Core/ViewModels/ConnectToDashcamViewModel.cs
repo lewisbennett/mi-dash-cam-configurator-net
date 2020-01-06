@@ -49,12 +49,6 @@ namespace MiCamConfig.App.Core.ViewModels
         #region Event Handlers
         private void ContinueButton_Click()
         {
-            if (WifiService.IsConnectedToSSID(AppCore.DashcamSSID))
-            {
-                NavigationService.Navigate<ActionsViewModel>().ConfigureAwait(false);
-                return;
-            }
-
             var config = new AlertConfig
             {
                 Title = Resources.TitleNotConnected,

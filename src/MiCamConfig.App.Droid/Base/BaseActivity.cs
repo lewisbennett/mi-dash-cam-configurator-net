@@ -2,10 +2,10 @@
 using Android.Support.V7.Widget;
 using Android.Views;
 using MiCamConfig.App.Core.Base;
+using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Droid.Attributes;
 using MiCamConfig.App.Droid.Services;
 using MvvmCross;
-using MvvmCross.Binding.BindingContext;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System.Reflection;
 
@@ -34,11 +34,6 @@ namespace MiCamConfig.App.Droid.Base
         /// Gets the toolbar for this activity.
         /// </summary>
         public Toolbar Toolbar { get; private set; }
-
-        /// <summary>
-        /// Gets the WiFi scanning service.
-        /// </summary>
-        public IWifiScanningService WifiScanningService { get; } = Mvx.IoCProvider.Resolve<IWifiScanningService>();
         #endregion
 
         #region Public Methods
@@ -125,7 +120,7 @@ namespace MiCamConfig.App.Droid.Base
         {
             base.OnResume();
 
-            MessagingService.Context = this;
+            Services.MessagingService.Context = this;
         }
         #endregion
 
@@ -144,15 +139,6 @@ namespace MiCamConfig.App.Droid.Base
 
                 SupportActionBar?.SetDisplayHomeAsUpEnabled(LayoutAttribute.EnableBackButton);
             }
-
-            var set = this.CreateBindingSet<BaseActivity<TViewModel>, TViewModel>();
-
-            set.Bind(WifiScanningService).For(view => view.IsConnectedToSSIDInteraction).To(viewModel => viewModel.WifiService.IsConnectedToSSIDInteraction).OneWay();
-            set.Bind(WifiScanningService).For(view => view.IsConnectedToSSIDPatternInteraction).To(viewModel => viewModel.WifiService.IsConnectedToSSIDPatternInteraction).OneWay();
-
-            set.Bind(MessagingService).For(view => view.AlertInteraction).To(viewModel => viewModel.MessagingService.AlertInteraction).OneWay();
-
-            set.Apply();
         }
         #endregion
     }

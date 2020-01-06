@@ -1,4 +1,5 @@
-﻿using MiCamConfig.App.Droid.Services;
+﻿using MiCamConfig.App.Core.Services;
+using MiCamConfig.App.Droid.Services;
 using MvvmCross;
 using MvvmCross.Binding.Bindings.Target.Construction;
 using MvvmCross.Droid.Support.V7.AppCompat;
@@ -27,8 +28,7 @@ namespace MiCamConfig.App.Droid
             base.InitializeFirstChance();
 
             Mvx.IoCProvider.RegisterSingleton<IPermissionsService>(() => new PermissionsService());
-            Mvx.IoCProvider.RegisterSingleton<IWifiScanningService>(() => new WifiScanningService());
-            Mvx.IoCProvider.RegisterSingleton<IMessagingService>(() => new MessagingService());
+            Mvx.IoCProvider.RegisterSingleton<IMessagingService>(() => new Services.MessagingService());
         }
         #endregion
     }

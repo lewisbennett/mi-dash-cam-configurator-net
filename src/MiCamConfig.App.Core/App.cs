@@ -1,6 +1,4 @@
-﻿using MiCamConfig.App.Core.Services;
-using MvvmCross;
-using MvvmCross.ViewModels;
+﻿using MvvmCross.ViewModels;
 
 namespace MiCamConfig.App.Core
 {
@@ -9,9 +7,6 @@ namespace MiCamConfig.App.Core
         #region Lifecycle
         public override void Initialize()
         {
-            Mvx.IoCProvider.RegisterSingleton<IMessagingService>(() => new MessagingService());
-            Mvx.IoCProvider.RegisterSingleton<IWifiService>(() => new WifiService());
-
             RegisterCustomAppStart<AppStart>();
         }
         #endregion
