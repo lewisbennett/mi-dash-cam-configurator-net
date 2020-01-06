@@ -34,7 +34,7 @@
                     android:layout_weight="0.2" />
             </LinearLayout>
             <TextView
-                style="@style/AppTheme.Widgets.TextViewTitle"
+                style="@style/AppTheme.Widgets.TextViewHeader"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:MvxBind="Text ConnectToDashcamTitle" />

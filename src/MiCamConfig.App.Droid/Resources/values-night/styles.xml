@@ -3,6 +3,7 @@
     <item name="actionBarColor">@android:color/black</item>
     <item name="textColorTitle">@android:color/white</item>
     <item name="textColorInactive">@color/dark_white</item>
+    <item name="textColorSubtitle">@color/grey</item>
     <item name="windowBackgroundColor">@android:color/black</item>
     <item name="windowForegroundColor">@color/light_black</item>
 

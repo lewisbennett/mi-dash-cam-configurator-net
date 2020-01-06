@@ -1,4 +1,5 @@
 ﻿using MiCamConfig.App.Core.Base;
+using MiCamConfig.App.Core.Models;
 using MvvmCross.Droid.Support.V7.RecyclerView.ItemTemplates;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,7 @@ namespace MiCamConfig.App.Droid.TemplateSelectors
         /// </summary>
         public static Dictionary<Type, int> Layouts { get; } = new Dictionary<Type, int>
         {
+            { typeof(ActionModel), Resource.Layout.item_action }
         };
         #endregion
     }

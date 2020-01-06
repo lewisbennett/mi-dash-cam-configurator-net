@@ -2,7 +2,6 @@
 using MiCamConfig.App.Core.Properties;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
-using System.Collections.Specialized;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
@@ -10,8 +9,6 @@ namespace MiCamConfig.App.Core.ViewModels
         where TModel : class
     {
         #region Fields
-        private MvxObservableCollection<TModel> _data = new MvxObservableCollection<TModel>();
-        private IMvxCommand _itemClickCommand;
         private string _dataEmptyMessage = Resources.MessageNothingToDisplay;
         #endregion
 
@@ -19,29 +16,17 @@ namespace MiCamConfig.App.Core.ViewModels
         /// <summary>
         /// Gets or sets the data.
         /// </summary>
-        public MvxObservableCollection<TModel> Data
-        {
-            get => _data;
+        public MvxObservableCollection<TModel> Data { get; } = new MvxObservableCollection<TModel>();
 
-            set
-            {
-                _data = value;
-                RaisePropertyChanged(() => Data);
-            }
-        }
+        /// <summary>
+        /// Gets whether the collection is currently empty.
+        /// </summary>
+        public bool IsDataEmpty => Data.Count < 1;
 
         /// <summary>
         /// Gets the command triggered when an item in the data is clicked.
         /// </summary>
-        public IMvxCommand ItemClickCommand
-        {
-            get
-            {
-                _itemClickCommand = _itemClickCommand ?? new MvxCommand<TModel>(OnItemClick);
-
-                return _itemClickCommand;
-            }
-        }
+        public IMvxCommand ItemClickCommand { get; private set; }
 
         /// <summary>
         /// Gets or sets the message displayed when the data is empty.
@@ -59,28 +44,21 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
 
         #region Event Handlers
-        private void Data_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
-        {
-        }
-
+        /// <summary>
+        /// Called when an item in the collection is clicked.
+        /// </summary>
+        /// <param name="item">The clicked item.</param>
         public virtual void OnItemClick(TModel item)
         {
         }
         #endregion
 
         #region Lifecycle
-        public override void ViewAppearing()
+        public override void Prepare()
         {
-            base.ViewAppearing();
+            base.Prepare();
 
-            Data.CollectionChanged += Data_CollectionChanged;
-        }
-
-        public override void ViewDisappearing()
-        {
-            base.ViewDisappearing();
-
-            Data.CollectionChanged -= Data_CollectionChanged;
+            ItemClickCommand = new MvxCommand<TModel>(OnItemClick);
         }
         #endregion
     }

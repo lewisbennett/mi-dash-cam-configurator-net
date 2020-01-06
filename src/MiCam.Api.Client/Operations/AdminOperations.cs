@@ -1,4 +1,5 @@
 ﻿using MiCam.Api.Client.Entities;
+using MiCam.Api.Client.Schema;
 using System.Threading.Tasks;
 
 namespace MiCam.Api.Client.Operations
@@ -15,7 +16,7 @@ namespace MiCam.Api.Client.Operations
         /// </summary>
         public Task<ResponseEntity> ApkAuthorizeAsync()
         {
-            return _client.GetAsync("ApkAuthorize");
+            return _client.GetAsync(Code.ApkAuhorize);
         }
         #endregion
 

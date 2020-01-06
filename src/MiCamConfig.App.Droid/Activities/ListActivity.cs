@@ -3,7 +3,6 @@ using Android.Support.Design.Widget;
 using Android.Support.V7.Widget;
 using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Droid.Base;
-using MiCamConfig.App.Droid.Helper;
 using MiCamConfig.App.Droid.TemplateSelectors;
 using MiCamConfig.App.Droid.Views;
 
@@ -27,7 +26,7 @@ namespace MiCamConfig.App.Droid.Activities
             RecyclerView = FindViewById<ElevationMvxRecyclerView>(Resource.Id.recyclerview);
 
             RecyclerView.ElevationViews.Add(FindViewById<AppBarLayout>(Resource.Id.appbar));
-            RecyclerView.SetLayoutManager(new GridLayoutManager(this, DimensionHelper.GridViewHorizontalCount));
+            RecyclerView.SetLayoutManager(new GridLayoutManager(this, 1));
             RecyclerView.ItemTemplateSelector = new BaseModelTemplateSelector();
         }
         #endregion

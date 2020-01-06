@@ -11,6 +11,7 @@
     <item name="actionBarColor">@android:color/white</item>
     <item name="textColorTitle">@android:color/black</item>
     <item name="textColorInactive">@color/light_black</item>
+    <item name="textColorSubtitle">@color/grey</item>
     <item name="windowBackgroundColor">@android:color/white</item>
     <item name="windowForegroundColor">@color/dark_white</item>
 
@@ -38,15 +39,25 @@
     <item name="android:colorBackgroundCacheHint">@null</item>
   </style>
 
-  <style name="AppTheme.Widgets.TextViewTitle" parent="android:Widget.TextView">
+  <style name="AppTheme.Widgets.TextViewHeader" parent="android:Widget.TextView">
     <item name="android:textColor">?attr/textColorTitle</item>
     <item name="android:textStyle">bold</item>
     <item name="android:textSize">24sp</item>
   </style>
 
+  <style name="AppTheme.Widgets.TextViewTitle" parent="android:Widget.TextView">
+    <item name="android:textColor">?attr/textColorTitle</item>
+    <item name="android:textSize">16sp</item>
+  </style>
+
   <style name="AppTheme.Widgets.TextViewInactiveTitle" parent="android:Widget.TextView">
     <item name="android:textColor">?attr/textColorInactive</item>
-    <item name="android:textSize">24sp</item>
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <style name="AppTheme.Widgets.TextViewSubtitle" parent="android:Widget.TextView">
+    <item name="android:textColor">?attr/textColorSubtitle</item>
+    <item name="android:textSize">14sp</item>
   </style>
 
   <style name="AppTheme.Widgets.Button" parent="android:Widget.Button">
