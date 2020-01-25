@@ -123,6 +123,13 @@
   <data name="ActionOkay" xml:space="preserve">
     <value>Okay</value>
   </data>
+  <data name="MessageDisclaimer" xml:space="preserve">
+    <value>This app was created to modify settings of the 70mai dash cam. It is not an official application from the manufacturers of the hardware nor does it try to be so.
+
+Frankly, there is a reason why some of these settings are hidden from the user in the official 70mai app so proceed at your own risk. I am in no way responsible for anything that goes wrong with your dash cam.
+
+This project is open source on GitHub and licensed under Apache 2.0.</value>
+  </data>
   <data name="MessageNotConnectedToDashcam" xml:space="preserve">
     <value>A connection to your dashcam could not be established. If you are connected to your dashcam you should check that the app has the required permissions and try again.</value>
   </data>
@@ -140,6 +147,9 @@
   </data>
   <data name="TitleConnectToDashcam" xml:space="preserve">
     <value>Connect To Dashcam</value>
+  </data>
+  <data name="TitleDisclaimer" xml:space="preserve">
+    <value>Disclaimer</value>
   </data>
   <data name="TitleNotConnected" xml:space="preserve">
     <value>Not Connected</value>

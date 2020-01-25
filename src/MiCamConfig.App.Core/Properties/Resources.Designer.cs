@@ -79,6 +79,19 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to This app was created to modify settings of the 70mai dash cam. It is not an official application from the manufacturers of the hardware nor does it try to be so.
+        ///
+        ///Frankly, there is a reason why some of these settings are hidden from the user in the official 70mai app so proceed at your own risk. I am in no way responsible for anything that goes wrong with your dash cam.
+        ///
+        ///This project is open source on GitHub and licensed under Apache 2.0..
+        /// </summary>
+        internal static string MessageDisclaimer {
+            get {
+                return ResourceManager.GetString("MessageDisclaimer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to A connection to your dashcam could not be established. If you are connected to your dashcam you should check that the app has the required permissions and try again..
         /// </summary>
         internal static string MessageNotConnectedToDashcam {
@@ -129,6 +142,15 @@ namespace MiCamConfig.App.Core.Properties {
         internal static string TitleConnectToDashcam {
             get {
                 return ResourceManager.GetString("TitleConnectToDashcam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Disclaimer.
+        /// </summary>
+        internal static string TitleDisclaimer {
+            get {
+                return ResourceManager.GetString("TitleDisclaimer", resourceCulture);
             }
         }
         

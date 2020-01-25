@@ -9,16 +9,8 @@ namespace MiCamConfig.App.Droid.Activities
 {
     [MvxActivityPresentation]
     [Activity(Label = "", WindowSoftInputMode = SoftInput.AdjustPan)]
-    [ActivityLayout(LayoutResourceId = Resource.Layout.activity_connect_to_dashcam)]
-    public class ConnectToDashcamActivity : BaseActivity<ConnectToDashcamViewModel>
+    [ActivityLayout(LayoutResourceId = Resource.Layout.activity_disclaimer)]
+    public class DisclaimerActivity : BaseActivity<DisclaimerViewModel>
     {
-        #region Event Handlers
-        public override void OnBackPressed()
-        {
-            base.OnBackPressed();
-
-            FinishAffinity();
-        }
-        #endregion
     }
 }

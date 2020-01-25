@@ -8,9 +8,9 @@ namespace MiCamConfig.App.Core
     public class AppStart : MvxAppStart
     {
         #region Public Methods
-        protected override async Task NavigateToFirstViewModel(object hint = null)
+        protected override Task NavigateToFirstViewModel(object hint = null)
         {
-            await NavigationService.Navigate<ConnectToDashcamViewModel>();
+            return NavigationService.Navigate<DisclaimerViewModel>();
         }
         #endregion
 

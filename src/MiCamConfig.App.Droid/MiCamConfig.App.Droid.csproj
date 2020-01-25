@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Activities\ActionsActivity.cs" />
     <Compile Include="Activities\ConnectToDashcamActivity.cs" />
+    <Compile Include="Activities\DisclaimerActivity.cs" />
     <Compile Include="Activities\ListActivity.cs" />
     <Compile Include="Activities\SplashScreenActivity.cs" />
     <Compile Include="Attributes\ActivityLayoutAttribute.cs" />
@@ -190,6 +191,19 @@
     <AndroidResource Include="Resources\layout\item_action.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_disclaimer.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\content_disclaimer.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\toolbar.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
