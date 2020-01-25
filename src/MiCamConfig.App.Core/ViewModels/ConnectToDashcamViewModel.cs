@@ -1,5 +1,6 @@
 ﻿using DialogMessaging.Interactions;
 using MiCam.Api.Client.Entities;
+using MiCamConfig.App.Core.Actions;
 using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Properties;
 using MvvmCross.Commands;
@@ -44,7 +45,7 @@ namespace MiCamConfig.App.Core.ViewModels
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
-                await NavigationService.Navigate<ActionsViewModel>().ConfigureAwait(false);
+                await NavigationService.Navigate<ActionsViewModel, ActionsViewModel.NavigationParams>(new ActionsViewModel.NavigationParams { DashCamActions = new MaiActions() }).ConfigureAwait(false);
                 return;
             }
 

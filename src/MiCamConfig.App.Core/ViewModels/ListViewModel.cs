@@ -62,4 +62,15 @@ namespace MiCamConfig.App.Core.ViewModels
         }
         #endregion
     }
+
+    public class ListViewModel<TModel, TNavigationParams> : ListViewModel<TModel>, IMvxViewModel<TNavigationParams>
+        where TModel : class
+        where TNavigationParams : class
+    {
+        #region Lifecycle
+        public virtual void Prepare(TNavigationParams parameter)
+        {
+        }
+        #endregion
+    }
 }
