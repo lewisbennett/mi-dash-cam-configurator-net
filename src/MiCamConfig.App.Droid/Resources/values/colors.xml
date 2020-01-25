@@ -4,4 +4,5 @@
     <color name="dark_white">#F7F7F7</color>
     <color name="turquoise">#29C6CE</color>
     <color name="grey">#C7C7C7</color>
+    <color name="window_background">#FFFFFF</color>
 </resources>
