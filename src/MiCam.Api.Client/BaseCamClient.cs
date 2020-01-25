@@ -12,7 +12,7 @@ namespace MiCam.Api.Client
         /// <summary>
         /// Gets the underlying HTTP client.
         /// </summary>
-        public HttpClient Client { get; } = new HttpClient();
+        public HttpClient Client { get; }
 
         /// <summary>
         /// Gets or sets the number of tries a request should be attempted before failing.
@@ -88,6 +88,16 @@ namespace MiCam.Api.Client
                 throw new WebException();
 
             return response;
+        }
+        #endregion
+
+        #region Constructors
+        public BaseCamClient()
+        {
+            Client = new HttpClient
+            {
+                Timeout = TimeSpan.FromSeconds(10)
+            };
         }
         #endregion
     }
