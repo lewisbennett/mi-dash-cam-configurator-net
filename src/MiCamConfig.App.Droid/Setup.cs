@@ -1,7 +1,4 @@
-﻿using MiCamConfig.App.Core.Services;
-using MiCamConfig.App.Droid.Services;
-using MvvmCross;
-using MvvmCross.Binding.Bindings.Target.Construction;
+﻿using MvvmCross.Binding.Bindings.Target.Construction;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using MvvmCross.Platforms.Android.Presenters;
 
@@ -19,15 +16,6 @@ namespace MiCamConfig.App.Droid
         {
             MvxAppCompatSetupHelper.FillTargetFactories(registry);
             base.FillTargetFactories(registry);
-        }
-        #endregion
-
-        #region Lifecycle
-        protected override void InitializeFirstChance()
-        {
-            base.InitializeFirstChance();
-
-            Mvx.IoCProvider.RegisterSingleton<IMessagingService>(() => new MessagingService());
         }
         #endregion
     }

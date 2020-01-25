@@ -1,10 +1,9 @@
 ﻿using Android.OS;
 using Android.Support.V7.Widget;
 using Android.Views;
+using DialogMessaging;
 using MiCamConfig.App.Core.Base;
-using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Droid.Attributes;
-using MvvmCross;
 using MvvmCross.Droid.Support.V7.AppCompat;
 using System.Reflection;
 
@@ -22,7 +21,7 @@ namespace MiCamConfig.App.Droid.Base
         /// <summary>
         /// Gets the messaging service.
         /// </summary>
-        public IMessagingService MessagingService { get; } = Mvx.IoCProvider.Resolve<IMessagingService>();
+        public IMessagingService MessagingService => DialogMessaging.MessagingService.Instance;
 
         /// <summary>
         /// Gets the toolbar for this activity.
@@ -94,13 +93,6 @@ namespace MiCamConfig.App.Droid.Base
 
             Initialize();
             SetupView();
-        }
-
-        protected override void OnResume()
-        {
-            base.OnResume();
-
-            Services.MessagingService.Context = this;
         }
         #endregion
 

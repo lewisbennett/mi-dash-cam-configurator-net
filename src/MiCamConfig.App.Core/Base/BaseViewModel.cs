@@ -1,4 +1,4 @@
-﻿using MiCamConfig.App.Core.Services;
+﻿using DialogMessaging;
 using MvvmCross;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
@@ -32,7 +32,7 @@ namespace MiCamConfig.App.Core.Base
         /// <summary>
         /// Gets the messaging service.
         /// </summary>
-        public IMessagingService MessagingService { get; } = Mvx.IoCProvider.Resolve<IMessagingService>();
+        public IMessagingService MessagingService => DialogMessaging.MessagingService.Instance;
 
         /// <summary>
         /// Gets the navigation service.

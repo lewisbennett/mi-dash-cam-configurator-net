@@ -1,6 +1,6 @@
-﻿using MiCam.Api.Client.Entities;
+﻿using DialogMessaging.Interactions;
+using MiCam.Api.Client.Entities;
 using MiCamConfig.App.Core.Base;
-using MiCamConfig.App.Core.Interactions;
 using MiCamConfig.App.Core.Properties;
 using MvvmCross.Commands;
 using System.Threading.Tasks;
@@ -40,11 +40,7 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             _apkAuthorization = null;
 
-            MessagingService.ShowLoading(Resources.MessagingLoading);
-
-            await RunTaskAsync(ApkAuthorizeAsync).ConfigureAwait(false);
-
-            MessagingService.HideLoading();
+            await MessagingService.ShowLoadingAsync(Resources.MessagingLoading, RunTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
@@ -52,14 +48,12 @@ namespace MiCamConfig.App.Core.ViewModels
                 return;
             }
 
-            var config = new AlertConfig
+            MessagingService.Alert(new AlertConfig
             {
                 Title = Resources.TitleNotConnected,
                 Message = Resources.MessageNotConnectedToDashcam,
                 OkButtonText = Resources.ActionOkay
-            };
-
-            MessagingService.Alert(config);
+            });
         }
         #endregion
 

@@ -26,6 +26,2536 @@ namespace MiCamConfig.App.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::DialogMessaging.Resource.Animation.abc_fade_in = global::MiCamConfig.App.Droid.Resource.Animation.abc_fade_in;
+			global::DialogMessaging.Resource.Animation.abc_fade_out = global::MiCamConfig.App.Droid.Resource.Animation.abc_fade_out;
+			global::DialogMessaging.Resource.Animation.abc_grow_fade_in_from_bottom = global::MiCamConfig.App.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::DialogMessaging.Resource.Animation.abc_popup_enter = global::MiCamConfig.App.Droid.Resource.Animation.abc_popup_enter;
+			global::DialogMessaging.Resource.Animation.abc_popup_exit = global::MiCamConfig.App.Droid.Resource.Animation.abc_popup_exit;
+			global::DialogMessaging.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MiCamConfig.App.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::DialogMessaging.Resource.Animation.abc_slide_in_bottom = global::MiCamConfig.App.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::DialogMessaging.Resource.Animation.abc_slide_in_top = global::MiCamConfig.App.Droid.Resource.Animation.abc_slide_in_top;
+			global::DialogMessaging.Resource.Animation.abc_slide_out_bottom = global::MiCamConfig.App.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::DialogMessaging.Resource.Animation.abc_slide_out_top = global::MiCamConfig.App.Droid.Resource.Animation.abc_slide_out_top;
+			global::DialogMessaging.Resource.Animation.abc_tooltip_enter = global::MiCamConfig.App.Droid.Resource.Animation.abc_tooltip_enter;
+			global::DialogMessaging.Resource.Animation.abc_tooltip_exit = global::MiCamConfig.App.Droid.Resource.Animation.abc_tooltip_exit;
+			global::DialogMessaging.Resource.Animation.design_bottom_sheet_slide_in = global::MiCamConfig.App.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::DialogMessaging.Resource.Animation.design_bottom_sheet_slide_out = global::MiCamConfig.App.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::DialogMessaging.Resource.Animation.design_snackbar_in = global::MiCamConfig.App.Droid.Resource.Animation.design_snackbar_in;
+			global::DialogMessaging.Resource.Animation.design_snackbar_out = global::MiCamConfig.App.Droid.Resource.Animation.design_snackbar_out;
+			global::DialogMessaging.Resource.Animator.design_appbar_state_list_animator = global::MiCamConfig.App.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::DialogMessaging.Resource.Animator.design_fab_hide_motion_spec = global::MiCamConfig.App.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::DialogMessaging.Resource.Animator.design_fab_show_motion_spec = global::MiCamConfig.App.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::DialogMessaging.Resource.Animator.mtrl_btn_state_list_anim = global::MiCamConfig.App.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::DialogMessaging.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::MiCamConfig.App.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::DialogMessaging.Resource.Animator.mtrl_chip_state_list_anim = global::MiCamConfig.App.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::DialogMessaging.Resource.Animator.mtrl_fab_hide_motion_spec = global::MiCamConfig.App.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::DialogMessaging.Resource.Animator.mtrl_fab_show_motion_spec = global::MiCamConfig.App.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::DialogMessaging.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::MiCamConfig.App.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::DialogMessaging.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::MiCamConfig.App.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::DialogMessaging.Resource.Attribute.actionBarDivider = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarDivider;
+			global::DialogMessaging.Resource.Attribute.actionBarItemBackground = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarItemBackground;
+			global::DialogMessaging.Resource.Attribute.actionBarPopupTheme = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::DialogMessaging.Resource.Attribute.actionBarSize = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarSize;
+			global::DialogMessaging.Resource.Attribute.actionBarSplitStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::DialogMessaging.Resource.Attribute.actionBarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarStyle;
+			global::DialogMessaging.Resource.Attribute.actionBarTabBarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::DialogMessaging.Resource.Attribute.actionBarTabStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarTabStyle;
+			global::DialogMessaging.Resource.Attribute.actionBarTabTextStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::DialogMessaging.Resource.Attribute.actionBarTheme = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarTheme;
+			global::DialogMessaging.Resource.Attribute.actionBarWidgetTheme = global::MiCamConfig.App.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::DialogMessaging.Resource.Attribute.actionButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionButtonStyle;
+			global::DialogMessaging.Resource.Attribute.actionDropDownStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionDropDownStyle;
+			global::DialogMessaging.Resource.Attribute.actionLayout = global::MiCamConfig.App.Droid.Resource.Attribute.actionLayout;
+			global::DialogMessaging.Resource.Attribute.actionMenuTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::DialogMessaging.Resource.Attribute.actionMenuTextColor = global::MiCamConfig.App.Droid.Resource.Attribute.actionMenuTextColor;
+			global::DialogMessaging.Resource.Attribute.actionModeBackground = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeBackground;
+			global::DialogMessaging.Resource.Attribute.actionModeCloseButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::DialogMessaging.Resource.Attribute.actionModeCloseDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::DialogMessaging.Resource.Attribute.actionModeCopyDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::DialogMessaging.Resource.Attribute.actionModeCutDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::DialogMessaging.Resource.Attribute.actionModeFindDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::DialogMessaging.Resource.Attribute.actionModePasteDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::DialogMessaging.Resource.Attribute.actionModePopupWindowStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::DialogMessaging.Resource.Attribute.actionModeSelectAllDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::DialogMessaging.Resource.Attribute.actionModeShareDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::DialogMessaging.Resource.Attribute.actionModeSplitBackground = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::DialogMessaging.Resource.Attribute.actionModeStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeStyle;
+			global::DialogMessaging.Resource.Attribute.actionModeWebSearchDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::DialogMessaging.Resource.Attribute.actionOverflowButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::DialogMessaging.Resource.Attribute.actionOverflowMenuStyle = global::MiCamConfig.App.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::DialogMessaging.Resource.Attribute.actionProviderClass = global::MiCamConfig.App.Droid.Resource.Attribute.actionProviderClass;
+			global::DialogMessaging.Resource.Attribute.actionViewClass = global::MiCamConfig.App.Droid.Resource.Attribute.actionViewClass;
+			global::DialogMessaging.Resource.Attribute.activityChooserViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::DialogMessaging.Resource.Attribute.alertDialogButtonGroupStyle = global::MiCamConfig.App.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::DialogMessaging.Resource.Attribute.alertDialogCenterButtons = global::MiCamConfig.App.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::DialogMessaging.Resource.Attribute.alertDialogStyle = global::MiCamConfig.App.Droid.Resource.Attribute.alertDialogStyle;
+			global::DialogMessaging.Resource.Attribute.alertDialogTheme = global::MiCamConfig.App.Droid.Resource.Attribute.alertDialogTheme;
+			global::DialogMessaging.Resource.Attribute.allowStacking = global::MiCamConfig.App.Droid.Resource.Attribute.allowStacking;
+			global::DialogMessaging.Resource.Attribute.alpha = global::MiCamConfig.App.Droid.Resource.Attribute.alpha;
+			global::DialogMessaging.Resource.Attribute.alphabeticModifiers = global::MiCamConfig.App.Droid.Resource.Attribute.alphabeticModifiers;
+			global::DialogMessaging.Resource.Attribute.arrowHeadLength = global::MiCamConfig.App.Droid.Resource.Attribute.arrowHeadLength;
+			global::DialogMessaging.Resource.Attribute.arrowShaftLength = global::MiCamConfig.App.Droid.Resource.Attribute.arrowShaftLength;
+			global::DialogMessaging.Resource.Attribute.autoCompleteTextViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::DialogMessaging.Resource.Attribute.autoSizeMaxTextSize = global::MiCamConfig.App.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::DialogMessaging.Resource.Attribute.autoSizeMinTextSize = global::MiCamConfig.App.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::DialogMessaging.Resource.Attribute.autoSizePresetSizes = global::MiCamConfig.App.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::DialogMessaging.Resource.Attribute.autoSizeStepGranularity = global::MiCamConfig.App.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::DialogMessaging.Resource.Attribute.autoSizeTextType = global::MiCamConfig.App.Droid.Resource.Attribute.autoSizeTextType;
+			global::DialogMessaging.Resource.Attribute.background = global::MiCamConfig.App.Droid.Resource.Attribute.background;
+			global::DialogMessaging.Resource.Attribute.backgroundSplit = global::MiCamConfig.App.Droid.Resource.Attribute.backgroundSplit;
+			global::DialogMessaging.Resource.Attribute.backgroundStacked = global::MiCamConfig.App.Droid.Resource.Attribute.backgroundStacked;
+			global::DialogMessaging.Resource.Attribute.backgroundTint = global::MiCamConfig.App.Droid.Resource.Attribute.backgroundTint;
+			global::DialogMessaging.Resource.Attribute.backgroundTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.backgroundTintMode;
+			global::DialogMessaging.Resource.Attribute.barLength = global::MiCamConfig.App.Droid.Resource.Attribute.barLength;
+			global::DialogMessaging.Resource.Attribute.behavior_autoHide = global::MiCamConfig.App.Droid.Resource.Attribute.behavior_autoHide;
+			global::DialogMessaging.Resource.Attribute.behavior_fitToContents = global::MiCamConfig.App.Droid.Resource.Attribute.behavior_fitToContents;
+			global::DialogMessaging.Resource.Attribute.behavior_hideable = global::MiCamConfig.App.Droid.Resource.Attribute.behavior_hideable;
+			global::DialogMessaging.Resource.Attribute.behavior_overlapTop = global::MiCamConfig.App.Droid.Resource.Attribute.behavior_overlapTop;
+			global::DialogMessaging.Resource.Attribute.behavior_peekHeight = global::MiCamConfig.App.Droid.Resource.Attribute.behavior_peekHeight;
+			global::DialogMessaging.Resource.Attribute.behavior_skipCollapsed = global::MiCamConfig.App.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::DialogMessaging.Resource.Attribute.borderlessButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::DialogMessaging.Resource.Attribute.borderWidth = global::MiCamConfig.App.Droid.Resource.Attribute.borderWidth;
+			global::DialogMessaging.Resource.Attribute.bottomAppBarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::DialogMessaging.Resource.Attribute.bottomNavigationStyle = global::MiCamConfig.App.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::DialogMessaging.Resource.Attribute.bottomSheetDialogTheme = global::MiCamConfig.App.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::DialogMessaging.Resource.Attribute.bottomSheetStyle = global::MiCamConfig.App.Droid.Resource.Attribute.bottomSheetStyle;
+			global::DialogMessaging.Resource.Attribute.boxBackgroundColor = global::MiCamConfig.App.Droid.Resource.Attribute.boxBackgroundColor;
+			global::DialogMessaging.Resource.Attribute.boxBackgroundMode = global::MiCamConfig.App.Droid.Resource.Attribute.boxBackgroundMode;
+			global::DialogMessaging.Resource.Attribute.boxCollapsedPaddingTop = global::MiCamConfig.App.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::DialogMessaging.Resource.Attribute.boxCornerRadiusBottomEnd = global::MiCamConfig.App.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::DialogMessaging.Resource.Attribute.boxCornerRadiusBottomStart = global::MiCamConfig.App.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::DialogMessaging.Resource.Attribute.boxCornerRadiusTopEnd = global::MiCamConfig.App.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::DialogMessaging.Resource.Attribute.boxCornerRadiusTopStart = global::MiCamConfig.App.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::DialogMessaging.Resource.Attribute.boxStrokeColor = global::MiCamConfig.App.Droid.Resource.Attribute.boxStrokeColor;
+			global::DialogMessaging.Resource.Attribute.boxStrokeWidth = global::MiCamConfig.App.Droid.Resource.Attribute.boxStrokeWidth;
+			global::DialogMessaging.Resource.Attribute.buttonBarButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::DialogMessaging.Resource.Attribute.buttonBarNegativeButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::DialogMessaging.Resource.Attribute.buttonBarNeutralButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::DialogMessaging.Resource.Attribute.buttonBarPositiveButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::DialogMessaging.Resource.Attribute.buttonBarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.buttonBarStyle;
+			global::DialogMessaging.Resource.Attribute.buttonGravity = global::MiCamConfig.App.Droid.Resource.Attribute.buttonGravity;
+			global::DialogMessaging.Resource.Attribute.buttonIconDimen = global::MiCamConfig.App.Droid.Resource.Attribute.buttonIconDimen;
+			global::DialogMessaging.Resource.Attribute.buttonPanelSideLayout = global::MiCamConfig.App.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::DialogMessaging.Resource.Attribute.buttonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.buttonStyle;
+			global::DialogMessaging.Resource.Attribute.buttonStyleSmall = global::MiCamConfig.App.Droid.Resource.Attribute.buttonStyleSmall;
+			global::DialogMessaging.Resource.Attribute.buttonTint = global::MiCamConfig.App.Droid.Resource.Attribute.buttonTint;
+			global::DialogMessaging.Resource.Attribute.buttonTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.buttonTintMode;
+			global::DialogMessaging.Resource.Attribute.cardBackgroundColor = global::MiCamConfig.App.Droid.Resource.Attribute.cardBackgroundColor;
+			global::DialogMessaging.Resource.Attribute.cardCornerRadius = global::MiCamConfig.App.Droid.Resource.Attribute.cardCornerRadius;
+			global::DialogMessaging.Resource.Attribute.cardElevation = global::MiCamConfig.App.Droid.Resource.Attribute.cardElevation;
+			global::DialogMessaging.Resource.Attribute.cardMaxElevation = global::MiCamConfig.App.Droid.Resource.Attribute.cardMaxElevation;
+			global::DialogMessaging.Resource.Attribute.cardPreventCornerOverlap = global::MiCamConfig.App.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::DialogMessaging.Resource.Attribute.cardUseCompatPadding = global::MiCamConfig.App.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::DialogMessaging.Resource.Attribute.cardViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.cardViewStyle;
+			global::DialogMessaging.Resource.Attribute.checkboxStyle = global::MiCamConfig.App.Droid.Resource.Attribute.checkboxStyle;
+			global::DialogMessaging.Resource.Attribute.checkedChip = global::MiCamConfig.App.Droid.Resource.Attribute.checkedChip;
+			global::DialogMessaging.Resource.Attribute.checkedIcon = global::MiCamConfig.App.Droid.Resource.Attribute.checkedIcon;
+			global::DialogMessaging.Resource.Attribute.checkedIconEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.checkedIconEnabled;
+			global::DialogMessaging.Resource.Attribute.checkedIconVisible = global::MiCamConfig.App.Droid.Resource.Attribute.checkedIconVisible;
+			global::DialogMessaging.Resource.Attribute.checkedTextViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::DialogMessaging.Resource.Attribute.chipBackgroundColor = global::MiCamConfig.App.Droid.Resource.Attribute.chipBackgroundColor;
+			global::DialogMessaging.Resource.Attribute.chipCornerRadius = global::MiCamConfig.App.Droid.Resource.Attribute.chipCornerRadius;
+			global::DialogMessaging.Resource.Attribute.chipEndPadding = global::MiCamConfig.App.Droid.Resource.Attribute.chipEndPadding;
+			global::DialogMessaging.Resource.Attribute.chipGroupStyle = global::MiCamConfig.App.Droid.Resource.Attribute.chipGroupStyle;
+			global::DialogMessaging.Resource.Attribute.chipIcon = global::MiCamConfig.App.Droid.Resource.Attribute.chipIcon;
+			global::DialogMessaging.Resource.Attribute.chipIconEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.chipIconEnabled;
+			global::DialogMessaging.Resource.Attribute.chipIconSize = global::MiCamConfig.App.Droid.Resource.Attribute.chipIconSize;
+			global::DialogMessaging.Resource.Attribute.chipIconTint = global::MiCamConfig.App.Droid.Resource.Attribute.chipIconTint;
+			global::DialogMessaging.Resource.Attribute.chipIconVisible = global::MiCamConfig.App.Droid.Resource.Attribute.chipIconVisible;
+			global::DialogMessaging.Resource.Attribute.chipMinHeight = global::MiCamConfig.App.Droid.Resource.Attribute.chipMinHeight;
+			global::DialogMessaging.Resource.Attribute.chipSpacing = global::MiCamConfig.App.Droid.Resource.Attribute.chipSpacing;
+			global::DialogMessaging.Resource.Attribute.chipSpacingHorizontal = global::MiCamConfig.App.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::DialogMessaging.Resource.Attribute.chipSpacingVertical = global::MiCamConfig.App.Droid.Resource.Attribute.chipSpacingVertical;
+			global::DialogMessaging.Resource.Attribute.chipStandaloneStyle = global::MiCamConfig.App.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::DialogMessaging.Resource.Attribute.chipStartPadding = global::MiCamConfig.App.Droid.Resource.Attribute.chipStartPadding;
+			global::DialogMessaging.Resource.Attribute.chipStrokeColor = global::MiCamConfig.App.Droid.Resource.Attribute.chipStrokeColor;
+			global::DialogMessaging.Resource.Attribute.chipStrokeWidth = global::MiCamConfig.App.Droid.Resource.Attribute.chipStrokeWidth;
+			global::DialogMessaging.Resource.Attribute.chipStyle = global::MiCamConfig.App.Droid.Resource.Attribute.chipStyle;
+			global::DialogMessaging.Resource.Attribute.closeIcon = global::MiCamConfig.App.Droid.Resource.Attribute.closeIcon;
+			global::DialogMessaging.Resource.Attribute.closeIconEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.closeIconEnabled;
+			global::DialogMessaging.Resource.Attribute.closeIconEndPadding = global::MiCamConfig.App.Droid.Resource.Attribute.closeIconEndPadding;
+			global::DialogMessaging.Resource.Attribute.closeIconSize = global::MiCamConfig.App.Droid.Resource.Attribute.closeIconSize;
+			global::DialogMessaging.Resource.Attribute.closeIconStartPadding = global::MiCamConfig.App.Droid.Resource.Attribute.closeIconStartPadding;
+			global::DialogMessaging.Resource.Attribute.closeIconTint = global::MiCamConfig.App.Droid.Resource.Attribute.closeIconTint;
+			global::DialogMessaging.Resource.Attribute.closeIconVisible = global::MiCamConfig.App.Droid.Resource.Attribute.closeIconVisible;
+			global::DialogMessaging.Resource.Attribute.closeItemLayout = global::MiCamConfig.App.Droid.Resource.Attribute.closeItemLayout;
+			global::DialogMessaging.Resource.Attribute.collapseContentDescription = global::MiCamConfig.App.Droid.Resource.Attribute.collapseContentDescription;
+			global::DialogMessaging.Resource.Attribute.collapsedTitleGravity = global::MiCamConfig.App.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::DialogMessaging.Resource.Attribute.collapsedTitleTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::DialogMessaging.Resource.Attribute.collapseIcon = global::MiCamConfig.App.Droid.Resource.Attribute.collapseIcon;
+			global::DialogMessaging.Resource.Attribute.color = global::MiCamConfig.App.Droid.Resource.Attribute.color;
+			global::DialogMessaging.Resource.Attribute.colorAccent = global::MiCamConfig.App.Droid.Resource.Attribute.colorAccent;
+			global::DialogMessaging.Resource.Attribute.colorBackgroundFloating = global::MiCamConfig.App.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::DialogMessaging.Resource.Attribute.colorButtonNormal = global::MiCamConfig.App.Droid.Resource.Attribute.colorButtonNormal;
+			global::DialogMessaging.Resource.Attribute.colorControlActivated = global::MiCamConfig.App.Droid.Resource.Attribute.colorControlActivated;
+			global::DialogMessaging.Resource.Attribute.colorControlHighlight = global::MiCamConfig.App.Droid.Resource.Attribute.colorControlHighlight;
+			global::DialogMessaging.Resource.Attribute.colorControlNormal = global::MiCamConfig.App.Droid.Resource.Attribute.colorControlNormal;
+			global::DialogMessaging.Resource.Attribute.colorError = global::MiCamConfig.App.Droid.Resource.Attribute.colorError;
+			global::DialogMessaging.Resource.Attribute.colorPrimary = global::MiCamConfig.App.Droid.Resource.Attribute.colorPrimary;
+			global::DialogMessaging.Resource.Attribute.colorPrimaryDark = global::MiCamConfig.App.Droid.Resource.Attribute.colorPrimaryDark;
+			global::DialogMessaging.Resource.Attribute.colorSecondary = global::MiCamConfig.App.Droid.Resource.Attribute.colorSecondary;
+			global::DialogMessaging.Resource.Attribute.colorSwitchThumbNormal = global::MiCamConfig.App.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::DialogMessaging.Resource.Attribute.commitIcon = global::MiCamConfig.App.Droid.Resource.Attribute.commitIcon;
+			global::DialogMessaging.Resource.Attribute.contentDescription = global::MiCamConfig.App.Droid.Resource.Attribute.contentDescription;
+			global::DialogMessaging.Resource.Attribute.contentInsetEnd = global::MiCamConfig.App.Droid.Resource.Attribute.contentInsetEnd;
+			global::DialogMessaging.Resource.Attribute.contentInsetEndWithActions = global::MiCamConfig.App.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::DialogMessaging.Resource.Attribute.contentInsetLeft = global::MiCamConfig.App.Droid.Resource.Attribute.contentInsetLeft;
+			global::DialogMessaging.Resource.Attribute.contentInsetRight = global::MiCamConfig.App.Droid.Resource.Attribute.contentInsetRight;
+			global::DialogMessaging.Resource.Attribute.contentInsetStart = global::MiCamConfig.App.Droid.Resource.Attribute.contentInsetStart;
+			global::DialogMessaging.Resource.Attribute.contentInsetStartWithNavigation = global::MiCamConfig.App.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::DialogMessaging.Resource.Attribute.contentPadding = global::MiCamConfig.App.Droid.Resource.Attribute.contentPadding;
+			global::DialogMessaging.Resource.Attribute.contentPaddingBottom = global::MiCamConfig.App.Droid.Resource.Attribute.contentPaddingBottom;
+			global::DialogMessaging.Resource.Attribute.contentPaddingLeft = global::MiCamConfig.App.Droid.Resource.Attribute.contentPaddingLeft;
+			global::DialogMessaging.Resource.Attribute.contentPaddingRight = global::MiCamConfig.App.Droid.Resource.Attribute.contentPaddingRight;
+			global::DialogMessaging.Resource.Attribute.contentPaddingTop = global::MiCamConfig.App.Droid.Resource.Attribute.contentPaddingTop;
+			global::DialogMessaging.Resource.Attribute.contentScrim = global::MiCamConfig.App.Droid.Resource.Attribute.contentScrim;
+			global::DialogMessaging.Resource.Attribute.controlBackground = global::MiCamConfig.App.Droid.Resource.Attribute.controlBackground;
+			global::DialogMessaging.Resource.Attribute.coordinatorLayoutStyle = global::MiCamConfig.App.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::DialogMessaging.Resource.Attribute.cornerRadius = global::MiCamConfig.App.Droid.Resource.Attribute.cornerRadius;
+			global::DialogMessaging.Resource.Attribute.counterEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.counterEnabled;
+			global::DialogMessaging.Resource.Attribute.counterMaxLength = global::MiCamConfig.App.Droid.Resource.Attribute.counterMaxLength;
+			global::DialogMessaging.Resource.Attribute.counterOverflowTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::DialogMessaging.Resource.Attribute.counterTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.counterTextAppearance;
+			global::DialogMessaging.Resource.Attribute.customNavigationLayout = global::MiCamConfig.App.Droid.Resource.Attribute.customNavigationLayout;
+			global::DialogMessaging.Resource.Attribute.defaultQueryHint = global::MiCamConfig.App.Droid.Resource.Attribute.defaultQueryHint;
+			global::DialogMessaging.Resource.Attribute.dialogCornerRadius = global::MiCamConfig.App.Droid.Resource.Attribute.dialogCornerRadius;
+			global::DialogMessaging.Resource.Attribute.DialogElement = global::MiCamConfig.App.Droid.Resource.Attribute.DialogElement;
+			global::DialogMessaging.Resource.Attribute.dialogPreferredPadding = global::MiCamConfig.App.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::DialogMessaging.Resource.Attribute.dialogTheme = global::MiCamConfig.App.Droid.Resource.Attribute.dialogTheme;
+			global::DialogMessaging.Resource.Attribute.displayOptions = global::MiCamConfig.App.Droid.Resource.Attribute.displayOptions;
+			global::DialogMessaging.Resource.Attribute.divider = global::MiCamConfig.App.Droid.Resource.Attribute.divider;
+			global::DialogMessaging.Resource.Attribute.dividerHorizontal = global::MiCamConfig.App.Droid.Resource.Attribute.dividerHorizontal;
+			global::DialogMessaging.Resource.Attribute.dividerPadding = global::MiCamConfig.App.Droid.Resource.Attribute.dividerPadding;
+			global::DialogMessaging.Resource.Attribute.dividerVertical = global::MiCamConfig.App.Droid.Resource.Attribute.dividerVertical;
+			global::DialogMessaging.Resource.Attribute.drawableSize = global::MiCamConfig.App.Droid.Resource.Attribute.drawableSize;
+			global::DialogMessaging.Resource.Attribute.drawerArrowStyle = global::MiCamConfig.App.Droid.Resource.Attribute.drawerArrowStyle;
+			global::DialogMessaging.Resource.Attribute.dropdownListPreferredItemHeight = global::MiCamConfig.App.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::DialogMessaging.Resource.Attribute.dropDownListViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::DialogMessaging.Resource.Attribute.editTextBackground = global::MiCamConfig.App.Droid.Resource.Attribute.editTextBackground;
+			global::DialogMessaging.Resource.Attribute.editTextColor = global::MiCamConfig.App.Droid.Resource.Attribute.editTextColor;
+			global::DialogMessaging.Resource.Attribute.editTextStyle = global::MiCamConfig.App.Droid.Resource.Attribute.editTextStyle;
+			global::DialogMessaging.Resource.Attribute.elevation = global::MiCamConfig.App.Droid.Resource.Attribute.elevation;
+			global::DialogMessaging.Resource.Attribute.enforceMaterialTheme = global::MiCamConfig.App.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::DialogMessaging.Resource.Attribute.enforceTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.enforceTextAppearance;
+			global::DialogMessaging.Resource.Attribute.errorEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.errorEnabled;
+			global::DialogMessaging.Resource.Attribute.errorTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.errorTextAppearance;
+			global::DialogMessaging.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::DialogMessaging.Resource.Attribute.expanded = global::MiCamConfig.App.Droid.Resource.Attribute.expanded;
+			global::DialogMessaging.Resource.Attribute.expandedTitleGravity = global::MiCamConfig.App.Droid.Resource.Attribute.expandedTitleGravity;
+			global::DialogMessaging.Resource.Attribute.expandedTitleMargin = global::MiCamConfig.App.Droid.Resource.Attribute.expandedTitleMargin;
+			global::DialogMessaging.Resource.Attribute.expandedTitleMarginBottom = global::MiCamConfig.App.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::DialogMessaging.Resource.Attribute.expandedTitleMarginEnd = global::MiCamConfig.App.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::DialogMessaging.Resource.Attribute.expandedTitleMarginStart = global::MiCamConfig.App.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::DialogMessaging.Resource.Attribute.expandedTitleMarginTop = global::MiCamConfig.App.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::DialogMessaging.Resource.Attribute.expandedTitleTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::DialogMessaging.Resource.Attribute.fabAlignmentMode = global::MiCamConfig.App.Droid.Resource.Attribute.fabAlignmentMode;
+			global::DialogMessaging.Resource.Attribute.fabCradleMargin = global::MiCamConfig.App.Droid.Resource.Attribute.fabCradleMargin;
+			global::DialogMessaging.Resource.Attribute.fabCradleRoundedCornerRadius = global::MiCamConfig.App.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::DialogMessaging.Resource.Attribute.fabCradleVerticalOffset = global::MiCamConfig.App.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::DialogMessaging.Resource.Attribute.fabCustomSize = global::MiCamConfig.App.Droid.Resource.Attribute.fabCustomSize;
+			global::DialogMessaging.Resource.Attribute.fabSize = global::MiCamConfig.App.Droid.Resource.Attribute.fabSize;
+			global::DialogMessaging.Resource.Attribute.fastScrollEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.fastScrollEnabled;
+			global::DialogMessaging.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::DialogMessaging.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::DialogMessaging.Resource.Attribute.fastScrollVerticalThumbDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::DialogMessaging.Resource.Attribute.fastScrollVerticalTrackDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::DialogMessaging.Resource.Attribute.firstBaselineToTopHeight = global::MiCamConfig.App.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::DialogMessaging.Resource.Attribute.floatingActionButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::DialogMessaging.Resource.Attribute.font = global::MiCamConfig.App.Droid.Resource.Attribute.font;
+			global::DialogMessaging.Resource.Attribute.fontFamily = global::MiCamConfig.App.Droid.Resource.Attribute.fontFamily;
+			global::DialogMessaging.Resource.Attribute.fontProviderAuthority = global::MiCamConfig.App.Droid.Resource.Attribute.fontProviderAuthority;
+			global::DialogMessaging.Resource.Attribute.fontProviderCerts = global::MiCamConfig.App.Droid.Resource.Attribute.fontProviderCerts;
+			global::DialogMessaging.Resource.Attribute.fontProviderFetchStrategy = global::MiCamConfig.App.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::DialogMessaging.Resource.Attribute.fontProviderFetchTimeout = global::MiCamConfig.App.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::DialogMessaging.Resource.Attribute.fontProviderPackage = global::MiCamConfig.App.Droid.Resource.Attribute.fontProviderPackage;
+			global::DialogMessaging.Resource.Attribute.fontProviderQuery = global::MiCamConfig.App.Droid.Resource.Attribute.fontProviderQuery;
+			global::DialogMessaging.Resource.Attribute.fontStyle = global::MiCamConfig.App.Droid.Resource.Attribute.fontStyle;
+			global::DialogMessaging.Resource.Attribute.fontVariationSettings = global::MiCamConfig.App.Droid.Resource.Attribute.fontVariationSettings;
+			global::DialogMessaging.Resource.Attribute.fontWeight = global::MiCamConfig.App.Droid.Resource.Attribute.fontWeight;
+			global::DialogMessaging.Resource.Attribute.foregroundInsidePadding = global::MiCamConfig.App.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::DialogMessaging.Resource.Attribute.gapBetweenBars = global::MiCamConfig.App.Droid.Resource.Attribute.gapBetweenBars;
+			global::DialogMessaging.Resource.Attribute.goIcon = global::MiCamConfig.App.Droid.Resource.Attribute.goIcon;
+			global::DialogMessaging.Resource.Attribute.headerLayout = global::MiCamConfig.App.Droid.Resource.Attribute.headerLayout;
+			global::DialogMessaging.Resource.Attribute.height = global::MiCamConfig.App.Droid.Resource.Attribute.height;
+			global::DialogMessaging.Resource.Attribute.helperText = global::MiCamConfig.App.Droid.Resource.Attribute.helperText;
+			global::DialogMessaging.Resource.Attribute.helperTextEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.helperTextEnabled;
+			global::DialogMessaging.Resource.Attribute.helperTextTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::DialogMessaging.Resource.Attribute.hideMotionSpec = global::MiCamConfig.App.Droid.Resource.Attribute.hideMotionSpec;
+			global::DialogMessaging.Resource.Attribute.hideOnContentScroll = global::MiCamConfig.App.Droid.Resource.Attribute.hideOnContentScroll;
+			global::DialogMessaging.Resource.Attribute.hideOnScroll = global::MiCamConfig.App.Droid.Resource.Attribute.hideOnScroll;
+			global::DialogMessaging.Resource.Attribute.HideWhenNotInUse = global::MiCamConfig.App.Droid.Resource.Attribute.HideWhenNotInUse;
+			global::DialogMessaging.Resource.Attribute.hintAnimationEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::DialogMessaging.Resource.Attribute.hintEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.hintEnabled;
+			global::DialogMessaging.Resource.Attribute.hintTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.hintTextAppearance;
+			global::DialogMessaging.Resource.Attribute.homeAsUpIndicator = global::MiCamConfig.App.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::DialogMessaging.Resource.Attribute.homeLayout = global::MiCamConfig.App.Droid.Resource.Attribute.homeLayout;
+			global::DialogMessaging.Resource.Attribute.hoveredFocusedTranslationZ = global::MiCamConfig.App.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::DialogMessaging.Resource.Attribute.icon = global::MiCamConfig.App.Droid.Resource.Attribute.icon;
+			global::DialogMessaging.Resource.Attribute.iconEndPadding = global::MiCamConfig.App.Droid.Resource.Attribute.iconEndPadding;
+			global::DialogMessaging.Resource.Attribute.iconGravity = global::MiCamConfig.App.Droid.Resource.Attribute.iconGravity;
+			global::DialogMessaging.Resource.Attribute.iconifiedByDefault = global::MiCamConfig.App.Droid.Resource.Attribute.iconifiedByDefault;
+			global::DialogMessaging.Resource.Attribute.iconPadding = global::MiCamConfig.App.Droid.Resource.Attribute.iconPadding;
+			global::DialogMessaging.Resource.Attribute.iconSize = global::MiCamConfig.App.Droid.Resource.Attribute.iconSize;
+			global::DialogMessaging.Resource.Attribute.iconStartPadding = global::MiCamConfig.App.Droid.Resource.Attribute.iconStartPadding;
+			global::DialogMessaging.Resource.Attribute.iconTint = global::MiCamConfig.App.Droid.Resource.Attribute.iconTint;
+			global::DialogMessaging.Resource.Attribute.iconTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.iconTintMode;
+			global::DialogMessaging.Resource.Attribute.imageButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.imageButtonStyle;
+			global::DialogMessaging.Resource.Attribute.indeterminateProgressStyle = global::MiCamConfig.App.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::DialogMessaging.Resource.Attribute.initialActivityCount = global::MiCamConfig.App.Droid.Resource.Attribute.initialActivityCount;
+			global::DialogMessaging.Resource.Attribute.insetForeground = global::MiCamConfig.App.Droid.Resource.Attribute.insetForeground;
+			global::DialogMessaging.Resource.Attribute.isLightTheme = global::MiCamConfig.App.Droid.Resource.Attribute.isLightTheme;
+			global::DialogMessaging.Resource.Attribute.itemBackground = global::MiCamConfig.App.Droid.Resource.Attribute.itemBackground;
+			global::DialogMessaging.Resource.Attribute.itemHorizontalPadding = global::MiCamConfig.App.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::DialogMessaging.Resource.Attribute.itemHorizontalTranslationEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::DialogMessaging.Resource.Attribute.itemIconPadding = global::MiCamConfig.App.Droid.Resource.Attribute.itemIconPadding;
+			global::DialogMessaging.Resource.Attribute.itemIconSize = global::MiCamConfig.App.Droid.Resource.Attribute.itemIconSize;
+			global::DialogMessaging.Resource.Attribute.itemIconTint = global::MiCamConfig.App.Droid.Resource.Attribute.itemIconTint;
+			global::DialogMessaging.Resource.Attribute.itemPadding = global::MiCamConfig.App.Droid.Resource.Attribute.itemPadding;
+			global::DialogMessaging.Resource.Attribute.itemSpacing = global::MiCamConfig.App.Droid.Resource.Attribute.itemSpacing;
+			global::DialogMessaging.Resource.Attribute.itemTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.itemTextAppearance;
+			global::DialogMessaging.Resource.Attribute.itemTextAppearanceActive = global::MiCamConfig.App.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::DialogMessaging.Resource.Attribute.itemTextAppearanceInactive = global::MiCamConfig.App.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::DialogMessaging.Resource.Attribute.itemTextColor = global::MiCamConfig.App.Droid.Resource.Attribute.itemTextColor;
+			global::DialogMessaging.Resource.Attribute.keylines = global::MiCamConfig.App.Droid.Resource.Attribute.keylines;
+			global::DialogMessaging.Resource.Attribute.labelVisibilityMode = global::MiCamConfig.App.Droid.Resource.Attribute.labelVisibilityMode;
+			global::DialogMessaging.Resource.Attribute.lastBaselineToBottomHeight = global::MiCamConfig.App.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::DialogMessaging.Resource.Attribute.layout = global::MiCamConfig.App.Droid.Resource.Attribute.layout;
+			global::DialogMessaging.Resource.Attribute.layoutManager = global::MiCamConfig.App.Droid.Resource.Attribute.layoutManager;
+			global::DialogMessaging.Resource.Attribute.layout_anchor = global::MiCamConfig.App.Droid.Resource.Attribute.layout_anchor;
+			global::DialogMessaging.Resource.Attribute.layout_anchorGravity = global::MiCamConfig.App.Droid.Resource.Attribute.layout_anchorGravity;
+			global::DialogMessaging.Resource.Attribute.layout_behavior = global::MiCamConfig.App.Droid.Resource.Attribute.layout_behavior;
+			global::DialogMessaging.Resource.Attribute.layout_collapseMode = global::MiCamConfig.App.Droid.Resource.Attribute.layout_collapseMode;
+			global::DialogMessaging.Resource.Attribute.layout_collapseParallaxMultiplier = global::MiCamConfig.App.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::DialogMessaging.Resource.Attribute.layout_dodgeInsetEdges = global::MiCamConfig.App.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::DialogMessaging.Resource.Attribute.layout_insetEdge = global::MiCamConfig.App.Droid.Resource.Attribute.layout_insetEdge;
+			global::DialogMessaging.Resource.Attribute.layout_keyline = global::MiCamConfig.App.Droid.Resource.Attribute.layout_keyline;
+			global::DialogMessaging.Resource.Attribute.layout_scrollFlags = global::MiCamConfig.App.Droid.Resource.Attribute.layout_scrollFlags;
+			global::DialogMessaging.Resource.Attribute.layout_scrollInterpolator = global::MiCamConfig.App.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::DialogMessaging.Resource.Attribute.liftOnScroll = global::MiCamConfig.App.Droid.Resource.Attribute.liftOnScroll;
+			global::DialogMessaging.Resource.Attribute.lineHeight = global::MiCamConfig.App.Droid.Resource.Attribute.lineHeight;
+			global::DialogMessaging.Resource.Attribute.lineSpacing = global::MiCamConfig.App.Droid.Resource.Attribute.lineSpacing;
+			global::DialogMessaging.Resource.Attribute.listChoiceBackgroundIndicator = global::MiCamConfig.App.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::DialogMessaging.Resource.Attribute.listDividerAlertDialog = global::MiCamConfig.App.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::DialogMessaging.Resource.Attribute.listItemLayout = global::MiCamConfig.App.Droid.Resource.Attribute.listItemLayout;
+			global::DialogMessaging.Resource.Attribute.listLayout = global::MiCamConfig.App.Droid.Resource.Attribute.listLayout;
+			global::DialogMessaging.Resource.Attribute.listMenuViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.listMenuViewStyle;
+			global::DialogMessaging.Resource.Attribute.listPopupWindowStyle = global::MiCamConfig.App.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::DialogMessaging.Resource.Attribute.listPreferredItemHeight = global::MiCamConfig.App.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::DialogMessaging.Resource.Attribute.listPreferredItemHeightLarge = global::MiCamConfig.App.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::DialogMessaging.Resource.Attribute.listPreferredItemHeightSmall = global::MiCamConfig.App.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::DialogMessaging.Resource.Attribute.listPreferredItemPaddingLeft = global::MiCamConfig.App.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::DialogMessaging.Resource.Attribute.listPreferredItemPaddingRight = global::MiCamConfig.App.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::DialogMessaging.Resource.Attribute.logo = global::MiCamConfig.App.Droid.Resource.Attribute.logo;
+			global::DialogMessaging.Resource.Attribute.logoDescription = global::MiCamConfig.App.Droid.Resource.Attribute.logoDescription;
+			global::DialogMessaging.Resource.Attribute.materialButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.materialButtonStyle;
+			global::DialogMessaging.Resource.Attribute.materialCardViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.materialCardViewStyle;
+			global::DialogMessaging.Resource.Attribute.maxActionInlineWidth = global::MiCamConfig.App.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::DialogMessaging.Resource.Attribute.maxButtonHeight = global::MiCamConfig.App.Droid.Resource.Attribute.maxButtonHeight;
+			global::DialogMessaging.Resource.Attribute.maxImageSize = global::MiCamConfig.App.Droid.Resource.Attribute.maxImageSize;
+			global::DialogMessaging.Resource.Attribute.measureWithLargestChild = global::MiCamConfig.App.Droid.Resource.Attribute.measureWithLargestChild;
+			global::DialogMessaging.Resource.Attribute.menu = global::MiCamConfig.App.Droid.Resource.Attribute.menu;
+			global::DialogMessaging.Resource.Attribute.multiChoiceItemLayout = global::MiCamConfig.App.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::DialogMessaging.Resource.Attribute.navigationContentDescription = global::MiCamConfig.App.Droid.Resource.Attribute.navigationContentDescription;
+			global::DialogMessaging.Resource.Attribute.navigationIcon = global::MiCamConfig.App.Droid.Resource.Attribute.navigationIcon;
+			global::DialogMessaging.Resource.Attribute.navigationMode = global::MiCamConfig.App.Droid.Resource.Attribute.navigationMode;
+			global::DialogMessaging.Resource.Attribute.navigationViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.navigationViewStyle;
+			global::DialogMessaging.Resource.Attribute.numericModifiers = global::MiCamConfig.App.Droid.Resource.Attribute.numericModifiers;
+			global::DialogMessaging.Resource.Attribute.overlapAnchor = global::MiCamConfig.App.Droid.Resource.Attribute.overlapAnchor;
+			global::DialogMessaging.Resource.Attribute.paddingBottomNoButtons = global::MiCamConfig.App.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::DialogMessaging.Resource.Attribute.paddingEnd = global::MiCamConfig.App.Droid.Resource.Attribute.paddingEnd;
+			global::DialogMessaging.Resource.Attribute.paddingStart = global::MiCamConfig.App.Droid.Resource.Attribute.paddingStart;
+			global::DialogMessaging.Resource.Attribute.paddingTopNoTitle = global::MiCamConfig.App.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::DialogMessaging.Resource.Attribute.panelBackground = global::MiCamConfig.App.Droid.Resource.Attribute.panelBackground;
+			global::DialogMessaging.Resource.Attribute.panelMenuListTheme = global::MiCamConfig.App.Droid.Resource.Attribute.panelMenuListTheme;
+			global::DialogMessaging.Resource.Attribute.panelMenuListWidth = global::MiCamConfig.App.Droid.Resource.Attribute.panelMenuListWidth;
+			global::DialogMessaging.Resource.Attribute.passwordToggleContentDescription = global::MiCamConfig.App.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::DialogMessaging.Resource.Attribute.passwordToggleDrawable = global::MiCamConfig.App.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::DialogMessaging.Resource.Attribute.passwordToggleEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::DialogMessaging.Resource.Attribute.passwordToggleTint = global::MiCamConfig.App.Droid.Resource.Attribute.passwordToggleTint;
+			global::DialogMessaging.Resource.Attribute.passwordToggleTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::DialogMessaging.Resource.Attribute.popupMenuStyle = global::MiCamConfig.App.Droid.Resource.Attribute.popupMenuStyle;
+			global::DialogMessaging.Resource.Attribute.popupTheme = global::MiCamConfig.App.Droid.Resource.Attribute.popupTheme;
+			global::DialogMessaging.Resource.Attribute.popupWindowStyle = global::MiCamConfig.App.Droid.Resource.Attribute.popupWindowStyle;
+			global::DialogMessaging.Resource.Attribute.preserveIconSpacing = global::MiCamConfig.App.Droid.Resource.Attribute.preserveIconSpacing;
+			global::DialogMessaging.Resource.Attribute.pressedTranslationZ = global::MiCamConfig.App.Droid.Resource.Attribute.pressedTranslationZ;
+			global::DialogMessaging.Resource.Attribute.progressBarPadding = global::MiCamConfig.App.Droid.Resource.Attribute.progressBarPadding;
+			global::DialogMessaging.Resource.Attribute.progressBarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.progressBarStyle;
+			global::DialogMessaging.Resource.Attribute.queryBackground = global::MiCamConfig.App.Droid.Resource.Attribute.queryBackground;
+			global::DialogMessaging.Resource.Attribute.queryHint = global::MiCamConfig.App.Droid.Resource.Attribute.queryHint;
+			global::DialogMessaging.Resource.Attribute.radioButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.radioButtonStyle;
+			global::DialogMessaging.Resource.Attribute.ratingBarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.ratingBarStyle;
+			global::DialogMessaging.Resource.Attribute.ratingBarStyleIndicator = global::MiCamConfig.App.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::DialogMessaging.Resource.Attribute.ratingBarStyleSmall = global::MiCamConfig.App.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::DialogMessaging.Resource.Attribute.reverseLayout = global::MiCamConfig.App.Droid.Resource.Attribute.reverseLayout;
+			global::DialogMessaging.Resource.Attribute.rippleColor = global::MiCamConfig.App.Droid.Resource.Attribute.rippleColor;
+			global::DialogMessaging.Resource.Attribute.scrimAnimationDuration = global::MiCamConfig.App.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::DialogMessaging.Resource.Attribute.scrimBackground = global::MiCamConfig.App.Droid.Resource.Attribute.scrimBackground;
+			global::DialogMessaging.Resource.Attribute.scrimVisibleHeightTrigger = global::MiCamConfig.App.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::DialogMessaging.Resource.Attribute.searchHintIcon = global::MiCamConfig.App.Droid.Resource.Attribute.searchHintIcon;
+			global::DialogMessaging.Resource.Attribute.searchIcon = global::MiCamConfig.App.Droid.Resource.Attribute.searchIcon;
+			global::DialogMessaging.Resource.Attribute.searchViewStyle = global::MiCamConfig.App.Droid.Resource.Attribute.searchViewStyle;
+			global::DialogMessaging.Resource.Attribute.seekBarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.seekBarStyle;
+			global::DialogMessaging.Resource.Attribute.selectableItemBackground = global::MiCamConfig.App.Droid.Resource.Attribute.selectableItemBackground;
+			global::DialogMessaging.Resource.Attribute.selectableItemBackgroundBorderless = global::MiCamConfig.App.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::DialogMessaging.Resource.Attribute.showAsAction = global::MiCamConfig.App.Droid.Resource.Attribute.showAsAction;
+			global::DialogMessaging.Resource.Attribute.showDividers = global::MiCamConfig.App.Droid.Resource.Attribute.showDividers;
+			global::DialogMessaging.Resource.Attribute.showMotionSpec = global::MiCamConfig.App.Droid.Resource.Attribute.showMotionSpec;
+			global::DialogMessaging.Resource.Attribute.showText = global::MiCamConfig.App.Droid.Resource.Attribute.showText;
+			global::DialogMessaging.Resource.Attribute.showTitle = global::MiCamConfig.App.Droid.Resource.Attribute.showTitle;
+			global::DialogMessaging.Resource.Attribute.singleChoiceItemLayout = global::MiCamConfig.App.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::DialogMessaging.Resource.Attribute.singleLine = global::MiCamConfig.App.Droid.Resource.Attribute.singleLine;
+			global::DialogMessaging.Resource.Attribute.singleSelection = global::MiCamConfig.App.Droid.Resource.Attribute.singleSelection;
+			global::DialogMessaging.Resource.Attribute.snackbarButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::DialogMessaging.Resource.Attribute.snackbarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.snackbarStyle;
+			global::DialogMessaging.Resource.Attribute.spanCount = global::MiCamConfig.App.Droid.Resource.Attribute.spanCount;
+			global::DialogMessaging.Resource.Attribute.spinBars = global::MiCamConfig.App.Droid.Resource.Attribute.spinBars;
+			global::DialogMessaging.Resource.Attribute.spinnerDropDownItemStyle = global::MiCamConfig.App.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::DialogMessaging.Resource.Attribute.spinnerStyle = global::MiCamConfig.App.Droid.Resource.Attribute.spinnerStyle;
+			global::DialogMessaging.Resource.Attribute.splitTrack = global::MiCamConfig.App.Droid.Resource.Attribute.splitTrack;
+			global::DialogMessaging.Resource.Attribute.srcCompat = global::MiCamConfig.App.Droid.Resource.Attribute.srcCompat;
+			global::DialogMessaging.Resource.Attribute.stackFromEnd = global::MiCamConfig.App.Droid.Resource.Attribute.stackFromEnd;
+			global::DialogMessaging.Resource.Attribute.state_above_anchor = global::MiCamConfig.App.Droid.Resource.Attribute.state_above_anchor;
+			global::DialogMessaging.Resource.Attribute.state_collapsed = global::MiCamConfig.App.Droid.Resource.Attribute.state_collapsed;
+			global::DialogMessaging.Resource.Attribute.state_collapsible = global::MiCamConfig.App.Droid.Resource.Attribute.state_collapsible;
+			global::DialogMessaging.Resource.Attribute.state_liftable = global::MiCamConfig.App.Droid.Resource.Attribute.state_liftable;
+			global::DialogMessaging.Resource.Attribute.state_lifted = global::MiCamConfig.App.Droid.Resource.Attribute.state_lifted;
+			global::DialogMessaging.Resource.Attribute.statusBarBackground = global::MiCamConfig.App.Droid.Resource.Attribute.statusBarBackground;
+			global::DialogMessaging.Resource.Attribute.statusBarScrim = global::MiCamConfig.App.Droid.Resource.Attribute.statusBarScrim;
+			global::DialogMessaging.Resource.Attribute.strokeColor = global::MiCamConfig.App.Droid.Resource.Attribute.strokeColor;
+			global::DialogMessaging.Resource.Attribute.strokeWidth = global::MiCamConfig.App.Droid.Resource.Attribute.strokeWidth;
+			global::DialogMessaging.Resource.Attribute.subMenuArrow = global::MiCamConfig.App.Droid.Resource.Attribute.subMenuArrow;
+			global::DialogMessaging.Resource.Attribute.submitBackground = global::MiCamConfig.App.Droid.Resource.Attribute.submitBackground;
+			global::DialogMessaging.Resource.Attribute.subtitle = global::MiCamConfig.App.Droid.Resource.Attribute.subtitle;
+			global::DialogMessaging.Resource.Attribute.subtitleTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::DialogMessaging.Resource.Attribute.subtitleTextColor = global::MiCamConfig.App.Droid.Resource.Attribute.subtitleTextColor;
+			global::DialogMessaging.Resource.Attribute.subtitleTextStyle = global::MiCamConfig.App.Droid.Resource.Attribute.subtitleTextStyle;
+			global::DialogMessaging.Resource.Attribute.suggestionRowLayout = global::MiCamConfig.App.Droid.Resource.Attribute.suggestionRowLayout;
+			global::DialogMessaging.Resource.Attribute.switchMinWidth = global::MiCamConfig.App.Droid.Resource.Attribute.switchMinWidth;
+			global::DialogMessaging.Resource.Attribute.switchPadding = global::MiCamConfig.App.Droid.Resource.Attribute.switchPadding;
+			global::DialogMessaging.Resource.Attribute.switchStyle = global::MiCamConfig.App.Droid.Resource.Attribute.switchStyle;
+			global::DialogMessaging.Resource.Attribute.switchTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.switchTextAppearance;
+			global::DialogMessaging.Resource.Attribute.tabBackground = global::MiCamConfig.App.Droid.Resource.Attribute.tabBackground;
+			global::DialogMessaging.Resource.Attribute.tabContentStart = global::MiCamConfig.App.Droid.Resource.Attribute.tabContentStart;
+			global::DialogMessaging.Resource.Attribute.tabGravity = global::MiCamConfig.App.Droid.Resource.Attribute.tabGravity;
+			global::DialogMessaging.Resource.Attribute.tabIconTint = global::MiCamConfig.App.Droid.Resource.Attribute.tabIconTint;
+			global::DialogMessaging.Resource.Attribute.tabIconTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.tabIconTintMode;
+			global::DialogMessaging.Resource.Attribute.tabIndicator = global::MiCamConfig.App.Droid.Resource.Attribute.tabIndicator;
+			global::DialogMessaging.Resource.Attribute.tabIndicatorAnimationDuration = global::MiCamConfig.App.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::DialogMessaging.Resource.Attribute.tabIndicatorColor = global::MiCamConfig.App.Droid.Resource.Attribute.tabIndicatorColor;
+			global::DialogMessaging.Resource.Attribute.tabIndicatorFullWidth = global::MiCamConfig.App.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::DialogMessaging.Resource.Attribute.tabIndicatorGravity = global::MiCamConfig.App.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::DialogMessaging.Resource.Attribute.tabIndicatorHeight = global::MiCamConfig.App.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::DialogMessaging.Resource.Attribute.tabInlineLabel = global::MiCamConfig.App.Droid.Resource.Attribute.tabInlineLabel;
+			global::DialogMessaging.Resource.Attribute.tabMaxWidth = global::MiCamConfig.App.Droid.Resource.Attribute.tabMaxWidth;
+			global::DialogMessaging.Resource.Attribute.tabMinWidth = global::MiCamConfig.App.Droid.Resource.Attribute.tabMinWidth;
+			global::DialogMessaging.Resource.Attribute.tabMode = global::MiCamConfig.App.Droid.Resource.Attribute.tabMode;
+			global::DialogMessaging.Resource.Attribute.tabPadding = global::MiCamConfig.App.Droid.Resource.Attribute.tabPadding;
+			global::DialogMessaging.Resource.Attribute.tabPaddingBottom = global::MiCamConfig.App.Droid.Resource.Attribute.tabPaddingBottom;
+			global::DialogMessaging.Resource.Attribute.tabPaddingEnd = global::MiCamConfig.App.Droid.Resource.Attribute.tabPaddingEnd;
+			global::DialogMessaging.Resource.Attribute.tabPaddingStart = global::MiCamConfig.App.Droid.Resource.Attribute.tabPaddingStart;
+			global::DialogMessaging.Resource.Attribute.tabPaddingTop = global::MiCamConfig.App.Droid.Resource.Attribute.tabPaddingTop;
+			global::DialogMessaging.Resource.Attribute.tabRippleColor = global::MiCamConfig.App.Droid.Resource.Attribute.tabRippleColor;
+			global::DialogMessaging.Resource.Attribute.tabSelectedTextColor = global::MiCamConfig.App.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::DialogMessaging.Resource.Attribute.tabStyle = global::MiCamConfig.App.Droid.Resource.Attribute.tabStyle;
+			global::DialogMessaging.Resource.Attribute.tabTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.tabTextAppearance;
+			global::DialogMessaging.Resource.Attribute.tabTextColor = global::MiCamConfig.App.Droid.Resource.Attribute.tabTextColor;
+			global::DialogMessaging.Resource.Attribute.tabUnboundedRipple = global::MiCamConfig.App.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::DialogMessaging.Resource.Attribute.textAllCaps = global::MiCamConfig.App.Droid.Resource.Attribute.textAllCaps;
+			global::DialogMessaging.Resource.Attribute.textAppearanceBody1 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceBody1;
+			global::DialogMessaging.Resource.Attribute.textAppearanceBody2 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceBody2;
+			global::DialogMessaging.Resource.Attribute.textAppearanceButton = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceButton;
+			global::DialogMessaging.Resource.Attribute.textAppearanceCaption = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceCaption;
+			global::DialogMessaging.Resource.Attribute.textAppearanceHeadline1 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::DialogMessaging.Resource.Attribute.textAppearanceHeadline2 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::DialogMessaging.Resource.Attribute.textAppearanceHeadline3 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::DialogMessaging.Resource.Attribute.textAppearanceHeadline4 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::DialogMessaging.Resource.Attribute.textAppearanceHeadline5 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::DialogMessaging.Resource.Attribute.textAppearanceHeadline6 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::DialogMessaging.Resource.Attribute.textAppearanceLargePopupMenu = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::DialogMessaging.Resource.Attribute.textAppearanceListItem = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceListItem;
+			global::DialogMessaging.Resource.Attribute.textAppearanceListItemSecondary = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::DialogMessaging.Resource.Attribute.textAppearanceListItemSmall = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::DialogMessaging.Resource.Attribute.textAppearanceOverline = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceOverline;
+			global::DialogMessaging.Resource.Attribute.textAppearancePopupMenuHeader = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::DialogMessaging.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::DialogMessaging.Resource.Attribute.textAppearanceSearchResultTitle = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::DialogMessaging.Resource.Attribute.textAppearanceSmallPopupMenu = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::DialogMessaging.Resource.Attribute.textAppearanceSubtitle1 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::DialogMessaging.Resource.Attribute.textAppearanceSubtitle2 = global::MiCamConfig.App.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::DialogMessaging.Resource.Attribute.textColorAlertDialogListItem = global::MiCamConfig.App.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::DialogMessaging.Resource.Attribute.textColorSearchUrl = global::MiCamConfig.App.Droid.Resource.Attribute.textColorSearchUrl;
+			global::DialogMessaging.Resource.Attribute.textEndPadding = global::MiCamConfig.App.Droid.Resource.Attribute.textEndPadding;
+			global::DialogMessaging.Resource.Attribute.textInputStyle = global::MiCamConfig.App.Droid.Resource.Attribute.textInputStyle;
+			global::DialogMessaging.Resource.Attribute.textStartPadding = global::MiCamConfig.App.Droid.Resource.Attribute.textStartPadding;
+			global::DialogMessaging.Resource.Attribute.theme = global::MiCamConfig.App.Droid.Resource.Attribute.theme;
+			global::DialogMessaging.Resource.Attribute.thickness = global::MiCamConfig.App.Droid.Resource.Attribute.thickness;
+			global::DialogMessaging.Resource.Attribute.thumbTextPadding = global::MiCamConfig.App.Droid.Resource.Attribute.thumbTextPadding;
+			global::DialogMessaging.Resource.Attribute.thumbTint = global::MiCamConfig.App.Droid.Resource.Attribute.thumbTint;
+			global::DialogMessaging.Resource.Attribute.thumbTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.thumbTintMode;
+			global::DialogMessaging.Resource.Attribute.tickMark = global::MiCamConfig.App.Droid.Resource.Attribute.tickMark;
+			global::DialogMessaging.Resource.Attribute.tickMarkTint = global::MiCamConfig.App.Droid.Resource.Attribute.tickMarkTint;
+			global::DialogMessaging.Resource.Attribute.tickMarkTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.tickMarkTintMode;
+			global::DialogMessaging.Resource.Attribute.tint = global::MiCamConfig.App.Droid.Resource.Attribute.tint;
+			global::DialogMessaging.Resource.Attribute.tintMode = global::MiCamConfig.App.Droid.Resource.Attribute.tintMode;
+			global::DialogMessaging.Resource.Attribute.title = global::MiCamConfig.App.Droid.Resource.Attribute.title;
+			global::DialogMessaging.Resource.Attribute.titleEnabled = global::MiCamConfig.App.Droid.Resource.Attribute.titleEnabled;
+			global::DialogMessaging.Resource.Attribute.titleMargin = global::MiCamConfig.App.Droid.Resource.Attribute.titleMargin;
+			global::DialogMessaging.Resource.Attribute.titleMarginBottom = global::MiCamConfig.App.Droid.Resource.Attribute.titleMarginBottom;
+			global::DialogMessaging.Resource.Attribute.titleMarginEnd = global::MiCamConfig.App.Droid.Resource.Attribute.titleMarginEnd;
+			global::DialogMessaging.Resource.Attribute.titleMargins = global::MiCamConfig.App.Droid.Resource.Attribute.titleMargins;
+			global::DialogMessaging.Resource.Attribute.titleMarginStart = global::MiCamConfig.App.Droid.Resource.Attribute.titleMarginStart;
+			global::DialogMessaging.Resource.Attribute.titleMarginTop = global::MiCamConfig.App.Droid.Resource.Attribute.titleMarginTop;
+			global::DialogMessaging.Resource.Attribute.titleTextAppearance = global::MiCamConfig.App.Droid.Resource.Attribute.titleTextAppearance;
+			global::DialogMessaging.Resource.Attribute.titleTextColor = global::MiCamConfig.App.Droid.Resource.Attribute.titleTextColor;
+			global::DialogMessaging.Resource.Attribute.titleTextStyle = global::MiCamConfig.App.Droid.Resource.Attribute.titleTextStyle;
+			global::DialogMessaging.Resource.Attribute.toolbarId = global::MiCamConfig.App.Droid.Resource.Attribute.toolbarId;
+			global::DialogMessaging.Resource.Attribute.toolbarNavigationButtonStyle = global::MiCamConfig.App.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::DialogMessaging.Resource.Attribute.toolbarStyle = global::MiCamConfig.App.Droid.Resource.Attribute.toolbarStyle;
+			global::DialogMessaging.Resource.Attribute.tooltipForegroundColor = global::MiCamConfig.App.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::DialogMessaging.Resource.Attribute.tooltipFrameBackground = global::MiCamConfig.App.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::DialogMessaging.Resource.Attribute.tooltipText = global::MiCamConfig.App.Droid.Resource.Attribute.tooltipText;
+			global::DialogMessaging.Resource.Attribute.track = global::MiCamConfig.App.Droid.Resource.Attribute.track;
+			global::DialogMessaging.Resource.Attribute.trackTint = global::MiCamConfig.App.Droid.Resource.Attribute.trackTint;
+			global::DialogMessaging.Resource.Attribute.trackTintMode = global::MiCamConfig.App.Droid.Resource.Attribute.trackTintMode;
+			global::DialogMessaging.Resource.Attribute.ttcIndex = global::MiCamConfig.App.Droid.Resource.Attribute.ttcIndex;
+			global::DialogMessaging.Resource.Attribute.useCompatPadding = global::MiCamConfig.App.Droid.Resource.Attribute.useCompatPadding;
+			global::DialogMessaging.Resource.Attribute.viewInflaterClass = global::MiCamConfig.App.Droid.Resource.Attribute.viewInflaterClass;
+			global::DialogMessaging.Resource.Attribute.voiceIcon = global::MiCamConfig.App.Droid.Resource.Attribute.voiceIcon;
+			global::DialogMessaging.Resource.Attribute.windowActionBar = global::MiCamConfig.App.Droid.Resource.Attribute.windowActionBar;
+			global::DialogMessaging.Resource.Attribute.windowActionBarOverlay = global::MiCamConfig.App.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::DialogMessaging.Resource.Attribute.windowActionModeOverlay = global::MiCamConfig.App.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::DialogMessaging.Resource.Attribute.windowFixedHeightMajor = global::MiCamConfig.App.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::DialogMessaging.Resource.Attribute.windowFixedHeightMinor = global::MiCamConfig.App.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::DialogMessaging.Resource.Attribute.windowFixedWidthMajor = global::MiCamConfig.App.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::DialogMessaging.Resource.Attribute.windowFixedWidthMinor = global::MiCamConfig.App.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::DialogMessaging.Resource.Attribute.windowMinWidthMajor = global::MiCamConfig.App.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::DialogMessaging.Resource.Attribute.windowMinWidthMinor = global::MiCamConfig.App.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::DialogMessaging.Resource.Attribute.windowNoTitle = global::MiCamConfig.App.Droid.Resource.Attribute.windowNoTitle;
+			global::DialogMessaging.Resource.Boolean.abc_action_bar_embed_tabs = global::MiCamConfig.App.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::DialogMessaging.Resource.Boolean.abc_allow_stacked_button_bar = global::MiCamConfig.App.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::DialogMessaging.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MiCamConfig.App.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::DialogMessaging.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::MiCamConfig.App.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::DialogMessaging.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MiCamConfig.App.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::DialogMessaging.Resource.Color.abc_background_cache_hint_selector_material_light = global::MiCamConfig.App.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::DialogMessaging.Resource.Color.abc_btn_colored_borderless_text_material = global::MiCamConfig.App.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::DialogMessaging.Resource.Color.abc_btn_colored_text_material = global::MiCamConfig.App.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::DialogMessaging.Resource.Color.abc_color_highlight_material = global::MiCamConfig.App.Droid.Resource.Color.abc_color_highlight_material;
+			global::DialogMessaging.Resource.Color.abc_hint_foreground_material_dark = global::MiCamConfig.App.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::DialogMessaging.Resource.Color.abc_hint_foreground_material_light = global::MiCamConfig.App.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::DialogMessaging.Resource.Color.abc_input_method_navigation_guard = global::MiCamConfig.App.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::DialogMessaging.Resource.Color.abc_primary_text_disable_only_material_dark = global::MiCamConfig.App.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::DialogMessaging.Resource.Color.abc_primary_text_disable_only_material_light = global::MiCamConfig.App.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::DialogMessaging.Resource.Color.abc_primary_text_material_dark = global::MiCamConfig.App.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::DialogMessaging.Resource.Color.abc_primary_text_material_light = global::MiCamConfig.App.Droid.Resource.Color.abc_primary_text_material_light;
+			global::DialogMessaging.Resource.Color.abc_search_url_text = global::MiCamConfig.App.Droid.Resource.Color.abc_search_url_text;
+			global::DialogMessaging.Resource.Color.abc_search_url_text_normal = global::MiCamConfig.App.Droid.Resource.Color.abc_search_url_text_normal;
+			global::DialogMessaging.Resource.Color.abc_search_url_text_pressed = global::MiCamConfig.App.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::DialogMessaging.Resource.Color.abc_search_url_text_selected = global::MiCamConfig.App.Droid.Resource.Color.abc_search_url_text_selected;
+			global::DialogMessaging.Resource.Color.abc_secondary_text_material_dark = global::MiCamConfig.App.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::DialogMessaging.Resource.Color.abc_secondary_text_material_light = global::MiCamConfig.App.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::DialogMessaging.Resource.Color.abc_tint_btn_checkable = global::MiCamConfig.App.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::DialogMessaging.Resource.Color.abc_tint_default = global::MiCamConfig.App.Droid.Resource.Color.abc_tint_default;
+			global::DialogMessaging.Resource.Color.abc_tint_edittext = global::MiCamConfig.App.Droid.Resource.Color.abc_tint_edittext;
+			global::DialogMessaging.Resource.Color.abc_tint_seek_thumb = global::MiCamConfig.App.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::DialogMessaging.Resource.Color.abc_tint_spinner = global::MiCamConfig.App.Droid.Resource.Color.abc_tint_spinner;
+			global::DialogMessaging.Resource.Color.abc_tint_switch_track = global::MiCamConfig.App.Droid.Resource.Color.abc_tint_switch_track;
+			global::DialogMessaging.Resource.Color.accent_material_dark = global::MiCamConfig.App.Droid.Resource.Color.accent_material_dark;
+			global::DialogMessaging.Resource.Color.accent_material_light = global::MiCamConfig.App.Droid.Resource.Color.accent_material_light;
+			global::DialogMessaging.Resource.Color.background_floating_material_dark = global::MiCamConfig.App.Droid.Resource.Color.background_floating_material_dark;
+			global::DialogMessaging.Resource.Color.background_floating_material_light = global::MiCamConfig.App.Droid.Resource.Color.background_floating_material_light;
+			global::DialogMessaging.Resource.Color.background_material_dark = global::MiCamConfig.App.Droid.Resource.Color.background_material_dark;
+			global::DialogMessaging.Resource.Color.background_material_light = global::MiCamConfig.App.Droid.Resource.Color.background_material_light;
+			global::DialogMessaging.Resource.Color.bright_foreground_disabled_material_dark = global::MiCamConfig.App.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::DialogMessaging.Resource.Color.bright_foreground_disabled_material_light = global::MiCamConfig.App.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::DialogMessaging.Resource.Color.bright_foreground_inverse_material_dark = global::MiCamConfig.App.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::DialogMessaging.Resource.Color.bright_foreground_inverse_material_light = global::MiCamConfig.App.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::DialogMessaging.Resource.Color.bright_foreground_material_dark = global::MiCamConfig.App.Droid.Resource.Color.bright_foreground_material_dark;
+			global::DialogMessaging.Resource.Color.bright_foreground_material_light = global::MiCamConfig.App.Droid.Resource.Color.bright_foreground_material_light;
+			global::DialogMessaging.Resource.Color.button_material_dark = global::MiCamConfig.App.Droid.Resource.Color.button_material_dark;
+			global::DialogMessaging.Resource.Color.button_material_light = global::MiCamConfig.App.Droid.Resource.Color.button_material_light;
+			global::DialogMessaging.Resource.Color.cardview_dark_background = global::MiCamConfig.App.Droid.Resource.Color.cardview_dark_background;
+			global::DialogMessaging.Resource.Color.cardview_light_background = global::MiCamConfig.App.Droid.Resource.Color.cardview_light_background;
+			global::DialogMessaging.Resource.Color.cardview_shadow_end_color = global::MiCamConfig.App.Droid.Resource.Color.cardview_shadow_end_color;
+			global::DialogMessaging.Resource.Color.cardview_shadow_start_color = global::MiCamConfig.App.Droid.Resource.Color.cardview_shadow_start_color;
+			global::DialogMessaging.Resource.Color.design_bottom_navigation_shadow_color = global::MiCamConfig.App.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::DialogMessaging.Resource.Color.design_default_color_primary = global::MiCamConfig.App.Droid.Resource.Color.design_default_color_primary;
+			global::DialogMessaging.Resource.Color.design_default_color_primary_dark = global::MiCamConfig.App.Droid.Resource.Color.design_default_color_primary_dark;
+			global::DialogMessaging.Resource.Color.design_error = global::MiCamConfig.App.Droid.Resource.Color.design_error;
+			global::DialogMessaging.Resource.Color.design_fab_shadow_end_color = global::MiCamConfig.App.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::DialogMessaging.Resource.Color.design_fab_shadow_mid_color = global::MiCamConfig.App.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::DialogMessaging.Resource.Color.design_fab_shadow_start_color = global::MiCamConfig.App.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::DialogMessaging.Resource.Color.design_fab_stroke_end_inner_color = global::MiCamConfig.App.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::DialogMessaging.Resource.Color.design_fab_stroke_end_outer_color = global::MiCamConfig.App.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::DialogMessaging.Resource.Color.design_fab_stroke_top_inner_color = global::MiCamConfig.App.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::DialogMessaging.Resource.Color.design_fab_stroke_top_outer_color = global::MiCamConfig.App.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::DialogMessaging.Resource.Color.design_snackbar_background_color = global::MiCamConfig.App.Droid.Resource.Color.design_snackbar_background_color;
+			global::DialogMessaging.Resource.Color.design_tint_password_toggle = global::MiCamConfig.App.Droid.Resource.Color.design_tint_password_toggle;
+			global::DialogMessaging.Resource.Color.dim_foreground_disabled_material_dark = global::MiCamConfig.App.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::DialogMessaging.Resource.Color.dim_foreground_disabled_material_light = global::MiCamConfig.App.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::DialogMessaging.Resource.Color.dim_foreground_material_dark = global::MiCamConfig.App.Droid.Resource.Color.dim_foreground_material_dark;
+			global::DialogMessaging.Resource.Color.dim_foreground_material_light = global::MiCamConfig.App.Droid.Resource.Color.dim_foreground_material_light;
+			global::DialogMessaging.Resource.Color.error_color_material_dark = global::MiCamConfig.App.Droid.Resource.Color.error_color_material_dark;
+			global::DialogMessaging.Resource.Color.error_color_material_light = global::MiCamConfig.App.Droid.Resource.Color.error_color_material_light;
+			global::DialogMessaging.Resource.Color.foreground_material_dark = global::MiCamConfig.App.Droid.Resource.Color.foreground_material_dark;
+			global::DialogMessaging.Resource.Color.foreground_material_light = global::MiCamConfig.App.Droid.Resource.Color.foreground_material_light;
+			global::DialogMessaging.Resource.Color.highlighted_text_material_dark = global::MiCamConfig.App.Droid.Resource.Color.highlighted_text_material_dark;
+			global::DialogMessaging.Resource.Color.highlighted_text_material_light = global::MiCamConfig.App.Droid.Resource.Color.highlighted_text_material_light;
+			global::DialogMessaging.Resource.Color.material_blue_grey_800 = global::MiCamConfig.App.Droid.Resource.Color.material_blue_grey_800;
+			global::DialogMessaging.Resource.Color.material_blue_grey_900 = global::MiCamConfig.App.Droid.Resource.Color.material_blue_grey_900;
+			global::DialogMessaging.Resource.Color.material_blue_grey_950 = global::MiCamConfig.App.Droid.Resource.Color.material_blue_grey_950;
+			global::DialogMessaging.Resource.Color.material_deep_teal_200 = global::MiCamConfig.App.Droid.Resource.Color.material_deep_teal_200;
+			global::DialogMessaging.Resource.Color.material_deep_teal_500 = global::MiCamConfig.App.Droid.Resource.Color.material_deep_teal_500;
+			global::DialogMessaging.Resource.Color.material_grey_100 = global::MiCamConfig.App.Droid.Resource.Color.material_grey_100;
+			global::DialogMessaging.Resource.Color.material_grey_300 = global::MiCamConfig.App.Droid.Resource.Color.material_grey_300;
+			global::DialogMessaging.Resource.Color.material_grey_50 = global::MiCamConfig.App.Droid.Resource.Color.material_grey_50;
+			global::DialogMessaging.Resource.Color.material_grey_600 = global::MiCamConfig.App.Droid.Resource.Color.material_grey_600;
+			global::DialogMessaging.Resource.Color.material_grey_800 = global::MiCamConfig.App.Droid.Resource.Color.material_grey_800;
+			global::DialogMessaging.Resource.Color.material_grey_850 = global::MiCamConfig.App.Droid.Resource.Color.material_grey_850;
+			global::DialogMessaging.Resource.Color.material_grey_900 = global::MiCamConfig.App.Droid.Resource.Color.material_grey_900;
+			global::DialogMessaging.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::MiCamConfig.App.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::DialogMessaging.Resource.Color.mtrl_bottom_nav_item_tint = global::MiCamConfig.App.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::DialogMessaging.Resource.Color.mtrl_btn_bg_color_disabled = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::DialogMessaging.Resource.Color.mtrl_btn_bg_color_selector = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::DialogMessaging.Resource.Color.mtrl_btn_ripple_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::DialogMessaging.Resource.Color.mtrl_btn_stroke_color_selector = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::DialogMessaging.Resource.Color.mtrl_btn_text_btn_ripple_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::DialogMessaging.Resource.Color.mtrl_btn_text_color_disabled = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::DialogMessaging.Resource.Color.mtrl_btn_text_color_selector = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::DialogMessaging.Resource.Color.mtrl_btn_transparent_bg_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::DialogMessaging.Resource.Color.mtrl_chip_background_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_chip_background_color;
+			global::DialogMessaging.Resource.Color.mtrl_chip_close_icon_tint = global::MiCamConfig.App.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::DialogMessaging.Resource.Color.mtrl_chip_ripple_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::DialogMessaging.Resource.Color.mtrl_chip_text_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_chip_text_color;
+			global::DialogMessaging.Resource.Color.mtrl_fab_ripple_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::DialogMessaging.Resource.Color.mtrl_scrim_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_scrim_color;
+			global::DialogMessaging.Resource.Color.mtrl_tabs_colored_ripple_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::DialogMessaging.Resource.Color.mtrl_tabs_icon_color_selector = global::MiCamConfig.App.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::DialogMessaging.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::MiCamConfig.App.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::DialogMessaging.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::MiCamConfig.App.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::DialogMessaging.Resource.Color.mtrl_tabs_ripple_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::DialogMessaging.Resource.Color.mtrl_textinput_default_box_stroke_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::DialogMessaging.Resource.Color.mtrl_textinput_disabled_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::DialogMessaging.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::DialogMessaging.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::MiCamConfig.App.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::DialogMessaging.Resource.Color.mtrl_text_btn_text_color_selector = global::MiCamConfig.App.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::DialogMessaging.Resource.Color.notification_action_color_filter = global::MiCamConfig.App.Droid.Resource.Color.notification_action_color_filter;
+			global::DialogMessaging.Resource.Color.notification_icon_bg_color = global::MiCamConfig.App.Droid.Resource.Color.notification_icon_bg_color;
+			global::DialogMessaging.Resource.Color.primary_dark_material_dark = global::MiCamConfig.App.Droid.Resource.Color.primary_dark_material_dark;
+			global::DialogMessaging.Resource.Color.primary_dark_material_light = global::MiCamConfig.App.Droid.Resource.Color.primary_dark_material_light;
+			global::DialogMessaging.Resource.Color.primary_material_dark = global::MiCamConfig.App.Droid.Resource.Color.primary_material_dark;
+			global::DialogMessaging.Resource.Color.primary_material_light = global::MiCamConfig.App.Droid.Resource.Color.primary_material_light;
+			global::DialogMessaging.Resource.Color.primary_text_default_material_dark = global::MiCamConfig.App.Droid.Resource.Color.primary_text_default_material_dark;
+			global::DialogMessaging.Resource.Color.primary_text_default_material_light = global::MiCamConfig.App.Droid.Resource.Color.primary_text_default_material_light;
+			global::DialogMessaging.Resource.Color.primary_text_disabled_material_dark = global::MiCamConfig.App.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::DialogMessaging.Resource.Color.primary_text_disabled_material_light = global::MiCamConfig.App.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::DialogMessaging.Resource.Color.ripple_material_dark = global::MiCamConfig.App.Droid.Resource.Color.ripple_material_dark;
+			global::DialogMessaging.Resource.Color.ripple_material_light = global::MiCamConfig.App.Droid.Resource.Color.ripple_material_light;
+			global::DialogMessaging.Resource.Color.secondary_text_default_material_dark = global::MiCamConfig.App.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::DialogMessaging.Resource.Color.secondary_text_default_material_light = global::MiCamConfig.App.Droid.Resource.Color.secondary_text_default_material_light;
+			global::DialogMessaging.Resource.Color.secondary_text_disabled_material_dark = global::MiCamConfig.App.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::DialogMessaging.Resource.Color.secondary_text_disabled_material_light = global::MiCamConfig.App.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::DialogMessaging.Resource.Color.switch_thumb_disabled_material_dark = global::MiCamConfig.App.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::DialogMessaging.Resource.Color.switch_thumb_disabled_material_light = global::MiCamConfig.App.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::DialogMessaging.Resource.Color.switch_thumb_material_dark = global::MiCamConfig.App.Droid.Resource.Color.switch_thumb_material_dark;
+			global::DialogMessaging.Resource.Color.switch_thumb_material_light = global::MiCamConfig.App.Droid.Resource.Color.switch_thumb_material_light;
+			global::DialogMessaging.Resource.Color.switch_thumb_normal_material_dark = global::MiCamConfig.App.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::DialogMessaging.Resource.Color.switch_thumb_normal_material_light = global::MiCamConfig.App.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::DialogMessaging.Resource.Color.tooltip_background_dark = global::MiCamConfig.App.Droid.Resource.Color.tooltip_background_dark;
+			global::DialogMessaging.Resource.Color.tooltip_background_light = global::MiCamConfig.App.Droid.Resource.Color.tooltip_background_light;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_content_inset_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_default_height_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_elevation_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_stacked_max_height = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_button_min_height_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_button_min_width_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::DialogMessaging.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::DialogMessaging.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MiCamConfig.App.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::DialogMessaging.Resource.Dimension.abc_alert_dialog_button_dimen = global::MiCamConfig.App.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::DialogMessaging.Resource.Dimension.abc_button_inset_horizontal_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::DialogMessaging.Resource.Dimension.abc_button_inset_vertical_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::DialogMessaging.Resource.Dimension.abc_button_padding_horizontal_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::DialogMessaging.Resource.Dimension.abc_button_padding_vertical_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::DialogMessaging.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MiCamConfig.App.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::DialogMessaging.Resource.Dimension.abc_config_prefDialogWidth = global::MiCamConfig.App.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::DialogMessaging.Resource.Dimension.abc_control_corner_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_control_corner_material;
+			global::DialogMessaging.Resource.Dimension.abc_control_inset_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_control_inset_material;
+			global::DialogMessaging.Resource.Dimension.abc_control_padding_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_control_padding_material;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_corner_radius_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_fixed_height_major = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_fixed_height_minor = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_fixed_width_major = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_fixed_width_minor = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_min_width_major = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_min_width_minor = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_padding_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_padding_top_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::DialogMessaging.Resource.Dimension.abc_dialog_title_divider_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::DialogMessaging.Resource.Dimension.abc_disabled_alpha_material_dark = global::MiCamConfig.App.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::DialogMessaging.Resource.Dimension.abc_disabled_alpha_material_light = global::MiCamConfig.App.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::DialogMessaging.Resource.Dimension.abc_dropdownitem_icon_width = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::DialogMessaging.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::DialogMessaging.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MiCamConfig.App.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::DialogMessaging.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::DialogMessaging.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::DialogMessaging.Resource.Dimension.abc_edit_text_inset_top_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::DialogMessaging.Resource.Dimension.abc_floating_window_z = global::MiCamConfig.App.Droid.Resource.Dimension.abc_floating_window_z;
+			global::DialogMessaging.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::DialogMessaging.Resource.Dimension.abc_panel_menu_list_width = global::MiCamConfig.App.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::DialogMessaging.Resource.Dimension.abc_progress_bar_height_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::DialogMessaging.Resource.Dimension.abc_search_view_preferred_height = global::MiCamConfig.App.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::DialogMessaging.Resource.Dimension.abc_search_view_preferred_width = global::MiCamConfig.App.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::DialogMessaging.Resource.Dimension.abc_seekbar_track_background_height_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::DialogMessaging.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::DialogMessaging.Resource.Dimension.abc_select_dialog_padding_start_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::DialogMessaging.Resource.Dimension.abc_switch_padding = global::MiCamConfig.App.Droid.Resource.Dimension.abc_switch_padding;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_body_1_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_body_2_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_button_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_caption_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_display_1_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_display_2_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_display_3_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_display_4_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_headline_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_large_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_medium_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_menu_header_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_menu_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_small_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_subhead_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_title_material = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::DialogMessaging.Resource.Dimension.abc_text_size_title_material_toolbar = global::MiCamConfig.App.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::DialogMessaging.Resource.Dimension.cardview_compat_inset_shadow = global::MiCamConfig.App.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::DialogMessaging.Resource.Dimension.cardview_default_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.cardview_default_elevation;
+			global::DialogMessaging.Resource.Dimension.cardview_default_radius = global::MiCamConfig.App.Droid.Resource.Dimension.cardview_default_radius;
+			global::DialogMessaging.Resource.Dimension.compat_button_inset_horizontal_material = global::MiCamConfig.App.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::DialogMessaging.Resource.Dimension.compat_button_inset_vertical_material = global::MiCamConfig.App.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::DialogMessaging.Resource.Dimension.compat_button_padding_horizontal_material = global::MiCamConfig.App.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::DialogMessaging.Resource.Dimension.compat_button_padding_vertical_material = global::MiCamConfig.App.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::DialogMessaging.Resource.Dimension.compat_control_corner_material = global::MiCamConfig.App.Droid.Resource.Dimension.compat_control_corner_material;
+			global::DialogMessaging.Resource.Dimension.compat_notification_large_icon_max_height = global::MiCamConfig.App.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::DialogMessaging.Resource.Dimension.compat_notification_large_icon_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::DialogMessaging.Resource.Dimension.design_appbar_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.design_appbar_elevation;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_active_text_size = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_height = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_icon_size = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_item_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_item_min_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_margin = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_shadow_height = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::DialogMessaging.Resource.Dimension.design_bottom_navigation_text_size = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::DialogMessaging.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::DialogMessaging.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MiCamConfig.App.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::DialogMessaging.Resource.Dimension.design_fab_border_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_fab_border_width;
+			global::DialogMessaging.Resource.Dimension.design_fab_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.design_fab_elevation;
+			global::DialogMessaging.Resource.Dimension.design_fab_image_size = global::MiCamConfig.App.Droid.Resource.Dimension.design_fab_image_size;
+			global::DialogMessaging.Resource.Dimension.design_fab_size_mini = global::MiCamConfig.App.Droid.Resource.Dimension.design_fab_size_mini;
+			global::DialogMessaging.Resource.Dimension.design_fab_size_normal = global::MiCamConfig.App.Droid.Resource.Dimension.design_fab_size_normal;
+			global::DialogMessaging.Resource.Dimension.design_fab_translation_z_hovered_focused = global::MiCamConfig.App.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::DialogMessaging.Resource.Dimension.design_fab_translation_z_pressed = global::MiCamConfig.App.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::DialogMessaging.Resource.Dimension.design_navigation_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_elevation;
+			global::DialogMessaging.Resource.Dimension.design_navigation_icon_padding = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::DialogMessaging.Resource.Dimension.design_navigation_icon_size = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::DialogMessaging.Resource.Dimension.design_navigation_item_horizontal_padding = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::DialogMessaging.Resource.Dimension.design_navigation_item_icon_padding = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::DialogMessaging.Resource.Dimension.design_navigation_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_max_width;
+			global::DialogMessaging.Resource.Dimension.design_navigation_padding_bottom = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::DialogMessaging.Resource.Dimension.design_navigation_separator_vertical_padding = global::MiCamConfig.App.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_action_inline_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_background_corner_radius = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_min_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_padding_horizontal = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_padding_vertical = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::DialogMessaging.Resource.Dimension.design_snackbar_text_size = global::MiCamConfig.App.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::DialogMessaging.Resource.Dimension.design_tab_max_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_tab_max_width;
+			global::DialogMessaging.Resource.Dimension.design_tab_scrollable_min_width = global::MiCamConfig.App.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::DialogMessaging.Resource.Dimension.design_tab_text_size = global::MiCamConfig.App.Droid.Resource.Dimension.design_tab_text_size;
+			global::DialogMessaging.Resource.Dimension.design_tab_text_size_2line = global::MiCamConfig.App.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::DialogMessaging.Resource.Dimension.design_textinput_caption_translate_y = global::MiCamConfig.App.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::DialogMessaging.Resource.Dimension.disabled_alpha_material_dark = global::MiCamConfig.App.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::DialogMessaging.Resource.Dimension.disabled_alpha_material_light = global::MiCamConfig.App.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::DialogMessaging.Resource.Dimension.fastscroll_default_thickness = global::MiCamConfig.App.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::DialogMessaging.Resource.Dimension.fastscroll_margin = global::MiCamConfig.App.Droid.Resource.Dimension.fastscroll_margin;
+			global::DialogMessaging.Resource.Dimension.fastscroll_minimum_range = global::MiCamConfig.App.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::DialogMessaging.Resource.Dimension.highlight_alpha_material_colored = global::MiCamConfig.App.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::DialogMessaging.Resource.Dimension.highlight_alpha_material_dark = global::MiCamConfig.App.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::DialogMessaging.Resource.Dimension.highlight_alpha_material_light = global::MiCamConfig.App.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::DialogMessaging.Resource.Dimension.hint_alpha_material_dark = global::MiCamConfig.App.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::DialogMessaging.Resource.Dimension.hint_alpha_material_light = global::MiCamConfig.App.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::DialogMessaging.Resource.Dimension.hint_pressed_alpha_material_dark = global::MiCamConfig.App.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::DialogMessaging.Resource.Dimension.hint_pressed_alpha_material_light = global::MiCamConfig.App.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::DialogMessaging.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MiCamConfig.App.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::DialogMessaging.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MiCamConfig.App.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::DialogMessaging.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MiCamConfig.App.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::DialogMessaging.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::DialogMessaging.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::DialogMessaging.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::DialogMessaging.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::DialogMessaging.Resource.Dimension.mtrl_bottomappbar_height = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_corner_radius = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_disabled_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_disabled_z = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_focused_z = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_hovered_z = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_icon_padding = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_inset = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_letter_spacing = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_padding_bottom = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_padding_left = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_padding_right = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_padding_top = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_pressed_z = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_stroke_size = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_text_size = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::DialogMessaging.Resource.Dimension.mtrl_btn_z = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_btn_z;
+			global::DialogMessaging.Resource.Dimension.mtrl_card_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::DialogMessaging.Resource.Dimension.mtrl_card_spacing = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::DialogMessaging.Resource.Dimension.mtrl_chip_pressed_translation_z = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::DialogMessaging.Resource.Dimension.mtrl_chip_text_size = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::DialogMessaging.Resource.Dimension.mtrl_fab_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::DialogMessaging.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::DialogMessaging.Resource.Dimension.mtrl_fab_translation_z_pressed = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::DialogMessaging.Resource.Dimension.mtrl_navigation_elevation = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::DialogMessaging.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::DialogMessaging.Resource.Dimension.mtrl_navigation_item_icon_padding = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::DialogMessaging.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::DialogMessaging.Resource.Dimension.mtrl_snackbar_margin = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_box_padding_end = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::DialogMessaging.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::DialogMessaging.Resource.Dimension.mtrl_toolbar_default_height = global::MiCamConfig.App.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::DialogMessaging.Resource.Dimension.notification_action_icon_size = global::MiCamConfig.App.Droid.Resource.Dimension.notification_action_icon_size;
+			global::DialogMessaging.Resource.Dimension.notification_action_text_size = global::MiCamConfig.App.Droid.Resource.Dimension.notification_action_text_size;
+			global::DialogMessaging.Resource.Dimension.notification_big_circle_margin = global::MiCamConfig.App.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::DialogMessaging.Resource.Dimension.notification_content_margin_start = global::MiCamConfig.App.Droid.Resource.Dimension.notification_content_margin_start;
+			global::DialogMessaging.Resource.Dimension.notification_large_icon_height = global::MiCamConfig.App.Droid.Resource.Dimension.notification_large_icon_height;
+			global::DialogMessaging.Resource.Dimension.notification_large_icon_width = global::MiCamConfig.App.Droid.Resource.Dimension.notification_large_icon_width;
+			global::DialogMessaging.Resource.Dimension.notification_main_column_padding_top = global::MiCamConfig.App.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::DialogMessaging.Resource.Dimension.notification_media_narrow_margin = global::MiCamConfig.App.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::DialogMessaging.Resource.Dimension.notification_right_icon_size = global::MiCamConfig.App.Droid.Resource.Dimension.notification_right_icon_size;
+			global::DialogMessaging.Resource.Dimension.notification_right_side_padding_top = global::MiCamConfig.App.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::DialogMessaging.Resource.Dimension.notification_small_icon_background_padding = global::MiCamConfig.App.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::DialogMessaging.Resource.Dimension.notification_small_icon_size_as_large = global::MiCamConfig.App.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::DialogMessaging.Resource.Dimension.notification_subtext_size = global::MiCamConfig.App.Droid.Resource.Dimension.notification_subtext_size;
+			global::DialogMessaging.Resource.Dimension.notification_top_pad = global::MiCamConfig.App.Droid.Resource.Dimension.notification_top_pad;
+			global::DialogMessaging.Resource.Dimension.notification_top_pad_large_text = global::MiCamConfig.App.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::DialogMessaging.Resource.Dimension.tooltip_corner_radius = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::DialogMessaging.Resource.Dimension.tooltip_horizontal_padding = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::DialogMessaging.Resource.Dimension.tooltip_margin = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_margin;
+			global::DialogMessaging.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::DialogMessaging.Resource.Dimension.tooltip_precise_anchor_threshold = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::DialogMessaging.Resource.Dimension.tooltip_vertical_padding = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::DialogMessaging.Resource.Dimension.tooltip_y_offset_non_touch = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::DialogMessaging.Resource.Dimension.tooltip_y_offset_touch = global::MiCamConfig.App.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::DialogMessaging.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_action_bar_item_background_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::DialogMessaging.Resource.Drawable.abc_btn_borderless_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::DialogMessaging.Resource.Drawable.abc_btn_check_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_check_material;
+			global::DialogMessaging.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::DialogMessaging.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::DialogMessaging.Resource.Drawable.abc_btn_colored_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::DialogMessaging.Resource.Drawable.abc_btn_default_mtrl_shape = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::DialogMessaging.Resource.Drawable.abc_btn_radio_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::DialogMessaging.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::DialogMessaging.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::DialogMessaging.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::DialogMessaging.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::DialogMessaging.Resource.Drawable.abc_cab_background_internal_bg = global::MiCamConfig.App.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::DialogMessaging.Resource.Drawable.abc_cab_background_top_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::DialogMessaging.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_control_background_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_control_background_material;
+			global::DialogMessaging.Resource.Drawable.abc_dialog_material_background = global::MiCamConfig.App.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::DialogMessaging.Resource.Drawable.abc_edit_text_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_edit_text_material;
+			global::DialogMessaging.Resource.Drawable.abc_ic_ab_back_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::DialogMessaging.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::DialogMessaging.Resource.Drawable.abc_ic_clear_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::DialogMessaging.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_ic_go_search_api_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::DialogMessaging.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_ic_menu_overflow_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::DialogMessaging.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_ic_search_api_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::DialogMessaging.Resource.Drawable.abc_ic_star_black_16dp = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::DialogMessaging.Resource.Drawable.abc_ic_star_black_36dp = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::DialogMessaging.Resource.Drawable.abc_ic_star_black_48dp = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::DialogMessaging.Resource.Drawable.abc_ic_star_half_black_16dp = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::DialogMessaging.Resource.Drawable.abc_ic_star_half_black_36dp = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::DialogMessaging.Resource.Drawable.abc_ic_star_half_black_48dp = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::DialogMessaging.Resource.Drawable.abc_ic_voice_search_api_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::DialogMessaging.Resource.Drawable.abc_item_background_holo_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::DialogMessaging.Resource.Drawable.abc_item_background_holo_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::DialogMessaging.Resource.Drawable.abc_list_divider_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_divider_material;
+			global::DialogMessaging.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_list_focused_holo = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::DialogMessaging.Resource.Drawable.abc_list_longpressed_holo = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::DialogMessaging.Resource.Drawable.abc_list_pressed_holo_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::DialogMessaging.Resource.Drawable.abc_list_pressed_holo_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::DialogMessaging.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::DialogMessaging.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::DialogMessaging.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::DialogMessaging.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::DialogMessaging.Resource.Drawable.abc_list_selector_holo_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::DialogMessaging.Resource.Drawable.abc_list_selector_holo_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::DialogMessaging.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MiCamConfig.App.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::DialogMessaging.Resource.Drawable.abc_popup_background_mtrl_mult = global::MiCamConfig.App.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::DialogMessaging.Resource.Drawable.abc_ratingbar_indicator_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::DialogMessaging.Resource.Drawable.abc_ratingbar_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::DialogMessaging.Resource.Drawable.abc_ratingbar_small_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::DialogMessaging.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::DialogMessaging.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MiCamConfig.App.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::DialogMessaging.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_seekbar_thumb_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::DialogMessaging.Resource.Drawable.abc_seekbar_tick_mark_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::DialogMessaging.Resource.Drawable.abc_seekbar_track_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::DialogMessaging.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_spinner_textfield_background_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::DialogMessaging.Resource.Drawable.abc_switch_thumb_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::DialogMessaging.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_tab_indicator_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::DialogMessaging.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MiCamConfig.App.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::DialogMessaging.Resource.Drawable.abc_textfield_search_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::DialogMessaging.Resource.Drawable.abc_text_cursor_material = global::MiCamConfig.App.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::DialogMessaging.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::DialogMessaging.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::DialogMessaging.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::DialogMessaging.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::DialogMessaging.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::MiCamConfig.App.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::DialogMessaging.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::MiCamConfig.App.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::DialogMessaging.Resource.Drawable.abc_vector_test = global::MiCamConfig.App.Droid.Resource.Drawable.abc_vector_test;
+			global::DialogMessaging.Resource.Drawable.avd_hide_password = global::MiCamConfig.App.Droid.Resource.Drawable.avd_hide_password;
+			global::DialogMessaging.Resource.Drawable.avd_show_password = global::MiCamConfig.App.Droid.Resource.Drawable.avd_show_password;
+			global::DialogMessaging.Resource.Drawable.design_bottom_navigation_item_background = global::MiCamConfig.App.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::DialogMessaging.Resource.Drawable.design_fab_background = global::MiCamConfig.App.Droid.Resource.Drawable.design_fab_background;
+			global::DialogMessaging.Resource.Drawable.design_ic_visibility = global::MiCamConfig.App.Droid.Resource.Drawable.design_ic_visibility;
+			global::DialogMessaging.Resource.Drawable.design_ic_visibility_off = global::MiCamConfig.App.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::DialogMessaging.Resource.Drawable.design_password_eye = global::MiCamConfig.App.Droid.Resource.Drawable.design_password_eye;
+			global::DialogMessaging.Resource.Drawable.design_snackbar_background = global::MiCamConfig.App.Droid.Resource.Drawable.design_snackbar_background;
+			global::DialogMessaging.Resource.Drawable.ic_mtrl_chip_checked_black = global::MiCamConfig.App.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::DialogMessaging.Resource.Drawable.ic_mtrl_chip_checked_circle = global::MiCamConfig.App.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::DialogMessaging.Resource.Drawable.ic_mtrl_chip_close_circle = global::MiCamConfig.App.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::DialogMessaging.Resource.Drawable.mtrl_snackbar_background = global::MiCamConfig.App.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::DialogMessaging.Resource.Drawable.mtrl_tabs_default_indicator = global::MiCamConfig.App.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::DialogMessaging.Resource.Drawable.navigation_empty_icon = global::MiCamConfig.App.Droid.Resource.Drawable.navigation_empty_icon;
+			global::DialogMessaging.Resource.Drawable.notification_action_background = global::MiCamConfig.App.Droid.Resource.Drawable.notification_action_background;
+			global::DialogMessaging.Resource.Drawable.notification_bg = global::MiCamConfig.App.Droid.Resource.Drawable.notification_bg;
+			global::DialogMessaging.Resource.Drawable.notification_bg_low = global::MiCamConfig.App.Droid.Resource.Drawable.notification_bg_low;
+			global::DialogMessaging.Resource.Drawable.notification_bg_low_normal = global::MiCamConfig.App.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::DialogMessaging.Resource.Drawable.notification_bg_low_pressed = global::MiCamConfig.App.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::DialogMessaging.Resource.Drawable.notification_bg_normal = global::MiCamConfig.App.Droid.Resource.Drawable.notification_bg_normal;
+			global::DialogMessaging.Resource.Drawable.notification_bg_normal_pressed = global::MiCamConfig.App.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::DialogMessaging.Resource.Drawable.notification_icon_background = global::MiCamConfig.App.Droid.Resource.Drawable.notification_icon_background;
+			global::DialogMessaging.Resource.Drawable.notification_template_icon_bg = global::MiCamConfig.App.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::DialogMessaging.Resource.Drawable.notification_template_icon_low_bg = global::MiCamConfig.App.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::DialogMessaging.Resource.Drawable.notification_tile_bg = global::MiCamConfig.App.Droid.Resource.Drawable.notification_tile_bg;
+			global::DialogMessaging.Resource.Drawable.notify_panel_notification_icon_bg = global::MiCamConfig.App.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::DialogMessaging.Resource.Drawable.tooltip_frame_dark = global::MiCamConfig.App.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::DialogMessaging.Resource.Drawable.tooltip_frame_light = global::MiCamConfig.App.Droid.Resource.Drawable.tooltip_frame_light;
+			global::DialogMessaging.Resource.Id.actions = global::MiCamConfig.App.Droid.Resource.Id.actions;
+			global::DialogMessaging.Resource.Id.action_bar = global::MiCamConfig.App.Droid.Resource.Id.action_bar;
+			global::DialogMessaging.Resource.Id.action_bar_activity_content = global::MiCamConfig.App.Droid.Resource.Id.action_bar_activity_content;
+			global::DialogMessaging.Resource.Id.action_bar_container = global::MiCamConfig.App.Droid.Resource.Id.action_bar_container;
+			global::DialogMessaging.Resource.Id.action_bar_root = global::MiCamConfig.App.Droid.Resource.Id.action_bar_root;
+			global::DialogMessaging.Resource.Id.action_bar_spinner = global::MiCamConfig.App.Droid.Resource.Id.action_bar_spinner;
+			global::DialogMessaging.Resource.Id.action_bar_subtitle = global::MiCamConfig.App.Droid.Resource.Id.action_bar_subtitle;
+			global::DialogMessaging.Resource.Id.action_bar_title = global::MiCamConfig.App.Droid.Resource.Id.action_bar_title;
+			global::DialogMessaging.Resource.Id.action_container = global::MiCamConfig.App.Droid.Resource.Id.action_container;
+			global::DialogMessaging.Resource.Id.action_context_bar = global::MiCamConfig.App.Droid.Resource.Id.action_context_bar;
+			global::DialogMessaging.Resource.Id.action_divider = global::MiCamConfig.App.Droid.Resource.Id.action_divider;
+			global::DialogMessaging.Resource.Id.action_image = global::MiCamConfig.App.Droid.Resource.Id.action_image;
+			global::DialogMessaging.Resource.Id.action_menu_divider = global::MiCamConfig.App.Droid.Resource.Id.action_menu_divider;
+			global::DialogMessaging.Resource.Id.action_menu_presenter = global::MiCamConfig.App.Droid.Resource.Id.action_menu_presenter;
+			global::DialogMessaging.Resource.Id.action_mode_bar = global::MiCamConfig.App.Droid.Resource.Id.action_mode_bar;
+			global::DialogMessaging.Resource.Id.action_mode_bar_stub = global::MiCamConfig.App.Droid.Resource.Id.action_mode_bar_stub;
+			global::DialogMessaging.Resource.Id.action_mode_close_button = global::MiCamConfig.App.Droid.Resource.Id.action_mode_close_button;
+			global::DialogMessaging.Resource.Id.action_text = global::MiCamConfig.App.Droid.Resource.Id.action_text;
+			global::DialogMessaging.Resource.Id.activity_chooser_view_content = global::MiCamConfig.App.Droid.Resource.Id.activity_chooser_view_content;
+			global::DialogMessaging.Resource.Id.add = global::MiCamConfig.App.Droid.Resource.Id.add;
+			global::DialogMessaging.Resource.Id.alertTitle = global::MiCamConfig.App.Droid.Resource.Id.alertTitle;
+			global::DialogMessaging.Resource.Id.all = global::MiCamConfig.App.Droid.Resource.Id.all;
+			global::DialogMessaging.Resource.Id.ALT = global::MiCamConfig.App.Droid.Resource.Id.ALT;
+			global::DialogMessaging.Resource.Id.always = global::MiCamConfig.App.Droid.Resource.Id.always;
+			global::DialogMessaging.Resource.Id.async = global::MiCamConfig.App.Droid.Resource.Id.async;
+			global::DialogMessaging.Resource.Id.auto = global::MiCamConfig.App.Droid.Resource.Id.auto;
+			global::DialogMessaging.Resource.Id.beginning = global::MiCamConfig.App.Droid.Resource.Id.beginning;
+			global::DialogMessaging.Resource.Id.blocking = global::MiCamConfig.App.Droid.Resource.Id.blocking;
+			global::DialogMessaging.Resource.Id.bottom = global::MiCamConfig.App.Droid.Resource.Id.bottom;
+			global::DialogMessaging.Resource.Id.buttonPanel = global::MiCamConfig.App.Droid.Resource.Id.buttonPanel;
+			global::DialogMessaging.Resource.Id.center = global::MiCamConfig.App.Droid.Resource.Id.center;
+			global::DialogMessaging.Resource.Id.center_horizontal = global::MiCamConfig.App.Droid.Resource.Id.center_horizontal;
+			global::DialogMessaging.Resource.Id.center_vertical = global::MiCamConfig.App.Droid.Resource.Id.center_vertical;
+			global::DialogMessaging.Resource.Id.checkbox = global::MiCamConfig.App.Droid.Resource.Id.checkbox;
+			global::DialogMessaging.Resource.Id.chronometer = global::MiCamConfig.App.Droid.Resource.Id.chronometer;
+			global::DialogMessaging.Resource.Id.clip_horizontal = global::MiCamConfig.App.Droid.Resource.Id.clip_horizontal;
+			global::DialogMessaging.Resource.Id.clip_vertical = global::MiCamConfig.App.Droid.Resource.Id.clip_vertical;
+			global::DialogMessaging.Resource.Id.collapseActionView = global::MiCamConfig.App.Droid.Resource.Id.collapseActionView;
+			global::DialogMessaging.Resource.Id.container = global::MiCamConfig.App.Droid.Resource.Id.container;
+			global::DialogMessaging.Resource.Id.content = global::MiCamConfig.App.Droid.Resource.Id.content;
+			global::DialogMessaging.Resource.Id.contentPanel = global::MiCamConfig.App.Droid.Resource.Id.contentPanel;
+			global::DialogMessaging.Resource.Id.coordinator = global::MiCamConfig.App.Droid.Resource.Id.coordinator;
+			global::DialogMessaging.Resource.Id.CTRL = global::MiCamConfig.App.Droid.Resource.Id.CTRL;
+			global::DialogMessaging.Resource.Id.custom = global::MiCamConfig.App.Droid.Resource.Id.custom;
+			global::DialogMessaging.Resource.Id.customPanel = global::MiCamConfig.App.Droid.Resource.Id.customPanel;
+			global::DialogMessaging.Resource.Id.decor_content_parent = global::MiCamConfig.App.Droid.Resource.Id.decor_content_parent;
+			global::DialogMessaging.Resource.Id.default_activity_button = global::MiCamConfig.App.Droid.Resource.Id.default_activity_button;
+			global::DialogMessaging.Resource.Id.design_bottom_sheet = global::MiCamConfig.App.Droid.Resource.Id.design_bottom_sheet;
+			global::DialogMessaging.Resource.Id.design_menu_item_action_area = global::MiCamConfig.App.Droid.Resource.Id.design_menu_item_action_area;
+			global::DialogMessaging.Resource.Id.design_menu_item_action_area_stub = global::MiCamConfig.App.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::DialogMessaging.Resource.Id.design_menu_item_text = global::MiCamConfig.App.Droid.Resource.Id.design_menu_item_text;
+			global::DialogMessaging.Resource.Id.design_navigation_view = global::MiCamConfig.App.Droid.Resource.Id.design_navigation_view;
+			global::DialogMessaging.Resource.Id.disableHome = global::MiCamConfig.App.Droid.Resource.Id.disableHome;
+			global::DialogMessaging.Resource.Id.edit_query = global::MiCamConfig.App.Droid.Resource.Id.edit_query;
+			global::DialogMessaging.Resource.Id.end = global::MiCamConfig.App.Droid.Resource.Id.end;
+			global::DialogMessaging.Resource.Id.enterAlways = global::MiCamConfig.App.Droid.Resource.Id.enterAlways;
+			global::DialogMessaging.Resource.Id.enterAlwaysCollapsed = global::MiCamConfig.App.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::DialogMessaging.Resource.Id.exitUntilCollapsed = global::MiCamConfig.App.Droid.Resource.Id.exitUntilCollapsed;
+			global::DialogMessaging.Resource.Id.expanded_menu = global::MiCamConfig.App.Droid.Resource.Id.expanded_menu;
+			global::DialogMessaging.Resource.Id.expand_activities_button = global::MiCamConfig.App.Droid.Resource.Id.expand_activities_button;
+			global::DialogMessaging.Resource.Id.fill = global::MiCamConfig.App.Droid.Resource.Id.fill;
+			global::DialogMessaging.Resource.Id.filled = global::MiCamConfig.App.Droid.Resource.Id.filled;
+			global::DialogMessaging.Resource.Id.fill_horizontal = global::MiCamConfig.App.Droid.Resource.Id.fill_horizontal;
+			global::DialogMessaging.Resource.Id.fill_vertical = global::MiCamConfig.App.Droid.Resource.Id.fill_vertical;
+			global::DialogMessaging.Resource.Id.@fixed = global::MiCamConfig.App.Droid.Resource.Id.@fixed;
+			global::DialogMessaging.Resource.Id.forever = global::MiCamConfig.App.Droid.Resource.Id.forever;
+			global::DialogMessaging.Resource.Id.FUNCTION = global::MiCamConfig.App.Droid.Resource.Id.FUNCTION;
+			global::DialogMessaging.Resource.Id.ghost_view = global::MiCamConfig.App.Droid.Resource.Id.ghost_view;
+			global::DialogMessaging.Resource.Id.group_divider = global::MiCamConfig.App.Droid.Resource.Id.group_divider;
+			global::DialogMessaging.Resource.Id.home = global::MiCamConfig.App.Droid.Resource.Id.home;
+			global::DialogMessaging.Resource.Id.homeAsUp = global::MiCamConfig.App.Droid.Resource.Id.homeAsUp;
+			global::DialogMessaging.Resource.Id.icon = global::MiCamConfig.App.Droid.Resource.Id.icon;
+			global::DialogMessaging.Resource.Id.icon_group = global::MiCamConfig.App.Droid.Resource.Id.icon_group;
+			global::DialogMessaging.Resource.Id.ifRoom = global::MiCamConfig.App.Droid.Resource.Id.ifRoom;
+			global::DialogMessaging.Resource.Id.image = global::MiCamConfig.App.Droid.Resource.Id.image;
+			global::DialogMessaging.Resource.Id.info = global::MiCamConfig.App.Droid.Resource.Id.info;
+			global::DialogMessaging.Resource.Id.italic = global::MiCamConfig.App.Droid.Resource.Id.italic;
+			global::DialogMessaging.Resource.Id.item_touch_helper_previous_elevation = global::MiCamConfig.App.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::DialogMessaging.Resource.Id.labeled = global::MiCamConfig.App.Droid.Resource.Id.labeled;
+			global::DialogMessaging.Resource.Id.largeLabel = global::MiCamConfig.App.Droid.Resource.Id.largeLabel;
+			global::DialogMessaging.Resource.Id.left = global::MiCamConfig.App.Droid.Resource.Id.left;
+			global::DialogMessaging.Resource.Id.line1 = global::MiCamConfig.App.Droid.Resource.Id.line1;
+			global::DialogMessaging.Resource.Id.line3 = global::MiCamConfig.App.Droid.Resource.Id.line3;
+			global::DialogMessaging.Resource.Id.listMode = global::MiCamConfig.App.Droid.Resource.Id.listMode;
+			global::DialogMessaging.Resource.Id.list_item = global::MiCamConfig.App.Droid.Resource.Id.list_item;
+			global::DialogMessaging.Resource.Id.masked = global::MiCamConfig.App.Droid.Resource.Id.masked;
+			global::DialogMessaging.Resource.Id.message = global::MiCamConfig.App.Droid.Resource.Id.message;
+			global::DialogMessaging.Resource.Id.META = global::MiCamConfig.App.Droid.Resource.Id.META;
+			global::DialogMessaging.Resource.Id.middle = global::MiCamConfig.App.Droid.Resource.Id.middle;
+			global::DialogMessaging.Resource.Id.mini = global::MiCamConfig.App.Droid.Resource.Id.mini;
+			global::DialogMessaging.Resource.Id.mtrl_child_content_container = global::MiCamConfig.App.Droid.Resource.Id.mtrl_child_content_container;
+			global::DialogMessaging.Resource.Id.mtrl_internal_children_alpha_tag = global::MiCamConfig.App.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::DialogMessaging.Resource.Id.multiply = global::MiCamConfig.App.Droid.Resource.Id.multiply;
+			global::DialogMessaging.Resource.Id.navigation_header_container = global::MiCamConfig.App.Droid.Resource.Id.navigation_header_container;
+			global::DialogMessaging.Resource.Id.never = global::MiCamConfig.App.Droid.Resource.Id.never;
+			global::DialogMessaging.Resource.Id.none = global::MiCamConfig.App.Droid.Resource.Id.none;
+			global::DialogMessaging.Resource.Id.normal = global::MiCamConfig.App.Droid.Resource.Id.normal;
+			global::DialogMessaging.Resource.Id.notification_background = global::MiCamConfig.App.Droid.Resource.Id.notification_background;
+			global::DialogMessaging.Resource.Id.notification_main_column = global::MiCamConfig.App.Droid.Resource.Id.notification_main_column;
+			global::DialogMessaging.Resource.Id.notification_main_column_container = global::MiCamConfig.App.Droid.Resource.Id.notification_main_column_container;
+			global::DialogMessaging.Resource.Id.outline = global::MiCamConfig.App.Droid.Resource.Id.outline;
+			global::DialogMessaging.Resource.Id.parallax = global::MiCamConfig.App.Droid.Resource.Id.parallax;
+			global::DialogMessaging.Resource.Id.parentPanel = global::MiCamConfig.App.Droid.Resource.Id.parentPanel;
+			global::DialogMessaging.Resource.Id.parent_matrix = global::MiCamConfig.App.Droid.Resource.Id.parent_matrix;
+			global::DialogMessaging.Resource.Id.pin = global::MiCamConfig.App.Droid.Resource.Id.pin;
+			global::DialogMessaging.Resource.Id.progress_circular = global::MiCamConfig.App.Droid.Resource.Id.progress_circular;
+			global::DialogMessaging.Resource.Id.progress_horizontal = global::MiCamConfig.App.Droid.Resource.Id.progress_horizontal;
+			global::DialogMessaging.Resource.Id.radio = global::MiCamConfig.App.Droid.Resource.Id.radio;
+			global::DialogMessaging.Resource.Id.right = global::MiCamConfig.App.Droid.Resource.Id.right;
+			global::DialogMessaging.Resource.Id.right_icon = global::MiCamConfig.App.Droid.Resource.Id.right_icon;
+			global::DialogMessaging.Resource.Id.right_side = global::MiCamConfig.App.Droid.Resource.Id.right_side;
+			global::DialogMessaging.Resource.Id.save_image_matrix = global::MiCamConfig.App.Droid.Resource.Id.save_image_matrix;
+			global::DialogMessaging.Resource.Id.save_non_transition_alpha = global::MiCamConfig.App.Droid.Resource.Id.save_non_transition_alpha;
+			global::DialogMessaging.Resource.Id.save_scale_type = global::MiCamConfig.App.Droid.Resource.Id.save_scale_type;
+			global::DialogMessaging.Resource.Id.screen = global::MiCamConfig.App.Droid.Resource.Id.screen;
+			global::DialogMessaging.Resource.Id.scroll = global::MiCamConfig.App.Droid.Resource.Id.scroll;
+			global::DialogMessaging.Resource.Id.scrollable = global::MiCamConfig.App.Droid.Resource.Id.scrollable;
+			global::DialogMessaging.Resource.Id.scrollIndicatorDown = global::MiCamConfig.App.Droid.Resource.Id.scrollIndicatorDown;
+			global::DialogMessaging.Resource.Id.scrollIndicatorUp = global::MiCamConfig.App.Droid.Resource.Id.scrollIndicatorUp;
+			global::DialogMessaging.Resource.Id.scrollView = global::MiCamConfig.App.Droid.Resource.Id.scrollView;
+			global::DialogMessaging.Resource.Id.search_badge = global::MiCamConfig.App.Droid.Resource.Id.search_badge;
+			global::DialogMessaging.Resource.Id.search_bar = global::MiCamConfig.App.Droid.Resource.Id.search_bar;
+			global::DialogMessaging.Resource.Id.search_button = global::MiCamConfig.App.Droid.Resource.Id.search_button;
+			global::DialogMessaging.Resource.Id.search_close_btn = global::MiCamConfig.App.Droid.Resource.Id.search_close_btn;
+			global::DialogMessaging.Resource.Id.search_edit_frame = global::MiCamConfig.App.Droid.Resource.Id.search_edit_frame;
+			global::DialogMessaging.Resource.Id.search_go_btn = global::MiCamConfig.App.Droid.Resource.Id.search_go_btn;
+			global::DialogMessaging.Resource.Id.search_mag_icon = global::MiCamConfig.App.Droid.Resource.Id.search_mag_icon;
+			global::DialogMessaging.Resource.Id.search_plate = global::MiCamConfig.App.Droid.Resource.Id.search_plate;
+			global::DialogMessaging.Resource.Id.search_src_text = global::MiCamConfig.App.Droid.Resource.Id.search_src_text;
+			global::DialogMessaging.Resource.Id.search_voice_btn = global::MiCamConfig.App.Droid.Resource.Id.search_voice_btn;
+			global::DialogMessaging.Resource.Id.selected = global::MiCamConfig.App.Droid.Resource.Id.selected;
+			global::DialogMessaging.Resource.Id.select_dialog_listview = global::MiCamConfig.App.Droid.Resource.Id.select_dialog_listview;
+			global::DialogMessaging.Resource.Id.SHIFT = global::MiCamConfig.App.Droid.Resource.Id.SHIFT;
+			global::DialogMessaging.Resource.Id.shortcut = global::MiCamConfig.App.Droid.Resource.Id.shortcut;
+			global::DialogMessaging.Resource.Id.showCustom = global::MiCamConfig.App.Droid.Resource.Id.showCustom;
+			global::DialogMessaging.Resource.Id.showHome = global::MiCamConfig.App.Droid.Resource.Id.showHome;
+			global::DialogMessaging.Resource.Id.showTitle = global::MiCamConfig.App.Droid.Resource.Id.showTitle;
+			global::DialogMessaging.Resource.Id.smallLabel = global::MiCamConfig.App.Droid.Resource.Id.smallLabel;
+			global::DialogMessaging.Resource.Id.snackbar_action = global::MiCamConfig.App.Droid.Resource.Id.snackbar_action;
+			global::DialogMessaging.Resource.Id.snackbar_text = global::MiCamConfig.App.Droid.Resource.Id.snackbar_text;
+			global::DialogMessaging.Resource.Id.snap = global::MiCamConfig.App.Droid.Resource.Id.snap;
+			global::DialogMessaging.Resource.Id.snapMargins = global::MiCamConfig.App.Droid.Resource.Id.snapMargins;
+			global::DialogMessaging.Resource.Id.spacer = global::MiCamConfig.App.Droid.Resource.Id.spacer;
+			global::DialogMessaging.Resource.Id.split_action_bar = global::MiCamConfig.App.Droid.Resource.Id.split_action_bar;
+			global::DialogMessaging.Resource.Id.src_atop = global::MiCamConfig.App.Droid.Resource.Id.src_atop;
+			global::DialogMessaging.Resource.Id.src_in = global::MiCamConfig.App.Droid.Resource.Id.src_in;
+			global::DialogMessaging.Resource.Id.src_over = global::MiCamConfig.App.Droid.Resource.Id.src_over;
+			global::DialogMessaging.Resource.Id.start = global::MiCamConfig.App.Droid.Resource.Id.start;
+			global::DialogMessaging.Resource.Id.stretch = global::MiCamConfig.App.Droid.Resource.Id.stretch;
+			global::DialogMessaging.Resource.Id.submenuarrow = global::MiCamConfig.App.Droid.Resource.Id.submenuarrow;
+			global::DialogMessaging.Resource.Id.submit_area = global::MiCamConfig.App.Droid.Resource.Id.submit_area;
+			global::DialogMessaging.Resource.Id.SYM = global::MiCamConfig.App.Droid.Resource.Id.SYM;
+			global::DialogMessaging.Resource.Id.tabMode = global::MiCamConfig.App.Droid.Resource.Id.tabMode;
+			global::DialogMessaging.Resource.Id.tag_transition_group = global::MiCamConfig.App.Droid.Resource.Id.tag_transition_group;
+			global::DialogMessaging.Resource.Id.tag_unhandled_key_event_manager = global::MiCamConfig.App.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::DialogMessaging.Resource.Id.tag_unhandled_key_listeners = global::MiCamConfig.App.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::DialogMessaging.Resource.Id.text = global::MiCamConfig.App.Droid.Resource.Id.text;
+			global::DialogMessaging.Resource.Id.text2 = global::MiCamConfig.App.Droid.Resource.Id.text2;
+			global::DialogMessaging.Resource.Id.textinput_counter = global::MiCamConfig.App.Droid.Resource.Id.textinput_counter;
+			global::DialogMessaging.Resource.Id.textinput_error = global::MiCamConfig.App.Droid.Resource.Id.textinput_error;
+			global::DialogMessaging.Resource.Id.textinput_helper_text = global::MiCamConfig.App.Droid.Resource.Id.textinput_helper_text;
+			global::DialogMessaging.Resource.Id.textSpacerNoButtons = global::MiCamConfig.App.Droid.Resource.Id.textSpacerNoButtons;
+			global::DialogMessaging.Resource.Id.textSpacerNoTitle = global::MiCamConfig.App.Droid.Resource.Id.textSpacerNoTitle;
+			global::DialogMessaging.Resource.Id.textStart = global::MiCamConfig.App.Droid.Resource.Id.textStart;
+			global::DialogMessaging.Resource.Id.text_input_password_toggle = global::MiCamConfig.App.Droid.Resource.Id.text_input_password_toggle;
+			global::DialogMessaging.Resource.Id.time = global::MiCamConfig.App.Droid.Resource.Id.time;
+			global::DialogMessaging.Resource.Id.title = global::MiCamConfig.App.Droid.Resource.Id.title;
+			global::DialogMessaging.Resource.Id.titleDividerNoCustom = global::MiCamConfig.App.Droid.Resource.Id.titleDividerNoCustom;
+			global::DialogMessaging.Resource.Id.title_template = global::MiCamConfig.App.Droid.Resource.Id.title_template;
+			global::DialogMessaging.Resource.Id.top = global::MiCamConfig.App.Droid.Resource.Id.top;
+			global::DialogMessaging.Resource.Id.topPanel = global::MiCamConfig.App.Droid.Resource.Id.topPanel;
+			global::DialogMessaging.Resource.Id.touch_outside = global::MiCamConfig.App.Droid.Resource.Id.touch_outside;
+			global::DialogMessaging.Resource.Id.transition_current_scene = global::MiCamConfig.App.Droid.Resource.Id.transition_current_scene;
+			global::DialogMessaging.Resource.Id.transition_layout_save = global::MiCamConfig.App.Droid.Resource.Id.transition_layout_save;
+			global::DialogMessaging.Resource.Id.transition_position = global::MiCamConfig.App.Droid.Resource.Id.transition_position;
+			global::DialogMessaging.Resource.Id.transition_scene_layoutid_cache = global::MiCamConfig.App.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::DialogMessaging.Resource.Id.transition_transform = global::MiCamConfig.App.Droid.Resource.Id.transition_transform;
+			global::DialogMessaging.Resource.Id.uniform = global::MiCamConfig.App.Droid.Resource.Id.uniform;
+			global::DialogMessaging.Resource.Id.unlabeled = global::MiCamConfig.App.Droid.Resource.Id.unlabeled;
+			global::DialogMessaging.Resource.Id.up = global::MiCamConfig.App.Droid.Resource.Id.up;
+			global::DialogMessaging.Resource.Id.useLogo = global::MiCamConfig.App.Droid.Resource.Id.useLogo;
+			global::DialogMessaging.Resource.Id.view_offset_helper = global::MiCamConfig.App.Droid.Resource.Id.view_offset_helper;
+			global::DialogMessaging.Resource.Id.visible = global::MiCamConfig.App.Droid.Resource.Id.visible;
+			global::DialogMessaging.Resource.Id.withText = global::MiCamConfig.App.Droid.Resource.Id.withText;
+			global::DialogMessaging.Resource.Id.wrap_content = global::MiCamConfig.App.Droid.Resource.Id.wrap_content;
+			global::DialogMessaging.Resource.Integer.abc_config_activityDefaultDur = global::MiCamConfig.App.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::DialogMessaging.Resource.Integer.abc_config_activityShortDur = global::MiCamConfig.App.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::DialogMessaging.Resource.Integer.app_bar_elevation_anim_duration = global::MiCamConfig.App.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::DialogMessaging.Resource.Integer.bottom_sheet_slide_duration = global::MiCamConfig.App.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::DialogMessaging.Resource.Integer.cancel_button_image_alpha = global::MiCamConfig.App.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::DialogMessaging.Resource.Integer.config_tooltipAnimTime = global::MiCamConfig.App.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::DialogMessaging.Resource.Integer.design_snackbar_text_max_lines = global::MiCamConfig.App.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::DialogMessaging.Resource.Integer.design_tab_indicator_anim_duration_ms = global::MiCamConfig.App.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::DialogMessaging.Resource.Integer.hide_password_duration = global::MiCamConfig.App.Droid.Resource.Integer.hide_password_duration;
+			global::DialogMessaging.Resource.Integer.mtrl_btn_anim_delay_ms = global::MiCamConfig.App.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::DialogMessaging.Resource.Integer.mtrl_btn_anim_duration_ms = global::MiCamConfig.App.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::DialogMessaging.Resource.Integer.mtrl_chip_anim_duration = global::MiCamConfig.App.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::DialogMessaging.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::MiCamConfig.App.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::DialogMessaging.Resource.Integer.show_password_duration = global::MiCamConfig.App.Droid.Resource.Integer.show_password_duration;
+			global::DialogMessaging.Resource.Integer.status_bar_notification_info_maxnum = global::MiCamConfig.App.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::DialogMessaging.Resource.Interpolator.mtrl_fast_out_linear_in = global::MiCamConfig.App.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::DialogMessaging.Resource.Interpolator.mtrl_fast_out_slow_in = global::MiCamConfig.App.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::DialogMessaging.Resource.Interpolator.mtrl_linear = global::MiCamConfig.App.Droid.Resource.Interpolator.mtrl_linear;
+			global::DialogMessaging.Resource.Interpolator.mtrl_linear_out_slow_in = global::MiCamConfig.App.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::DialogMessaging.Resource.Layout.abc_action_bar_title_item = global::MiCamConfig.App.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::DialogMessaging.Resource.Layout.abc_action_bar_up_container = global::MiCamConfig.App.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::DialogMessaging.Resource.Layout.abc_action_menu_item_layout = global::MiCamConfig.App.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::DialogMessaging.Resource.Layout.abc_action_menu_layout = global::MiCamConfig.App.Droid.Resource.Layout.abc_action_menu_layout;
+			global::DialogMessaging.Resource.Layout.abc_action_mode_bar = global::MiCamConfig.App.Droid.Resource.Layout.abc_action_mode_bar;
+			global::DialogMessaging.Resource.Layout.abc_action_mode_close_item_material = global::MiCamConfig.App.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::DialogMessaging.Resource.Layout.abc_activity_chooser_view = global::MiCamConfig.App.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::DialogMessaging.Resource.Layout.abc_activity_chooser_view_list_item = global::MiCamConfig.App.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::DialogMessaging.Resource.Layout.abc_alert_dialog_button_bar_material = global::MiCamConfig.App.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::DialogMessaging.Resource.Layout.abc_alert_dialog_material = global::MiCamConfig.App.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::DialogMessaging.Resource.Layout.abc_alert_dialog_title_material = global::MiCamConfig.App.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::DialogMessaging.Resource.Layout.abc_cascading_menu_item_layout = global::MiCamConfig.App.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::DialogMessaging.Resource.Layout.abc_dialog_title_material = global::MiCamConfig.App.Droid.Resource.Layout.abc_dialog_title_material;
+			global::DialogMessaging.Resource.Layout.abc_expanded_menu_layout = global::MiCamConfig.App.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::DialogMessaging.Resource.Layout.abc_list_menu_item_checkbox = global::MiCamConfig.App.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::DialogMessaging.Resource.Layout.abc_list_menu_item_icon = global::MiCamConfig.App.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::DialogMessaging.Resource.Layout.abc_list_menu_item_layout = global::MiCamConfig.App.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::DialogMessaging.Resource.Layout.abc_list_menu_item_radio = global::MiCamConfig.App.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::DialogMessaging.Resource.Layout.abc_popup_menu_header_item_layout = global::MiCamConfig.App.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::DialogMessaging.Resource.Layout.abc_popup_menu_item_layout = global::MiCamConfig.App.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::DialogMessaging.Resource.Layout.abc_screen_content_include = global::MiCamConfig.App.Droid.Resource.Layout.abc_screen_content_include;
+			global::DialogMessaging.Resource.Layout.abc_screen_simple = global::MiCamConfig.App.Droid.Resource.Layout.abc_screen_simple;
+			global::DialogMessaging.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MiCamConfig.App.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::DialogMessaging.Resource.Layout.abc_screen_toolbar = global::MiCamConfig.App.Droid.Resource.Layout.abc_screen_toolbar;
+			global::DialogMessaging.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MiCamConfig.App.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::DialogMessaging.Resource.Layout.abc_search_view = global::MiCamConfig.App.Droid.Resource.Layout.abc_search_view;
+			global::DialogMessaging.Resource.Layout.abc_select_dialog_material = global::MiCamConfig.App.Droid.Resource.Layout.abc_select_dialog_material;
+			global::DialogMessaging.Resource.Layout.abc_tooltip = global::MiCamConfig.App.Droid.Resource.Layout.abc_tooltip;
+			global::DialogMessaging.Resource.Layout.design_bottom_navigation_item = global::MiCamConfig.App.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::DialogMessaging.Resource.Layout.design_bottom_sheet_dialog = global::MiCamConfig.App.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::DialogMessaging.Resource.Layout.design_layout_snackbar = global::MiCamConfig.App.Droid.Resource.Layout.design_layout_snackbar;
+			global::DialogMessaging.Resource.Layout.design_layout_snackbar_include = global::MiCamConfig.App.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::DialogMessaging.Resource.Layout.design_layout_tab_icon = global::MiCamConfig.App.Droid.Resource.Layout.design_layout_tab_icon;
+			global::DialogMessaging.Resource.Layout.design_layout_tab_text = global::MiCamConfig.App.Droid.Resource.Layout.design_layout_tab_text;
+			global::DialogMessaging.Resource.Layout.design_menu_item_action_area = global::MiCamConfig.App.Droid.Resource.Layout.design_menu_item_action_area;
+			global::DialogMessaging.Resource.Layout.design_navigation_item = global::MiCamConfig.App.Droid.Resource.Layout.design_navigation_item;
+			global::DialogMessaging.Resource.Layout.design_navigation_item_header = global::MiCamConfig.App.Droid.Resource.Layout.design_navigation_item_header;
+			global::DialogMessaging.Resource.Layout.design_navigation_item_separator = global::MiCamConfig.App.Droid.Resource.Layout.design_navigation_item_separator;
+			global::DialogMessaging.Resource.Layout.design_navigation_item_subheader = global::MiCamConfig.App.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::DialogMessaging.Resource.Layout.design_navigation_menu = global::MiCamConfig.App.Droid.Resource.Layout.design_navigation_menu;
+			global::DialogMessaging.Resource.Layout.design_navigation_menu_item = global::MiCamConfig.App.Droid.Resource.Layout.design_navigation_menu_item;
+			global::DialogMessaging.Resource.Layout.design_text_input_password_icon = global::MiCamConfig.App.Droid.Resource.Layout.design_text_input_password_icon;
+			global::DialogMessaging.Resource.Layout.dialog_default_action_sheet = global::MiCamConfig.App.Droid.Resource.Layout.dialog_default_action_sheet;
+			global::DialogMessaging.Resource.Layout.dialog_default_action_sheet_bottom = global::MiCamConfig.App.Droid.Resource.Layout.dialog_default_action_sheet_bottom;
+			global::DialogMessaging.Resource.Layout.dialog_default_action_sheet_item = global::MiCamConfig.App.Droid.Resource.Layout.dialog_default_action_sheet_item;
+			global::DialogMessaging.Resource.Layout.dialog_default_loading_determinate = global::MiCamConfig.App.Droid.Resource.Layout.dialog_default_loading_determinate;
+			global::DialogMessaging.Resource.Layout.dialog_default_loading_indeterminate = global::MiCamConfig.App.Droid.Resource.Layout.dialog_default_loading_indeterminate;
+			global::DialogMessaging.Resource.Layout.dialog_default_prompt = global::MiCamConfig.App.Droid.Resource.Layout.dialog_default_prompt;
+			global::DialogMessaging.Resource.Layout.mtrl_layout_snackbar = global::MiCamConfig.App.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::DialogMessaging.Resource.Layout.mtrl_layout_snackbar_include = global::MiCamConfig.App.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::DialogMessaging.Resource.Layout.notification_action = global::MiCamConfig.App.Droid.Resource.Layout.notification_action;
+			global::DialogMessaging.Resource.Layout.notification_action_tombstone = global::MiCamConfig.App.Droid.Resource.Layout.notification_action_tombstone;
+			global::DialogMessaging.Resource.Layout.notification_template_custom_big = global::MiCamConfig.App.Droid.Resource.Layout.notification_template_custom_big;
+			global::DialogMessaging.Resource.Layout.notification_template_icon_group = global::MiCamConfig.App.Droid.Resource.Layout.notification_template_icon_group;
+			global::DialogMessaging.Resource.Layout.notification_template_part_chronometer = global::MiCamConfig.App.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::DialogMessaging.Resource.Layout.notification_template_part_time = global::MiCamConfig.App.Droid.Resource.Layout.notification_template_part_time;
+			global::DialogMessaging.Resource.Layout.select_dialog_item_material = global::MiCamConfig.App.Droid.Resource.Layout.select_dialog_item_material;
+			global::DialogMessaging.Resource.Layout.select_dialog_multichoice_material = global::MiCamConfig.App.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::DialogMessaging.Resource.Layout.select_dialog_singlechoice_material = global::MiCamConfig.App.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::DialogMessaging.Resource.Layout.support_simple_spinner_dropdown_item = global::MiCamConfig.App.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::DialogMessaging.Resource.String.abc_action_bar_home_description = global::MiCamConfig.App.Droid.Resource.String.abc_action_bar_home_description;
+			global::DialogMessaging.Resource.String.abc_action_bar_up_description = global::MiCamConfig.App.Droid.Resource.String.abc_action_bar_up_description;
+			global::DialogMessaging.Resource.String.abc_action_menu_overflow_description = global::MiCamConfig.App.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::DialogMessaging.Resource.String.abc_action_mode_done = global::MiCamConfig.App.Droid.Resource.String.abc_action_mode_done;
+			global::DialogMessaging.Resource.String.abc_activitychooserview_choose_application = global::MiCamConfig.App.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::DialogMessaging.Resource.String.abc_activity_chooser_view_see_all = global::MiCamConfig.App.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::DialogMessaging.Resource.String.abc_capital_off = global::MiCamConfig.App.Droid.Resource.String.abc_capital_off;
+			global::DialogMessaging.Resource.String.abc_capital_on = global::MiCamConfig.App.Droid.Resource.String.abc_capital_on;
+			global::DialogMessaging.Resource.String.abc_font_family_body_1_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_body_1_material;
+			global::DialogMessaging.Resource.String.abc_font_family_body_2_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_body_2_material;
+			global::DialogMessaging.Resource.String.abc_font_family_button_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_button_material;
+			global::DialogMessaging.Resource.String.abc_font_family_caption_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_caption_material;
+			global::DialogMessaging.Resource.String.abc_font_family_display_1_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_display_1_material;
+			global::DialogMessaging.Resource.String.abc_font_family_display_2_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_display_2_material;
+			global::DialogMessaging.Resource.String.abc_font_family_display_3_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_display_3_material;
+			global::DialogMessaging.Resource.String.abc_font_family_display_4_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_display_4_material;
+			global::DialogMessaging.Resource.String.abc_font_family_headline_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_headline_material;
+			global::DialogMessaging.Resource.String.abc_font_family_menu_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_menu_material;
+			global::DialogMessaging.Resource.String.abc_font_family_subhead_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_subhead_material;
+			global::DialogMessaging.Resource.String.abc_font_family_title_material = global::MiCamConfig.App.Droid.Resource.String.abc_font_family_title_material;
+			global::DialogMessaging.Resource.String.abc_menu_alt_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_ctrl_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_delete_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_enter_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_function_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_meta_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_shift_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_space_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_menu_sym_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_prepend_shortcut_label = global::MiCamConfig.App.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::DialogMessaging.Resource.String.abc_searchview_description_clear = global::MiCamConfig.App.Droid.Resource.String.abc_searchview_description_clear;
+			global::DialogMessaging.Resource.String.abc_searchview_description_query = global::MiCamConfig.App.Droid.Resource.String.abc_searchview_description_query;
+			global::DialogMessaging.Resource.String.abc_searchview_description_search = global::MiCamConfig.App.Droid.Resource.String.abc_searchview_description_search;
+			global::DialogMessaging.Resource.String.abc_searchview_description_submit = global::MiCamConfig.App.Droid.Resource.String.abc_searchview_description_submit;
+			global::DialogMessaging.Resource.String.abc_searchview_description_voice = global::MiCamConfig.App.Droid.Resource.String.abc_searchview_description_voice;
+			global::DialogMessaging.Resource.String.abc_search_hint = global::MiCamConfig.App.Droid.Resource.String.abc_search_hint;
+			global::DialogMessaging.Resource.String.abc_shareactionprovider_share_with = global::MiCamConfig.App.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::DialogMessaging.Resource.String.abc_shareactionprovider_share_with_application = global::MiCamConfig.App.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::DialogMessaging.Resource.String.abc_toolbar_collapse_description = global::MiCamConfig.App.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::DialogMessaging.Resource.String.appbar_scrolling_view_behavior = global::MiCamConfig.App.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::DialogMessaging.Resource.String.bottom_sheet_behavior = global::MiCamConfig.App.Droid.Resource.String.bottom_sheet_behavior;
+			global::DialogMessaging.Resource.String.character_counter_content_description = global::MiCamConfig.App.Droid.Resource.String.character_counter_content_description;
+			global::DialogMessaging.Resource.String.character_counter_pattern = global::MiCamConfig.App.Droid.Resource.String.character_counter_pattern;
+			global::DialogMessaging.Resource.String.fab_transformation_scrim_behavior = global::MiCamConfig.App.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::DialogMessaging.Resource.String.fab_transformation_sheet_behavior = global::MiCamConfig.App.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::DialogMessaging.Resource.String.hide_bottom_view_on_scroll_behavior = global::MiCamConfig.App.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::DialogMessaging.Resource.String.mtrl_chip_close_icon_content_description = global::MiCamConfig.App.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::DialogMessaging.Resource.String.password_toggle_content_description = global::MiCamConfig.App.Droid.Resource.String.password_toggle_content_description;
+			global::DialogMessaging.Resource.String.path_password_eye = global::MiCamConfig.App.Droid.Resource.String.path_password_eye;
+			global::DialogMessaging.Resource.String.path_password_eye_mask_strike_through = global::MiCamConfig.App.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::DialogMessaging.Resource.String.path_password_eye_mask_visible = global::MiCamConfig.App.Droid.Resource.String.path_password_eye_mask_visible;
+			global::DialogMessaging.Resource.String.path_password_strike_through = global::MiCamConfig.App.Droid.Resource.String.path_password_strike_through;
+			global::DialogMessaging.Resource.String.search_menu_title = global::MiCamConfig.App.Droid.Resource.String.search_menu_title;
+			global::DialogMessaging.Resource.String.status_bar_notification_info_overflow = global::MiCamConfig.App.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::DialogMessaging.Resource.Style.AlertDialog_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::DialogMessaging.Resource.Style.AlertDialog_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Animation_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Animation_AppCompat_DropDownUp = global::MiCamConfig.App.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::DialogMessaging.Resource.Style.Animation_AppCompat_Tooltip = global::MiCamConfig.App.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::DialogMessaging.Resource.Style.Animation_Design_BottomSheetDialog = global::MiCamConfig.App.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::DialogMessaging.Resource.Style.Base_AlertDialog_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_Animation_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MiCamConfig.App.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::DialogMessaging.Resource.Style.Base_Animation_AppCompat_Tooltip = global::MiCamConfig.App.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::DialogMessaging.Resource.Style.Base_CardView = global::MiCamConfig.App.Droid.Resource.Style.Base_CardView;
+			global::DialogMessaging.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DialogMessaging.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MiCamConfig.App.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::DialogMessaging.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::DialogMessaging.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::DialogMessaging.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Base_V14_Theme_MaterialComponents = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::DialogMessaging.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::DialogMessaging.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::DialogMessaging.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::DialogMessaging.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::DialogMessaging.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V21_Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V22_Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_V23_Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_V26_Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_V26_Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::MiCamConfig.App.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::DialogMessaging.Resource.Style.Base_V28_Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_V28_Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V7_Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::DialogMessaging.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::DialogMessaging.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::MiCamConfig.App.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Button = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_EditText = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ListView = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_SearchView = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Spinner = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::DialogMessaging.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DialogMessaging.Resource.Style.Base_Widget_Design_TabLayout = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::DialogMessaging.Resource.Style.Base_Widget_MaterialComponents_Chip = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::DialogMessaging.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::DialogMessaging.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::MiCamConfig.App.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::DialogMessaging.Resource.Style.CardView = global::MiCamConfig.App.Droid.Resource.Style.CardView;
+			global::DialogMessaging.Resource.Style.CardView_Dark = global::MiCamConfig.App.Droid.Resource.Style.CardView_Dark;
+			global::DialogMessaging.Resource.Style.CardView_Light = global::MiCamConfig.App.Droid.Resource.Style.CardView_Light;
+			global::DialogMessaging.Resource.Style.Platform_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Platform_AppCompat;
+			global::DialogMessaging.Resource.Style.Platform_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Platform_MaterialComponents = global::MiCamConfig.App.Droid.Resource.Style.Platform_MaterialComponents;
+			global::DialogMessaging.Resource.Style.Platform_MaterialComponents_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::DialogMessaging.Resource.Style.Platform_MaterialComponents_Light = global::MiCamConfig.App.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::DialogMessaging.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::DialogMessaging.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MiCamConfig.App.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::DialogMessaging.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Platform_V21_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::DialogMessaging.Resource.Style.Platform_V21_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Platform_V25_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::DialogMessaging.Resource.Style.Platform_V25_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MiCamConfig.App.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::DialogMessaging.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::DialogMessaging.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MiCamConfig.App.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::DialogMessaging.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MiCamConfig.App.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::DialogMessaging.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MiCamConfig.App.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Body1 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Body2 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Button = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Caption = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Display1 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Display2 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Display3 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Display4 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Headline = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Large = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Medium = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Menu = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Small = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Subhead = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Title = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Tooltip = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::DialogMessaging.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DialogMessaging.Resource.Style.TextAppearance_Compat_Notification = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::DialogMessaging.Resource.Style.TextAppearance_Compat_Notification_Info = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::DialogMessaging.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::DialogMessaging.Resource.Style.TextAppearance_Compat_Notification_Time = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::DialogMessaging.Resource.Style.TextAppearance_Compat_Notification_Title = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_Counter = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_Error = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_HelperText = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_Hint = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::DialogMessaging.Resource.Style.TextAppearance_Design_Tab = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Button = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Caption = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Chip = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Overline = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::DialogMessaging.Resource.Style.TextAppearance_MaterialComponents_Tab = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::DialogMessaging.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DialogMessaging.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DialogMessaging.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MiCamConfig.App.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::DialogMessaging.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MiCamConfig.App.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_CompactMenu = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DayNight = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Light = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::DialogMessaging.Resource.Style.Theme_AppCompat_NoActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::DialogMessaging.Resource.Style.Theme_Design = global::MiCamConfig.App.Droid.Resource.Style.Theme_Design;
+			global::DialogMessaging.Resource.Style.Theme_Design_BottomSheetDialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::DialogMessaging.Resource.Style.Theme_Design_Light = global::MiCamConfig.App.Droid.Resource.Style.Theme_Design_Light;
+			global::DialogMessaging.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::DialogMessaging.Resource.Style.Theme_Design_Light_NoActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::DialogMessaging.Resource.Style.Theme_Design_NoActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_CompactMenu = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_NoActionBar = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::DialogMessaging.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::MiCamConfig.App.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActionMode = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Button = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ButtonBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Button_Borderless = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Button_Colored = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Button_Small = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_EditText = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ImageButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_SearchView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ListMenuView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ListView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ListView_Menu = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_PopupMenu = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_PopupWindow = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ProgressBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_RatingBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_SearchView = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_SeekBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Spinner = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Toolbar = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::DialogMessaging.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MiCamConfig.App.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DialogMessaging.Resource.Style.Widget_Compat_NotificationActionContainer = global::MiCamConfig.App.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::DialogMessaging.Resource.Style.Widget_Compat_NotificationActionText = global::MiCamConfig.App.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::DialogMessaging.Resource.Style.Widget_Design_AppBarLayout = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::DialogMessaging.Resource.Style.Widget_Design_BottomNavigationView = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::DialogMessaging.Resource.Style.Widget_Design_BottomSheet_Modal = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::DialogMessaging.Resource.Style.Widget_Design_CollapsingToolbar = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::DialogMessaging.Resource.Style.Widget_Design_FloatingActionButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::DialogMessaging.Resource.Style.Widget_Design_NavigationView = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::DialogMessaging.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::DialogMessaging.Resource.Style.Widget_Design_Snackbar = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::DialogMessaging.Resource.Style.Widget_Design_TabLayout = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::DialogMessaging.Resource.Style.Widget_Design_TextInputLayout = global::MiCamConfig.App.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_Icon = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_CardView = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_ChipGroup = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Chip_Action = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_NavigationView = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Snackbar = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TabLayout = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::DialogMessaging.Resource.Style.Widget_MaterialComponents_Toolbar = global::MiCamConfig.App.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::DialogMessaging.Resource.Style.Widget_Support_CoordinatorLayout = global::MiCamConfig.App.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::DialogMessaging.Resource.Styleable.ActionBar = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar;
+			global::DialogMessaging.Resource.Styleable.ActionBarLayout = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBarLayout;
+			global::DialogMessaging.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::DialogMessaging.Resource.Styleable.ActionBar_background = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_background;
+			global::DialogMessaging.Resource.Styleable.ActionBar_backgroundSplit = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::DialogMessaging.Resource.Styleable.ActionBar_backgroundStacked = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::DialogMessaging.Resource.Styleable.ActionBar_contentInsetEnd = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::DialogMessaging.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::DialogMessaging.Resource.Styleable.ActionBar_contentInsetLeft = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::DialogMessaging.Resource.Styleable.ActionBar_contentInsetRight = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::DialogMessaging.Resource.Styleable.ActionBar_contentInsetStart = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::DialogMessaging.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::DialogMessaging.Resource.Styleable.ActionBar_customNavigationLayout = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::DialogMessaging.Resource.Styleable.ActionBar_displayOptions = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::DialogMessaging.Resource.Styleable.ActionBar_divider = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_divider;
+			global::DialogMessaging.Resource.Styleable.ActionBar_elevation = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_elevation;
+			global::DialogMessaging.Resource.Styleable.ActionBar_height = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_height;
+			global::DialogMessaging.Resource.Styleable.ActionBar_hideOnContentScroll = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::DialogMessaging.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::DialogMessaging.Resource.Styleable.ActionBar_homeLayout = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::DialogMessaging.Resource.Styleable.ActionBar_icon = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_icon;
+			global::DialogMessaging.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::DialogMessaging.Resource.Styleable.ActionBar_itemPadding = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::DialogMessaging.Resource.Styleable.ActionBar_logo = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_logo;
+			global::DialogMessaging.Resource.Styleable.ActionBar_navigationMode = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::DialogMessaging.Resource.Styleable.ActionBar_popupTheme = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::DialogMessaging.Resource.Styleable.ActionBar_progressBarPadding = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::DialogMessaging.Resource.Styleable.ActionBar_progressBarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::DialogMessaging.Resource.Styleable.ActionBar_subtitle = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::DialogMessaging.Resource.Styleable.ActionBar_subtitleTextStyle = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::DialogMessaging.Resource.Styleable.ActionBar_title = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_title;
+			global::DialogMessaging.Resource.Styleable.ActionBar_titleTextStyle = global::MiCamConfig.App.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::DialogMessaging.Resource.Styleable.ActionMenuItemView = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMenuItemView;
+			global::DialogMessaging.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::DialogMessaging.Resource.Styleable.ActionMenuView = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMenuView;
+			global::DialogMessaging.Resource.Styleable.ActionMode = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMode;
+			global::DialogMessaging.Resource.Styleable.ActionMode_background = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMode_background;
+			global::DialogMessaging.Resource.Styleable.ActionMode_backgroundSplit = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::DialogMessaging.Resource.Styleable.ActionMode_closeItemLayout = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::DialogMessaging.Resource.Styleable.ActionMode_height = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMode_height;
+			global::DialogMessaging.Resource.Styleable.ActionMode_subtitleTextStyle = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::DialogMessaging.Resource.Styleable.ActionMode_titleTextStyle = global::MiCamConfig.App.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::DialogMessaging.Resource.Styleable.ActivityChooserView = global::MiCamConfig.App.Droid.Resource.Styleable.ActivityChooserView;
+			global::DialogMessaging.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::DialogMessaging.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MiCamConfig.App.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::DialogMessaging.Resource.Styleable.AlertDialog = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_android_layout = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_buttonIconDimen = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_listItemLayout = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_listLayout = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_showTitle = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::DialogMessaging.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MiCamConfig.App.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableCompat = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableItem = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableTransition = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::DialogMessaging.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::MiCamConfig.App.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout;
+			global::DialogMessaging.Resource.Styleable.AppBarLayoutStates = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::DialogMessaging.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::DialogMessaging.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::DialogMessaging.Resource.Styleable.AppBarLayoutStates_state_liftable = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::DialogMessaging.Resource.Styleable.AppBarLayoutStates_state_lifted = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_android_background = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_elevation = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_expanded = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_Layout = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::DialogMessaging.Resource.Styleable.AppBarLayout_liftOnScroll = global::MiCamConfig.App.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::DialogMessaging.Resource.Styleable.AppCompatImageView = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatImageView;
+			global::DialogMessaging.Resource.Styleable.AppCompatImageView_android_src = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::DialogMessaging.Resource.Styleable.AppCompatImageView_srcCompat = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::DialogMessaging.Resource.Styleable.AppCompatImageView_tint = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::DialogMessaging.Resource.Styleable.AppCompatImageView_tintMode = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::DialogMessaging.Resource.Styleable.AppCompatSeekBar = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::DialogMessaging.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::DialogMessaging.Resource.Styleable.AppCompatSeekBar_tickMark = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::DialogMessaging.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::DialogMessaging.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_fontFamily = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_lineHeight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTextView_textAllCaps = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarSize = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_buttonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorAccent = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorError = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorPrimary = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_controlBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_dialogTheme = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_dividerVertical = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_editTextBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_editTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_editTextStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_panelBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_switchStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowActionBar = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::DialogMessaging.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MiCamConfig.App.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::DialogMessaging.Resource.Styleable.BottomAppBar = global::MiCamConfig.App.Droid.Resource.Styleable.BottomAppBar;
+			global::DialogMessaging.Resource.Styleable.BottomAppBar_backgroundTint = global::MiCamConfig.App.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::DialogMessaging.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::MiCamConfig.App.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::DialogMessaging.Resource.Styleable.BottomAppBar_fabCradleMargin = global::MiCamConfig.App.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::DialogMessaging.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::MiCamConfig.App.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::DialogMessaging.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::MiCamConfig.App.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::DialogMessaging.Resource.Styleable.BottomAppBar_hideOnScroll = global::MiCamConfig.App.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_elevation = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_itemBackground = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_itemIconSize = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_itemIconTint = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_itemTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::DialogMessaging.Resource.Styleable.BottomNavigationView_menu = global::MiCamConfig.App.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::DialogMessaging.Resource.Styleable.BottomSheetBehavior_Layout = global::MiCamConfig.App.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::DialogMessaging.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::MiCamConfig.App.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::DialogMessaging.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MiCamConfig.App.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::DialogMessaging.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MiCamConfig.App.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::DialogMessaging.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MiCamConfig.App.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::DialogMessaging.Resource.Styleable.ButtonBarLayout = global::MiCamConfig.App.Droid.Resource.Styleable.ButtonBarLayout;
+			global::DialogMessaging.Resource.Styleable.ButtonBarLayout_allowStacking = global::MiCamConfig.App.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::DialogMessaging.Resource.Styleable.CardView = global::MiCamConfig.App.Droid.Resource.Styleable.CardView;
+			global::DialogMessaging.Resource.Styleable.CardView_android_minHeight = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::DialogMessaging.Resource.Styleable.CardView_android_minWidth = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::DialogMessaging.Resource.Styleable.CardView_cardBackgroundColor = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::DialogMessaging.Resource.Styleable.CardView_cardCornerRadius = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::DialogMessaging.Resource.Styleable.CardView_cardElevation = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_cardElevation;
+			global::DialogMessaging.Resource.Styleable.CardView_cardMaxElevation = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::DialogMessaging.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::DialogMessaging.Resource.Styleable.CardView_cardUseCompatPadding = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::DialogMessaging.Resource.Styleable.CardView_contentPadding = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_contentPadding;
+			global::DialogMessaging.Resource.Styleable.CardView_contentPaddingBottom = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::DialogMessaging.Resource.Styleable.CardView_contentPaddingLeft = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::DialogMessaging.Resource.Styleable.CardView_contentPaddingRight = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::DialogMessaging.Resource.Styleable.CardView_contentPaddingTop = global::MiCamConfig.App.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::DialogMessaging.Resource.Styleable.Chip = global::MiCamConfig.App.Droid.Resource.Styleable.Chip;
+			global::DialogMessaging.Resource.Styleable.ChipGroup = global::MiCamConfig.App.Droid.Resource.Styleable.ChipGroup;
+			global::DialogMessaging.Resource.Styleable.ChipGroup_checkedChip = global::MiCamConfig.App.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::DialogMessaging.Resource.Styleable.ChipGroup_chipSpacing = global::MiCamConfig.App.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::DialogMessaging.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::MiCamConfig.App.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::DialogMessaging.Resource.Styleable.ChipGroup_chipSpacingVertical = global::MiCamConfig.App.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::DialogMessaging.Resource.Styleable.ChipGroup_singleLine = global::MiCamConfig.App.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::DialogMessaging.Resource.Styleable.ChipGroup_singleSelection = global::MiCamConfig.App.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::DialogMessaging.Resource.Styleable.Chip_android_checkable = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_android_checkable;
+			global::DialogMessaging.Resource.Styleable.Chip_android_ellipsize = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::DialogMessaging.Resource.Styleable.Chip_android_maxWidth = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::DialogMessaging.Resource.Styleable.Chip_android_text = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_android_text;
+			global::DialogMessaging.Resource.Styleable.Chip_android_textAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::DialogMessaging.Resource.Styleable.Chip_checkedIcon = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::DialogMessaging.Resource.Styleable.Chip_checkedIconEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::DialogMessaging.Resource.Styleable.Chip_checkedIconVisible = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::DialogMessaging.Resource.Styleable.Chip_chipBackgroundColor = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::DialogMessaging.Resource.Styleable.Chip_chipCornerRadius = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::DialogMessaging.Resource.Styleable.Chip_chipEndPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::DialogMessaging.Resource.Styleable.Chip_chipIcon = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipIcon;
+			global::DialogMessaging.Resource.Styleable.Chip_chipIconEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::DialogMessaging.Resource.Styleable.Chip_chipIconSize = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::DialogMessaging.Resource.Styleable.Chip_chipIconTint = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::DialogMessaging.Resource.Styleable.Chip_chipIconVisible = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::DialogMessaging.Resource.Styleable.Chip_chipMinHeight = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::DialogMessaging.Resource.Styleable.Chip_chipStartPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::DialogMessaging.Resource.Styleable.Chip_chipStrokeColor = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::DialogMessaging.Resource.Styleable.Chip_chipStrokeWidth = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::DialogMessaging.Resource.Styleable.Chip_closeIcon = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_closeIcon;
+			global::DialogMessaging.Resource.Styleable.Chip_closeIconEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::DialogMessaging.Resource.Styleable.Chip_closeIconEndPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::DialogMessaging.Resource.Styleable.Chip_closeIconSize = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::DialogMessaging.Resource.Styleable.Chip_closeIconStartPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::DialogMessaging.Resource.Styleable.Chip_closeIconTint = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::DialogMessaging.Resource.Styleable.Chip_closeIconVisible = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::DialogMessaging.Resource.Styleable.Chip_hideMotionSpec = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::DialogMessaging.Resource.Styleable.Chip_iconEndPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::DialogMessaging.Resource.Styleable.Chip_iconStartPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::DialogMessaging.Resource.Styleable.Chip_rippleColor = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_rippleColor;
+			global::DialogMessaging.Resource.Styleable.Chip_showMotionSpec = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::DialogMessaging.Resource.Styleable.Chip_textEndPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::DialogMessaging.Resource.Styleable.Chip_textStartPadding = global::MiCamConfig.App.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_title = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::DialogMessaging.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MiCamConfig.App.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::DialogMessaging.Resource.Styleable.ColorStateListItem = global::MiCamConfig.App.Droid.Resource.Styleable.ColorStateListItem;
+			global::DialogMessaging.Resource.Styleable.ColorStateListItem_alpha = global::MiCamConfig.App.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::DialogMessaging.Resource.Styleable.ColorStateListItem_android_alpha = global::MiCamConfig.App.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::DialogMessaging.Resource.Styleable.ColorStateListItem_android_color = global::MiCamConfig.App.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::DialogMessaging.Resource.Styleable.CompoundButton = global::MiCamConfig.App.Droid.Resource.Styleable.CompoundButton;
+			global::DialogMessaging.Resource.Styleable.CompoundButton_android_button = global::MiCamConfig.App.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::DialogMessaging.Resource.Styleable.CompoundButton_buttonTint = global::MiCamConfig.App.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::DialogMessaging.Resource.Styleable.CompoundButton_buttonTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_keylines = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::DialogMessaging.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MiCamConfig.App.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::DialogMessaging.Resource.Styleable.DesignTheme = global::MiCamConfig.App.Droid.Resource.Styleable.DesignTheme;
+			global::DialogMessaging.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MiCamConfig.App.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::DialogMessaging.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MiCamConfig.App.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::DialogMessaging.Resource.Styleable.DialogMessaging = global::MiCamConfig.App.Droid.Resource.Styleable.DialogMessaging;
+			global::DialogMessaging.Resource.Styleable.DialogMessaging_DialogElement = global::MiCamConfig.App.Droid.Resource.Styleable.DialogMessaging_DialogElement;
+			global::DialogMessaging.Resource.Styleable.DialogMessaging_HideWhenNotInUse = global::MiCamConfig.App.Droid.Resource.Styleable.DialogMessaging_HideWhenNotInUse;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_barLength = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_color = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_spinBars = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::DialogMessaging.Resource.Styleable.DrawerArrowToggle_thickness = global::MiCamConfig.App.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_backgroundTint = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_borderWidth = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_elevation = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_fabCustomSize = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_fabSize = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_maxImageSize = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_rippleColor = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_showMotionSpec = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::DialogMessaging.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MiCamConfig.App.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::DialogMessaging.Resource.Styleable.FlowLayout = global::MiCamConfig.App.Droid.Resource.Styleable.FlowLayout;
+			global::DialogMessaging.Resource.Styleable.FlowLayout_itemSpacing = global::MiCamConfig.App.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::DialogMessaging.Resource.Styleable.FlowLayout_lineSpacing = global::MiCamConfig.App.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::DialogMessaging.Resource.Styleable.FontFamily = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamily;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_android_font = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_android_fontStyle = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_android_fontWeight = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_font = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_fontStyle = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_fontWeight = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::DialogMessaging.Resource.Styleable.FontFamilyFont_ttcIndex = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::DialogMessaging.Resource.Styleable.FontFamily_fontProviderAuthority = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::DialogMessaging.Resource.Styleable.FontFamily_fontProviderCerts = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::DialogMessaging.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::DialogMessaging.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::DialogMessaging.Resource.Styleable.FontFamily_fontProviderPackage = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::DialogMessaging.Resource.Styleable.FontFamily_fontProviderQuery = global::MiCamConfig.App.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::DialogMessaging.Resource.Styleable.ForegroundLinearLayout = global::MiCamConfig.App.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::DialogMessaging.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MiCamConfig.App.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::DialogMessaging.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MiCamConfig.App.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::DialogMessaging.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MiCamConfig.App.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::DialogMessaging.Resource.Styleable.GradientColor = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor;
+			global::DialogMessaging.Resource.Styleable.GradientColorItem = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColorItem;
+			global::DialogMessaging.Resource.Styleable.GradientColorItem_android_color = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::DialogMessaging.Resource.Styleable.GradientColorItem_android_offset = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_centerColor = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_centerX = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_centerY = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_endColor = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_endX = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_endY = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_gradientRadius = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_startColor = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_startX = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_startY = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_tileMode = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::DialogMessaging.Resource.Styleable.GradientColor_android_type = global::MiCamConfig.App.Droid.Resource.Styleable.GradientColor_android_type;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_divider = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_Layout = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::DialogMessaging.Resource.Styleable.LinearLayoutCompat_showDividers = global::MiCamConfig.App.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::DialogMessaging.Resource.Styleable.ListPopupWindow = global::MiCamConfig.App.Droid.Resource.Styleable.ListPopupWindow;
+			global::DialogMessaging.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MiCamConfig.App.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::DialogMessaging.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MiCamConfig.App.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::DialogMessaging.Resource.Styleable.MaterialButton = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_android_insetBottom = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_android_insetLeft = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_android_insetRight = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_android_insetTop = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_backgroundTint = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_backgroundTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_cornerRadius = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_icon = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_icon;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_iconGravity = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_iconPadding = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_iconSize = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_iconTint = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_iconTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_rippleColor = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_strokeColor = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::DialogMessaging.Resource.Styleable.MaterialButton_strokeWidth = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::DialogMessaging.Resource.Styleable.MaterialCardView = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialCardView;
+			global::DialogMessaging.Resource.Styleable.MaterialCardView_strokeColor = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::DialogMessaging.Resource.Styleable.MaterialCardView_strokeWidth = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::DialogMessaging.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::DialogMessaging.Resource.Styleable.MenuGroup = global::MiCamConfig.App.Droid.Resource.Styleable.MenuGroup;
+			global::DialogMessaging.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MiCamConfig.App.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::DialogMessaging.Resource.Styleable.MenuGroup_android_enabled = global::MiCamConfig.App.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::DialogMessaging.Resource.Styleable.MenuGroup_android_id = global::MiCamConfig.App.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::DialogMessaging.Resource.Styleable.MenuGroup_android_menuCategory = global::MiCamConfig.App.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::DialogMessaging.Resource.Styleable.MenuGroup_android_orderInCategory = global::MiCamConfig.App.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::DialogMessaging.Resource.Styleable.MenuGroup_android_visible = global::MiCamConfig.App.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::DialogMessaging.Resource.Styleable.MenuItem = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem;
+			global::DialogMessaging.Resource.Styleable.MenuItem_actionLayout = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::DialogMessaging.Resource.Styleable.MenuItem_actionProviderClass = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::DialogMessaging.Resource.Styleable.MenuItem_actionViewClass = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::DialogMessaging.Resource.Styleable.MenuItem_alphabeticModifiers = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_checkable = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_checked = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_enabled = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_icon = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_id = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_id;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_menuCategory = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_numericShortcut = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_onClick = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_orderInCategory = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_title = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_title;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_titleCondensed = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::DialogMessaging.Resource.Styleable.MenuItem_android_visible = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::DialogMessaging.Resource.Styleable.MenuItem_contentDescription = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::DialogMessaging.Resource.Styleable.MenuItem_iconTint = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::DialogMessaging.Resource.Styleable.MenuItem_iconTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::DialogMessaging.Resource.Styleable.MenuItem_numericModifiers = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::DialogMessaging.Resource.Styleable.MenuItem_showAsAction = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::DialogMessaging.Resource.Styleable.MenuItem_tooltipText = global::MiCamConfig.App.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::DialogMessaging.Resource.Styleable.MenuView = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView;
+			global::DialogMessaging.Resource.Styleable.MenuView_android_headerBackground = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::DialogMessaging.Resource.Styleable.MenuView_android_horizontalDivider = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::DialogMessaging.Resource.Styleable.MenuView_android_itemBackground = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::DialogMessaging.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::DialogMessaging.Resource.Styleable.MenuView_android_itemTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::DialogMessaging.Resource.Styleable.MenuView_android_verticalDivider = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::DialogMessaging.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::DialogMessaging.Resource.Styleable.MenuView_preserveIconSpacing = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::DialogMessaging.Resource.Styleable.MenuView_subMenuArrow = global::MiCamConfig.App.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::DialogMessaging.Resource.Styleable.NavigationView = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView;
+			global::DialogMessaging.Resource.Styleable.NavigationView_android_background = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_android_background;
+			global::DialogMessaging.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::DialogMessaging.Resource.Styleable.NavigationView_android_maxWidth = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::DialogMessaging.Resource.Styleable.NavigationView_elevation = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_elevation;
+			global::DialogMessaging.Resource.Styleable.NavigationView_headerLayout = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::DialogMessaging.Resource.Styleable.NavigationView_itemBackground = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::DialogMessaging.Resource.Styleable.NavigationView_itemHorizontalPadding = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::DialogMessaging.Resource.Styleable.NavigationView_itemIconPadding = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::DialogMessaging.Resource.Styleable.NavigationView_itemIconTint = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::DialogMessaging.Resource.Styleable.NavigationView_itemTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::DialogMessaging.Resource.Styleable.NavigationView_itemTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::DialogMessaging.Resource.Styleable.NavigationView_menu = global::MiCamConfig.App.Droid.Resource.Styleable.NavigationView_menu;
+			global::DialogMessaging.Resource.Styleable.PopupWindow = global::MiCamConfig.App.Droid.Resource.Styleable.PopupWindow;
+			global::DialogMessaging.Resource.Styleable.PopupWindowBackgroundState = global::MiCamConfig.App.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::DialogMessaging.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MiCamConfig.App.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::DialogMessaging.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MiCamConfig.App.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::DialogMessaging.Resource.Styleable.PopupWindow_android_popupBackground = global::MiCamConfig.App.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::DialogMessaging.Resource.Styleable.PopupWindow_overlapAnchor = global::MiCamConfig.App.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::DialogMessaging.Resource.Styleable.RecycleListView = global::MiCamConfig.App.Droid.Resource.Styleable.RecycleListView;
+			global::DialogMessaging.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MiCamConfig.App.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::DialogMessaging.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MiCamConfig.App.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::DialogMessaging.Resource.Styleable.RecyclerView = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_android_orientation = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_fastScrollEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_layoutManager = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_reverseLayout = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_spanCount = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::DialogMessaging.Resource.Styleable.RecyclerView_stackFromEnd = global::MiCamConfig.App.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::DialogMessaging.Resource.Styleable.ScrimInsetsFrameLayout = global::MiCamConfig.App.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::DialogMessaging.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MiCamConfig.App.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::DialogMessaging.Resource.Styleable.ScrollingViewBehavior_Layout = global::MiCamConfig.App.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::DialogMessaging.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MiCamConfig.App.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::DialogMessaging.Resource.Styleable.SearchView = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView;
+			global::DialogMessaging.Resource.Styleable.SearchView_android_focusable = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::DialogMessaging.Resource.Styleable.SearchView_android_imeOptions = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::DialogMessaging.Resource.Styleable.SearchView_android_inputType = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::DialogMessaging.Resource.Styleable.SearchView_android_maxWidth = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::DialogMessaging.Resource.Styleable.SearchView_closeIcon = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::DialogMessaging.Resource.Styleable.SearchView_commitIcon = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::DialogMessaging.Resource.Styleable.SearchView_defaultQueryHint = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::DialogMessaging.Resource.Styleable.SearchView_goIcon = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_goIcon;
+			global::DialogMessaging.Resource.Styleable.SearchView_iconifiedByDefault = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::DialogMessaging.Resource.Styleable.SearchView_layout = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_layout;
+			global::DialogMessaging.Resource.Styleable.SearchView_queryBackground = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::DialogMessaging.Resource.Styleable.SearchView_queryHint = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_queryHint;
+			global::DialogMessaging.Resource.Styleable.SearchView_searchHintIcon = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::DialogMessaging.Resource.Styleable.SearchView_searchIcon = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::DialogMessaging.Resource.Styleable.SearchView_submitBackground = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::DialogMessaging.Resource.Styleable.SearchView_suggestionRowLayout = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::DialogMessaging.Resource.Styleable.SearchView_voiceIcon = global::MiCamConfig.App.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::DialogMessaging.Resource.Styleable.Snackbar = global::MiCamConfig.App.Droid.Resource.Styleable.Snackbar;
+			global::DialogMessaging.Resource.Styleable.SnackbarLayout = global::MiCamConfig.App.Droid.Resource.Styleable.SnackbarLayout;
+			global::DialogMessaging.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MiCamConfig.App.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::DialogMessaging.Resource.Styleable.SnackbarLayout_elevation = global::MiCamConfig.App.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::DialogMessaging.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MiCamConfig.App.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::DialogMessaging.Resource.Styleable.Snackbar_snackbarButtonStyle = global::MiCamConfig.App.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::DialogMessaging.Resource.Styleable.Snackbar_snackbarStyle = global::MiCamConfig.App.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::DialogMessaging.Resource.Styleable.Spinner = global::MiCamConfig.App.Droid.Resource.Styleable.Spinner;
+			global::DialogMessaging.Resource.Styleable.Spinner_android_dropDownWidth = global::MiCamConfig.App.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::DialogMessaging.Resource.Styleable.Spinner_android_entries = global::MiCamConfig.App.Droid.Resource.Styleable.Spinner_android_entries;
+			global::DialogMessaging.Resource.Styleable.Spinner_android_popupBackground = global::MiCamConfig.App.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::DialogMessaging.Resource.Styleable.Spinner_android_prompt = global::MiCamConfig.App.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::DialogMessaging.Resource.Styleable.Spinner_popupTheme = global::MiCamConfig.App.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::DialogMessaging.Resource.Styleable.StateListDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawable;
+			global::DialogMessaging.Resource.Styleable.StateListDrawableItem = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawableItem;
+			global::DialogMessaging.Resource.Styleable.StateListDrawableItem_android_drawable = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::DialogMessaging.Resource.Styleable.StateListDrawable_android_constantSize = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::DialogMessaging.Resource.Styleable.StateListDrawable_android_dither = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::DialogMessaging.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::DialogMessaging.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::DialogMessaging.Resource.Styleable.StateListDrawable_android_variablePadding = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::DialogMessaging.Resource.Styleable.StateListDrawable_android_visible = global::MiCamConfig.App.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_android_textOff = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_android_textOn = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_android_thumb = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_showText = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_splitTrack = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_switchMinWidth = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_switchPadding = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_thumbTint = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_thumbTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_track = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_track;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_trackTint = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::DialogMessaging.Resource.Styleable.SwitchCompat_trackTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::DialogMessaging.Resource.Styleable.TabItem = global::MiCamConfig.App.Droid.Resource.Styleable.TabItem;
+			global::DialogMessaging.Resource.Styleable.TabItem_android_icon = global::MiCamConfig.App.Droid.Resource.Styleable.TabItem_android_icon;
+			global::DialogMessaging.Resource.Styleable.TabItem_android_layout = global::MiCamConfig.App.Droid.Resource.Styleable.TabItem_android_layout;
+			global::DialogMessaging.Resource.Styleable.TabItem_android_text = global::MiCamConfig.App.Droid.Resource.Styleable.TabItem_android_text;
+			global::DialogMessaging.Resource.Styleable.TabLayout = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabBackground = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabContentStart = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabGravity = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIconTint = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIconTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIndicator = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIndicatorColor = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIndicatorGravity = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabInlineLabel = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabMaxWidth = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabMinWidth = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabMode = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabPadding = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabPaddingBottom = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabPaddingEnd = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabPaddingStart = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabPaddingTop = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabRippleColor = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::DialogMessaging.Resource.Styleable.TabLayout_tabUnboundedRipple = global::MiCamConfig.App.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::DialogMessaging.Resource.Styleable.TextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_fontFamily = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_shadowColor = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_shadowDx = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_shadowDy = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_shadowRadius = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_textColor = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_textColorHint = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_textColorLink = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_textSize = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_textStyle = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_android_typeface = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_fontFamily = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::DialogMessaging.Resource.Styleable.TextAppearance_textAllCaps = global::MiCamConfig.App.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_android_hint = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_android_textColorHint = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxStrokeColor = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_counterEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_counterMaxLength = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_errorEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_helperText = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_helperTextEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_hintEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::DialogMessaging.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::DialogMessaging.Resource.Styleable.ThemeEnforcement = global::MiCamConfig.App.Droid.Resource.Styleable.ThemeEnforcement;
+			global::DialogMessaging.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::DialogMessaging.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::MiCamConfig.App.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::DialogMessaging.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::DialogMessaging.Resource.Styleable.Toolbar = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar;
+			global::DialogMessaging.Resource.Styleable.Toolbar_android_gravity = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::DialogMessaging.Resource.Styleable.Toolbar_android_minHeight = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::DialogMessaging.Resource.Styleable.Toolbar_buttonGravity = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::DialogMessaging.Resource.Styleable.Toolbar_collapseContentDescription = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::DialogMessaging.Resource.Styleable.Toolbar_collapseIcon = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::DialogMessaging.Resource.Styleable.Toolbar_contentInsetEnd = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::DialogMessaging.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::DialogMessaging.Resource.Styleable.Toolbar_contentInsetLeft = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::DialogMessaging.Resource.Styleable.Toolbar_contentInsetRight = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::DialogMessaging.Resource.Styleable.Toolbar_contentInsetStart = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::DialogMessaging.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::DialogMessaging.Resource.Styleable.Toolbar_logo = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_logo;
+			global::DialogMessaging.Resource.Styleable.Toolbar_logoDescription = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::DialogMessaging.Resource.Styleable.Toolbar_maxButtonHeight = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::DialogMessaging.Resource.Styleable.Toolbar_navigationContentDescription = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::DialogMessaging.Resource.Styleable.Toolbar_navigationIcon = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::DialogMessaging.Resource.Styleable.Toolbar_popupTheme = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::DialogMessaging.Resource.Styleable.Toolbar_subtitle = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::DialogMessaging.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::DialogMessaging.Resource.Styleable.Toolbar_subtitleTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::DialogMessaging.Resource.Styleable.Toolbar_title = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_title;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleMargin = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleMarginBottom = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleMarginEnd = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleMargins = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleMarginStart = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleMarginTop = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleTextAppearance = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::DialogMessaging.Resource.Styleable.Toolbar_titleTextColor = global::MiCamConfig.App.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::DialogMessaging.Resource.Styleable.View = global::MiCamConfig.App.Droid.Resource.Styleable.View;
+			global::DialogMessaging.Resource.Styleable.ViewBackgroundHelper = global::MiCamConfig.App.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::DialogMessaging.Resource.Styleable.ViewBackgroundHelper_android_background = global::MiCamConfig.App.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::DialogMessaging.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MiCamConfig.App.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::DialogMessaging.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MiCamConfig.App.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::DialogMessaging.Resource.Styleable.ViewStubCompat = global::MiCamConfig.App.Droid.Resource.Styleable.ViewStubCompat;
+			global::DialogMessaging.Resource.Styleable.ViewStubCompat_android_id = global::MiCamConfig.App.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::DialogMessaging.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MiCamConfig.App.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::DialogMessaging.Resource.Styleable.ViewStubCompat_android_layout = global::MiCamConfig.App.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::DialogMessaging.Resource.Styleable.View_android_focusable = global::MiCamConfig.App.Droid.Resource.Styleable.View_android_focusable;
+			global::DialogMessaging.Resource.Styleable.View_android_theme = global::MiCamConfig.App.Droid.Resource.Styleable.View_android_theme;
+			global::DialogMessaging.Resource.Styleable.View_paddingEnd = global::MiCamConfig.App.Droid.Resource.Styleable.View_paddingEnd;
+			global::DialogMessaging.Resource.Styleable.View_paddingStart = global::MiCamConfig.App.Droid.Resource.Styleable.View_paddingStart;
+			global::DialogMessaging.Resource.Styleable.View_theme = global::MiCamConfig.App.Droid.Resource.Styleable.View_theme;
 			global::MvvmCross.Resource.Attribute.MvxBind = global::MiCamConfig.App.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::MiCamConfig.App.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::MiCamConfig.App.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -5821,1517 +8351,1523 @@ namespace MiCamConfig.App.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F030007
-			public const int actionBarColor = 2130903047;
-			
-			// aapt resource value: 0x7F030008
-			public const int actionBarDivider = 2130903048;
-			
 			// aapt resource value: 0x7F030009
-			public const int actionBarItemBackground = 2130903049;
+			public const int actionBarColor = 2130903049;
 			
 			// aapt resource value: 0x7F03000A
-			public const int actionBarPopupTheme = 2130903050;
+			public const int actionBarDivider = 2130903050;
 			
 			// aapt resource value: 0x7F03000B
-			public const int actionBarSize = 2130903051;
+			public const int actionBarItemBackground = 2130903051;
 			
 			// aapt resource value: 0x7F03000C
-			public const int actionBarSplitStyle = 2130903052;
+			public const int actionBarPopupTheme = 2130903052;
 			
 			// aapt resource value: 0x7F03000D
-			public const int actionBarStyle = 2130903053;
+			public const int actionBarSize = 2130903053;
 			
 			// aapt resource value: 0x7F03000E
-			public const int actionBarTabBarStyle = 2130903054;
+			public const int actionBarSplitStyle = 2130903054;
 			
 			// aapt resource value: 0x7F03000F
-			public const int actionBarTabStyle = 2130903055;
+			public const int actionBarStyle = 2130903055;
 			
 			// aapt resource value: 0x7F030010
-			public const int actionBarTabTextStyle = 2130903056;
+			public const int actionBarTabBarStyle = 2130903056;
 			
 			// aapt resource value: 0x7F030011
-			public const int actionBarTheme = 2130903057;
+			public const int actionBarTabStyle = 2130903057;
 			
 			// aapt resource value: 0x7F030012
-			public const int actionBarWidgetTheme = 2130903058;
+			public const int actionBarTabTextStyle = 2130903058;
 			
 			// aapt resource value: 0x7F030013
-			public const int actionButtonStyle = 2130903059;
+			public const int actionBarTheme = 2130903059;
 			
 			// aapt resource value: 0x7F030014
-			public const int actionDropDownStyle = 2130903060;
+			public const int actionBarWidgetTheme = 2130903060;
 			
 			// aapt resource value: 0x7F030015
-			public const int actionLayout = 2130903061;
+			public const int actionButtonStyle = 2130903061;
 			
 			// aapt resource value: 0x7F030016
-			public const int actionMenuTextAppearance = 2130903062;
+			public const int actionDropDownStyle = 2130903062;
 			
 			// aapt resource value: 0x7F030017
-			public const int actionMenuTextColor = 2130903063;
+			public const int actionLayout = 2130903063;
 			
 			// aapt resource value: 0x7F030018
-			public const int actionModeBackground = 2130903064;
+			public const int actionMenuTextAppearance = 2130903064;
 			
 			// aapt resource value: 0x7F030019
-			public const int actionModeCloseButtonStyle = 2130903065;
+			public const int actionMenuTextColor = 2130903065;
 			
 			// aapt resource value: 0x7F03001A
-			public const int actionModeCloseDrawable = 2130903066;
+			public const int actionModeBackground = 2130903066;
 			
 			// aapt resource value: 0x7F03001B
-			public const int actionModeCopyDrawable = 2130903067;
+			public const int actionModeCloseButtonStyle = 2130903067;
 			
 			// aapt resource value: 0x7F03001C
-			public const int actionModeCutDrawable = 2130903068;
+			public const int actionModeCloseDrawable = 2130903068;
 			
 			// aapt resource value: 0x7F03001D
-			public const int actionModeFindDrawable = 2130903069;
+			public const int actionModeCopyDrawable = 2130903069;
 			
 			// aapt resource value: 0x7F03001E
-			public const int actionModePasteDrawable = 2130903070;
+			public const int actionModeCutDrawable = 2130903070;
 			
 			// aapt resource value: 0x7F03001F
-			public const int actionModePopupWindowStyle = 2130903071;
+			public const int actionModeFindDrawable = 2130903071;
 			
 			// aapt resource value: 0x7F030020
-			public const int actionModeSelectAllDrawable = 2130903072;
+			public const int actionModePasteDrawable = 2130903072;
 			
 			// aapt resource value: 0x7F030021
-			public const int actionModeShareDrawable = 2130903073;
+			public const int actionModePopupWindowStyle = 2130903073;
 			
 			// aapt resource value: 0x7F030022
-			public const int actionModeSplitBackground = 2130903074;
+			public const int actionModeSelectAllDrawable = 2130903074;
 			
 			// aapt resource value: 0x7F030023
-			public const int actionModeStyle = 2130903075;
+			public const int actionModeShareDrawable = 2130903075;
 			
 			// aapt resource value: 0x7F030024
-			public const int actionModeWebSearchDrawable = 2130903076;
+			public const int actionModeSplitBackground = 2130903076;
 			
 			// aapt resource value: 0x7F030025
-			public const int actionOverflowButtonStyle = 2130903077;
+			public const int actionModeStyle = 2130903077;
 			
 			// aapt resource value: 0x7F030026
-			public const int actionOverflowMenuStyle = 2130903078;
+			public const int actionModeWebSearchDrawable = 2130903078;
 			
 			// aapt resource value: 0x7F030027
-			public const int actionProviderClass = 2130903079;
+			public const int actionOverflowButtonStyle = 2130903079;
 			
 			// aapt resource value: 0x7F030028
-			public const int actionViewClass = 2130903080;
+			public const int actionOverflowMenuStyle = 2130903080;
 			
 			// aapt resource value: 0x7F030029
-			public const int activityChooserViewStyle = 2130903081;
+			public const int actionProviderClass = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int alertDialogButtonGroupStyle = 2130903082;
+			public const int actionViewClass = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int alertDialogCenterButtons = 2130903083;
+			public const int activityChooserViewStyle = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int alertDialogStyle = 2130903084;
+			public const int alertDialogButtonGroupStyle = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int alertDialogTheme = 2130903085;
+			public const int alertDialogCenterButtons = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int allowStacking = 2130903086;
+			public const int alertDialogStyle = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int alpha = 2130903087;
+			public const int alertDialogTheme = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int alphabeticModifiers = 2130903088;
+			public const int allowStacking = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int arrowHeadLength = 2130903089;
+			public const int alpha = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int arrowShaftLength = 2130903090;
+			public const int alphabeticModifiers = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int autoCompleteTextViewStyle = 2130903091;
+			public const int arrowHeadLength = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int autoSizeMaxTextSize = 2130903092;
+			public const int arrowShaftLength = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int autoSizeMinTextSize = 2130903093;
+			public const int autoCompleteTextViewStyle = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int autoSizePresetSizes = 2130903094;
+			public const int autoSizeMaxTextSize = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int autoSizeStepGranularity = 2130903095;
+			public const int autoSizeMinTextSize = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int autoSizeTextType = 2130903096;
+			public const int autoSizePresetSizes = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int background = 2130903097;
+			public const int autoSizeStepGranularity = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int backgroundSplit = 2130903098;
+			public const int autoSizeTextType = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int backgroundStacked = 2130903099;
+			public const int background = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int backgroundTint = 2130903100;
+			public const int backgroundSplit = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int backgroundTintMode = 2130903101;
+			public const int backgroundStacked = 2130903101;
 			
 			// aapt resource value: 0x7F03003E
-			public const int barLength = 2130903102;
+			public const int backgroundTint = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int behavior_autoHide = 2130903103;
+			public const int backgroundTintMode = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int behavior_fitToContents = 2130903104;
+			public const int barLength = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int behavior_hideable = 2130903105;
+			public const int behavior_autoHide = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int behavior_overlapTop = 2130903106;
+			public const int behavior_fitToContents = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int behavior_peekHeight = 2130903107;
+			public const int behavior_hideable = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int behavior_skipCollapsed = 2130903108;
-			
-			// aapt resource value: 0x7F030046
-			public const int borderlessButtonStyle = 2130903110;
+			public const int behavior_overlapTop = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int borderWidth = 2130903109;
+			public const int behavior_peekHeight = 2130903109;
 			
-			// aapt resource value: 0x7F030047
-			public const int bottomAppBarStyle = 2130903111;
+			// aapt resource value: 0x7F030046
+			public const int behavior_skipCollapsed = 2130903110;
 			
 			// aapt resource value: 0x7F030048
-			public const int bottomNavigationStyle = 2130903112;
+			public const int borderlessButtonStyle = 2130903112;
+			
+			// aapt resource value: 0x7F030047
+			public const int borderWidth = 2130903111;
 			
 			// aapt resource value: 0x7F030049
-			public const int bottomSheetDialogTheme = 2130903113;
+			public const int bottomAppBarStyle = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int bottomSheetStyle = 2130903114;
+			public const int bottomNavigationStyle = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int boxBackgroundColor = 2130903115;
+			public const int bottomSheetDialogTheme = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int boxBackgroundMode = 2130903116;
+			public const int bottomSheetStyle = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int boxCollapsedPaddingTop = 2130903117;
+			public const int boxBackgroundColor = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int boxCornerRadiusBottomEnd = 2130903118;
+			public const int boxBackgroundMode = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int boxCornerRadiusBottomStart = 2130903119;
+			public const int boxCollapsedPaddingTop = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int boxCornerRadiusTopEnd = 2130903120;
+			public const int boxCornerRadiusBottomEnd = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int boxCornerRadiusTopStart = 2130903121;
+			public const int boxCornerRadiusBottomStart = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int boxStrokeColor = 2130903122;
+			public const int boxCornerRadiusTopEnd = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int boxStrokeWidth = 2130903123;
+			public const int boxCornerRadiusTopStart = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int buttonBarButtonStyle = 2130903124;
+			public const int boxStrokeColor = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int buttonBarNegativeButtonStyle = 2130903125;
+			public const int boxStrokeWidth = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int buttonBarNeutralButtonStyle = 2130903126;
+			public const int buttonBarButtonStyle = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int buttonBarPositiveButtonStyle = 2130903127;
+			public const int buttonBarNegativeButtonStyle = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int buttonBarStyle = 2130903128;
+			public const int buttonBarNeutralButtonStyle = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int buttonGravity = 2130903129;
+			public const int buttonBarPositiveButtonStyle = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int buttonIconDimen = 2130903130;
+			public const int buttonBarStyle = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int buttonPanelSideLayout = 2130903131;
+			public const int buttonGravity = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int buttonStyle = 2130903132;
+			public const int buttonIconDimen = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int buttonStyleSmall = 2130903133;
+			public const int buttonPanelSideLayout = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int buttonTint = 2130903134;
+			public const int buttonStyle = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int buttonTintMode = 2130903135;
+			public const int buttonStyleSmall = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int cardBackgroundColor = 2130903136;
+			public const int buttonTint = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int cardCornerRadius = 2130903137;
+			public const int buttonTintMode = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int cardElevation = 2130903138;
+			public const int cardBackgroundColor = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int cardMaxElevation = 2130903139;
+			public const int cardCornerRadius = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int cardPreventCornerOverlap = 2130903140;
+			public const int cardElevation = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int cardUseCompatPadding = 2130903141;
+			public const int cardMaxElevation = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int cardViewStyle = 2130903142;
+			public const int cardPreventCornerOverlap = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int checkboxStyle = 2130903143;
+			public const int cardUseCompatPadding = 2130903143;
 			
 			// aapt resource value: 0x7F030068
-			public const int checkedChip = 2130903144;
+			public const int cardViewStyle = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int checkedIcon = 2130903145;
+			public const int checkboxStyle = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int checkedIconEnabled = 2130903146;
+			public const int checkedChip = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int checkedIconVisible = 2130903147;
+			public const int checkedIcon = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int checkedTextViewStyle = 2130903148;
+			public const int checkedIconEnabled = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int chipBackgroundColor = 2130903149;
+			public const int checkedIconVisible = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int chipCornerRadius = 2130903150;
+			public const int checkedTextViewStyle = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int chipEndPadding = 2130903151;
+			public const int chipBackgroundColor = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int chipGroupStyle = 2130903152;
+			public const int chipCornerRadius = 2130903152;
 			
 			// aapt resource value: 0x7F030071
-			public const int chipIcon = 2130903153;
+			public const int chipEndPadding = 2130903153;
 			
 			// aapt resource value: 0x7F030072
-			public const int chipIconEnabled = 2130903154;
+			public const int chipGroupStyle = 2130903154;
 			
 			// aapt resource value: 0x7F030073
-			public const int chipIconSize = 2130903155;
+			public const int chipIcon = 2130903155;
 			
 			// aapt resource value: 0x7F030074
-			public const int chipIconTint = 2130903156;
+			public const int chipIconEnabled = 2130903156;
 			
 			// aapt resource value: 0x7F030075
-			public const int chipIconVisible = 2130903157;
+			public const int chipIconSize = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int chipMinHeight = 2130903158;
+			public const int chipIconTint = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int chipSpacing = 2130903159;
+			public const int chipIconVisible = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int chipSpacingHorizontal = 2130903160;
+			public const int chipMinHeight = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int chipSpacingVertical = 2130903161;
+			public const int chipSpacing = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int chipStandaloneStyle = 2130903162;
+			public const int chipSpacingHorizontal = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int chipStartPadding = 2130903163;
+			public const int chipSpacingVertical = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int chipStrokeColor = 2130903164;
+			public const int chipStandaloneStyle = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int chipStrokeWidth = 2130903165;
+			public const int chipStartPadding = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int chipStyle = 2130903166;
+			public const int chipStrokeColor = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int closeIcon = 2130903167;
+			public const int chipStrokeWidth = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int closeIconEnabled = 2130903168;
+			public const int chipStyle = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int closeIconEndPadding = 2130903169;
+			public const int closeIcon = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int closeIconSize = 2130903170;
+			public const int closeIconEnabled = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int closeIconStartPadding = 2130903171;
+			public const int closeIconEndPadding = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int closeIconTint = 2130903172;
+			public const int closeIconSize = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int closeIconVisible = 2130903173;
+			public const int closeIconStartPadding = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int closeItemLayout = 2130903174;
+			public const int closeIconTint = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int collapseContentDescription = 2130903175;
-			
-			// aapt resource value: 0x7F030089
-			public const int collapsedTitleGravity = 2130903177;
-			
-			// aapt resource value: 0x7F03008A
-			public const int collapsedTitleTextAppearance = 2130903178;
+			public const int closeIconVisible = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int collapseIcon = 2130903176;
+			public const int closeItemLayout = 2130903176;
+			
+			// aapt resource value: 0x7F030089
+			public const int collapseContentDescription = 2130903177;
 			
 			// aapt resource value: 0x7F03008B
-			public const int color = 2130903179;
+			public const int collapsedTitleGravity = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int colorAccent = 2130903180;
+			public const int collapsedTitleTextAppearance = 2130903180;
+			
+			// aapt resource value: 0x7F03008A
+			public const int collapseIcon = 2130903178;
 			
 			// aapt resource value: 0x7F03008D
-			public const int colorBackgroundFloating = 2130903181;
+			public const int color = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int colorButtonNormal = 2130903182;
+			public const int colorAccent = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int colorControlActivated = 2130903183;
+			public const int colorBackgroundFloating = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int colorControlHighlight = 2130903184;
+			public const int colorButtonNormal = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int colorControlNormal = 2130903185;
+			public const int colorControlActivated = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int colorError = 2130903186;
+			public const int colorControlHighlight = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int colorPrimary = 2130903187;
+			public const int colorControlNormal = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int colorPrimaryDark = 2130903188;
+			public const int colorError = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int colorSecondary = 2130903189;
+			public const int colorPrimary = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int colorSwitchThumbNormal = 2130903190;
+			public const int colorPrimaryDark = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int commitIcon = 2130903191;
+			public const int colorSecondary = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int contentDescription = 2130903192;
+			public const int colorSwitchThumbNormal = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int contentInsetEnd = 2130903193;
+			public const int commitIcon = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int contentInsetEndWithActions = 2130903194;
+			public const int contentDescription = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int contentInsetLeft = 2130903195;
+			public const int contentInsetEnd = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int contentInsetRight = 2130903196;
+			public const int contentInsetEndWithActions = 2130903196;
 			
 			// aapt resource value: 0x7F03009D
-			public const int contentInsetStart = 2130903197;
+			public const int contentInsetLeft = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int contentInsetStartWithNavigation = 2130903198;
+			public const int contentInsetRight = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int contentPadding = 2130903199;
+			public const int contentInsetStart = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int contentPaddingBottom = 2130903200;
+			public const int contentInsetStartWithNavigation = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int contentPaddingLeft = 2130903201;
+			public const int contentPadding = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int contentPaddingRight = 2130903202;
+			public const int contentPaddingBottom = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int contentPaddingTop = 2130903203;
+			public const int contentPaddingLeft = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int contentScrim = 2130903204;
+			public const int contentPaddingRight = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int controlBackground = 2130903205;
+			public const int contentPaddingTop = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int coordinatorLayoutStyle = 2130903206;
+			public const int contentScrim = 2130903206;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int cornerRadius = 2130903207;
+			public const int controlBackground = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int counterEnabled = 2130903208;
+			public const int coordinatorLayoutStyle = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int counterMaxLength = 2130903209;
+			public const int cornerRadius = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int counterOverflowTextAppearance = 2130903210;
+			public const int counterEnabled = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int counterTextAppearance = 2130903211;
+			public const int counterMaxLength = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int customNavigationLayout = 2130903212;
+			public const int counterOverflowTextAppearance = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int defaultQueryHint = 2130903213;
+			public const int counterTextAppearance = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int dialogCornerRadius = 2130903214;
+			public const int customNavigationLayout = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int dialogPreferredPadding = 2130903215;
+			public const int defaultQueryHint = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int dialogTheme = 2130903216;
-			
-			// aapt resource value: 0x7F0300B1
-			public const int displayOptions = 2130903217;
-			
-			// aapt resource value: 0x7F0300B2
-			public const int divider = 2130903218;
-			
-			// aapt resource value: 0x7F0300B3
-			public const int dividerHorizontal = 2130903219;
-			
-			// aapt resource value: 0x7F0300B4
-			public const int dividerPadding = 2130903220;
-			
-			// aapt resource value: 0x7F0300B5
-			public const int dividerVertical = 2130903221;
-			
-			// aapt resource value: 0x7F0300B6
-			public const int drawableSize = 2130903222;
-			
-			// aapt resource value: 0x7F0300B7
-			public const int drawerArrowStyle = 2130903223;
-			
-			// aapt resource value: 0x7F0300B9
-			public const int dropdownListPreferredItemHeight = 2130903225;
-			
-			// aapt resource value: 0x7F0300B8
-			public const int dropDownListViewStyle = 2130903224;
-			
-			// aapt resource value: 0x7F0300BA
-			public const int editTextBackground = 2130903226;
-			
-			// aapt resource value: 0x7F0300BB
-			public const int editTextColor = 2130903227;
-			
-			// aapt resource value: 0x7F0300BC
-			public const int editTextStyle = 2130903228;
-			
-			// aapt resource value: 0x7F0300BD
-			public const int elevation = 2130903229;
-			
-			// aapt resource value: 0x7F0300BE
-			public const int enforceMaterialTheme = 2130903230;
-			
-			// aapt resource value: 0x7F0300BF
-			public const int enforceTextAppearance = 2130903231;
-			
-			// aapt resource value: 0x7F0300C0
-			public const int errorEnabled = 2130903232;
-			
-			// aapt resource value: 0x7F0300C1
-			public const int errorTextAppearance = 2130903233;
-			
-			// aapt resource value: 0x7F0300C2
-			public const int expandActivityOverflowButtonDrawable = 2130903234;
-			
-			// aapt resource value: 0x7F0300C3
-			public const int expanded = 2130903235;
-			
-			// aapt resource value: 0x7F0300C4
-			public const int expandedTitleGravity = 2130903236;
-			
-			// aapt resource value: 0x7F0300C5
-			public const int expandedTitleMargin = 2130903237;
-			
-			// aapt resource value: 0x7F0300C6
-			public const int expandedTitleMarginBottom = 2130903238;
-			
-			// aapt resource value: 0x7F0300C7
-			public const int expandedTitleMarginEnd = 2130903239;
-			
-			// aapt resource value: 0x7F0300C8
-			public const int expandedTitleMarginStart = 2130903240;
-			
-			// aapt resource value: 0x7F0300C9
-			public const int expandedTitleMarginTop = 2130903241;
-			
-			// aapt resource value: 0x7F0300CA
-			public const int expandedTitleTextAppearance = 2130903242;
-			
-			// aapt resource value: 0x7F0300CB
-			public const int externalRouteEnabledDrawable = 2130903243;
-			
-			// aapt resource value: 0x7F0300CC
-			public const int fabAlignmentMode = 2130903244;
-			
-			// aapt resource value: 0x7F0300CD
-			public const int fabCradleMargin = 2130903245;
-			
-			// aapt resource value: 0x7F0300CE
-			public const int fabCradleRoundedCornerRadius = 2130903246;
-			
-			// aapt resource value: 0x7F0300CF
-			public const int fabCradleVerticalOffset = 2130903247;
-			
-			// aapt resource value: 0x7F0300D0
-			public const int fabCustomSize = 2130903248;
-			
-			// aapt resource value: 0x7F0300D1
-			public const int fabSize = 2130903249;
-			
-			// aapt resource value: 0x7F0300D2
-			public const int fastScrollEnabled = 2130903250;
-			
-			// aapt resource value: 0x7F0300D3
-			public const int fastScrollHorizontalThumbDrawable = 2130903251;
-			
-			// aapt resource value: 0x7F0300D4
-			public const int fastScrollHorizontalTrackDrawable = 2130903252;
-			
-			// aapt resource value: 0x7F0300D5
-			public const int fastScrollVerticalThumbDrawable = 2130903253;
-			
-			// aapt resource value: 0x7F0300D6
-			public const int fastScrollVerticalTrackDrawable = 2130903254;
-			
-			// aapt resource value: 0x7F0300D7
-			public const int firstBaselineToTopHeight = 2130903255;
-			
-			// aapt resource value: 0x7F0300D8
-			public const int floatingActionButtonStyle = 2130903256;
-			
-			// aapt resource value: 0x7F0300D9
-			public const int font = 2130903257;
-			
-			// aapt resource value: 0x7F0300DA
-			public const int fontFamily = 2130903258;
-			
-			// aapt resource value: 0x7F0300DB
-			public const int fontProviderAuthority = 2130903259;
-			
-			// aapt resource value: 0x7F0300DC
-			public const int fontProviderCerts = 2130903260;
-			
-			// aapt resource value: 0x7F0300DD
-			public const int fontProviderFetchStrategy = 2130903261;
-			
-			// aapt resource value: 0x7F0300DE
-			public const int fontProviderFetchTimeout = 2130903262;
-			
-			// aapt resource value: 0x7F0300DF
-			public const int fontProviderPackage = 2130903263;
-			
-			// aapt resource value: 0x7F0300E0
-			public const int fontProviderQuery = 2130903264;
-			
-			// aapt resource value: 0x7F0300E1
-			public const int fontStyle = 2130903265;
-			
-			// aapt resource value: 0x7F0300E2
-			public const int fontVariationSettings = 2130903266;
-			
-			// aapt resource value: 0x7F0300E3
-			public const int fontWeight = 2130903267;
-			
-			// aapt resource value: 0x7F0300E4
-			public const int foregroundInsidePadding = 2130903268;
-			
-			// aapt resource value: 0x7F0300E5
-			public const int gapBetweenBars = 2130903269;
-			
-			// aapt resource value: 0x7F0300E6
-			public const int goIcon = 2130903270;
-			
-			// aapt resource value: 0x7F0300E7
-			public const int headerLayout = 2130903271;
-			
-			// aapt resource value: 0x7F0300E8
-			public const int height = 2130903272;
-			
-			// aapt resource value: 0x7F0300E9
-			public const int helperText = 2130903273;
-			
-			// aapt resource value: 0x7F0300EA
-			public const int helperTextEnabled = 2130903274;
-			
-			// aapt resource value: 0x7F0300EB
-			public const int helperTextTextAppearance = 2130903275;
-			
-			// aapt resource value: 0x7F0300EC
-			public const int hideMotionSpec = 2130903276;
-			
-			// aapt resource value: 0x7F0300ED
-			public const int hideOnContentScroll = 2130903277;
-			
-			// aapt resource value: 0x7F0300EE
-			public const int hideOnScroll = 2130903278;
-			
-			// aapt resource value: 0x7F0300EF
-			public const int hintAnimationEnabled = 2130903279;
-			
-			// aapt resource value: 0x7F0300F0
-			public const int hintEnabled = 2130903280;
-			
-			// aapt resource value: 0x7F0300F1
-			public const int hintTextAppearance = 2130903281;
-			
-			// aapt resource value: 0x7F0300F2
-			public const int homeAsUpIndicator = 2130903282;
-			
-			// aapt resource value: 0x7F0300F3
-			public const int homeLayout = 2130903283;
-			
-			// aapt resource value: 0x7F0300F4
-			public const int hoveredFocusedTranslationZ = 2130903284;
-			
-			// aapt resource value: 0x7F0300F5
-			public const int icon = 2130903285;
-			
-			// aapt resource value: 0x7F0300F6
-			public const int iconEndPadding = 2130903286;
-			
-			// aapt resource value: 0x7F0300F7
-			public const int iconGravity = 2130903287;
-			
-			// aapt resource value: 0x7F0300FD
-			public const int iconifiedByDefault = 2130903293;
-			
-			// aapt resource value: 0x7F0300F8
-			public const int iconPadding = 2130903288;
-			
-			// aapt resource value: 0x7F0300F9
-			public const int iconSize = 2130903289;
-			
-			// aapt resource value: 0x7F0300FA
-			public const int iconStartPadding = 2130903290;
-			
-			// aapt resource value: 0x7F0300FB
-			public const int iconTint = 2130903291;
-			
-			// aapt resource value: 0x7F0300FC
-			public const int iconTintMode = 2130903292;
-			
-			// aapt resource value: 0x7F0300FE
-			public const int imageButtonStyle = 2130903294;
-			
-			// aapt resource value: 0x7F0300FF
-			public const int indeterminateProgressStyle = 2130903295;
-			
-			// aapt resource value: 0x7F030100
-			public const int initialActivityCount = 2130903296;
-			
-			// aapt resource value: 0x7F030101
-			public const int insetForeground = 2130903297;
-			
-			// aapt resource value: 0x7F030102
-			public const int isLightTheme = 2130903298;
-			
-			// aapt resource value: 0x7F030103
-			public const int itemBackground = 2130903299;
-			
-			// aapt resource value: 0x7F030104
-			public const int itemHorizontalPadding = 2130903300;
-			
-			// aapt resource value: 0x7F030105
-			public const int itemHorizontalTranslationEnabled = 2130903301;
-			
-			// aapt resource value: 0x7F030106
-			public const int itemIconPadding = 2130903302;
-			
-			// aapt resource value: 0x7F030107
-			public const int itemIconSize = 2130903303;
-			
-			// aapt resource value: 0x7F030108
-			public const int itemIconTint = 2130903304;
-			
-			// aapt resource value: 0x7F030109
-			public const int itemPadding = 2130903305;
-			
-			// aapt resource value: 0x7F03010A
-			public const int itemSpacing = 2130903306;
-			
-			// aapt resource value: 0x7F03010B
-			public const int itemTextAppearance = 2130903307;
-			
-			// aapt resource value: 0x7F03010C
-			public const int itemTextAppearanceActive = 2130903308;
-			
-			// aapt resource value: 0x7F03010D
-			public const int itemTextAppearanceInactive = 2130903309;
-			
-			// aapt resource value: 0x7F03010E
-			public const int itemTextColor = 2130903310;
-			
-			// aapt resource value: 0x7F03010F
-			public const int keylines = 2130903311;
-			
-			// aapt resource value: 0x7F030110
-			public const int labelVisibilityMode = 2130903312;
-			
-			// aapt resource value: 0x7F030111
-			public const int lastBaselineToBottomHeight = 2130903313;
-			
-			// aapt resource value: 0x7F030112
-			public const int layout = 2130903314;
-			
-			// aapt resource value: 0x7F030113
-			public const int layoutManager = 2130903315;
-			
-			// aapt resource value: 0x7F030114
-			public const int layout_anchor = 2130903316;
-			
-			// aapt resource value: 0x7F030115
-			public const int layout_anchorGravity = 2130903317;
-			
-			// aapt resource value: 0x7F030116
-			public const int layout_behavior = 2130903318;
-			
-			// aapt resource value: 0x7F030117
-			public const int layout_collapseMode = 2130903319;
-			
-			// aapt resource value: 0x7F030118
-			public const int layout_collapseParallaxMultiplier = 2130903320;
-			
-			// aapt resource value: 0x7F030119
-			public const int layout_dodgeInsetEdges = 2130903321;
-			
-			// aapt resource value: 0x7F03011A
-			public const int layout_insetEdge = 2130903322;
-			
-			// aapt resource value: 0x7F03011B
-			public const int layout_keyline = 2130903323;
-			
-			// aapt resource value: 0x7F03011C
-			public const int layout_scrollFlags = 2130903324;
-			
-			// aapt resource value: 0x7F03011D
-			public const int layout_scrollInterpolator = 2130903325;
-			
-			// aapt resource value: 0x7F03011E
-			public const int liftOnScroll = 2130903326;
-			
-			// aapt resource value: 0x7F03011F
-			public const int lineHeight = 2130903327;
-			
-			// aapt resource value: 0x7F030120
-			public const int lineSpacing = 2130903328;
-			
-			// aapt resource value: 0x7F030121
-			public const int listChoiceBackgroundIndicator = 2130903329;
-			
-			// aapt resource value: 0x7F030122
-			public const int listDividerAlertDialog = 2130903330;
-			
-			// aapt resource value: 0x7F030123
-			public const int listItemLayout = 2130903331;
-			
-			// aapt resource value: 0x7F030124
-			public const int listLayout = 2130903332;
-			
-			// aapt resource value: 0x7F030125
-			public const int listMenuViewStyle = 2130903333;
-			
-			// aapt resource value: 0x7F030126
-			public const int listPopupWindowStyle = 2130903334;
-			
-			// aapt resource value: 0x7F030127
-			public const int listPreferredItemHeight = 2130903335;
-			
-			// aapt resource value: 0x7F030128
-			public const int listPreferredItemHeightLarge = 2130903336;
-			
-			// aapt resource value: 0x7F030129
-			public const int listPreferredItemHeightSmall = 2130903337;
-			
-			// aapt resource value: 0x7F03012A
-			public const int listPreferredItemPaddingLeft = 2130903338;
-			
-			// aapt resource value: 0x7F03012B
-			public const int listPreferredItemPaddingRight = 2130903339;
-			
-			// aapt resource value: 0x7F03012C
-			public const int logo = 2130903340;
-			
-			// aapt resource value: 0x7F03012D
-			public const int logoDescription = 2130903341;
-			
-			// aapt resource value: 0x7F03012E
-			public const int materialButtonStyle = 2130903342;
-			
-			// aapt resource value: 0x7F03012F
-			public const int materialCardViewStyle = 2130903343;
-			
-			// aapt resource value: 0x7F030130
-			public const int maxActionInlineWidth = 2130903344;
-			
-			// aapt resource value: 0x7F030131
-			public const int maxButtonHeight = 2130903345;
-			
-			// aapt resource value: 0x7F030132
-			public const int maxImageSize = 2130903346;
-			
-			// aapt resource value: 0x7F030133
-			public const int measureWithLargestChild = 2130903347;
-			
-			// aapt resource value: 0x7F030134
-			public const int mediaRouteAudioTrackDrawable = 2130903348;
-			
-			// aapt resource value: 0x7F030135
-			public const int mediaRouteButtonStyle = 2130903349;
-			
-			// aapt resource value: 0x7F030136
-			public const int mediaRouteButtonTint = 2130903350;
-			
-			// aapt resource value: 0x7F030137
-			public const int mediaRouteCloseDrawable = 2130903351;
-			
-			// aapt resource value: 0x7F030138
-			public const int mediaRouteControlPanelThemeOverlay = 2130903352;
-			
-			// aapt resource value: 0x7F030139
-			public const int mediaRouteDefaultIconDrawable = 2130903353;
-			
-			// aapt resource value: 0x7F03013A
-			public const int mediaRoutePauseDrawable = 2130903354;
-			
-			// aapt resource value: 0x7F03013B
-			public const int mediaRoutePlayDrawable = 2130903355;
-			
-			// aapt resource value: 0x7F03013C
-			public const int mediaRouteSpeakerGroupIconDrawable = 2130903356;
-			
-			// aapt resource value: 0x7F03013D
-			public const int mediaRouteSpeakerIconDrawable = 2130903357;
-			
-			// aapt resource value: 0x7F03013E
-			public const int mediaRouteStopDrawable = 2130903358;
-			
-			// aapt resource value: 0x7F03013F
-			public const int mediaRouteTheme = 2130903359;
-			
-			// aapt resource value: 0x7F030140
-			public const int mediaRouteTvIconDrawable = 2130903360;
-			
-			// aapt resource value: 0x7F030141
-			public const int menu = 2130903361;
-			
-			// aapt resource value: 0x7F030142
-			public const int multiChoiceItemLayout = 2130903362;
+			public const int dialogCornerRadius = 2130903216;
 			
 			// aapt resource value: 0x7F030000
-			public const int MvxBind = 2130903040;
+			public const int DialogElement = 2130903040;
+			
+			// aapt resource value: 0x7F0300B1
+			public const int dialogPreferredPadding = 2130903217;
+			
+			// aapt resource value: 0x7F0300B2
+			public const int dialogTheme = 2130903218;
+			
+			// aapt resource value: 0x7F0300B3
+			public const int displayOptions = 2130903219;
+			
+			// aapt resource value: 0x7F0300B4
+			public const int divider = 2130903220;
+			
+			// aapt resource value: 0x7F0300B5
+			public const int dividerHorizontal = 2130903221;
+			
+			// aapt resource value: 0x7F0300B6
+			public const int dividerPadding = 2130903222;
+			
+			// aapt resource value: 0x7F0300B7
+			public const int dividerVertical = 2130903223;
+			
+			// aapt resource value: 0x7F0300B8
+			public const int drawableSize = 2130903224;
+			
+			// aapt resource value: 0x7F0300B9
+			public const int drawerArrowStyle = 2130903225;
+			
+			// aapt resource value: 0x7F0300BB
+			public const int dropdownListPreferredItemHeight = 2130903227;
+			
+			// aapt resource value: 0x7F0300BA
+			public const int dropDownListViewStyle = 2130903226;
+			
+			// aapt resource value: 0x7F0300BC
+			public const int editTextBackground = 2130903228;
+			
+			// aapt resource value: 0x7F0300BD
+			public const int editTextColor = 2130903229;
+			
+			// aapt resource value: 0x7F0300BE
+			public const int editTextStyle = 2130903230;
+			
+			// aapt resource value: 0x7F0300BF
+			public const int elevation = 2130903231;
+			
+			// aapt resource value: 0x7F0300C0
+			public const int enforceMaterialTheme = 2130903232;
+			
+			// aapt resource value: 0x7F0300C1
+			public const int enforceTextAppearance = 2130903233;
+			
+			// aapt resource value: 0x7F0300C2
+			public const int errorEnabled = 2130903234;
+			
+			// aapt resource value: 0x7F0300C3
+			public const int errorTextAppearance = 2130903235;
+			
+			// aapt resource value: 0x7F0300C4
+			public const int expandActivityOverflowButtonDrawable = 2130903236;
+			
+			// aapt resource value: 0x7F0300C5
+			public const int expanded = 2130903237;
+			
+			// aapt resource value: 0x7F0300C6
+			public const int expandedTitleGravity = 2130903238;
+			
+			// aapt resource value: 0x7F0300C7
+			public const int expandedTitleMargin = 2130903239;
+			
+			// aapt resource value: 0x7F0300C8
+			public const int expandedTitleMarginBottom = 2130903240;
+			
+			// aapt resource value: 0x7F0300C9
+			public const int expandedTitleMarginEnd = 2130903241;
+			
+			// aapt resource value: 0x7F0300CA
+			public const int expandedTitleMarginStart = 2130903242;
+			
+			// aapt resource value: 0x7F0300CB
+			public const int expandedTitleMarginTop = 2130903243;
+			
+			// aapt resource value: 0x7F0300CC
+			public const int expandedTitleTextAppearance = 2130903244;
+			
+			// aapt resource value: 0x7F0300CD
+			public const int externalRouteEnabledDrawable = 2130903245;
+			
+			// aapt resource value: 0x7F0300CE
+			public const int fabAlignmentMode = 2130903246;
+			
+			// aapt resource value: 0x7F0300CF
+			public const int fabCradleMargin = 2130903247;
+			
+			// aapt resource value: 0x7F0300D0
+			public const int fabCradleRoundedCornerRadius = 2130903248;
+			
+			// aapt resource value: 0x7F0300D1
+			public const int fabCradleVerticalOffset = 2130903249;
+			
+			// aapt resource value: 0x7F0300D2
+			public const int fabCustomSize = 2130903250;
+			
+			// aapt resource value: 0x7F0300D3
+			public const int fabSize = 2130903251;
+			
+			// aapt resource value: 0x7F0300D4
+			public const int fastScrollEnabled = 2130903252;
+			
+			// aapt resource value: 0x7F0300D5
+			public const int fastScrollHorizontalThumbDrawable = 2130903253;
+			
+			// aapt resource value: 0x7F0300D6
+			public const int fastScrollHorizontalTrackDrawable = 2130903254;
+			
+			// aapt resource value: 0x7F0300D7
+			public const int fastScrollVerticalThumbDrawable = 2130903255;
+			
+			// aapt resource value: 0x7F0300D8
+			public const int fastScrollVerticalTrackDrawable = 2130903256;
+			
+			// aapt resource value: 0x7F0300D9
+			public const int firstBaselineToTopHeight = 2130903257;
+			
+			// aapt resource value: 0x7F0300DA
+			public const int floatingActionButtonStyle = 2130903258;
+			
+			// aapt resource value: 0x7F0300DB
+			public const int font = 2130903259;
+			
+			// aapt resource value: 0x7F0300DC
+			public const int fontFamily = 2130903260;
+			
+			// aapt resource value: 0x7F0300DD
+			public const int fontProviderAuthority = 2130903261;
+			
+			// aapt resource value: 0x7F0300DE
+			public const int fontProviderCerts = 2130903262;
+			
+			// aapt resource value: 0x7F0300DF
+			public const int fontProviderFetchStrategy = 2130903263;
+			
+			// aapt resource value: 0x7F0300E0
+			public const int fontProviderFetchTimeout = 2130903264;
+			
+			// aapt resource value: 0x7F0300E1
+			public const int fontProviderPackage = 2130903265;
+			
+			// aapt resource value: 0x7F0300E2
+			public const int fontProviderQuery = 2130903266;
+			
+			// aapt resource value: 0x7F0300E3
+			public const int fontStyle = 2130903267;
+			
+			// aapt resource value: 0x7F0300E4
+			public const int fontVariationSettings = 2130903268;
+			
+			// aapt resource value: 0x7F0300E5
+			public const int fontWeight = 2130903269;
+			
+			// aapt resource value: 0x7F0300E6
+			public const int foregroundInsidePadding = 2130903270;
+			
+			// aapt resource value: 0x7F0300E7
+			public const int gapBetweenBars = 2130903271;
+			
+			// aapt resource value: 0x7F0300E8
+			public const int goIcon = 2130903272;
+			
+			// aapt resource value: 0x7F0300E9
+			public const int headerLayout = 2130903273;
+			
+			// aapt resource value: 0x7F0300EA
+			public const int height = 2130903274;
+			
+			// aapt resource value: 0x7F0300EB
+			public const int helperText = 2130903275;
+			
+			// aapt resource value: 0x7F0300EC
+			public const int helperTextEnabled = 2130903276;
+			
+			// aapt resource value: 0x7F0300ED
+			public const int helperTextTextAppearance = 2130903277;
+			
+			// aapt resource value: 0x7F0300EE
+			public const int hideMotionSpec = 2130903278;
+			
+			// aapt resource value: 0x7F0300EF
+			public const int hideOnContentScroll = 2130903279;
+			
+			// aapt resource value: 0x7F0300F0
+			public const int hideOnScroll = 2130903280;
 			
 			// aapt resource value: 0x7F030001
-			public const int MvxDropDownItemTemplate = 2130903041;
+			public const int HideWhenNotInUse = 2130903041;
 			
-			// aapt resource value: 0x7F030002
-			public const int MvxGroupItemTemplate = 2130903042;
+			// aapt resource value: 0x7F0300F1
+			public const int hintAnimationEnabled = 2130903281;
 			
-			// aapt resource value: 0x7F030003
-			public const int MvxItemTemplate = 2130903043;
+			// aapt resource value: 0x7F0300F2
+			public const int hintEnabled = 2130903282;
 			
-			// aapt resource value: 0x7F030004
-			public const int MvxLang = 2130903044;
+			// aapt resource value: 0x7F0300F3
+			public const int hintTextAppearance = 2130903283;
 			
-			// aapt resource value: 0x7F030005
-			public const int MvxTemplate = 2130903045;
+			// aapt resource value: 0x7F0300F4
+			public const int homeAsUpIndicator = 2130903284;
 			
-			// aapt resource value: 0x7F030006
-			public const int MvxTemplateSelector = 2130903046;
+			// aapt resource value: 0x7F0300F5
+			public const int homeLayout = 2130903285;
+			
+			// aapt resource value: 0x7F0300F6
+			public const int hoveredFocusedTranslationZ = 2130903286;
+			
+			// aapt resource value: 0x7F0300F7
+			public const int icon = 2130903287;
+			
+			// aapt resource value: 0x7F0300F8
+			public const int iconEndPadding = 2130903288;
+			
+			// aapt resource value: 0x7F0300F9
+			public const int iconGravity = 2130903289;
+			
+			// aapt resource value: 0x7F0300FF
+			public const int iconifiedByDefault = 2130903295;
+			
+			// aapt resource value: 0x7F0300FA
+			public const int iconPadding = 2130903290;
+			
+			// aapt resource value: 0x7F0300FB
+			public const int iconSize = 2130903291;
+			
+			// aapt resource value: 0x7F0300FC
+			public const int iconStartPadding = 2130903292;
+			
+			// aapt resource value: 0x7F0300FD
+			public const int iconTint = 2130903293;
+			
+			// aapt resource value: 0x7F0300FE
+			public const int iconTintMode = 2130903294;
+			
+			// aapt resource value: 0x7F030100
+			public const int imageButtonStyle = 2130903296;
+			
+			// aapt resource value: 0x7F030101
+			public const int indeterminateProgressStyle = 2130903297;
+			
+			// aapt resource value: 0x7F030102
+			public const int initialActivityCount = 2130903298;
+			
+			// aapt resource value: 0x7F030103
+			public const int insetForeground = 2130903299;
+			
+			// aapt resource value: 0x7F030104
+			public const int isLightTheme = 2130903300;
+			
+			// aapt resource value: 0x7F030105
+			public const int itemBackground = 2130903301;
+			
+			// aapt resource value: 0x7F030106
+			public const int itemHorizontalPadding = 2130903302;
+			
+			// aapt resource value: 0x7F030107
+			public const int itemHorizontalTranslationEnabled = 2130903303;
+			
+			// aapt resource value: 0x7F030108
+			public const int itemIconPadding = 2130903304;
+			
+			// aapt resource value: 0x7F030109
+			public const int itemIconSize = 2130903305;
+			
+			// aapt resource value: 0x7F03010A
+			public const int itemIconTint = 2130903306;
+			
+			// aapt resource value: 0x7F03010B
+			public const int itemPadding = 2130903307;
+			
+			// aapt resource value: 0x7F03010C
+			public const int itemSpacing = 2130903308;
+			
+			// aapt resource value: 0x7F03010D
+			public const int itemTextAppearance = 2130903309;
+			
+			// aapt resource value: 0x7F03010E
+			public const int itemTextAppearanceActive = 2130903310;
+			
+			// aapt resource value: 0x7F03010F
+			public const int itemTextAppearanceInactive = 2130903311;
+			
+			// aapt resource value: 0x7F030110
+			public const int itemTextColor = 2130903312;
+			
+			// aapt resource value: 0x7F030111
+			public const int keylines = 2130903313;
+			
+			// aapt resource value: 0x7F030112
+			public const int labelVisibilityMode = 2130903314;
+			
+			// aapt resource value: 0x7F030113
+			public const int lastBaselineToBottomHeight = 2130903315;
+			
+			// aapt resource value: 0x7F030114
+			public const int layout = 2130903316;
+			
+			// aapt resource value: 0x7F030115
+			public const int layoutManager = 2130903317;
+			
+			// aapt resource value: 0x7F030116
+			public const int layout_anchor = 2130903318;
+			
+			// aapt resource value: 0x7F030117
+			public const int layout_anchorGravity = 2130903319;
+			
+			// aapt resource value: 0x7F030118
+			public const int layout_behavior = 2130903320;
+			
+			// aapt resource value: 0x7F030119
+			public const int layout_collapseMode = 2130903321;
+			
+			// aapt resource value: 0x7F03011A
+			public const int layout_collapseParallaxMultiplier = 2130903322;
+			
+			// aapt resource value: 0x7F03011B
+			public const int layout_dodgeInsetEdges = 2130903323;
+			
+			// aapt resource value: 0x7F03011C
+			public const int layout_insetEdge = 2130903324;
+			
+			// aapt resource value: 0x7F03011D
+			public const int layout_keyline = 2130903325;
+			
+			// aapt resource value: 0x7F03011E
+			public const int layout_scrollFlags = 2130903326;
+			
+			// aapt resource value: 0x7F03011F
+			public const int layout_scrollInterpolator = 2130903327;
+			
+			// aapt resource value: 0x7F030120
+			public const int liftOnScroll = 2130903328;
+			
+			// aapt resource value: 0x7F030121
+			public const int lineHeight = 2130903329;
+			
+			// aapt resource value: 0x7F030122
+			public const int lineSpacing = 2130903330;
+			
+			// aapt resource value: 0x7F030123
+			public const int listChoiceBackgroundIndicator = 2130903331;
+			
+			// aapt resource value: 0x7F030124
+			public const int listDividerAlertDialog = 2130903332;
+			
+			// aapt resource value: 0x7F030125
+			public const int listItemLayout = 2130903333;
+			
+			// aapt resource value: 0x7F030126
+			public const int listLayout = 2130903334;
+			
+			// aapt resource value: 0x7F030127
+			public const int listMenuViewStyle = 2130903335;
+			
+			// aapt resource value: 0x7F030128
+			public const int listPopupWindowStyle = 2130903336;
+			
+			// aapt resource value: 0x7F030129
+			public const int listPreferredItemHeight = 2130903337;
+			
+			// aapt resource value: 0x7F03012A
+			public const int listPreferredItemHeightLarge = 2130903338;
+			
+			// aapt resource value: 0x7F03012B
+			public const int listPreferredItemHeightSmall = 2130903339;
+			
+			// aapt resource value: 0x7F03012C
+			public const int listPreferredItemPaddingLeft = 2130903340;
+			
+			// aapt resource value: 0x7F03012D
+			public const int listPreferredItemPaddingRight = 2130903341;
+			
+			// aapt resource value: 0x7F03012E
+			public const int logo = 2130903342;
+			
+			// aapt resource value: 0x7F03012F
+			public const int logoDescription = 2130903343;
+			
+			// aapt resource value: 0x7F030130
+			public const int materialButtonStyle = 2130903344;
+			
+			// aapt resource value: 0x7F030131
+			public const int materialCardViewStyle = 2130903345;
+			
+			// aapt resource value: 0x7F030132
+			public const int maxActionInlineWidth = 2130903346;
+			
+			// aapt resource value: 0x7F030133
+			public const int maxButtonHeight = 2130903347;
+			
+			// aapt resource value: 0x7F030134
+			public const int maxImageSize = 2130903348;
+			
+			// aapt resource value: 0x7F030135
+			public const int measureWithLargestChild = 2130903349;
+			
+			// aapt resource value: 0x7F030136
+			public const int mediaRouteAudioTrackDrawable = 2130903350;
+			
+			// aapt resource value: 0x7F030137
+			public const int mediaRouteButtonStyle = 2130903351;
+			
+			// aapt resource value: 0x7F030138
+			public const int mediaRouteButtonTint = 2130903352;
+			
+			// aapt resource value: 0x7F030139
+			public const int mediaRouteCloseDrawable = 2130903353;
+			
+			// aapt resource value: 0x7F03013A
+			public const int mediaRouteControlPanelThemeOverlay = 2130903354;
+			
+			// aapt resource value: 0x7F03013B
+			public const int mediaRouteDefaultIconDrawable = 2130903355;
+			
+			// aapt resource value: 0x7F03013C
+			public const int mediaRoutePauseDrawable = 2130903356;
+			
+			// aapt resource value: 0x7F03013D
+			public const int mediaRoutePlayDrawable = 2130903357;
+			
+			// aapt resource value: 0x7F03013E
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130903358;
+			
+			// aapt resource value: 0x7F03013F
+			public const int mediaRouteSpeakerIconDrawable = 2130903359;
+			
+			// aapt resource value: 0x7F030140
+			public const int mediaRouteStopDrawable = 2130903360;
+			
+			// aapt resource value: 0x7F030141
+			public const int mediaRouteTheme = 2130903361;
+			
+			// aapt resource value: 0x7F030142
+			public const int mediaRouteTvIconDrawable = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int navigationContentDescription = 2130903363;
+			public const int menu = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int navigationIcon = 2130903364;
+			public const int multiChoiceItemLayout = 2130903364;
+			
+			// aapt resource value: 0x7F030002
+			public const int MvxBind = 2130903042;
+			
+			// aapt resource value: 0x7F030003
+			public const int MvxDropDownItemTemplate = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int MvxGroupItemTemplate = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int MvxItemTemplate = 2130903045;
+			
+			// aapt resource value: 0x7F030006
+			public const int MvxLang = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int MvxTemplate = 2130903047;
+			
+			// aapt resource value: 0x7F030008
+			public const int MvxTemplateSelector = 2130903048;
 			
 			// aapt resource value: 0x7F030145
-			public const int navigationMode = 2130903365;
+			public const int navigationContentDescription = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int navigationViewStyle = 2130903366;
+			public const int navigationIcon = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int numericModifiers = 2130903367;
+			public const int navigationMode = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int overlapAnchor = 2130903368;
+			public const int navigationViewStyle = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int paddingBottomNoButtons = 2130903369;
+			public const int numericModifiers = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int paddingEnd = 2130903370;
+			public const int overlapAnchor = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int paddingStart = 2130903371;
+			public const int paddingBottomNoButtons = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int paddingTopNoTitle = 2130903372;
+			public const int paddingEnd = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int panelBackground = 2130903373;
+			public const int paddingStart = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int panelMenuListTheme = 2130903374;
+			public const int paddingTopNoTitle = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int panelMenuListWidth = 2130903375;
+			public const int panelBackground = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int passwordToggleContentDescription = 2130903376;
+			public const int panelMenuListTheme = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int passwordToggleDrawable = 2130903377;
+			public const int panelMenuListWidth = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int passwordToggleEnabled = 2130903378;
+			public const int passwordToggleContentDescription = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int passwordToggleTint = 2130903379;
+			public const int passwordToggleDrawable = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int passwordToggleTintMode = 2130903380;
+			public const int passwordToggleEnabled = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int popupMenuStyle = 2130903381;
+			public const int passwordToggleTint = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int popupTheme = 2130903382;
+			public const int passwordToggleTintMode = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int popupWindowStyle = 2130903383;
+			public const int popupMenuStyle = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int preserveIconSpacing = 2130903384;
+			public const int popupTheme = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int pressedTranslationZ = 2130903385;
+			public const int popupWindowStyle = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int progressBarPadding = 2130903386;
+			public const int preserveIconSpacing = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int progressBarStyle = 2130903387;
+			public const int pressedTranslationZ = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int queryBackground = 2130903388;
+			public const int progressBarPadding = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int queryHint = 2130903389;
+			public const int progressBarStyle = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int radioButtonStyle = 2130903390;
+			public const int queryBackground = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int ratingBarStyle = 2130903391;
+			public const int queryHint = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int ratingBarStyleIndicator = 2130903392;
+			public const int radioButtonStyle = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int ratingBarStyleSmall = 2130903393;
+			public const int ratingBarStyle = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int reverseLayout = 2130903394;
+			public const int ratingBarStyleIndicator = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int rippleColor = 2130903395;
+			public const int ratingBarStyleSmall = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int scrimAnimationDuration = 2130903396;
+			public const int reverseLayout = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int scrimBackground = 2130903397;
+			public const int rippleColor = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int scrimVisibleHeightTrigger = 2130903398;
+			public const int scrimAnimationDuration = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int searchHintIcon = 2130903399;
+			public const int scrimBackground = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int searchIcon = 2130903400;
+			public const int scrimVisibleHeightTrigger = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int searchViewStyle = 2130903401;
+			public const int searchHintIcon = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int seekBarStyle = 2130903402;
+			public const int searchIcon = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int selectableItemBackground = 2130903403;
+			public const int searchViewStyle = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int selectableItemBackgroundBorderless = 2130903404;
+			public const int seekBarStyle = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int showAsAction = 2130903405;
+			public const int selectableItemBackground = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int showDividers = 2130903406;
+			public const int selectableItemBackgroundBorderless = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int showMotionSpec = 2130903407;
+			public const int showAsAction = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int showText = 2130903408;
+			public const int showDividers = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int showTitle = 2130903409;
+			public const int showMotionSpec = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int singleChoiceItemLayout = 2130903410;
+			public const int showText = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int singleLine = 2130903411;
+			public const int showTitle = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int singleSelection = 2130903412;
+			public const int singleChoiceItemLayout = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int snackbarButtonStyle = 2130903413;
+			public const int singleLine = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int snackbarStyle = 2130903414;
+			public const int singleSelection = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int spanCount = 2130903415;
+			public const int snackbarButtonStyle = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int spinBars = 2130903416;
+			public const int snackbarStyle = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int spinnerDropDownItemStyle = 2130903417;
+			public const int spanCount = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int spinnerStyle = 2130903418;
+			public const int spinBars = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int splitTrack = 2130903419;
+			public const int spinnerDropDownItemStyle = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int srcCompat = 2130903420;
+			public const int spinnerStyle = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int stackFromEnd = 2130903421;
+			public const int splitTrack = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int state_above_anchor = 2130903422;
+			public const int srcCompat = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int state_collapsed = 2130903423;
+			public const int stackFromEnd = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int state_collapsible = 2130903424;
+			public const int state_above_anchor = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int state_liftable = 2130903425;
+			public const int state_collapsed = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int state_lifted = 2130903426;
+			public const int state_collapsible = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int statusBarBackground = 2130903427;
+			public const int state_liftable = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int statusBarScrim = 2130903428;
+			public const int state_lifted = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int strokeColor = 2130903429;
+			public const int statusBarBackground = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int strokeWidth = 2130903430;
+			public const int statusBarScrim = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int subMenuArrow = 2130903431;
+			public const int strokeColor = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int submitBackground = 2130903432;
+			public const int strokeWidth = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int subtitle = 2130903433;
+			public const int subMenuArrow = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int subtitleTextAppearance = 2130903434;
+			public const int submitBackground = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int subtitleTextColor = 2130903435;
+			public const int subtitle = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int subtitleTextStyle = 2130903436;
+			public const int subtitleTextAppearance = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int suggestionRowLayout = 2130903437;
+			public const int subtitleTextColor = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int switchMinWidth = 2130903438;
+			public const int subtitleTextStyle = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int switchPadding = 2130903439;
+			public const int suggestionRowLayout = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int switchStyle = 2130903440;
+			public const int switchMinWidth = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int switchTextAppearance = 2130903441;
+			public const int switchPadding = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabBackground = 2130903442;
+			public const int switchStyle = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabContentStart = 2130903443;
+			public const int switchTextAppearance = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabGravity = 2130903444;
+			public const int tabBackground = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabIconTint = 2130903445;
+			public const int tabContentStart = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int tabIconTintMode = 2130903446;
+			public const int tabGravity = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int tabIndicator = 2130903447;
+			public const int tabIconTint = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int tabIndicatorAnimationDuration = 2130903448;
+			public const int tabIconTintMode = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int tabIndicatorColor = 2130903449;
+			public const int tabIndicator = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int tabIndicatorFullWidth = 2130903450;
+			public const int tabIndicatorAnimationDuration = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int tabIndicatorGravity = 2130903451;
+			public const int tabIndicatorColor = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int tabIndicatorHeight = 2130903452;
+			public const int tabIndicatorFullWidth = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int tabInlineLabel = 2130903453;
+			public const int tabIndicatorGravity = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int tabMaxWidth = 2130903454;
+			public const int tabIndicatorHeight = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int tabMinWidth = 2130903455;
+			public const int tabInlineLabel = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int tabMode = 2130903456;
+			public const int tabMaxWidth = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int tabPadding = 2130903457;
+			public const int tabMinWidth = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int tabPaddingBottom = 2130903458;
+			public const int tabMode = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int tabPaddingEnd = 2130903459;
+			public const int tabPadding = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int tabPaddingStart = 2130903460;
+			public const int tabPaddingBottom = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int tabPaddingTop = 2130903461;
+			public const int tabPaddingEnd = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int tabRippleColor = 2130903462;
+			public const int tabPaddingStart = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int tabSelectedTextColor = 2130903463;
+			public const int tabPaddingTop = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int tabStyle = 2130903464;
+			public const int tabRippleColor = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int tabTextAppearance = 2130903465;
+			public const int tabSelectedTextColor = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int tabTextColor = 2130903466;
+			public const int tabStyle = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int tabUnboundedRipple = 2130903467;
+			public const int tabTextAppearance = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textAllCaps = 2130903468;
+			public const int tabTextColor = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textAppearanceBody1 = 2130903469;
+			public const int tabUnboundedRipple = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textAppearanceBody2 = 2130903470;
+			public const int textAllCaps = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textAppearanceButton = 2130903471;
+			public const int textAppearanceBody1 = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textAppearanceCaption = 2130903472;
+			public const int textAppearanceBody2 = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int textAppearanceHeadline1 = 2130903473;
+			public const int textAppearanceButton = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int textAppearanceHeadline2 = 2130903474;
+			public const int textAppearanceCaption = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int textAppearanceHeadline3 = 2130903475;
+			public const int textAppearanceHeadline1 = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int textAppearanceHeadline4 = 2130903476;
+			public const int textAppearanceHeadline2 = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int textAppearanceHeadline5 = 2130903477;
+			public const int textAppearanceHeadline3 = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int textAppearanceHeadline6 = 2130903478;
+			public const int textAppearanceHeadline4 = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int textAppearanceLargePopupMenu = 2130903479;
+			public const int textAppearanceHeadline5 = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int textAppearanceListItem = 2130903480;
+			public const int textAppearanceHeadline6 = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int textAppearanceListItemSecondary = 2130903481;
+			public const int textAppearanceLargePopupMenu = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int textAppearanceListItemSmall = 2130903482;
+			public const int textAppearanceListItem = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int textAppearanceOverline = 2130903483;
+			public const int textAppearanceListItemSecondary = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int textAppearancePopupMenuHeader = 2130903484;
+			public const int textAppearanceListItemSmall = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int textAppearanceSearchResultSubtitle = 2130903485;
+			public const int textAppearanceOverline = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int textAppearanceSearchResultTitle = 2130903486;
+			public const int textAppearancePopupMenuHeader = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int textAppearanceSmallPopupMenu = 2130903487;
+			public const int textAppearanceSearchResultSubtitle = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int textAppearanceSubtitle1 = 2130903488;
+			public const int textAppearanceSearchResultTitle = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int textAppearanceSubtitle2 = 2130903489;
+			public const int textAppearanceSmallPopupMenu = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int textColorAlertDialogListItem = 2130903490;
+			public const int textAppearanceSubtitle1 = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int textColorInactive = 2130903491;
+			public const int textAppearanceSubtitle2 = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int textColorSearchUrl = 2130903492;
+			public const int textColorAlertDialogListItem = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int textColorSubtitle = 2130903493;
+			public const int textColorInactive = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int textColorTitle = 2130903494;
+			public const int textColorSearchUrl = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int textEndPadding = 2130903495;
+			public const int textColorSubtitle = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int textInputStyle = 2130903496;
+			public const int textColorTitle = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int textStartPadding = 2130903497;
+			public const int textEndPadding = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int theme = 2130903498;
+			public const int textInputStyle = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int thickness = 2130903499;
+			public const int textStartPadding = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int thumbTextPadding = 2130903500;
+			public const int theme = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int thumbTint = 2130903501;
+			public const int thickness = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int thumbTintMode = 2130903502;
+			public const int thumbTextPadding = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int tickMark = 2130903503;
+			public const int thumbTint = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int tickMarkTint = 2130903504;
+			public const int thumbTintMode = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int tickMarkTintMode = 2130903505;
+			public const int tickMark = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int tint = 2130903506;
+			public const int tickMarkTint = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int tintMode = 2130903507;
+			public const int tickMarkTintMode = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int title = 2130903508;
+			public const int tint = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int titleEnabled = 2130903509;
+			public const int tintMode = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int titleMargin = 2130903510;
+			public const int title = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int titleMarginBottom = 2130903511;
+			public const int titleEnabled = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int titleMarginEnd = 2130903512;
-			
-			// aapt resource value: 0x7F0301DB
-			public const int titleMargins = 2130903515;
+			public const int titleMargin = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int titleMarginStart = 2130903513;
+			public const int titleMarginBottom = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int titleMarginTop = 2130903514;
-			
-			// aapt resource value: 0x7F0301DC
-			public const int titleTextAppearance = 2130903516;
+			public const int titleMarginEnd = 2130903514;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int titleTextColor = 2130903517;
+			public const int titleMargins = 2130903517;
+			
+			// aapt resource value: 0x7F0301DB
+			public const int titleMarginStart = 2130903515;
+			
+			// aapt resource value: 0x7F0301DC
+			public const int titleMarginTop = 2130903516;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int titleTextStyle = 2130903518;
+			public const int titleTextAppearance = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int toolbarId = 2130903519;
+			public const int titleTextColor = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int toolbarNavigationButtonStyle = 2130903520;
+			public const int titleTextStyle = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int toolbarStyle = 2130903521;
+			public const int toolbarId = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int tooltipForegroundColor = 2130903522;
+			public const int toolbarNavigationButtonStyle = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int tooltipFrameBackground = 2130903523;
+			public const int toolbarStyle = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int tooltipText = 2130903524;
+			public const int tooltipForegroundColor = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int track = 2130903525;
+			public const int tooltipFrameBackground = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int trackTint = 2130903526;
+			public const int tooltipText = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int trackTintMode = 2130903527;
+			public const int track = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int ttcIndex = 2130903528;
+			public const int trackTint = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int useCompatPadding = 2130903529;
+			public const int trackTintMode = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int viewInflaterClass = 2130903530;
+			public const int ttcIndex = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int voiceIcon = 2130903531;
+			public const int useCompatPadding = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int windowActionBar = 2130903532;
+			public const int viewInflaterClass = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int windowActionBarOverlay = 2130903533;
+			public const int voiceIcon = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int windowActionModeOverlay = 2130903534;
+			public const int windowActionBar = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int windowBackgroundColor = 2130903535;
+			public const int windowActionBarOverlay = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int windowFixedHeightMajor = 2130903536;
+			public const int windowActionModeOverlay = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int windowFixedHeightMinor = 2130903537;
+			public const int windowBackgroundColor = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int windowFixedWidthMajor = 2130903538;
+			public const int windowFixedHeightMajor = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int windowFixedWidthMinor = 2130903539;
+			public const int windowFixedHeightMinor = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int windowForegroundColor = 2130903540;
+			public const int windowFixedWidthMajor = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int windowMinWidthMajor = 2130903541;
+			public const int windowFixedWidthMinor = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int windowMinWidthMinor = 2130903542;
+			public const int windowForegroundColor = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int windowNoTitle = 2130903543;
+			public const int windowMinWidthMajor = 2130903543;
+			
+			// aapt resource value: 0x7F0301F8
+			public const int windowMinWidthMinor = 2130903544;
+			
+			// aapt resource value: 0x7F0301F9
+			public const int windowNoTitle = 2130903545;
 			
 			static Attribute()
 			{
@@ -9697,172 +12233,169 @@ namespace MiCamConfig.App.Droid
 			public const int list_item = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int loading_text = 2131230814;
+			public const int masked = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int masked = 2131230815;
+			public const int media_actions = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int media_actions = 2131230816;
-			
-			// aapt resource value: 0x7F080061
-			public const int message = 2131230817;
+			public const int message = 2131230816;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
+			// aapt resource value: 0x7F080061
+			public const int middle = 2131230817;
+			
 			// aapt resource value: 0x7F080062
-			public const int middle = 2131230818;
+			public const int mini = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int mini = 2131230819;
+			public const int mr_art = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int mr_art = 2131230820;
+			public const int mr_cast_checkbox = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int mr_cast_checkbox = 2131230821;
+			public const int mr_cast_close_button = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int mr_cast_close_button = 2131230822;
+			public const int mr_cast_group_icon = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int mr_cast_group_icon = 2131230823;
+			public const int mr_cast_group_name = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int mr_cast_group_name = 2131230824;
+			public const int mr_cast_list = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int mr_cast_list = 2131230825;
+			public const int mr_cast_meta = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int mr_cast_meta = 2131230826;
+			public const int mr_cast_meta_art = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int mr_cast_meta_art = 2131230827;
+			public const int mr_cast_meta_subtitle = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int mr_cast_meta_subtitle = 2131230828;
+			public const int mr_cast_meta_title = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int mr_cast_meta_title = 2131230829;
+			public const int mr_cast_route_icon = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int mr_cast_route_icon = 2131230830;
+			public const int mr_cast_route_name = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mr_cast_route_name = 2131230831;
+			public const int mr_cast_stop_button = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int mr_cast_stop_button = 2131230832;
+			public const int mr_cast_volume_layout = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int mr_cast_volume_layout = 2131230833;
+			public const int mr_cast_volume_slider = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int mr_cast_volume_slider = 2131230834;
+			public const int mr_chooser_list = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int mr_chooser_list = 2131230835;
+			public const int mr_chooser_route_desc = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mr_chooser_route_desc = 2131230836;
+			public const int mr_chooser_route_icon = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mr_chooser_route_icon = 2131230837;
+			public const int mr_chooser_route_name = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mr_chooser_route_name = 2131230838;
+			public const int mr_chooser_title = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int mr_chooser_title = 2131230839;
+			public const int mr_close = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int mr_close = 2131230840;
+			public const int mr_control_divider = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int mr_control_divider = 2131230841;
+			public const int mr_control_playback_ctrl = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int mr_control_playback_ctrl = 2131230842;
+			public const int mr_control_subtitle = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int mr_control_subtitle = 2131230843;
+			public const int mr_control_title = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int mr_control_title = 2131230844;
+			public const int mr_control_title_container = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int mr_control_title_container = 2131230845;
+			public const int mr_custom_control = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int mr_custom_control = 2131230846;
+			public const int mr_default_control = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int mr_default_control = 2131230847;
+			public const int mr_dialog_area = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int mr_dialog_area = 2131230848;
+			public const int mr_dialog_header_name = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int mr_dialog_header_name = 2131230849;
+			public const int mr_expandable_area = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int mr_expandable_area = 2131230850;
+			public const int mr_group_expand_collapse = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mr_group_expand_collapse = 2131230851;
+			public const int mr_group_volume_route_name = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int mr_group_volume_route_name = 2131230852;
+			public const int mr_group_volume_slider = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int mr_group_volume_slider = 2131230853;
+			public const int mr_media_main_control = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int mr_media_main_control = 2131230854;
+			public const int mr_name = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int mr_name = 2131230855;
+			public const int mr_picker_close_button = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mr_picker_close_button = 2131230856;
+			public const int mr_picker_list = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mr_picker_list = 2131230857;
+			public const int mr_picker_route_icon = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int mr_picker_route_icon = 2131230858;
+			public const int mr_picker_route_name = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int mr_picker_route_name = 2131230859;
+			public const int mr_playback_control = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int mr_playback_control = 2131230860;
+			public const int mr_title_bar = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int mr_title_bar = 2131230861;
+			public const int mr_volume_control = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int mr_volume_control = 2131230862;
+			public const int mr_volume_group_list = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int mr_volume_group_list = 2131230863;
+			public const int mr_volume_item_icon = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int mr_volume_item_icon = 2131230864;
+			public const int mr_volume_slider = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int mr_volume_slider = 2131230865;
+			public const int mtrl_child_content_container = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mtrl_child_content_container = 2131230866;
+			public const int mtrl_internal_children_alpha_tag = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mtrl_internal_children_alpha_tag = 2131230867;
-			
-			// aapt resource value: 0x7F080094
-			public const int multiply = 2131230868;
+			public const int multiply = 2131230867;
 			
 			// aapt resource value: 0x7F080004
 			public const int MvvmCrossTagId = 2131230724;
@@ -9870,296 +12403,296 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 0x7F080005
 			public const int MvxBindingTagUnique = 2131230725;
 			
+			// aapt resource value: 0x7F080094
+			public const int navigation_header_container = 2131230868;
+			
 			// aapt resource value: 0x7F080095
-			public const int navigation_header_container = 2131230869;
+			public const int never = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int never = 2131230870;
+			public const int none = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int none = 2131230871;
+			public const int normal = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int normal = 2131230872;
+			public const int notification_background = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int notification_background = 2131230873;
+			public const int notification_main_column = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int notification_main_column = 2131230874;
+			public const int notification_main_column_container = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int notification_main_column_container = 2131230875;
+			public const int outline = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int outline = 2131230876;
+			public const int parallax = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int parallax = 2131230877;
+			public const int parentPanel = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int parentPanel = 2131230878;
+			public const int parent_matrix = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int parent_matrix = 2131230879;
+			public const int pin = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int pin = 2131230880;
+			public const int progress_circular = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int progress_circular = 2131230881;
+			public const int progress_horizontal = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int progress_horizontal = 2131230882;
+			public const int radio = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int radio = 2131230883;
+			public const int recyclerview = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int recyclerview = 2131230884;
+			public const int right = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int right = 2131230885;
+			public const int right_icon = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int right_icon = 2131230886;
+			public const int right_side = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int right_side = 2131230887;
+			public const int save_image_matrix = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int save_image_matrix = 2131230888;
+			public const int save_non_transition_alpha = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int save_non_transition_alpha = 2131230889;
+			public const int save_scale_type = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int save_scale_type = 2131230890;
+			public const int screen = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int screen = 2131230891;
-			
-			// aapt resource value: 0x7F0800AC
-			public const int scroll = 2131230892;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int scrollable = 2131230896;
-			
-			// aapt resource value: 0x7F0800AD
-			public const int scrollIndicatorDown = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int scrollIndicatorUp = 2131230894;
+			public const int scroll = 2131230891;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int scrollView = 2131230895;
+			public const int scrollable = 2131230895;
+			
+			// aapt resource value: 0x7F0800AC
+			public const int scrollIndicatorDown = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int scrollIndicatorUp = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int scrollView = 2131230894;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int search_badge = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int search_badge = 2131230897;
+			public const int search_bar = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int search_bar = 2131230898;
+			public const int search_button = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int search_button = 2131230899;
+			public const int search_close_btn = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int search_close_btn = 2131230900;
+			public const int search_edit_frame = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int search_edit_frame = 2131230901;
+			public const int search_go_btn = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int search_go_btn = 2131230902;
+			public const int search_mag_icon = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int search_mag_icon = 2131230903;
+			public const int search_plate = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int search_plate = 2131230904;
+			public const int search_src_text = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int search_src_text = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int search_voice_btn = 2131230906;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int selected = 2131230908;
+			public const int search_voice_btn = 2131230905;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int select_dialog_listview = 2131230907;
+			public const int selected = 2131230907;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int select_dialog_listview = 2131230906;
 			
 			// aapt resource value: 0x7F080006
 			public const int SHIFT = 2131230726;
 			
+			// aapt resource value: 0x7F0800BC
+			public const int shortcut = 2131230908;
+			
 			// aapt resource value: 0x7F0800BD
-			public const int shortcut = 2131230909;
+			public const int showCustom = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int showCustom = 2131230910;
+			public const int showHome = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int showHome = 2131230911;
+			public const int showTitle = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int showTitle = 2131230912;
+			public const int smallLabel = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int smallLabel = 2131230913;
+			public const int snackbar_action = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int snackbar_action = 2131230914;
+			public const int snackbar_text = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int snackbar_text = 2131230915;
+			public const int snap = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int snap = 2131230916;
+			public const int snapMargins = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int snapMargins = 2131230917;
+			public const int spacer = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int spacer = 2131230918;
+			public const int split_action_bar = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int split_action_bar = 2131230919;
+			public const int src_atop = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int src_atop = 2131230920;
+			public const int src_in = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int src_in = 2131230921;
+			public const int src_over = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int src_over = 2131230922;
+			public const int start = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int start = 2131230923;
+			public const int status_bar_latest_event_content = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int status_bar_latest_event_content = 2131230924;
+			public const int stretch = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int stretch = 2131230925;
+			public const int submenuarrow = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int submenuarrow = 2131230926;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int submit_area = 2131230927;
+			public const int submit_area = 2131230926;
 			
 			// aapt resource value: 0x7F080007
 			public const int SYM = 2131230727;
 			
+			// aapt resource value: 0x7F0800CF
+			public const int tabMode = 2131230927;
+			
 			// aapt resource value: 0x7F0800D0
-			public const int tabMode = 2131230928;
+			public const int tag_transition_group = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int tag_transition_group = 2131230929;
+			public const int tag_unhandled_key_event_manager = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int tag_unhandled_key_event_manager = 2131230930;
+			public const int tag_unhandled_key_listeners = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int tag_unhandled_key_listeners = 2131230931;
+			public const int text = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int text = 2131230932;
-			
-			// aapt resource value: 0x7F0800D5
-			public const int text2 = 2131230933;
-			
-			// aapt resource value: 0x7F0800DA
-			public const int textinput_counter = 2131230938;
-			
-			// aapt resource value: 0x7F0800DB
-			public const int textinput_error = 2131230939;
-			
-			// aapt resource value: 0x7F0800DC
-			public const int textinput_helper_text = 2131230940;
-			
-			// aapt resource value: 0x7F0800D6
-			public const int textSpacerNoButtons = 2131230934;
-			
-			// aapt resource value: 0x7F0800D7
-			public const int textSpacerNoTitle = 2131230935;
-			
-			// aapt resource value: 0x7F0800D8
-			public const int textStart = 2131230936;
+			public const int text2 = 2131230932;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int text_input_password_toggle = 2131230937;
+			public const int textinput_counter = 2131230937;
+			
+			// aapt resource value: 0x7F0800DA
+			public const int textinput_error = 2131230938;
+			
+			// aapt resource value: 0x7F0800DB
+			public const int textinput_helper_text = 2131230939;
+			
+			// aapt resource value: 0x7F0800D5
+			public const int textSpacerNoButtons = 2131230933;
+			
+			// aapt resource value: 0x7F0800D6
+			public const int textSpacerNoTitle = 2131230934;
+			
+			// aapt resource value: 0x7F0800D7
+			public const int textStart = 2131230935;
+			
+			// aapt resource value: 0x7F0800D8
+			public const int text_input_password_toggle = 2131230936;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int time = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int time = 2131230941;
+			public const int title = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int title = 2131230942;
+			public const int titleDividerNoCustom = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int titleDividerNoCustom = 2131230943;
+			public const int title_template = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int title_template = 2131230944;
+			public const int toolbar = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int toolbar = 2131230945;
+			public const int toolbar_text = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int toolbar_text = 2131230946;
+			public const int top = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int top = 2131230947;
+			public const int topPanel = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int topPanel = 2131230948;
+			public const int touch_outside = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int touch_outside = 2131230949;
+			public const int transition_current_scene = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int transition_current_scene = 2131230950;
+			public const int transition_layout_save = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int transition_layout_save = 2131230951;
+			public const int transition_position = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int transition_position = 2131230952;
+			public const int transition_scene_layoutid_cache = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int transition_scene_layoutid_cache = 2131230953;
+			public const int transition_transform = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int transition_transform = 2131230954;
+			public const int uniform = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int uniform = 2131230955;
+			public const int unlabeled = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int unlabeled = 2131230956;
+			public const int up = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int up = 2131230957;
+			public const int useLogo = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int useLogo = 2131230958;
+			public const int view_offset_helper = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int view_offset_helper = 2131230959;
+			public const int visible = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int visible = 2131230960;
+			public const int volume_item_container = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int volume_item_container = 2131230961;
+			public const int withText = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int withText = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int wrap_content = 2131230963;
+			public const int wrap_content = 2131230962;
 			
 			static Id()
 			{
@@ -10420,118 +12953,133 @@ namespace MiCamConfig.App.Droid
 			public const int design_text_input_password_icon = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int dialog_loading = 2131427376;
+			public const int dialog_default_action_sheet = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int item_action = 2131427377;
+			public const int dialog_default_action_sheet_bottom = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mr_cast_dialog = 2131427378;
+			public const int dialog_default_action_sheet_item = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mr_cast_group_item = 2131427379;
+			public const int dialog_default_loading_determinate = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mr_cast_group_volume_item = 2131427380;
+			public const int dialog_default_loading_indeterminate = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mr_cast_media_metadata = 2131427381;
+			public const int dialog_default_prompt = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mr_cast_route_item = 2131427382;
+			public const int item_action = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_chooser_dialog = 2131427383;
+			public const int mr_cast_dialog = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_chooser_list_item = 2131427384;
+			public const int mr_cast_group_item = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_controller_material_dialog_b = 2131427385;
+			public const int mr_cast_group_volume_item = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_controller_volume_item = 2131427386;
+			public const int mr_cast_media_metadata = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_dialog_header_item = 2131427387;
+			public const int mr_cast_route_item = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mr_picker_dialog = 2131427388;
+			public const int mr_chooser_dialog = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mr_picker_route_item = 2131427389;
+			public const int mr_chooser_list_item = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int mr_playback_control = 2131427390;
+			public const int mr_controller_material_dialog_b = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int mr_volume_control = 2131427391;
+			public const int mr_controller_volume_item = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int mtrl_layout_snackbar = 2131427392;
+			public const int mr_dialog_header_item = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int mtrl_layout_snackbar_include = 2131427393;
+			public const int mr_picker_dialog = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int notification_action = 2131427394;
+			public const int mr_picker_route_item = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int notification_action_tombstone = 2131427395;
+			public const int mr_playback_control = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int notification_media_action = 2131427396;
+			public const int mr_volume_control = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int notification_media_cancel_action = 2131427397;
+			public const int mtrl_layout_snackbar = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int notification_template_big_media = 2131427398;
+			public const int mtrl_layout_snackbar_include = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int notification_template_big_media_custom = 2131427399;
+			public const int notification_action = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int notification_template_big_media_narrow = 2131427400;
+			public const int notification_action_tombstone = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int notification_template_big_media_narrow_custom = 2131427401;
+			public const int notification_media_action = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int notification_template_custom_big = 2131427402;
+			public const int notification_media_cancel_action = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int notification_template_icon_group = 2131427403;
+			public const int notification_template_big_media = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int notification_template_lines_media = 2131427404;
+			public const int notification_template_big_media_custom = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int notification_template_media = 2131427405;
+			public const int notification_template_big_media_narrow = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int notification_template_media_custom = 2131427406;
+			public const int notification_template_big_media_narrow_custom = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int notification_template_part_chronometer = 2131427407;
+			public const int notification_template_custom_big = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int notification_template_part_time = 2131427408;
+			public const int notification_template_icon_group = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int select_dialog_item_material = 2131427409;
+			public const int notification_template_lines_media = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int select_dialog_multichoice_material = 2131427410;
+			public const int notification_template_media = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int select_dialog_singlechoice_material = 2131427411;
+			public const int notification_template_media_custom = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int support_simple_spinner_dropdown_item = 2131427412;
+			public const int notification_template_part_chronometer = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int toolbar = 2131427413;
+			public const int notification_template_part_time = 2131427413;
+			
+			// aapt resource value: 0x7F0B0056
+			public const int select_dialog_item_material = 2131427414;
+			
+			// aapt resource value: 0x7F0B0057
+			public const int select_dialog_multichoice_material = 2131427415;
+			
+			// aapt resource value: 0x7F0B0058
+			public const int select_dialog_singlechoice_material = 2131427416;
+			
+			// aapt resource value: 0x7F0B0059
+			public const int support_simple_spinner_dropdown_item = 2131427417;
+			
+			// aapt resource value: 0x7F0B005A
+			public const int toolbar = 2131427418;
 			
 			static Layout()
 			{
@@ -12403,37 +14951,37 @@ namespace MiCamConfig.App.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030039,0x7F03003A,0x7F03003B,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F0300AC,0x7F0300B1,0x7F0300B2,0x7F0300BD,0x7F0300E8,0x7F0300ED,0x7F0300F2,0x7F0300F3,0x7F0300F5,0x7F0300FF,0x7F030109,0x7F03012C,0x7F030145,0x7F030156,0x7F03015A,0x7F03015B,0x7F030189,0x7F03018C,0x7F0301D4,0x7F0301DE }
+			// aapt resource value: { 0x7F03003B,0x7F03003C,0x7F03003D,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300AE,0x7F0300B3,0x7F0300B4,0x7F0300BF,0x7F0300EA,0x7F0300EF,0x7F0300F4,0x7F0300F5,0x7F0300F7,0x7F030101,0x7F03010B,0x7F03012E,0x7F030147,0x7F030158,0x7F03015C,0x7F03015D,0x7F03018B,0x7F03018E,0x7F0301D6,0x7F0301E0 }
 			public static int[] ActionBar = new int[] {
-					2130903097,
-					2130903098,
 					2130903099,
-					2130903193,
-					2130903194,
+					2130903100,
+					2130903101,
 					2130903195,
 					2130903196,
 					2130903197,
 					2130903198,
-					2130903212,
-					2130903217,
-					2130903218,
-					2130903229,
-					2130903272,
-					2130903277,
-					2130903282,
-					2130903283,
+					2130903199,
+					2130903200,
+					2130903214,
+					2130903219,
+					2130903220,
+					2130903231,
+					2130903274,
+					2130903279,
+					2130903284,
 					2130903285,
-					2130903295,
-					2130903305,
-					2130903340,
-					2130903365,
-					2130903382,
-					2130903386,
-					2130903387,
-					2130903433,
-					2130903436,
-					2130903508,
-					2130903518};
+					2130903287,
+					2130903297,
+					2130903307,
+					2130903342,
+					2130903367,
+					2130903384,
+					2130903388,
+					2130903389,
+					2130903435,
+					2130903438,
+					2130903510,
+					2130903520};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -12540,14 +15088,14 @@ namespace MiCamConfig.App.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030039,0x7F03003A,0x7F030086,0x7F0300E8,0x7F03018C,0x7F0301DE }
+			// aapt resource value: { 0x7F03003B,0x7F03003C,0x7F030088,0x7F0300EA,0x7F03018E,0x7F0301E0 }
 			public static int[] ActionMode = new int[] {
-					2130903097,
-					2130903098,
-					2130903174,
-					2130903272,
-					2130903436,
-					2130903518};
+					2130903099,
+					2130903100,
+					2130903176,
+					2130903274,
+					2130903438,
+					2130903520};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -12567,10 +15115,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F0300C2,0x7F030100 }
+			// aapt resource value: { 0x7F0300C4,0x7F030102 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903234,
-					2130903296};
+					2130903236,
+					2130903298};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -12578,16 +15126,16 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F03005A,0x7F03005B,0x7F030123,0x7F030124,0x7F030142,0x7F030171,0x7F030172 }
+			// aapt resource value: { 0x10100F2,0x7F03005C,0x7F03005D,0x7F030125,0x7F030126,0x7F030144,0x7F030173,0x7F030174 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903130,
-					2130903131,
-					2130903331,
-					2130903332,
-					2130903362,
-					2130903409,
-					2130903410};
+					2130903132,
+					2130903133,
+					2130903333,
+					2130903334,
+					2130903364,
+					2130903411,
+					2130903412};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -12670,21 +15218,21 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300BD,0x7F0300C3,0x7F03011E }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300BF,0x7F0300C5,0x7F030120 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903229,
-					2130903235,
-					2130903326};
+					2130903231,
+					2130903237,
+					2130903328};
 			
-			// aapt resource value: { 0x7F03017F,0x7F030180,0x7F030181,0x7F030182 }
+			// aapt resource value: { 0x7F030181,0x7F030182,0x7F030183,0x7F030184 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903423,
-					2130903424,
 					2130903425,
-					2130903426};
+					2130903426,
+					2130903427,
+					2130903428};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -12713,10 +15261,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03011C,0x7F03011D }
+			// aapt resource value: { 0x7F03011E,0x7F03011F }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903324,
-					2130903325};
+					2130903326,
+					2130903327};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -12727,12 +15275,12 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F03017C,0x7F0301D2,0x7F0301D3 }
+			// aapt resource value: { 0x1010119,0x7F03017E,0x7F0301D4,0x7F0301D5 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903420,
-					2130903506,
-					2130903507};
+					2130903422,
+					2130903508,
+					2130903509};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -12746,12 +15294,12 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301CF,0x7F0301D0,0x7F0301D1 }
+			// aapt resource value: { 0x1010142,0x7F0301D1,0x7F0301D2,0x7F0301D3 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903503,
-					2130903504,
-					2130903505};
+					2130903505,
+					2130903506,
+					2130903507};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -12796,19 +15344,19 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030034,0x7F030035,0x7F030036,0x7F030037,0x7F030038,0x7F0300D7,0x7F0300DA,0x7F030111,0x7F03011F,0x7F0301AC }
+			// aapt resource value: { 0x1010034,0x7F030036,0x7F030037,0x7F030038,0x7F030039,0x7F03003A,0x7F0300D9,0x7F0300DC,0x7F030113,0x7F030121,0x7F0301AE }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903092,
-					2130903093,
 					2130903094,
 					2130903095,
 					2130903096,
-					2130903255,
-					2130903258,
-					2130903313,
-					2130903327,
-					2130903468};
+					2130903097,
+					2130903098,
+					2130903257,
+					2130903260,
+					2130903315,
+					2130903329,
+					2130903470};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -12843,12 +15391,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F030029,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030033,0x7F030046,0x7F030054,0x7F030055,0x7F030056,0x7F030057,0x7F030058,0x7F03005C,0x7F03005D,0x7F030067,0x7F03006C,0x7F03008C,0x7F03008D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030096,0x7F0300A5,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B3,0x7F0300B5,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300F2,0x7F0300FE,0x7F030121,0x7F030122,0x7F030125,0x7F030126,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03014D,0x7F03014E,0x7F03014F,0x7F030155,0x7F030157,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F030179,0x7F03017A,0x7F030190,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C2,0x7F0301C4,0x7F0301E0,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301EA,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F5,0x7F0301F6,0x7F0301F7 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F030026,0x7F030027,0x7F030028,0x7F03002B,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030035,0x7F030048,0x7F030056,0x7F030057,0x7F030058,0x7F030059,0x7F03005A,0x7F03005E,0x7F03005F,0x7F030069,0x7F03006E,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030098,0x7F0300A7,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B5,0x7F0300B7,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300F4,0x7F030100,0x7F030123,0x7F030124,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03014F,0x7F030150,0x7F030151,0x7F030157,0x7F030159,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03017B,0x7F03017C,0x7F030192,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C4,0x7F0301C6,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301EC,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F7,0x7F0301F8,0x7F0301F9 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
-					2130903048,
-					2130903049,
 					2130903050,
 					2130903051,
 					2130903052,
@@ -12860,8 +15406,8 @@ namespace MiCamConfig.App.Droid
 					2130903058,
 					2130903059,
 					2130903060,
+					2130903061,
 					2130903062,
-					2130903063,
 					2130903064,
 					2130903065,
 					2130903066,
@@ -12877,24 +15423,24 @@ namespace MiCamConfig.App.Droid
 					2130903076,
 					2130903077,
 					2130903078,
-					2130903081,
-					2130903082,
+					2130903079,
+					2130903080,
 					2130903083,
 					2130903084,
 					2130903085,
-					2130903091,
-					2130903110,
-					2130903124,
-					2130903125,
+					2130903086,
+					2130903087,
+					2130903093,
+					2130903112,
 					2130903126,
 					2130903127,
 					2130903128,
-					2130903132,
-					2130903133,
-					2130903143,
-					2130903148,
-					2130903180,
-					2130903181,
+					2130903129,
+					2130903130,
+					2130903134,
+					2130903135,
+					2130903145,
+					2130903150,
 					2130903182,
 					2130903183,
 					2130903184,
@@ -12902,70 +15448,72 @@ namespace MiCamConfig.App.Droid
 					2130903186,
 					2130903187,
 					2130903188,
+					2130903189,
 					2130903190,
-					2130903205,
-					2130903214,
-					2130903215,
+					2130903192,
+					2130903207,
 					2130903216,
-					2130903219,
+					2130903217,
+					2130903218,
 					2130903221,
-					2130903224,
-					2130903225,
+					2130903223,
 					2130903226,
 					2130903227,
 					2130903228,
-					2130903282,
-					2130903294,
-					2130903329,
-					2130903330,
-					2130903333,
-					2130903334,
+					2130903229,
+					2130903230,
+					2130903284,
+					2130903296,
+					2130903331,
+					2130903332,
 					2130903335,
 					2130903336,
 					2130903337,
 					2130903338,
 					2130903339,
-					2130903373,
-					2130903374,
+					2130903340,
+					2130903341,
 					2130903375,
-					2130903381,
+					2130903376,
+					2130903377,
 					2130903383,
-					2130903390,
-					2130903391,
+					2130903385,
 					2130903392,
 					2130903393,
-					2130903401,
-					2130903402,
+					2130903394,
+					2130903395,
 					2130903403,
 					2130903404,
-					2130903417,
-					2130903418,
-					2130903440,
-					2130903479,
-					2130903480,
+					2130903405,
+					2130903406,
+					2130903419,
+					2130903420,
+					2130903442,
 					2130903481,
 					2130903482,
+					2130903483,
 					2130903484,
-					2130903485,
 					2130903486,
 					2130903487,
-					2130903490,
+					2130903488,
+					2130903489,
 					2130903492,
-					2130903520,
-					2130903521,
+					2130903494,
 					2130903522,
 					2130903523,
-					2130903530,
+					2130903524,
+					2130903525,
 					2130903532,
-					2130903533,
 					2130903534,
+					2130903535,
 					2130903536,
-					2130903537,
 					2130903538,
 					2130903539,
+					2130903540,
 					2130903541,
-					2130903542,
-					2130903543};
+					2130903543,
+					2130903544,
+					2130903545};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -13330,14 +15878,14 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
-			// aapt resource value: { 0x7F03003C,0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F0300CF,0x7F0300EE }
+			// aapt resource value: { 0x7F03003E,0x7F0300CE,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300F0 }
 			public static int[] BottomAppBar = new int[] {
-					2130903100,
-					2130903244,
-					2130903245,
+					2130903102,
 					2130903246,
 					2130903247,
-					2130903278};
+					2130903248,
+					2130903249,
+					2130903280};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -13357,18 +15905,18 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
-			// aapt resource value: { 0x7F0300BD,0x7F030103,0x7F030105,0x7F030107,0x7F030108,0x7F03010C,0x7F03010D,0x7F03010E,0x7F030110,0x7F030141 }
+			// aapt resource value: { 0x7F0300BF,0x7F030105,0x7F030107,0x7F030109,0x7F03010A,0x7F03010E,0x7F03010F,0x7F030110,0x7F030112,0x7F030143 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903229,
-					2130903299,
+					2130903231,
 					2130903301,
 					2130903303,
-					2130903304,
-					2130903308,
-					2130903309,
+					2130903305,
+					2130903306,
 					2130903310,
+					2130903311,
 					2130903312,
-					2130903361};
+					2130903314,
+					2130903363};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_elevation = 0;
@@ -13400,12 +15948,12 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 9
 			public const int BottomNavigationView_menu = 9;
 			
-			// aapt resource value: { 0x7F030040,0x7F030041,0x7F030043,0x7F030044 }
+			// aapt resource value: { 0x7F030042,0x7F030043,0x7F030045,0x7F030046 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
-					2130903104,
-					2130903105,
+					2130903106,
 					2130903107,
-					2130903108};
+					2130903109,
+					2130903110};
 			
 			// aapt resource value: 0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
@@ -13419,28 +15967,28 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
-			// aapt resource value: { 0x7F03002E }
+			// aapt resource value: { 0x7F030030 }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903086};
+					2130903088};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030060,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F030067,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903136,
-					2130903137,
 					2130903138,
 					2130903139,
 					2130903140,
 					2130903141,
-					2130903199,
-					2130903200,
+					2130903142,
+					2130903143,
 					2130903201,
 					2130903202,
-					2130903203};
+					2130903203,
+					2130903204,
+					2130903205};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -13481,51 +16029,51 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007F,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F0300EC,0x7F0300F6,0x7F0300FA,0x7F030163,0x7F03016F,0x7F0301C7,0x7F0301C9 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006F,0x7F030070,0x7F030071,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F030078,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F0300EE,0x7F0300F8,0x7F0300FC,0x7F030165,0x7F030171,0x7F0301C9,0x7F0301CB }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
 					16843039,
 					16843087,
 					16843237,
-					2130903145,
-					2130903146,
 					2130903147,
+					2130903148,
 					2130903149,
-					2130903150,
 					2130903151,
+					2130903152,
 					2130903153,
-					2130903154,
 					2130903155,
 					2130903156,
 					2130903157,
 					2130903158,
-					2130903163,
-					2130903164,
+					2130903159,
+					2130903160,
 					2130903165,
+					2130903166,
 					2130903167,
-					2130903168,
 					2130903169,
 					2130903170,
 					2130903171,
 					2130903172,
 					2130903173,
-					2130903276,
-					2130903286,
-					2130903290,
-					2130903395,
-					2130903407,
-					2130903495,
-					2130903497};
+					2130903174,
+					2130903175,
+					2130903278,
+					2130903288,
+					2130903292,
+					2130903397,
+					2130903409,
+					2130903497,
+					2130903499};
 			
-			// aapt resource value: { 0x7F030068,0x7F030077,0x7F030078,0x7F030079,0x7F030173,0x7F030174 }
+			// aapt resource value: { 0x7F03006A,0x7F030079,0x7F03007A,0x7F03007B,0x7F030175,0x7F030176 }
 			public static int[] ChipGroup = new int[] {
-					2130903144,
-					2130903159,
-					2130903160,
+					2130903146,
 					2130903161,
-					2130903411,
-					2130903412};
+					2130903162,
+					2130903163,
+					2130903413,
+					2130903414};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -13647,24 +16195,24 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030089,0x7F03008A,0x7F0300A4,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F030164,0x7F030166,0x7F030184,0x7F0301D4,0x7F0301D5,0x7F0301DF }
+			// aapt resource value: { 0x7F03008B,0x7F03008C,0x7F0300A6,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F030166,0x7F030168,0x7F030186,0x7F0301D6,0x7F0301D7,0x7F0301E1 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903177,
-					2130903178,
-					2130903204,
-					2130903236,
-					2130903237,
+					2130903179,
+					2130903180,
+					2130903206,
 					2130903238,
 					2130903239,
 					2130903240,
 					2130903241,
 					2130903242,
-					2130903396,
+					2130903243,
+					2130903244,
 					2130903398,
-					2130903428,
-					2130903508,
-					2130903509,
-					2130903519};
+					2130903400,
+					2130903430,
+					2130903510,
+					2130903511,
+					2130903521};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -13696,10 +16244,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
-			// aapt resource value: { 0x7F030117,0x7F030118 }
+			// aapt resource value: { 0x7F030119,0x7F03011A }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903319,
-					2130903320};
+					2130903321,
+					2130903322};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -13725,11 +16273,11 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 15
 			public const int CollapsingToolbarLayout_toolbarId = 15;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F03002F }
+			// aapt resource value: { 0x10101A5,0x101031F,0x7F030031 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903087};
+					2130903089};
 			
 			// aapt resource value: 2
 			public const int ColorStateListItem_alpha = 2;
@@ -13740,11 +16288,11 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
 			
-			// aapt resource value: { 0x1010107,0x7F03005E,0x7F03005F }
+			// aapt resource value: { 0x1010107,0x7F030060,0x7F030061 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903134,
-					2130903135};
+					2130903136,
+					2130903137};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -13755,23 +16303,23 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F03010F,0x7F030183 }
+			// aapt resource value: { 0x7F030111,0x7F030185 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903311,
-					2130903427};
+					2130903313,
+					2130903429};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030114,0x7F030115,0x7F030116,0x7F030119,0x7F03011A,0x7F03011B }
+			// aapt resource value: { 0x10100B3,0x7F030116,0x7F030117,0x7F030118,0x7F03011B,0x7F03011C,0x7F03011D }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903316,
-					2130903317,
 					2130903318,
-					2130903321,
-					2130903322,
-					2130903323};
+					2130903319,
+					2130903320,
+					2130903323,
+					2130903324,
+					2130903325};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -13797,10 +16345,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F030049,0x7F03004A }
+			// aapt resource value: { 0x7F03004B,0x7F03004C }
 			public static int[] DesignTheme = new int[] {
-					2130903113,
-					2130903114};
+					2130903115,
+					2130903116};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -13808,16 +16356,27 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03003E,0x7F03008B,0x7F0300B6,0x7F0300E5,0x7F030178,0x7F0301CB }
+			// aapt resource value: { 0x7F030000,0x7F030001 }
+			public static int[] DialogMessaging = new int[] {
+					2130903040,
+					2130903041};
+			
+			// aapt resource value: 0
+			public const int DialogMessaging_DialogElement = 0;
+			
+			// aapt resource value: 1
+			public const int DialogMessaging_HideWhenNotInUse = 1;
+			
+			// aapt resource value: { 0x7F030033,0x7F030034,0x7F030040,0x7F03008D,0x7F0300B8,0x7F0300E7,0x7F03017A,0x7F0301CD }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903089,
-					2130903090,
-					2130903102,
-					2130903179,
-					2130903222,
-					2130903269,
-					2130903416,
-					2130903499};
+					2130903091,
+					2130903092,
+					2130903104,
+					2130903181,
+					2130903224,
+					2130903271,
+					2130903418,
+					2130903501};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -13843,21 +16402,21 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030045,0x7F0300BD,0x7F0300D0,0x7F0300D1,0x7F0300EC,0x7F0300F4,0x7F030132,0x7F030159,0x7F030163,0x7F03016F,0x7F0301E9 }
+			// aapt resource value: { 0x7F03003E,0x7F03003F,0x7F030047,0x7F0300BF,0x7F0300D2,0x7F0300D3,0x7F0300EE,0x7F0300F6,0x7F030134,0x7F03015B,0x7F030165,0x7F030171,0x7F0301EB }
 			public static int[] FloatingActionButton = new int[] {
-					2130903100,
-					2130903101,
-					2130903109,
-					2130903229,
-					2130903248,
-					2130903249,
-					2130903276,
-					2130903284,
-					2130903346,
-					2130903385,
-					2130903395,
-					2130903407,
-					2130903529};
+					2130903102,
+					2130903103,
+					2130903111,
+					2130903231,
+					2130903250,
+					2130903251,
+					2130903278,
+					2130903286,
+					2130903348,
+					2130903387,
+					2130903397,
+					2130903409,
+					2130903531};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -13865,9 +16424,9 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
-			// aapt resource value: { 0x7F03003F }
+			// aapt resource value: { 0x7F030041 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903103};
+					2130903105};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -13905,10 +16464,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 12
 			public const int FloatingActionButton_useCompatPadding = 12;
 			
-			// aapt resource value: { 0x7F03010A,0x7F030120 }
+			// aapt resource value: { 0x7F03010C,0x7F030122 }
 			public static int[] FlowLayout = new int[] {
-					2130903306,
-					2130903328};
+					2130903308,
+					2130903330};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -13916,27 +16475,27 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0 }
+			// aapt resource value: { 0x7F0300DD,0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300E2 }
 			public static int[] FontFamily = new int[] {
-					2130903259,
-					2130903260,
 					2130903261,
 					2130903262,
 					2130903263,
-					2130903264};
+					2130903264,
+					2130903265,
+					2130903266};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D9,0x7F0300E1,0x7F0300E2,0x7F0300E3,0x7F0301E8 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300DB,0x7F0300E3,0x7F0300E4,0x7F0300E5,0x7F0301EA }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903257,
-					2130903265,
-					2130903266,
+					2130903259,
 					2130903267,
-					2130903528};
+					2130903268,
+					2130903269,
+					2130903530};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -13986,11 +16545,11 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 5
 			public const int FontFamily_fontProviderQuery = 5;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0300E4 }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0300E6 }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903268};
+					2130903270};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -14063,17 +16622,17 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B2,0x7F0300B4,0x7F030133,0x7F03016E }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B4,0x7F0300B6,0x7F030135,0x7F030170 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903218,
 					2130903220,
-					2130903347,
-					2130903406};
+					2130903222,
+					2130903349,
+					2130903408};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -14132,24 +16691,24 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03003C,0x7F03003D,0x7F0300A7,0x7F0300F5,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FB,0x7F0300FC,0x7F030163,0x7F030185,0x7F030186 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F03003E,0x7F03003F,0x7F0300A9,0x7F0300F7,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FD,0x7F0300FE,0x7F030165,0x7F030187,0x7F030188 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903100,
-					2130903101,
-					2130903207,
-					2130903285,
+					2130903102,
+					2130903103,
+					2130903209,
 					2130903287,
-					2130903288,
 					2130903289,
+					2130903290,
 					2130903291,
-					2130903292,
-					2130903395,
-					2130903429,
-					2130903430};
+					2130903293,
+					2130903294,
+					2130903397,
+					2130903431,
+					2130903432};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -14199,10 +16758,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F030185,0x7F030186 }
+			// aapt resource value: { 0x7F030187,0x7F030188 }
 			public static int[] MaterialCardView = new int[] {
-					2130903429,
-					2130903430};
+					2130903431,
+					2130903432};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -14210,28 +16769,26 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030049,0x7F03004A,0x7F030070,0x7F03007A,0x7F03007E,0x7F03008C,0x7F03008D,0x7F030093,0x7F030094,0x7F030095,0x7F0300BC,0x7F0300D8,0x7F03012E,0x7F03012F,0x7F030146,0x7F030165,0x7F030175,0x7F0301A8,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301BB,0x7F0301C0,0x7F0301C1,0x7F0301C8 }
+			// aapt resource value: { 0x7F03004B,0x7F03004C,0x7F030072,0x7F03007C,0x7F030080,0x7F03008E,0x7F03008F,0x7F030095,0x7F030096,0x7F030097,0x7F0300BE,0x7F0300DA,0x7F030130,0x7F030131,0x7F030148,0x7F030167,0x7F030177,0x7F0301AA,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301BD,0x7F0301C2,0x7F0301C3,0x7F0301CA }
 			public static int[] MaterialComponentsTheme = new int[] {
-					2130903113,
-					2130903114,
-					2130903152,
-					2130903162,
-					2130903166,
-					2130903180,
-					2130903181,
-					2130903187,
-					2130903188,
+					2130903115,
+					2130903116,
+					2130903154,
+					2130903164,
+					2130903168,
+					2130903182,
+					2130903183,
 					2130903189,
-					2130903228,
-					2130903256,
-					2130903342,
-					2130903343,
-					2130903366,
-					2130903397,
-					2130903413,
-					2130903464,
-					2130903469,
-					2130903470,
+					2130903190,
+					2130903191,
+					2130903230,
+					2130903258,
+					2130903344,
+					2130903345,
+					2130903368,
+					2130903399,
+					2130903415,
+					2130903466,
 					2130903471,
 					2130903472,
 					2130903473,
@@ -14240,10 +16797,12 @@ namespace MiCamConfig.App.Droid
 					2130903476,
 					2130903477,
 					2130903478,
-					2130903483,
-					2130903488,
-					2130903489,
-					2130903496};
+					2130903479,
+					2130903480,
+					2130903485,
+					2130903490,
+					2130903491,
+					2130903498};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -14341,12 +16900,12 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 31
 			public const int MaterialComponentsTheme_textInputStyle = 31;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F0300CB,0x7F030136 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F0300CD,0x7F030138 }
 			public static int[] MediaRouteButton = new int[] {
 					16843071,
 					16843072,
-					2130903243,
-					2130903350};
+					2130903245,
+					2130903352};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -14387,7 +16946,7 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030015,0x7F030027,0x7F030028,0x7F030030,0x7F030098,0x7F0300FB,0x7F0300FC,0x7F030147,0x7F03016D,0x7F0301E4 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030017,0x7F030029,0x7F03002A,0x7F030032,0x7F03009A,0x7F0300FD,0x7F0300FE,0x7F030149,0x7F03016F,0x7F0301E6 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -14402,16 +16961,16 @@ namespace MiCamConfig.App.Droid
 					16843236,
 					16843237,
 					16843375,
-					2130903061,
-					2130903079,
-					2130903080,
-					2130903088,
-					2130903192,
-					2130903291,
-					2130903292,
-					2130903367,
-					2130903405,
-					2130903524};
+					2130903063,
+					2130903081,
+					2130903082,
+					2130903090,
+					2130903194,
+					2130903293,
+					2130903294,
+					2130903369,
+					2130903407,
+					2130903526};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -14482,7 +17041,7 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030158,0x7F030187 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F03015A,0x7F030189 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -14491,8 +17050,8 @@ namespace MiCamConfig.App.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903384,
-					2130903431};
+					2130903386,
+					2130903433};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -14521,10 +17080,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x7F030000,0x7F030004 }
+			// aapt resource value: { 0x7F030002,0x7F030006 }
 			public static int[] MvxBinding = new int[] {
-					2130903040,
-					2130903044};
+					2130903042,
+					2130903046};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -14532,24 +17091,24 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int MvxBinding_MvxLang = 1;
 			
-			// aapt resource value: { 0x7F030005 }
+			// aapt resource value: { 0x7F030007 }
 			public static int[] MvxControl = new int[] {
-					2130903045};
+					2130903047};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
-			// aapt resource value: { 0x7F030002 }
+			// aapt resource value: { 0x7F030004 }
 			public static int[] MvxExpandableListView = new int[] {
-					2130903042};
+					2130903044};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
-			// aapt resource value: { 0x7F030001,0x7F030003 }
+			// aapt resource value: { 0x7F030003,0x7F030005 }
 			public static int[] MvxListView = new int[] {
-					2130903041,
-					2130903043};
+					2130903043,
+					2130903045};
 			
 			// aapt resource value: 0
 			public const int MvxListView_MvxDropDownItemTemplate = 0;
@@ -14557,27 +17116,27 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int MvxListView_MvxItemTemplate = 1;
 			
-			// aapt resource value: { 0x7F030006 }
+			// aapt resource value: { 0x7F030008 }
 			public static int[] MvxRecyclerView = new int[] {
-					2130903046};
+					2130903048};
 			
 			// aapt resource value: 0
 			public const int MvxRecyclerView_MvxTemplateSelector = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300BD,0x7F0300E7,0x7F030103,0x7F030104,0x7F030106,0x7F030108,0x7F03010B,0x7F03010E,0x7F030141 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300BF,0x7F0300E9,0x7F030105,0x7F030106,0x7F030108,0x7F03010A,0x7F03010D,0x7F030110,0x7F030143 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903229,
-					2130903271,
-					2130903299,
-					2130903300,
+					2130903231,
+					2130903273,
+					2130903301,
 					2130903302,
 					2130903304,
-					2130903307,
-					2130903310,
-					2130903361};
+					2130903306,
+					2130903309,
+					2130903312,
+					2130903363};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -14615,15 +17174,15 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030148 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F03014A }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903368};
+					2130903370};
 			
-			// aapt resource value: { 0x7F03017E }
+			// aapt resource value: { 0x7F030180 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903422};
+					2130903424};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -14637,10 +17196,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030149,0x7F03014C }
+			// aapt resource value: { 0x7F03014B,0x7F03014E }
 			public static int[] RecycleListView = new int[] {
-					2130903369,
-					2130903372};
+					2130903371,
+					2130903374};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -14648,19 +17207,19 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300D2,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F030113,0x7F030162,0x7F030177,0x7F03017D }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F030115,0x7F030164,0x7F030179,0x7F03017F }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
-					2130903250,
-					2130903251,
 					2130903252,
 					2130903253,
 					2130903254,
-					2130903315,
-					2130903394,
-					2130903415,
-					2130903421};
+					2130903255,
+					2130903256,
+					2130903317,
+					2130903396,
+					2130903417,
+					2130903423};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -14695,39 +17254,39 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 10
 			public const int RecyclerView_stackFromEnd = 10;
 			
-			// aapt resource value: { 0x7F030101 }
+			// aapt resource value: { 0x7F030103 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903297};
+					2130903299};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F030042 }
+			// aapt resource value: { 0x7F030044 }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903106};
+					2130903108};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F03007F,0x7F030097,0x7F0300AD,0x7F0300E6,0x7F0300FD,0x7F030112,0x7F03015C,0x7F03015D,0x7F030167,0x7F030168,0x7F030188,0x7F03018D,0x7F0301EB }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F030099,0x7F0300AF,0x7F0300E8,0x7F0300FF,0x7F030114,0x7F03015E,0x7F03015F,0x7F030169,0x7F03016A,0x7F03018A,0x7F03018F,0x7F0301ED }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903167,
-					2130903191,
-					2130903213,
-					2130903270,
-					2130903293,
-					2130903314,
-					2130903388,
-					2130903389,
-					2130903399,
-					2130903400,
-					2130903432,
-					2130903437,
-					2130903531};
+					2130903169,
+					2130903193,
+					2130903215,
+					2130903272,
+					2130903295,
+					2130903316,
+					2130903390,
+					2130903391,
+					2130903401,
+					2130903402,
+					2130903434,
+					2130903439,
+					2130903533};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -14780,16 +17339,16 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F030175,0x7F030176 }
+			// aapt resource value: { 0x7F030177,0x7F030178 }
 			public static int[] Snackbar = new int[] {
-					2130903413,
-					2130903414};
+					2130903415,
+					2130903416};
 			
-			// aapt resource value: { 0x101011F,0x7F0300BD,0x7F030130 }
+			// aapt resource value: { 0x101011F,0x7F0300BF,0x7F030132 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
-					2130903229,
-					2130903344};
+					2130903231,
+					2130903346};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
@@ -14806,13 +17365,13 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030156 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030158 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903382};
+					2130903384};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -14863,22 +17422,22 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030170,0x7F03017B,0x7F03018E,0x7F03018F,0x7F030191,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301E5,0x7F0301E6,0x7F0301E7 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030172,0x7F03017D,0x7F030190,0x7F030191,0x7F030193,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301E7,0x7F0301E8,0x7F0301E9 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903408,
-					2130903419,
-					2130903438,
-					2130903439,
+					2130903410,
+					2130903421,
+					2130903440,
 					2130903441,
-					2130903500,
-					2130903501,
+					2130903443,
 					2130903502,
-					2130903525,
-					2130903526,
-					2130903527};
+					2130903503,
+					2130903504,
+					2130903527,
+					2130903528,
+					2130903529};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -14937,10 +17496,8 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A9,0x7F0301AA,0x7F0301AB }
+			// aapt resource value: { 0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AB,0x7F0301AC,0x7F0301AD }
 			public static int[] TabLayout = new int[] {
-					2130903442,
-					2130903443,
 					2130903444,
 					2130903445,
 					2130903446,
@@ -14961,9 +17518,11 @@ namespace MiCamConfig.App.Droid
 					2130903461,
 					2130903462,
 					2130903463,
+					2130903464,
 					2130903465,
-					2130903466,
-					2130903467};
+					2130903467,
+					2130903468,
+					2130903469};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -15040,7 +17599,7 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300DA,0x7F0301AC }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300DC,0x7F0301AE }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -15053,8 +17612,8 @@ namespace MiCamConfig.App.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130903258,
-					2130903468};
+					2130903260,
+					2130903470};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -15095,12 +17654,10 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F03004B,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300C0,0x7F0300C1,0x7F0300E9,0x7F0300EA,0x7F0300EB,0x7F0300EF,0x7F0300F0,0x7F0300F1,0x7F030150,0x7F030151,0x7F030152,0x7F030153,0x7F030154 }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030052,0x7F030053,0x7F030054,0x7F030055,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300C2,0x7F0300C3,0x7F0300EB,0x7F0300EC,0x7F0300ED,0x7F0300F1,0x7F0300F2,0x7F0300F3,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030156 }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
-					2130903115,
-					2130903116,
 					2130903117,
 					2130903118,
 					2130903119,
@@ -15108,23 +17665,25 @@ namespace MiCamConfig.App.Droid
 					2130903121,
 					2130903122,
 					2130903123,
-					2130903208,
-					2130903209,
+					2130903124,
+					2130903125,
 					2130903210,
 					2130903211,
-					2130903232,
-					2130903233,
-					2130903273,
-					2130903274,
+					2130903212,
+					2130903213,
+					2130903234,
+					2130903235,
 					2130903275,
-					2130903279,
-					2130903280,
+					2130903276,
+					2130903277,
 					2130903281,
-					2130903376,
-					2130903377,
+					2130903282,
+					2130903283,
 					2130903378,
 					2130903379,
-					2130903380};
+					2130903380,
+					2130903381,
+					2130903382};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -15210,11 +17769,11 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 27
 			public const int TextInputLayout_passwordToggleTintMode = 27;
 			
-			// aapt resource value: { 0x1010034,0x7F0300BE,0x7F0300BF }
+			// aapt resource value: { 0x1010034,0x7F0300C0,0x7F0300C1 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903230,
-					2130903231};
+					2130903232,
+					2130903233};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -15225,37 +17784,37 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030059,0x7F030087,0x7F030088,0x7F030099,0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03012C,0x7F03012D,0x7F030131,0x7F030143,0x7F030144,0x7F030156,0x7F030189,0x7F03018A,0x7F03018B,0x7F0301D4,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03005B,0x7F030089,0x7F03008A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F03012E,0x7F03012F,0x7F030133,0x7F030145,0x7F030146,0x7F030158,0x7F03018B,0x7F03018C,0x7F03018D,0x7F0301D6,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE,0x7F0301DF }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903129,
-					2130903175,
-					2130903176,
-					2130903193,
-					2130903194,
+					2130903131,
+					2130903177,
+					2130903178,
 					2130903195,
 					2130903196,
 					2130903197,
 					2130903198,
-					2130903340,
-					2130903341,
-					2130903345,
-					2130903363,
-					2130903364,
-					2130903382,
-					2130903433,
-					2130903434,
+					2130903199,
+					2130903200,
+					2130903342,
+					2130903343,
+					2130903347,
+					2130903365,
+					2130903366,
+					2130903384,
 					2130903435,
-					2130903508,
+					2130903436,
+					2130903437,
 					2130903510,
-					2130903511,
 					2130903512,
 					2130903513,
 					2130903514,
 					2130903515,
 					2130903516,
-					2130903517};
+					2130903517,
+					2130903518,
+					2130903519};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -15344,19 +17903,19 @@ namespace MiCamConfig.App.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F03014A,0x7F03014B,0x7F0301CA }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F03014C,0x7F03014D,0x7F0301CC }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903370,
-					2130903371,
-					2130903498};
+					2130903372,
+					2130903373,
+					2130903500};
 			
-			// aapt resource value: { 0x10100D4,0x7F03003C,0x7F03003D }
+			// aapt resource value: { 0x10100D4,0x7F03003E,0x7F03003F }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903100,
-					2130903101};
+					2130903102,
+					2130903103};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
