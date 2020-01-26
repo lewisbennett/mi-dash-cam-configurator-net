@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ActionCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
   <data name="ActionContinue" xml:space="preserve">
     <value>Continue</value>
   </data>
@@ -171,5 +174,8 @@ This project is open source on GitHub and licensed under Apache 2.0.</value>
   </data>
   <data name="TitleNotConnected" xml:space="preserve">
     <value>Not Connected</value>
+  </data>
+  <data name="TitleSetValue" xml:space="preserve">
+    <value>Set Value</value>
   </data>
 </root>

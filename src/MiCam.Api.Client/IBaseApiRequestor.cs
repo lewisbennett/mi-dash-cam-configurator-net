@@ -9,5 +9,6 @@ namespace MiCam.Api.Client
         Task<ResponseEntity> GetAsync(string propertyName);
         Task<HttpResponseMessage> RawRequestAsync(string action, string propertyName, object value = null);
         Task<ResponseEntity> RequestAsync(string action, string propertyName, object value = null);
+        Task<ResponseEntity> SetAsync(string propertyName, string value);
     }
 }

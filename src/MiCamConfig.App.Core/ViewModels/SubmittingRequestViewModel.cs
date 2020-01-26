@@ -60,7 +60,7 @@ namespace MiCamConfig.App.Core.ViewModels
             get
             {
                 if (Response == null)
-                    return Resources.HintProperty;
+                    return $"{Resources.HintProperty}:";
 
                 return $"{Resources.HintProperty}: {Response.PropertyName}";
             }
@@ -103,7 +103,7 @@ namespace MiCamConfig.App.Core.ViewModels
             get
             {
                 if (Response == null)
-                    return Resources.HintSuccess;
+                    return $"{Resources.HintSuccess}:";
 
                 return $"{Resources.HintSuccess}: {Response.Success}";
             }
@@ -117,7 +117,7 @@ namespace MiCamConfig.App.Core.ViewModels
             get
             {
                 if (Response == null)
-                    return Resources.HintValue;
+                    return $"{Resources.HintValue}:";
 
                 return $"{Resources.HintValue}: {Response.Value}";
             }

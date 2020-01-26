@@ -10,11 +10,6 @@ namespace MiCamConfig.App.Core.Models
 
         #region Properties
         /// <summary>
-        /// Gets or sets an optional data payload.
-        /// </summary>
-        public object Data { get; set; }
-
-        /// <summary>
         /// Gets or sets the title.
         /// </summary>
         public string Title

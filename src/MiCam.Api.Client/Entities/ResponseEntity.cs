@@ -1,42 +1,27 @@
-﻿using System;
-
-namespace MiCam.Api.Client.Entities
+﻿namespace MiCam.Api.Client.Entities
 {
     public class ResponseEntity
     {
         #region Properties
         /// <summary>
-        /// Gets the name of the property that the value belongs to.
+        /// Gets or sets the name of the property that the value belongs to.
         /// </summary>
-        public string PropertyName { get; }
+        public string PropertyName { get; set; }
 
         /// <summary>
-        /// Gets the raw response.
+        /// Gets or sets the raw response.
         /// </summary>
-        public string RawResponse { get; }
+        public string RawResponse { get; set; }
 
         /// <summary>
-        /// Gets whether the request was successful.
+        /// Gets or sets whether the request was successful.
         /// </summary>
-        public bool Success { get; }
+        public bool Success { get; set; }
 
         /// <summary>
-        /// Gets the value.
+        /// Gets or sets the value.
         /// </summary>
-        public object Value { get; }
-        #endregion
-
-        #region Constructors
-        public ResponseEntity(string response)
-        {
-            RawResponse = response.Trim();
-
-            var breakdown = RawResponse.Split('\n');
-
-            PropertyName = breakdown[2].Replace("=", string.Empty);
-            Success = breakdown[1].Equals("OK", StringComparison.CurrentCultureIgnoreCase);
-            Value = breakdown[0];
-        }
+        public object Value { get; set; }
         #endregion
     }
 }

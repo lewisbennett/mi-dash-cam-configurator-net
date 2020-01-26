@@ -1,6 +1,8 @@
-﻿using MiCam.Api.Client.Entities;
+﻿using DialogMessaging.Interactions;
+using MiCam.Api.Client.Entities;
 using MiCam.Api.Client.Schema;
 using MiCamConfig.App.Core.Models;
+using MiCamConfig.App.Core.Properties;
 using MiCamConfig.App.Core.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -23,25 +25,55 @@ namespace MiCamConfig.App.Core.Actions
         #endregion
 
         #region Event Handlers
-        public override void OnActionClick(ActionModel action)
+        public override async void OnActionClick(ActionModel action)
         {
             Func<Task<ResponseEntity>> task = null;
 
-            switch (action.Data)
+            switch (action.Title)
             {
                 case Code.ApkAuhorize:
                     task = CamClient.AdminOperations.ApkAuthorizeAsync;
+                    break;
+
+                case Code.SoundIndicator:
+
+                    var value = await ConfirmSoundIndicatorValueAsync().ConfigureAwait(false);
+
+                    if (string.IsNullOrWhiteSpace(value))
+                        return;
+
+                    task = () => CamClient.SoundOperations.SoundIndicatorAsync(value);
+
                     break;
 
                 default:
                     return;
             }
 
-            NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModel.NavigationParams>(new SubmittingRequestViewModel.NavigationParams
+            await NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModel.NavigationParams>(new SubmittingRequestViewModel.NavigationParams
             {
                 Code = action.Title,
                 Task = task
-            });
+
+            }).ConfigureAwait(false);
+        }
+        #endregion
+
+        #region Public Methods
+        public async Task<string> ConfirmSoundIndicatorValueAsync()
+        {
+            var config = new ActionSheetBottomAsyncConfig
+            {
+                Title = Resources.TitleSetValue,
+                CancelButtonText = Resources.ActionCancel
+            };
+
+            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintValue}: On", Data = "On" });
+            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintValue}: Off", Data = "Off" });
+
+            var selected = await MessagingService.ActionSheetBottomAsync(config).ConfigureAwait(false);
+
+            return selected?.Data as string;
         }
         #endregion
 
@@ -55,11 +87,8 @@ namespace MiCamConfig.App.Core.Actions
         #region Private Methods
         private void CreateActions()
         {
-            _actions.Add(new ActionModel
-            {
-                Title = Code.ApkAuhorize,
-                Data = Code.ApkAuhorize
-            });
+            _actions.Add(new ActionModel { Title = Code.ApkAuhorize });
+            _actions.Add(new ActionModel { Title = Code.SoundIndicator });
         }
         #endregion
     }

@@ -50,6 +50,8 @@ namespace MiCam.Api.Client
                 try
                 {
                     response = await RawRequestAsync(action, propertyName, value).ConfigureAwait(false);
+
+                    break;
                 }
                 catch (Exception)
                 {
@@ -59,7 +61,17 @@ namespace MiCam.Api.Client
 
             var responseString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
 
-            return new ResponseEntity(responseString);
+            responseString = responseString?.Trim();
+
+            var breakdown = responseString.Split('\n');
+
+            return new ResponseEntity
+            {
+                PropertyName = breakdown.Length >= 3 ? breakdown[2] : propertyName,
+                RawResponse = responseString,
+                Success = breakdown[1].Equals("ok", StringComparison.CurrentCultureIgnoreCase),
+                Value = breakdown[0]
+            };
         }
 
         /// <summary>
@@ -81,6 +93,16 @@ namespace MiCam.Api.Client
                 throw new WebException();
 
             return response;
+        }
+
+        /// <summary>
+        /// Sets the value of a property.
+        /// </summary>
+        /// <param name="propertyName">The property name.</param>
+        /// <param name="value">The value to assign to the property.</param>
+        public Task<ResponseEntity> SetAsync(string propertyName, string value)
+        {
+            return RequestAsync("set", propertyName, value);
         }
         #endregion
 

@@ -9,12 +9,18 @@ namespace MiCam.Api.Client
         /// Gets the admin operations.
         /// </summary>
         public IAdminOperations AdminOperations { get; private set; }
+
+        /// <summary>
+        /// Gets the sound operations.
+        /// </summary>
+        public ISoundOperations SoundOperations { get; private set; }
         #endregion
 
         #region Constructors
         public CamClient()
         {
             AdminOperations = new AdminOperations(this);
+            SoundOperations = new SoundOperations(this);
         }
         #endregion
     }

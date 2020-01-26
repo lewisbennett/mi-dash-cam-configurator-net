@@ -4,6 +4,7 @@
     {
         #region Properties
         public const string ApkAuhorize = "ApkAuthorize";
+        public const string SoundIndicator = "SoundIndicator";
         #endregion
     }
 }

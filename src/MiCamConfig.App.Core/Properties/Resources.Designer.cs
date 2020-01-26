@@ -61,6 +61,15 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel.
+        /// </summary>
+        internal static string ActionCancel {
+            get {
+                return ResourceManager.GetString("ActionCancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Continue.
         /// </summary>
         internal static string ActionContinue {
@@ -214,6 +223,15 @@ namespace MiCamConfig.App.Core.Properties {
         internal static string TitleNotConnected {
             get {
                 return ResourceManager.GetString("TitleNotConnected", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set Value.
+        /// </summary>
+        internal static string TitleSetValue {
+            get {
+                return ResourceManager.GetString("TitleSetValue", resourceCulture);
             }
         }
     }
