@@ -66,7 +66,7 @@ namespace MiCamConfig.App.Core.ViewModels
         #region Public Methods
         public async Task ApkAuthorizeAsync()
         {
-            _apkAuthorization = await AppCore.CamClient.AdminOperations.ApkAuthorizeAsync().ConfigureAwait(false);
+            _apkAuthorization = await CamClient.AdminOperations.ApkAuthorizeAsync().ConfigureAwait(false);
         }
         #endregion
 

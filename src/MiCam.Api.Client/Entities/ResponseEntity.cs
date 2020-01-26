@@ -29,9 +29,9 @@ namespace MiCam.Api.Client.Entities
         #region Constructors
         public ResponseEntity(string response)
         {
-            RawResponse = response;
+            RawResponse = response.Trim();
 
-            var breakdown = response.Split('\n');
+            var breakdown = RawResponse.Split('\n');
 
             PropertyName = breakdown[2].Replace("=", string.Empty);
             Success = breakdown[1].Equals("OK", StringComparison.CurrentCultureIgnoreCase);

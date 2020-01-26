@@ -3,6 +3,7 @@
   <attr name="textColorTitle" format="color" />
   <attr name="textColorInactive" format="color" />
   <attr name="textColorSubtitle" format="color" />
+  <attr name="textColorCode" format="color" />
   <attr name="actionBarColor" format="color" />
   <attr name="windowForegroundColor" format="color" />
   <attr name="windowBackgroundColor" format="color" />

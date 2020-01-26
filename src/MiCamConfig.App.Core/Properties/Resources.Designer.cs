@@ -79,11 +79,47 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Property.
+        /// </summary>
+        internal static string HintProperty {
+            get {
+                return ResourceManager.GetString("HintProperty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Raw response.
+        /// </summary>
+        internal static string HintRawResponse {
+            get {
+                return ResourceManager.GetString("HintRawResponse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         internal static string HintSearch {
             get {
                 return ResourceManager.GetString("HintSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        internal static string HintSuccess {
+            get {
+                return ResourceManager.GetString("HintSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Value.
+        /// </summary>
+        internal static string HintValue {
+            get {
+                return ResourceManager.GetString("HintValue", resourceCulture);
             }
         }
         
@@ -133,6 +169,15 @@ namespace MiCamConfig.App.Core.Properties {
         internal static string MessagingConnecting {
             get {
                 return ResourceManager.GetString("MessagingConnecting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submitting request....
+        /// </summary>
+        internal static string MessagingSubmittingRequest {
+            get {
+                return ResourceManager.GetString("MessagingSubmittingRequest", resourceCulture);
             }
         }
         

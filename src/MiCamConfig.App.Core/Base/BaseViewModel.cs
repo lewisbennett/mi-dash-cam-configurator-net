@@ -1,4 +1,5 @@
 ﻿using DialogMessaging;
+using MiCam.Api.Client;
 using MvvmCross;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
@@ -28,6 +29,11 @@ namespace MiCamConfig.App.Core.Base
                 return _backButtonClickCommand;
             }
         }
+
+        /// <summary>
+        /// Gets the app's CamClient.
+        /// </summary>
+        public static CamClient CamClient => AppCore.CamClient;
 
         /// <summary>
         /// Gets the messaging service.
@@ -66,6 +72,16 @@ namespace MiCamConfig.App.Core.Base
         private async Task Back_ClickAsync()
         {
             await NavigationService.Close(this).ConfigureAwait(false);
+        }
+        #endregion
+    }
+
+    public class BaseViewModel<TNavigationParams> : BaseViewModel, IMvxViewModel<TNavigationParams>
+        where TNavigationParams : class
+    {
+        #region Lifecycle
+        public virtual void Prepare(TNavigationParams parameter)
+        {
         }
         #endregion
     }
