@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:textSize="16sp"
-        app:MvxBind="Text DataEmptyMessage" />
+        app:MvxBind="Text DataEmptyMessage; Visibility Visibility(IsDataEmpty)" />
     <MiCamConfig.App.Droid.Views.ElevationMvxRecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
