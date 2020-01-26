@@ -10,4 +10,6 @@ An app to modify the settings of the 70mai dash cam.
 
 ## Features
 
-Coming soon!
+- ApkAuthorize
+- SoundIndicator (get/set)
+- Custom request
