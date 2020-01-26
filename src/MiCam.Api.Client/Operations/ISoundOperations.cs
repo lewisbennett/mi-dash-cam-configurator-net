@@ -5,6 +5,7 @@ namespace MiCam.Api.Client.Operations
 {
     public interface ISoundOperations
     {
-        Task<ResponseEntity> SoundIndicatorAsync(string value);
+        Task<ResponseEntity> GetSoundIndicatorAsync();
+        Task<ResponseEntity> SetSoundIndicatorAsync(string value);
     }
 }

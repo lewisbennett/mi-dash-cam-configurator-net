@@ -12,9 +12,17 @@ namespace MiCam.Api.Client.Operations
 
         #region Public Methods
         /// <summary>
-        /// Sends the ApkAuthorize request.
+        /// Gets the SoundIndicator setting.
         /// </summary>
-        public Task<ResponseEntity> SoundIndicatorAsync(string value)
+        public Task<ResponseEntity> GetSoundIndicatorAsync()
+        {
+            return _client.GetAsync(Code.SoundIndicator);
+        }
+
+        /// <summary>
+        /// Sets the SoundIndicator setting.
+        /// </summary>
+        public Task<ResponseEntity> SetSoundIndicatorAsync(string value)
         {
             return _client.SetAsync(Code.SoundIndicator, value);
         }

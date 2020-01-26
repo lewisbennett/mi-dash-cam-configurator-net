@@ -126,6 +126,9 @@
   <data name="ActionOkay" xml:space="preserve">
     <value>Okay</value>
   </data>
+  <data name="HintGetValue" xml:space="preserve">
+    <value>Get value</value>
+  </data>
   <data name="HintProperty" xml:space="preserve">
     <value>Property</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="HintSearch" xml:space="preserve">
     <value>Search</value>
+  </data>
+  <data name="HintSetValueTo" xml:space="preserve">
+    <value>Set value to</value>
   </data>
   <data name="HintSuccess" xml:space="preserve">
     <value>Success</value>
@@ -175,7 +181,7 @@ This project is open source on GitHub and licensed under Apache 2.0.</value>
   <data name="TitleNotConnected" xml:space="preserve">
     <value>Not Connected</value>
   </data>
-  <data name="TitleSetValue" xml:space="preserve">
-    <value>Set Value</value>
+  <data name="TitleSelectAction" xml:space="preserve">
+    <value>Select Action</value>
   </data>
 </root>

@@ -88,6 +88,15 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Get value.
+        /// </summary>
+        internal static string HintGetValue {
+            get {
+                return ResourceManager.GetString("HintGetValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Property.
         /// </summary>
         internal static string HintProperty {
@@ -111,6 +120,15 @@ namespace MiCamConfig.App.Core.Properties {
         internal static string HintSearch {
             get {
                 return ResourceManager.GetString("HintSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set value to.
+        /// </summary>
+        internal static string HintSetValueTo {
+            get {
+                return ResourceManager.GetString("HintSetValueTo", resourceCulture);
             }
         }
         
@@ -227,11 +245,11 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set Value.
+        ///   Looks up a localized string similar to Select Action.
         /// </summary>
-        internal static string TitleSetValue {
+        internal static string TitleSelectAction {
             get {
-                return ResourceManager.GetString("TitleSetValue", resourceCulture);
+                return ResourceManager.GetString("TitleSelectAction", resourceCulture);
             }
         }
     }

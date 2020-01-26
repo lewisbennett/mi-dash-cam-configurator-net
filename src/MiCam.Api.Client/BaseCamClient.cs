@@ -67,7 +67,7 @@ namespace MiCam.Api.Client
 
             return new ResponseEntity
             {
-                PropertyName = breakdown.Length >= 3 ? breakdown[2] : propertyName,
+                PropertyName = breakdown.Length >= 3 ? breakdown[2].Split('=')[0] : propertyName,
                 RawResponse = responseString,
                 Success = breakdown[1].Equals("ok", StringComparison.CurrentCultureIgnoreCase),
                 Value = breakdown[0]

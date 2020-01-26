@@ -39,10 +39,8 @@ namespace MiCamConfig.App.Core.Actions
 
                     var value = await ConfirmSoundIndicatorValueAsync().ConfigureAwait(false);
 
-                    if (string.IsNullOrWhiteSpace(value))
-                        return;
-
-                    task = () => CamClient.SoundOperations.SoundIndicatorAsync(value);
+                    if (value != null)
+                        task = value;
 
                     break;
 
@@ -60,20 +58,31 @@ namespace MiCamConfig.App.Core.Actions
         #endregion
 
         #region Public Methods
-        public async Task<string> ConfirmSoundIndicatorValueAsync()
+        public async Task<Func<Task<ResponseEntity>>> ConfirmSoundIndicatorValueAsync()
         {
             var config = new ActionSheetBottomAsyncConfig
             {
-                Title = Resources.TitleSetValue,
+                Title = Resources.TitleSelectAction,
                 CancelButtonText = Resources.ActionCancel
             };
 
-            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintValue}: On", Data = "On" });
-            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintValue}: Off", Data = "Off" });
+            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintGetValue}" });
+            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintSetValueTo}: \"On\"" });
+            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintSetValueTo}: \"Off\"" });
 
-            var selected = await MessagingService.ActionSheetBottomAsync(config).ConfigureAwait(false);
+            var selectedItem = await MessagingService.ActionSheetBottomAsync(config).ConfigureAwait(false);
 
-            return selected?.Data as string;
+            if (selectedItem == null || !(selectedItem is ActionSheetItemAsyncConfig selectedAsyncItem))
+                return null;
+
+            var index = config.Items.IndexOf(selectedAsyncItem);
+
+            return index switch
+            {
+                1 => () => CamClient.SoundOperations.SetSoundIndicatorAsync("On"),
+                2 => () => CamClient.SoundOperations.SetSoundIndicatorAsync("Off"),
+                _ => CamClient.SoundOperations.GetSoundIndicatorAsync,
+            };
         }
         #endregion
 
