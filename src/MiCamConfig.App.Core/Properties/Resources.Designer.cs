@@ -79,6 +79,15 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        internal static string HintSearch {
+            get {
+                return ResourceManager.GetString("HintSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to This app was created to modify settings of the 70mai dash cam. It is not an official application from the manufacturers of the hardware nor does it try to be so.
         ///
         ///Frankly, there is a reason why some of these settings are hidden from the user in the official 70mai app so proceed at your own risk. I am in no way responsible for anything that goes wrong with your dash cam.

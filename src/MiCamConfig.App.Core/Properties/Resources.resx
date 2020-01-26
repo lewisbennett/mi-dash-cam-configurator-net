@@ -123,6 +123,9 @@
   <data name="ActionOkay" xml:space="preserve">
     <value>Okay</value>
   </data>
+  <data name="HintSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
   <data name="MessageDisclaimer" xml:space="preserve">
     <value>This app was created to modify settings of the 70mai dash cam. It is not an official application from the manufacturers of the hardware nor does it try to be so.
 

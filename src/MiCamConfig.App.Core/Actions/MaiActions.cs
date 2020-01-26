@@ -1,6 +1,7 @@
 ﻿using MiCam.Api.Client.Schema;
 using MiCamConfig.App.Core.Models;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MiCamConfig.App.Core.Actions
 {
@@ -10,7 +11,7 @@ namespace MiCamConfig.App.Core.Actions
         /// <summary>
         /// Gets the actions.
         /// </summary>
-        public IList<ActionModel> Actions { get; } = new List<ActionModel>();
+        public IList<ActionModel> Actions { get; private set; }
         #endregion
 
         #region Event Handlers
@@ -37,11 +38,16 @@ namespace MiCamConfig.App.Core.Actions
         #region Private Methods
         private void CreateActions()
         {
-            Actions.Add(new ActionModel
+            var actions = new List<ActionModel>
             {
-                Title = Code.ApkAuhorize,
-                Data = Code.ApkAuhorize
-            });
+                new ActionModel
+                {
+                    Title = Code.ApkAuhorize,
+                    Data = Code.ApkAuhorize
+                }
+            };
+
+            Actions = new List<ActionModel>(actions.OrderBy(a => a.Title));
         }
         #endregion
     }

@@ -8,7 +8,7 @@ namespace MiCamConfig.App.Droid.Activities
 {
     [MvxActivityPresentation]
     [Activity(Label = "", WindowSoftInputMode = SoftInput.AdjustPan)]
-    [ActivityLayout(LayoutResourceId = Resource.Layout.activity_list)]
+    [ActivityLayout(LayoutResourceId = Resource.Layout.activity_searchable_list)]
     public class ActionsActivity : ListActivity<ActionsViewModel>
     {
         #region Event Handlers
