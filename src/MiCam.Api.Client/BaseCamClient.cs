@@ -59,14 +59,7 @@ namespace MiCam.Api.Client
 
             var responseString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
 
-            var breakdown = responseString.Split('\n');
-
-            return new ResponseEntity
-            {
-                PropertyName = breakdown[2].Replace("=", string.Empty),
-                Success = breakdown[1].Equals("OK", StringComparison.CurrentCultureIgnoreCase),
-                Value = breakdown[0]
-            };
+            return new ResponseEntity(responseString);
         }
 
         /// <summary>
