@@ -131,7 +131,7 @@ Frankly, there is a reason why some of these settings are hidden from the user i
 This project is open source on GitHub and licensed under Apache 2.0.</value>
   </data>
   <data name="MessageNotConnectedToDashcam" xml:space="preserve">
-    <value>A connection to your dashcam could not be established. If you are connected to your dashcam you should check that the app has the required permissions and try again.</value>
+    <value>Communication with your dash cam could not be established. Please check your connection.</value>
   </data>
   <data name="MessageNothingToDisplay" xml:space="preserve">
     <value>Nothing to display.</value>
@@ -139,8 +139,8 @@ This project is open source on GitHub and licensed under Apache 2.0.</value>
   <data name="MessageWifiDirectory" xml:space="preserve">
     <value>Settings &gt; WiFi</value>
   </data>
-  <data name="MessagingLoading" xml:space="preserve">
-    <value>Loading...</value>
+  <data name="MessagingConnecting" xml:space="preserve">
+    <value>Connecting...</value>
   </data>
   <data name="TitleActions" xml:space="preserve">
     <value>Actions</value>

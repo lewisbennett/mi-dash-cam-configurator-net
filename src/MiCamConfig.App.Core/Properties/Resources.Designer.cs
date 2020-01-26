@@ -92,7 +92,7 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A connection to your dashcam could not be established. If you are connected to your dashcam you should check that the app has the required permissions and try again..
+        ///   Looks up a localized string similar to Communication with your dash cam could not be established. Please check your connection..
         /// </summary>
         internal static string MessageNotConnectedToDashcam {
             get {
@@ -119,11 +119,11 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Loading....
+        ///   Looks up a localized string similar to Connecting....
         /// </summary>
-        internal static string MessagingLoading {
+        internal static string MessagingConnecting {
             get {
-                return ResourceManager.GetString("MessagingLoading", resourceCulture);
+                return ResourceManager.GetString("MessagingConnecting", resourceCulture);
             }
         }
         

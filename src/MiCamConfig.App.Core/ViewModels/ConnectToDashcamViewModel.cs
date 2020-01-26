@@ -41,11 +41,16 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             _apkAuthorization = null;
 
-            await MessagingService.ShowLoadingAsync(Resources.MessagingLoading, RunTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
+            await MessagingService.ShowLoadingAsync(Resources.MessagingConnecting, RunTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
-                await NavigationService.Navigate<ActionsViewModel, ActionsViewModel.NavigationParams>(new ActionsViewModel.NavigationParams { DashCamActions = new MaiActions() }).ConfigureAwait(false);
+                await NavigationService.Navigate<ActionsViewModel, ActionsViewModel.NavigationParams>(new ActionsViewModel.NavigationParams
+                {
+                    DashCamActions = new MaiActions()
+
+                }).ConfigureAwait(false);
+
                 return;
             }
 
