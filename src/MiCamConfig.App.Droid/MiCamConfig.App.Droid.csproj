@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Activities\ActionsActivity.cs" />
+    <Compile Include="Activities\CustomRequestActvity.cs" />
     <Compile Include="Activities\ConnectToDashcamActivity.cs" />
     <Compile Include="Activities\DisclaimerActivity.cs" />
     <Compile Include="Activities\ListActivity.cs" />
@@ -227,6 +228,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_submitting_request.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\content_custom_request.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\activity_custom_request.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -38,6 +38,47 @@ namespace MiCam.Api.Client
         /// <summary>
         /// Makes a request and handles retry logic.
         /// </summary>
+        /// <param name="uri">The request URI.</param>
+        public async Task<ResponseEntity> RequestAsync(string uri)
+        {
+            HttpResponseMessage response = null;
+
+            for (var i = 0; i < RetryCount; i++)
+            {
+                try
+                {
+                    response = await RawRequestAsync(uri).ConfigureAwait(false);
+
+                    break;
+                }
+                catch (Exception)
+                {
+                    await Task.Delay(RetryDelay).ConfigureAwait(false);
+                }
+            }
+
+            var responseString = await response.Content.ReadAsStringAsync().ConfigureAwait(false);
+
+            responseString = responseString?.Trim();
+
+            var breakdown = responseString.Split('\n');
+
+            var responseEntity = new ResponseEntity
+            {
+                RawResponse = responseString,
+                Success = breakdown[1].Equals("ok", StringComparison.CurrentCultureIgnoreCase),
+                Value = breakdown[0]
+            };
+
+            if (breakdown.Length >= 3)
+                responseEntity.PropertyName = breakdown[2].Split('=')[0];
+
+            return responseEntity;
+        }
+
+        /// <summary>
+        /// Makes a request and handles retry logic.
+        /// </summary>
         /// <param name="action">The request action (get/set).</param>
         /// <param name="propertyName">The name of the property.</param>
         /// <param name="value">The value to set the property to.</param>
@@ -72,6 +113,20 @@ namespace MiCam.Api.Client
                 Success = breakdown[1].Equals("ok", StringComparison.CurrentCultureIgnoreCase),
                 Value = breakdown[0]
             };
+        }
+
+        /// <summary>
+        /// Makes a request to the dashcam.
+        /// </summary>
+        /// <param name="uri">The request URI.</param>
+        public async Task<HttpResponseMessage> RawRequestAsync(string uri)
+        {
+            var response = await Client.SendAsync(new HttpRequestMessage(HttpMethod.Get, uri)).ConfigureAwait(false);
+
+            if (!response.IsSuccessStatusCode)
+                throw new WebException();
+
+            return response;
         }
 
         /// <summary>

@@ -14,7 +14,7 @@ namespace MiCamConfig.App.Core.ViewModels
             /// <summary>
             /// Gets or sets the request code.
             /// </summary>
-            public string Code { get; set; }
+            public string Title { get; set; }
 
             /// <summary>
             /// Gets or sets the task to execute.
@@ -157,7 +157,7 @@ namespace MiCamConfig.App.Core.ViewModels
                 return;
 
             _task = parameter.Task;
-            Title = parameter.Code;
+            Title = parameter.Title;
         }
 
         public override void ViewAppearing()

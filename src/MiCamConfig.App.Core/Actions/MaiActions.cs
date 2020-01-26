@@ -6,22 +6,17 @@ using MiCamConfig.App.Core.Properties;
 using MiCamConfig.App.Core.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.Actions
 {
     public class MaiActions : AbstractActions
     {
-        #region Fields
-        private readonly List<ActionModel> _actions = new List<ActionModel>();
-        #endregion
-
         #region Properties
         /// <summary>
         /// Gets the actions.
         /// </summary>
-        public override IList<ActionModel> Actions => _actions.OrderBy(a => a.Title).ToList();
+        public override IList<ActionModel> Actions { get; } = new List<ActionModel>();
         #endregion
 
         #region Event Handlers
@@ -29,11 +24,21 @@ namespace MiCamConfig.App.Core.Actions
         {
             Func<Task<ResponseEntity>> task = null;
 
-            switch (action.Title)
+            switch (action.Data)
             {
                 case Code.ApkAuhorize:
                     task = CamClient.AdminOperations.ApkAuthorizeAsync;
                     break;
+
+                case Code.CustomRequest:
+
+                    await NavigationService.Navigate<CustomRequestViewModel, CustomRequestViewModel.NavigationParams>(new CustomRequestViewModel.NavigationParams
+                    {
+                        DefaultRequest = $"http://192.72.1.1/cgi-bin/Config.cgi?action={RequestElement.Action}&property={RequestElement.Property}&value={RequestElement.Value}"
+
+                    }).ConfigureAwait(false);
+
+                    return;
 
                 case Code.SoundIndicator:
 
@@ -50,7 +55,7 @@ namespace MiCamConfig.App.Core.Actions
 
             await NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModel.NavigationParams>(new SubmittingRequestViewModel.NavigationParams
             {
-                Code = action.Title,
+                Title = action.Title,
                 Task = task
 
             }).ConfigureAwait(false);
@@ -96,8 +101,9 @@ namespace MiCamConfig.App.Core.Actions
         #region Private Methods
         private void CreateActions()
         {
-            _actions.Add(new ActionModel { Title = Code.ApkAuhorize });
-            _actions.Add(new ActionModel { Title = Code.SoundIndicator });
+            Actions.Add(new ActionModel { Title = Code.ApkAuhorize, Data = Code.ApkAuhorize });
+            Actions.Add(new ActionModel { Title = Code.SoundIndicator, Data = Code.SoundIndicator });
+            Actions.Add(new ActionModel { Title = Resources.TitleCustomRequest, Data = Code.CustomRequest });
         }
         #endregion
     }

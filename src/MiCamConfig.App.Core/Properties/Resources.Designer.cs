@@ -88,6 +88,15 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Submit request.
+        /// </summary>
+        internal static string ActionSubmitRequest {
+            get {
+                return ResourceManager.GetString("ActionSubmitRequest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Get value.
         /// </summary>
         internal static string HintGetValue {
@@ -111,6 +120,15 @@ namespace MiCamConfig.App.Core.Properties {
         internal static string HintRawResponse {
             get {
                 return ResourceManager.GetString("HintRawResponse", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Request.
+        /// </summary>
+        internal static string HintRequest {
+            get {
+                return ResourceManager.GetString("HintRequest", resourceCulture);
             }
         }
         
@@ -223,6 +241,15 @@ namespace MiCamConfig.App.Core.Properties {
         internal static string TitleConnectToDashcam {
             get {
                 return ResourceManager.GetString("TitleConnectToDashcam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Custom Request.
+        /// </summary>
+        internal static string TitleCustomRequest {
+            get {
+                return ResourceManager.GetString("TitleCustomRequest", resourceCulture);
             }
         }
         

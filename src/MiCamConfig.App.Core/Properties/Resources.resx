@@ -126,6 +126,9 @@
   <data name="ActionOkay" xml:space="preserve">
     <value>Okay</value>
   </data>
+  <data name="ActionSubmitRequest" xml:space="preserve">
+    <value>Submit request</value>
+  </data>
   <data name="HintGetValue" xml:space="preserve">
     <value>Get value</value>
   </data>
@@ -134,6 +137,9 @@
   </data>
   <data name="HintRawResponse" xml:space="preserve">
     <value>Raw response</value>
+  </data>
+  <data name="HintRequest" xml:space="preserve">
+    <value>Request</value>
   </data>
   <data name="HintSearch" xml:space="preserve">
     <value>Search</value>
@@ -174,6 +180,9 @@ This project is open source on GitHub and licensed under Apache 2.0.</value>
   </data>
   <data name="TitleConnectToDashcam" xml:space="preserve">
     <value>Connect To Dashcam</value>
+  </data>
+  <data name="TitleCustomRequest" xml:space="preserve">
+    <value>Custom Request</value>
   </data>
   <data name="TitleDisclaimer" xml:space="preserve">
     <value>Disclaimer</value>
