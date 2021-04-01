@@ -1,8 +1,8 @@
 ﻿using Android.App;
 using Android.Views;
 using MiCamConfig.App.Core.ViewModels;
+using MiCamConfig.App.Droid.Activities.Base;
 using MiCamConfig.App.Droid.Attributes;
-using MiCamConfig.App.Droid.Base;
 using MvvmCross.Platforms.Android.Presenters.Attributes;
 
 namespace MiCamConfig.App.Droid.Activities

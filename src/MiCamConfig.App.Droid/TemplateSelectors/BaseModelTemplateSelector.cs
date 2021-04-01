@@ -1,5 +1,5 @@
-﻿using MiCamConfig.App.Core.Base;
-using MiCamConfig.App.Core.Models;
+﻿using MiCamConfig.App.Core.Models;
+using MiCamConfig.App.Core.Models.Base;
 using MvvmCross.DroidX.RecyclerView.ItemTemplates;
 using System;
 using System.Collections.Generic;

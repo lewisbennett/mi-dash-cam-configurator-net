@@ -1,6 +1,6 @@
 ﻿using MiCam.Api.Client.Schema;
-using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.ViewModels.Base;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
 

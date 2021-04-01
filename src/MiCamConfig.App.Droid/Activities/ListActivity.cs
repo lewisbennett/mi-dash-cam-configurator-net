@@ -1,8 +1,8 @@
 ﻿using Android.OS;
 using AndroidX.RecyclerView.Widget;
 using Google.Android.Material.AppBar;
-using MiCamConfig.App.Core.Base;
-using MiCamConfig.App.Droid.Base;
+using MiCamConfig.App.Core.ViewModels.Base;
+using MiCamConfig.App.Droid.Activities.Base;
 using MiCamConfig.App.Droid.TemplateSelectors;
 using MiCamConfig.App.Droid.Views;
 

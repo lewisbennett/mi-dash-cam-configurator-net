@@ -2,12 +2,12 @@
 using Android.Views;
 using AndroidX.AppCompat.Widget;
 using DialogMessaging;
-using MiCamConfig.App.Core.Base;
+using MiCamConfig.App.Core.ViewModels.Base;
 using MiCamConfig.App.Droid.Attributes;
 using MvvmCross.Platforms.Android.Views;
 using System.Reflection;
 
-namespace MiCamConfig.App.Droid.Base
+namespace MiCamConfig.App.Droid.Activities.Base
 {
     public class BaseActivity<TViewModel> : MvxActivity<TViewModel>
         where TViewModel : BaseViewModel

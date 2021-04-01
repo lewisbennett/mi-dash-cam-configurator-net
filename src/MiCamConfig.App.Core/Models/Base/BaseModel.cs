@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace MiCamConfig.App.Core.Base
+namespace MiCamConfig.App.Core.Models.Base
 {
     public class BaseModel : AppCore, INotifyPropertyChanged
     {

@@ -1,4 +1,4 @@
-﻿using MiCamConfig.App.Core.Base;
+﻿using MiCamConfig.App.Core.Models.Base;
 
 namespace MiCamConfig.App.Core.Models
 {

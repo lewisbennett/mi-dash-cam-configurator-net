@@ -1,6 +1,6 @@
 ﻿using MiCam.Api.Client.Entities;
-using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.ViewModels.Base;
 using System;
 using System.Threading.Tasks;
 

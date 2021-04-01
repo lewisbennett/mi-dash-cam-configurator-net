@@ -4,7 +4,7 @@ using MvvmCross.ViewModels;
 using System;
 using System.Threading.Tasks;
 
-namespace MiCamConfig.App.Core.Base
+namespace MiCamConfig.App.Core.ViewModels.Base
 {
     public class BaseViewModel : MvxViewModel
     {

@@ -2,8 +2,8 @@
 using DialogMessaging.Interactions;
 using MiCam.Api.Client.Entities;
 using MiCamConfig.App.Core.Actions;
-using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.ViewModels.Base;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using System.Threading.Tasks;
