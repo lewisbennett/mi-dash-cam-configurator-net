@@ -1,6 +1,7 @@
 ﻿using MiCamConfig.App.Core.Actions;
 using MiCamConfig.App.Core.Models;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.Services;
 using System;
 using System.Linq;
 
@@ -67,6 +68,13 @@ namespace MiCamConfig.App.Core.ViewModels
 
             if (DashCamActions != null)
                 Data.AddRange(DashCamActions.Actions);
+        }
+        #endregion
+
+        #region Constructors
+        public ActionsViewModel(ICoreService coreService)
+            : base(coreService)
+        {
         }
         #endregion
     }

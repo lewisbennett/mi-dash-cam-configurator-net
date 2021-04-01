@@ -1,7 +1,5 @@
-﻿using MiCam.Api.Client;
+﻿using MiCamConfig.App.Core.Services;
 using MvvmCross.ViewModels;
-using System;
-using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.ViewModels.Base
 {
@@ -9,16 +7,16 @@ namespace MiCamConfig.App.Core.ViewModels.Base
     {
         #region Properties
         /// <summary>
-        /// Gets the app's CamClient.
+        /// Gets the app's <see cref="ICoreService" />.
         /// </summary>
-        public static CamClient CamClient => AppCore.CamClient;
+        public ICoreService CoreService { get; }
+        #endregion
 
-        /// <summary>
-        /// Runs a task and handles any exceptions.
-        /// </summary>
-        public Task<bool> RunTaskAsync(Func<Task> task)
+        #region Constructors
+        public BaseViewModel(ICoreService coreService)
+            : base()
         {
-            return AppCore.RunTaskAsync(task);
+            CoreService = coreService;
         }
         #endregion
     }
@@ -28,6 +26,13 @@ namespace MiCamConfig.App.Core.ViewModels.Base
     {
         #region Lifecycle
         public virtual void Prepare(TNavigationParams parameter)
+        {
+        }
+        #endregion
+
+        #region Constructors
+        public BaseViewModel(ICoreService coreService)
+            : base(coreService)
         {
         }
         #endregion

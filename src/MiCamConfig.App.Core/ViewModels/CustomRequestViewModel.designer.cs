@@ -14,7 +14,7 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             get => _action;
 
-            set => SetProperty(_action, value);
+            set => SetProperty(ref _action, value);
         }
 
         public string ActionHint

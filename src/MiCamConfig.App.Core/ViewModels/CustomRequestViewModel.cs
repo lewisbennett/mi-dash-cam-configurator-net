@@ -1,5 +1,6 @@
 ﻿using MiCam.Api.Client.Schema;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Core.ViewModels.Base;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
@@ -32,7 +33,7 @@ namespace MiCamConfig.App.Core.ViewModels
             _navigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
             {
                 Title = Resources.TitleCustomRequest,
-                Task = () => CamClient.RequestAsync(request)
+                Task = () => CoreService.CamClient.RequestAsync(request)
             });
         }
         #endregion
@@ -62,8 +63,8 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
 
         #region Constructors
-        public CustomRequestViewModel(IMvxNavigationService navigationService)
-            : base()
+        public CustomRequestViewModel(ICoreService coreService, IMvxNavigationService navigationService)
+            : base(coreService)
         {
             _navigationService = navigationService;
         }

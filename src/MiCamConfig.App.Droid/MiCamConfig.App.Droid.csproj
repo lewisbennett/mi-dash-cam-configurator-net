@@ -78,6 +78,7 @@
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CoreService.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="TemplateSelectors\BaseModelTemplateSelector.cs" />
     <Compile Include="ValueConverters\VisibilityValueConverter.cs" />

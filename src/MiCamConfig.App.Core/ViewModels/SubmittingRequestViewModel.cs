@@ -1,5 +1,6 @@
 ﻿using MiCam.Api.Client.Entities;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Core.ViewModels.Base;
 using System;
 using System.Threading.Tasks;
@@ -135,7 +136,7 @@ namespace MiCamConfig.App.Core.ViewModels
 
             IsRequesting = true;
 
-            await RunTaskAsync(SubmitTaskAsync).ConfigureAwait(false);
+            await CoreService.ExecuteTaskAsync(SubmitTaskAsync).ConfigureAwait(false);
 
             IsRequesting = false;
         }
@@ -166,6 +167,13 @@ namespace MiCamConfig.App.Core.ViewModels
 
             if (Response == null)
                 SubmitTask();
+        }
+        #endregion
+
+        #region Constructors
+        public SubmittingRequestViewModel(ICoreService coreService)
+            : base(coreService)
+        {
         }
         #endregion
     }

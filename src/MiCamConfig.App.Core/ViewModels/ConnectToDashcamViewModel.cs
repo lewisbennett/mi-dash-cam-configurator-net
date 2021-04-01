@@ -3,6 +3,7 @@ using DialogMessaging.Interactions;
 using MiCam.Api.Client.Entities;
 using MiCamConfig.App.Core.Actions;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Core.ViewModels.Base;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
@@ -26,7 +27,7 @@ namespace MiCamConfig.App.Core.ViewModels
             {
                 Message = Resources.MessagingConnecting
 
-            }, RunTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
+            }, CoreService.ExecuteTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
@@ -51,7 +52,7 @@ namespace MiCamConfig.App.Core.ViewModels
         #region Public Methods
         public async Task ApkAuthorizeAsync()
         {
-            _apkAuthorization = await CamClient.AdminOperations.ApkAuthorizeAsync().ConfigureAwait(false);
+            _apkAuthorization = await CoreService.CamClient.AdminOperations.ApkAuthorizeAsync().ConfigureAwait(false);
         }
         #endregion
 
@@ -70,8 +71,8 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
 
         #region Constructors
-        public ConnectToDashcamViewModel(IMvxNavigationService navigationService)
-            : base()
+        public ConnectToDashcamViewModel(ICoreService coreService, IMvxNavigationService navigationService)
+            : base(coreService)
         {
             _navigationService = navigationService;
         }

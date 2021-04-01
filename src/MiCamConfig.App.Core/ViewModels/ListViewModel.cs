@@ -1,4 +1,5 @@
 ﻿using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Core.ViewModels.Base;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
@@ -61,6 +62,13 @@ namespace MiCamConfig.App.Core.ViewModels
             ItemClickCommand = new MvxCommand<TModel>(OnItemClick);
         }
         #endregion
+
+        #region Constructors
+        public ListViewModel(ICoreService coreService)
+            : base(coreService)
+        {
+        }
+        #endregion
     }
 
     public class ListViewModel<TModel, TNavigationParams> : ListViewModel<TModel>, IMvxViewModel<TNavigationParams>
@@ -69,6 +77,13 @@ namespace MiCamConfig.App.Core.ViewModels
     {
         #region Lifecycle
         public virtual void Prepare(TNavigationParams parameter)
+        {
+        }
+        #endregion
+
+        #region Constructors
+        public ListViewModel(ICoreService coreService)
+            : base(coreService)
         {
         }
         #endregion
