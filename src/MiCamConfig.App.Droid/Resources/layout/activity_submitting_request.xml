@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:background="?attr/windowBackgroundColor">
     <include
-        layout="@layout/toolbar" />
+        layout="@layout/frag_toolbar" />
     <include
-        layout="@layout/content_submitting_request" />
+        layout="@layout/frag_submitting_request" />
 </LinearLayout>

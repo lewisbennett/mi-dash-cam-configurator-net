@@ -169,12 +169,12 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\content_disclaimer.xml">
+    <AndroidResource Include="Resources\layout\frag_disclaimer.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\toolbar.xml" />
+    <AndroidResource Include="Resources\layout\frag_toolbar.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values-night\colors.xml" />
@@ -192,13 +192,13 @@
     <AndroidResource Include="Resources\layout\activity_list.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\content_connect_to_dashcam.xml" />
+    <AndroidResource Include="Resources\layout\frag_connect_to_dashcam.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\content_list.xml" />
+    <AndroidResource Include="Resources\layout\frag_list.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\content_searchable_list.xml">
+    <AndroidResource Include="Resources\layout\frag_searchable_list.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -208,7 +208,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\content_submitting_request.xml">
+    <AndroidResource Include="Resources\layout\frag_submitting_request.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -218,7 +218,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\content_custom_request.xml">
+    <AndroidResource Include="Resources\layout\frag_custom_request.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

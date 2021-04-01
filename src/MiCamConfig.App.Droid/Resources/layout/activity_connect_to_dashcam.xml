@@ -4,5 +4,5 @@
     android:orientation="vertical"
     android:background="?attr/windowBackgroundColor">
     <include
-        layout="@layout/content_connect_to_dashcam" />
+        layout="@layout/frag_connect_to_dashcam" />
 </LinearLayout>

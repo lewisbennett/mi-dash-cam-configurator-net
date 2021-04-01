@@ -16,5 +16,5 @@
             app:MvxBind="Text SearchText" />
     </com.google.android.material.textfield.TextInputLayout>
     <include
-        layout="@layout/content_list" />
+        layout="@layout/frag_list" />
 </LinearLayout>
