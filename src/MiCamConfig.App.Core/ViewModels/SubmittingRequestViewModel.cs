@@ -22,107 +22,11 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
     }
 
-    public class SubmittingRequestViewModel : BaseViewModel<SubmittingRequestViewModelNavigationParams>
+    public partial class SubmittingRequestViewModel : BaseViewModel<SubmittingRequestViewModelNavigationParams>
     {
         #region Fields
-        private bool _isRequesting;
         private ResponseEntity _response;
         private Func<Task<ResponseEntity>> _task;
-        #endregion
-
-        #region Properties
-        /// <summary>
-        /// Gets or sets whether the request is currently in progress.
-        /// </summary>
-        public bool IsRequesting
-        {
-            get => _isRequesting;
-
-            set
-            {
-                if (_isRequesting == value)
-                    return;
-
-                _isRequesting = value;
-                RaisePropertyChanged(() => IsRequesting);
-            }
-        }
-
-        /// <summary>
-        /// Gets the loading message.
-        /// </summary>
-        public string LoadingMessage => Resources.MessagingSubmittingRequest;
-
-        /// <summary>
-        /// Gets the property title.
-        /// </summary>
-        public string PropertyTitle
-        {
-            get
-            {
-                if (Response == null)
-                    return $"{Resources.HintProperty}:";
-
-                return $"{Resources.HintProperty}: {Response.PropertyName}";
-            }
-        }
-
-        /// <summary>
-        /// Gets the raw response.
-        /// </summary>
-        public string RawResponse => Response?.RawResponse;
-
-        /// <summary>
-        /// Gets the raw response title.
-        /// </summary>
-        public string RawResponseTitle => $"{Resources.HintRawResponse}:";
-
-        /// <summary>
-        /// Gets or sets the response, if any.
-        /// </summary>
-        public ResponseEntity Response
-        {
-            get => _response;
-
-            set
-            {
-                _response = value;
-
-                RaisePropertyChanged(() => Response);
-                RaisePropertyChanged(() => PropertyTitle);
-                RaisePropertyChanged(() => RawResponse);
-                RaisePropertyChanged(() => SuccessTitle);
-                RaisePropertyChanged(() => ValueTitle);
-            }
-        }
-
-        /// <summary>
-        /// Gets the success title.
-        /// </summary>
-        public string SuccessTitle
-        {
-            get
-            {
-                if (Response == null)
-                    return $"{Resources.HintSuccess}:";
-
-                return $"{Resources.HintSuccess}: {Response.Success}";
-            }
-        }
-
-        /// <summary>
-        /// Gets the value title.
-        /// </summary>
-        public string ValueTitle
-        {
-            get
-            {
-                if (Response == null)
-                    return $"{Resources.HintValue}:";
-
-                return $"{Resources.HintValue}: {Response.Value}";
-            }
-        }
         #endregion
 
         #region Public Methods
@@ -136,23 +40,39 @@ namespace MiCamConfig.App.Core.ViewModels
 
             IsRequesting = true;
 
-            await CoreService.ExecuteTaskAsync(SubmitTaskAsync).ConfigureAwait(false);
+            await CoreService.ExecuteTaskAsync(_task.Invoke, (response) =>
+            {
+                _response = response;
+
+                RawResponse = _response.RawResponse;
+
+                PropertyTitle = CalculatePropertyTitle();
+                SuccessTitle = CalculateSuccessTitle();
+                ValueTitle = CalculateValueTitle();
+
+            }, HandleException).ConfigureAwait(false);
 
             IsRequesting = false;
-        }
-
-        public async Task SubmitTaskAsync()
-        {
-            var response = await _task.Invoke().ConfigureAwait(false);
-
-            Response = response;
         }
         #endregion
 
         #region Lifecycle
+        public override void Prepare()
+        {
+            base.Prepare();
+
+            LoadingMessage = Resources.MessagingSubmittingRequest;
+            RawResponseTitle = $"{Resources.HintRawResponse}:";
+
+            PropertyTitle = CalculatePropertyTitle();
+            SuccessTitle = CalculateSuccessTitle();
+            ValueTitle = CalculateValueTitle();
+        }
+
         public override void Prepare(SubmittingRequestViewModelNavigationParams parameter)
         {
             _task = parameter.Task;
+
             Title = parameter.Title;
         }
 
@@ -160,7 +80,7 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             base.ViewAppearing();
 
-            if (Response == null)
+            if (_response == null)
                 SubmitTask();
         }
         #endregion
@@ -169,6 +89,38 @@ namespace MiCamConfig.App.Core.ViewModels
         public SubmittingRequestViewModel(ICoreService coreService)
             : base(coreService)
         {
+        }
+        #endregion
+
+        #region Private Methods
+        private string CalculatePropertyTitle()
+        {
+            var propertyTitle = $"{Resources.HintProperty}:";
+
+            if (_response != null)
+                propertyTitle = $"{propertyTitle} {_response.PropertyName}";
+
+            return propertyTitle;
+        }
+
+        private string CalculateSuccessTitle()
+        {
+            var successTitle = $"{Resources.HintSuccess}:";
+
+            if (_response != null)
+                successTitle = $"{successTitle} {_response.Success}";
+
+            return successTitle;
+        }
+
+        private string CalculateValueTitle()
+        {
+            var valueTitle = $"{Resources.HintValue}:";
+
+            if (_response != null)
+                valueTitle = $"{valueTitle} {_response.Value}";
+
+            return valueTitle;
         }
         #endregion
     }
