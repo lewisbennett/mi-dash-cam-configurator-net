@@ -2,6 +2,7 @@
 using MiCamConfig.App.Core.Models;
 using MiCamConfig.App.Core.Properties;
 using MiCamConfig.App.Core.Services;
+using MiCamConfig.App.Core.ViewModels.List.Base;
 using System;
 using System.Linq;
 
@@ -17,7 +18,7 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
     }
 
-    public partial class ActionsViewModel : ListViewModel<ActionModel, ActionsViewModelNavigationParams>
+    public partial class ActionsViewModel : PrimaryListBaseViewModel<ActionModel, ActionsViewModelNavigationParams>
     {
         #region Properties
         /// <summary>
@@ -27,9 +28,9 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
 
         #region Event Handlers
-        public override void OnItemClick(ActionModel item)
+        protected override void OnPrimaryItemClicked(ActionModel item)
         {
-            base.OnItemClick(item);
+            base.OnPrimaryItemClicked(item);
 
             DashCamActions?.OnActionClick(item);
         }
@@ -60,9 +61,9 @@ namespace MiCamConfig.App.Core.ViewModels
             if (DashCamActions == null)
                 return;
 
-            Data.SwitchTo(DashCamActions.Actions.Where(a => a.Title.StartsWith(search, StringComparison.CurrentCultureIgnoreCase)) ?? DashCamActions.Actions);
+            PrimaryData.SwitchTo(DashCamActions.Actions.Where(a => a.Title.StartsWith(search, StringComparison.CurrentCultureIgnoreCase)) ?? DashCamActions.Actions);
 
-            RaisePropertyChanged(() => IsDataEmpty);
+            IsDataEmpty = CalculateIsDataEmpty();
         }
         #endregion
 
@@ -77,12 +78,10 @@ namespace MiCamConfig.App.Core.ViewModels
 
         public override void Prepare(ActionsViewModelNavigationParams parameter)
         {
-            base.Prepare(parameter);
-
             DashCamActions = parameter?.DashCamActions;
 
             if (DashCamActions != null)
-                Data.AddRange(DashCamActions.Actions);
+                PrimaryData.AddRange(DashCamActions.Actions);
         }
         #endregion
 
