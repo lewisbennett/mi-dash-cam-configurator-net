@@ -32,7 +32,7 @@ namespace MiCamConfig.App.Core.Actions
 
                 case Code.CustomRequest:
 
-                    await NavigationService.Navigate<CustomRequestViewModel, CustomRequestViewModel.NavigationParams>(new CustomRequestViewModel.NavigationParams
+                    await NavigationService.Navigate<CustomRequestViewModel, CustomRequestViewModelNavigationParams>(new CustomRequestViewModelNavigationParams
                     {
                         DefaultRequest = $"http://192.72.1.1/cgi-bin/Config.cgi?action={RequestElement.Action}&property={RequestElement.Property}&value={RequestElement.Value}"
 
@@ -53,7 +53,7 @@ namespace MiCamConfig.App.Core.Actions
                     return;
             }
 
-            await NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModel.NavigationParams>(new SubmittingRequestViewModel.NavigationParams
+            await NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
             {
                 Title = action.Title,
                 Task = task

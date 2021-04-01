@@ -6,18 +6,18 @@ using System.Linq;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
-    public class ActionsViewModel : ListViewModel<ActionModel, ActionsViewModel.NavigationParams>
+    public class ActionsViewModelNavigationParams
     {
-        public class NavigationParams
-        {
-            #region Properties
-            /// <summary>
-            /// Gets or sets the dash cam actions.
-            /// </summary>
-            public IActions DashCamActions { get; set; }
-            #endregion
-        }
+        #region Properties
+        /// <summary>
+        /// Gets or sets the dash cam actions.
+        /// </summary>
+        public IActions DashCamActions { get; set; }
+        #endregion
+    }
 
+    public class ActionsViewModel : ListViewModel<ActionModel, ActionsViewModelNavigationParams>
+    {
         #region Fields
         private string _searchText = string.Empty;
         #endregion
@@ -88,7 +88,7 @@ namespace MiCamConfig.App.Core.ViewModels
             Title = Resources.TitleActions;
         }
 
-        public override void Prepare(NavigationParams parameter)
+        public override void Prepare(ActionsViewModelNavigationParams parameter)
         {
             base.Prepare(parameter);
 

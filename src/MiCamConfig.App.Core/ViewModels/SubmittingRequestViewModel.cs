@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
-    public class SubmittingRequestViewModel : BaseViewModel<SubmittingRequestViewModel.NavigationParams>
+    public class SubmittingRequestViewModelNavigationParams
     {
-        public class NavigationParams
-        {
-            #region Properties
-            /// <summary>
-            /// Gets or sets the request code.
-            /// </summary>
-            public string Title { get; set; }
+        #region Properties
+        /// <summary>
+        /// Gets or sets the request code.
+        /// </summary>
+        public string Title { get; set; }
 
-            /// <summary>
-            /// Gets or sets the task to execute.
-            /// </summary>
-            public Func<Task<ResponseEntity>> Task { get; set; }
-            #endregion
-        }
+        /// <summary>
+        /// Gets or sets the task to execute.
+        /// </summary>
+        public Func<Task<ResponseEntity>> Task { get; set; }
+        #endregion
+    }
 
+    public class SubmittingRequestViewModel : BaseViewModel<SubmittingRequestViewModelNavigationParams>
+    {
         #region Fields
         private bool _isRequesting;
         private ResponseEntity _response;
@@ -149,7 +149,7 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
 
         #region Lifecycle
-        public override void Prepare(NavigationParams parameter)
+        public override void Prepare(SubmittingRequestViewModelNavigationParams parameter)
         {
             base.Prepare(parameter);
 

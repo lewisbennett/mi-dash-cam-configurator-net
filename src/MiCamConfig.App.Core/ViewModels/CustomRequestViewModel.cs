@@ -5,18 +5,18 @@ using MvvmCross.Commands;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
-    public class CustomRequestViewModel : BaseViewModel<CustomRequestViewModel.NavigationParams>
+    public class CustomRequestViewModelNavigationParams
     {
-        public class NavigationParams
-        {
-            #region Properties
-            /// <summary>
-            /// Gets or sets the default request.
-            /// </summary>
-            public string DefaultRequest { get; set; }
-            #endregion
-        }
+        #region Properties
+        /// <summary>
+        /// Gets or sets the default request.
+        /// </summary>
+        public string DefaultRequest { get; set; }
+        #endregion
+    }
 
+    public class CustomRequestViewModel : BaseViewModel<CustomRequestViewModelNavigationParams>
+    {
         #region Fields
         private string _action = "set", _property = string.Empty, _request = string.Empty, _value = string.Empty;
         #endregion
@@ -136,7 +136,7 @@ namespace MiCamConfig.App.Core.ViewModels
                 .Replace(RequestElement.Property, Property?.Trim())
                 .Replace(RequestElement.Value, Value?.Trim());
 
-            NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModel.NavigationParams>(new SubmittingRequestViewModel.NavigationParams
+            NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
             {
                 Title = Resources.TitleCustomRequest,
                 Task = () => CamClient.RequestAsync(request)
@@ -154,7 +154,7 @@ namespace MiCamConfig.App.Core.ViewModels
             Title = Resources.TitleCustomRequest;
         }
 
-        public override void Prepare(NavigationParams parameter)
+        public override void Prepare(CustomRequestViewModelNavigationParams parameter)
         {
             base.Prepare(parameter);
 

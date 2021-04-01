@@ -49,7 +49,7 @@ namespace MiCamConfig.App.Core.ViewModels
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
-                await NavigationService.Navigate<ActionsViewModel, ActionsViewModel.NavigationParams>(new ActionsViewModel.NavigationParams
+                await NavigationService.Navigate<ActionsViewModel, ActionsViewModelNavigationParams>(new ActionsViewModelNavigationParams
                 {
                     DashCamActions = new MaiActions()
 
