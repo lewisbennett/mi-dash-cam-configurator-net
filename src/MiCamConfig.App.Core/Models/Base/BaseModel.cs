@@ -2,7 +2,7 @@
 
 namespace MiCamConfig.App.Core.Models.Base
 {
-    public class BaseModel : AppCore, INotifyPropertyChanged
+    public class BaseModel : INotifyPropertyChanged
     {
         #region Events
         public event PropertyChangedEventHandler PropertyChanged;

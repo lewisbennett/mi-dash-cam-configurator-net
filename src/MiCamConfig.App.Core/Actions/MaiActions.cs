@@ -1,16 +1,18 @@
-﻿using DialogMessaging.Interactions;
-using MiCam.Api.Client.Entities;
+﻿using DialogMessaging;
+using DialogMessaging.Interactions;
 using MiCam.Api.Client.Schema;
+using MiCamConfig.App.Core.Actions.Base;
 using MiCamConfig.App.Core.Models;
 using MiCamConfig.App.Core.Properties;
+using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Core.ViewModels;
+using MvvmCross.Navigation;
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.Actions
 {
-    public class MaiActions : AbstractActions
+    public class MaiActions : BaseActions
     {
         #region Properties
         /// <summary>
@@ -20,81 +22,69 @@ namespace MiCamConfig.App.Core.Actions
         #endregion
 
         #region Event Handlers
-        public override async void OnActionClick(ActionModel action)
+        public override void OnActionClick(ActionModel action)
         {
-            Func<Task<ResponseEntity>> task = null;
-
             switch (action.Data)
             {
                 case Code.ApkAuhorize:
-                    task = CamClient.AdminOperations.ApkAuthorizeAsync;
-                    break;
+
+                    NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
+                    {
+                        Title = action.Title,
+                        Task = CoreService.CamClient.AdminOperations.ApkAuthorizeAsync
+                    });
+
+                    return;
 
                 case Code.CustomRequest:
 
-                    await NavigationService.Navigate<CustomRequestViewModel, CustomRequestViewModelNavigationParams>(new CustomRequestViewModelNavigationParams
+                    NavigationService.Navigate<CustomRequestViewModel, CustomRequestViewModelNavigationParams>(new CustomRequestViewModelNavigationParams
                     {
                         DefaultRequest = $"http://192.72.1.1/cgi-bin/Config.cgi?action={RequestElement.Action}&property={RequestElement.Property}&value={RequestElement.Value}"
-
-                    }).ConfigureAwait(false);
+                    });
 
                     return;
 
                 case Code.SoundIndicator:
 
-                    var value = await ConfirmSoundIndicatorValueAsync().ConfigureAwait(false);
+                    var config = new ActionSheetBottomConfig
+                    {
+                        Title = Resources.TitleSelectAction,
+                        CancelButtonText = Resources.ActionCancel,
+                        ItemClickAction = (item) =>
+                        {
+                            NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
+                            {
+                                Title = action.Title,
+                                Task = item.Data switch
+                                {
+                                    GetSoundIndicatorOperation => CoreService.CamClient.SoundOperations.GetSoundIndicatorAsync,
+                                    SetSoundIndicatorOnOperation => () => CoreService.CamClient.SoundOperations.SetSoundIndicatorAsync("On"),
+                                    SetSoundIndicatorOffOperation => () => CoreService.CamClient.SoundOperations.SetSoundIndicatorAsync("Off"),
+                                    _ => throw new NotImplementedException("Sound indicator action sheet option not implemented.")
+                                }
+                            });
+                        }
+                    };
 
-                    if (value != null)
-                        task = value;
+                    config.Items.Add(new ActionSheetItemConfig { Message = $"{Resources.HintGetValue}", Data = GetSoundIndicatorOperation });
+                    config.Items.Add(new ActionSheetItemConfig { Message = $"{Resources.HintSetValueTo}: \"On\"", Data = SetSoundIndicatorOnOperation });
+                    config.Items.Add(new ActionSheetItemConfig { Message = $"{Resources.HintSetValueTo}: \"Off\"", Data = SetSoundIndicatorOffOperation });
 
-                    break;
+                    MessagingService.Instance.ActionSheetBottom(config);
+
+                    return;
 
                 default:
                     return;
-            }
-
-            await NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
-            {
-                Title = action.Title,
-                Task = task
-
-            }).ConfigureAwait(false);
-        }
-        #endregion
-
-        #region Public Methods
-        public async Task<Func<Task<ResponseEntity>>> ConfirmSoundIndicatorValueAsync()
-        {
-            var config = new ActionSheetBottomAsyncConfig
-            {
-                Title = Resources.TitleSelectAction,
-                CancelButtonText = Resources.ActionCancel
-            };
-
-            config.Items.Add(new ActionSheetItemAsyncConfig { Message = $"{Resources.HintGetValue}" });
-            config.Items.Add(new ActionSheetItemAsyncConfig { Message = $"{Resources.HintSetValueTo}: \"On\"" });
-            config.Items.Add(new ActionSheetItemAsyncConfig { Message = $"{Resources.HintSetValueTo}: \"Off\"" });
-
-            var selectedItem = await MessagingService.ActionSheetBottomAsync(config).ConfigureAwait(false);
-
-            if (selectedItem == null || !(selectedItem is ActionSheetItemAsyncConfig selectedAsyncItem))
-                return null;
-
-            var index = config.Items.IndexOf(selectedAsyncItem);
-
-            return index switch
-            {
-                1 => () => CamClient.SoundOperations.SetSoundIndicatorAsync("On"),
-                2 => () => CamClient.SoundOperations.SetSoundIndicatorAsync("Off"),
-                _ => CamClient.SoundOperations.GetSoundIndicatorAsync,
-            };
+            } 
         }
         #endregion
 
         #region Constructors
-        public MaiActions()
+        public MaiActions(ICoreService coreService, IMvxNavigationService navigationService)
+            : base(coreService, navigationService)
         {
-            CreateActions();
         }
         #endregion
 
@@ -105,6 +95,12 @@ namespace MiCamConfig.App.Core.Actions
             Actions.Add(new ActionModel { Title = Code.SoundIndicator, Data = Code.SoundIndicator });
             Actions.Add(new ActionModel { Title = Resources.TitleCustomRequest, Data = Code.CustomRequest });
         }
+        #endregion
+
+        #region Constant Values
+        public const string GetSoundIndicatorOperation = "get_sound_indicator";
+        public const string SetSoundIndicatorOnOperation = "set_sound_indicator_on";
+        public const string SetSoundIndicatorOffOperation = "set_sound_indicator_off";
         #endregion
     }
 }

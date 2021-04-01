@@ -1,4 +1,4 @@
-﻿using MiCamConfig.App.Core.Actions;
+﻿using MiCamConfig.App.Core.Actions.Base;
 using MiCamConfig.App.Core.Models;
 using MiCamConfig.App.Core.Properties;
 using MiCamConfig.App.Core.Services;

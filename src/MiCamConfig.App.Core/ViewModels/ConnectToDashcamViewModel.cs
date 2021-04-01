@@ -64,7 +64,7 @@ namespace MiCamConfig.App.Core.ViewModels
                 {
                     _navigationService.Navigate<ActionsViewModel, ActionsViewModelNavigationParams>(new ActionsViewModelNavigationParams
                     {
-                        DashCamActions = new MaiActions()
+                        DashCamActions = new MaiActions(CoreService, _navigationService)
                     });
                 }
                 else
