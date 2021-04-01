@@ -1,5 +1,4 @@
-﻿using DialogMessaging;
-using MiCam.Api.Client;
+﻿using MiCam.Api.Client;
 using MvvmCross;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
@@ -17,19 +16,6 @@ namespace MiCamConfig.App.Core.Base
         #endregion
 
         #region Properties
-        /// <summary>
-        /// Gets the command triggered when the back button is clicked.
-        /// </summary>
-        public IMvxCommand BackButtonClickCommand
-        {
-            get
-            {
-                _backButtonClickCommand = _backButtonClickCommand ?? new MvxAsyncCommand(Back_ClickAsync);
-
-                return _backButtonClickCommand;
-            }
-        }
-
         /// <summary>
         /// Gets the app's CamClient.
         /// </summary>
@@ -60,13 +46,6 @@ namespace MiCamConfig.App.Core.Base
                 _title = value;
                 RaisePropertyChanged(() => Title);
             }
-        }
-        #endregion
-
-        #region Event Handlers
-        private async Task Back_ClickAsync()
-        {
-            await NavigationService.Close(this).ConfigureAwait(false);
         }
         #endregion
     }

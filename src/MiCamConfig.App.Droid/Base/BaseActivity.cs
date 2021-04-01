@@ -63,21 +63,6 @@ namespace MiCamConfig.App.Droid.Base
         }
         #endregion
 
-        #region Event Handlers
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            switch (item.ItemId)
-            {
-                case Android.Resource.Id.Home:
-                    ViewModel.BackButtonClickCommand.Execute();
-                    return true;
-
-                default:
-                    return base.OnOptionsItemSelected(item);
-            }
-        }
-        #endregion
-
         #region Lifecycle
         protected override void OnCreate(Bundle bundle)
         {
