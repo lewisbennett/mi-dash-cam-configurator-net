@@ -1,21 +1,49 @@
-﻿using System.ComponentModel;
+﻿using DialogMessaging.Interactions;
+using MiCamConfig.App.Core.Properties;
+using MvvmCross.ViewModels;
+using System;
+using System.ComponentModel;
 
 namespace MiCamConfig.App.Core.Models.Base
 {
-    public class BaseModel : INotifyPropertyChanged
+    public abstract class BaseModel : MvxNotifyPropertyChanged
     {
-        #region Events
-        public event PropertyChangedEventHandler PropertyChanged;
+        #region Event Handlers
+        private void BaseModel_PropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            OnPropertyChanged(e.PropertyName);
+        }
+
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+        }
         #endregion
 
         #region Public Methods
         /// <summary>
-        /// Invokes the PropertyChanged event.
+        /// Remove the model's event handlers, if any.
         /// </summary>
-        /// <param name="propertyName">The name of the property that has changed.</param>
-        public void OnPropertyChanged(string propertyName)
+        public virtual void RemoveEventHandlers()
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            PropertyChanged -= BaseModel_PropertyChanged;
+        }
+        #endregion
+
+        #region Protected Methods
+        protected virtual object HandleException(Exception exception)
+        {
+            return new SnackbarConfig
+            {
+                Message = Resources.MessageUnknownError
+            };
+        }
+        #endregion
+
+        #region Constructors
+        protected BaseModel()
+            : base()
+        {
+            PropertyChanged += BaseModel_PropertyChanged;
         }
         #endregion
     }
