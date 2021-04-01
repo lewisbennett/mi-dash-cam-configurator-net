@@ -12,5 +12,11 @@ namespace MiCamConfig.App.Droid.Activities
     [ActivityLayout(EnableBackButton = true, LayoutResourceId = Resource.Layout.activity_submitting_request)]
     public class SubmittingRequestActivity : BaseActivity<SubmittingRequestViewModel>
     {
+        #region Properties
+        /// <summary>
+        /// Gets the layout resource ID for this Activity.
+        /// </summary>
+        public override int LayoutResID => Resource.Layout.activity_submitting_request;
+        #endregion
     }
 }

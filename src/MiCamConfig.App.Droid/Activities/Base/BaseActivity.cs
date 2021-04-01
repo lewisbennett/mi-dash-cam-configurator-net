@@ -1,65 +1,28 @@
 ﻿using Android.OS;
-using Android.Views;
 using AndroidX.AppCompat.Widget;
-using DialogMessaging;
+using Google.Android.Material.AppBar;
 using MiCamConfig.App.Core.ViewModels.Base;
-using MiCamConfig.App.Droid.Attributes;
 using MvvmCross.Platforms.Android.Views;
-using System.Reflection;
+using MvvmCross.Views;
 
 namespace MiCamConfig.App.Droid.Activities.Base
 {
-    public class BaseActivity<TViewModel> : MvxActivity<TViewModel>
-        where TViewModel : BaseViewModel
+    public abstract partial class BaseActivity : MvxActivity
     {
         #region Properties
         /// <summary>
-        /// Gets the layout attributes for this activity.
+        /// Gets the layout resource ID for this Activity.
         /// </summary>
-        public ActivityLayoutAttribute LayoutAttributes { get; private set; }
-
-        /// <summary>
-        /// Gets the messaging service.
-        /// </summary>
-        public IMessagingService MessagingService => DialogMessaging.MessagingService.Instance;
-
-        /// <summary>
-        /// Gets the toolbar for this activity.
-        /// </summary>
-        public Toolbar Toolbar { get; private set; }
+        public abstract int LayoutResID { get; }
         #endregion
 
-        #region Public Methods
-        public override void SetContentView(View view)
+        #region Protected Methods
+        protected virtual void AddEventHandlers()
         {
-            base.SetContentView(view);
-
-            SetSupportActionBar();
         }
 
-        public override void SetContentView(int layoutResId)
+        protected virtual void RemoveEventHandlers()
         {
-            base.SetContentView(layoutResId);
-
-            SetSupportActionBar();
-        }
-
-        public override void SetContentView(View view, ViewGroup.LayoutParams @params)
-        {
-            base.SetContentView(view, @params);
-
-            SetSupportActionBar();
-        }
-
-        /// <summary>
-        /// Sets the action bar automatically if available.
-        /// </summary>
-        public void SetSupportActionBar()
-        {
-            Toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-
-            if (Toolbar != null)
-                SetSupportActionBar(Toolbar);
         }
         #endregion
 
@@ -68,34 +31,40 @@ namespace MiCamConfig.App.Droid.Activities.Base
         {
             base.OnCreate(bundle);
 
-            Initialize();
-            SetupView();
+            SetContentView(LayoutResID);
+
+            AppBarLayout = FindViewById<AppBarLayout>(Resource.Id.appbarlayout);
+            Toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
+
+            if (Toolbar != null)
+                SetSupportActionBar(Toolbar);
         }
 
-        public override void OnCreate(Bundle savedInstanceState, PersistableBundle persistentState)
+        protected override void OnPostCreate(Bundle savedInstanceState)
         {
-            base.OnCreate(savedInstanceState, persistentState);
+            base.OnPostCreate(savedInstanceState);
 
-            Initialize();
-            SetupView();
+            AddEventHandlers();
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+
+            RemoveEventHandlers();
         }
         #endregion
+    }
 
-        #region Private Methods
-        private void Initialize()
+    public abstract class BaseActivity<TViewModel> : BaseActivity, IMvxView<TViewModel>
+        where TViewModel : BaseViewModel
+    {
+        #region Properties
+        public new TViewModel ViewModel
         {
-            LayoutAttributes = GetType().GetCustomAttribute<ActivityLayoutAttribute>(true);
-        }
+            get => base.ViewModel as TViewModel;
 
-        private void SetupView()
-        {
-            if (LayoutAttributes == null)
-                return;
-
-            if (LayoutAttributes.LayoutResourceId != 0)
-                SetContentView(LayoutAttributes.LayoutResourceId);
-
-            SupportActionBar?.SetDisplayHomeAsUpEnabled(LayoutAttributes.EnableBackButton);
+            set => base.ViewModel = value;
         }
         #endregion
     }

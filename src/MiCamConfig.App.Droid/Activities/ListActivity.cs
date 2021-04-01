@@ -13,6 +13,11 @@ namespace MiCamConfig.App.Droid.Activities
     {
         #region Properties
         /// <summary>
+        /// Gets the layout resource ID for this Activity.
+        /// </summary>
+        public override int LayoutResID => Resource.Layout.activity_list;
+
+        /// <summary>
         /// Gets this view's recycler view.
         /// </summary>
         public ElevationMvxRecyclerView RecyclerView { get; private set; }
@@ -25,7 +30,7 @@ namespace MiCamConfig.App.Droid.Activities
 
             RecyclerView = FindViewById<ElevationMvxRecyclerView>(Resource.Id.recyclerview);
 
-            RecyclerView.ElevationViews.Add(FindViewById<AppBarLayout>(Resource.Id.appbar));
+            RecyclerView.ElevationViews.Add(FindViewById<AppBarLayout>(Resource.Id.appbarlayout));
             RecyclerView.SetLayoutManager(new GridLayoutManager(this, 1));
             RecyclerView.ItemTemplateSelector = new BaseModelTemplateSelector();
         }

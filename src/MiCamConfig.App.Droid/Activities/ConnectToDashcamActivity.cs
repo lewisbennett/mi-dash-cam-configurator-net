@@ -12,6 +12,13 @@ namespace MiCamConfig.App.Droid.Activities
     [ActivityLayout(LayoutResourceId = Resource.Layout.activity_connect_to_dashcam)]
     public class ConnectToDashcamActivity : BaseActivity<ConnectToDashcamViewModel>
     {
+        #region Properties
+        /// <summary>
+        /// Gets the layout resource ID for this Activity.
+        /// </summary>
+        public override int LayoutResID => Resource.Layout.activity_connect_to_dashcam;
+        #endregion
+
         #region Event Handlers
         public override void OnBackPressed()
         {

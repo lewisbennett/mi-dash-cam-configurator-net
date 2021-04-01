@@ -12,5 +12,11 @@ namespace MiCamConfig.App.Droid.Activities
     [ActivityLayout(LayoutResourceId = Resource.Layout.activity_disclaimer)]
     public class DisclaimerActivity : BaseActivity<DisclaimerViewModel>
     {
+        #region Properties
+        /// <summary>
+        /// Gets the layout resource ID for this Activity.
+        /// </summary>
+        public override int LayoutResID => Resource.Layout.activity_disclaimer;
+        #endregion
     }
 }

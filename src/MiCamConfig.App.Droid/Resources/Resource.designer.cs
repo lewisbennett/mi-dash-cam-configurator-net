@@ -23906,7 +23906,7 @@ namespace MiCamConfig.App.Droid
 			public const int animateToStart = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int appbar = 2131230797;
+			public const int appbarlayout = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
 			public const int asConfigured = 2131230798;
