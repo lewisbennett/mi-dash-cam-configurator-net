@@ -41,7 +41,11 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             _apkAuthorization = null;
 
-            await MessagingService.ShowLoadingAsync(Resources.MessagingConnecting, RunTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
+            await MessagingService.ShowLoadingAsync(new LoadingAsyncConfig
+            {
+                Message = Resources.MessagingConnecting
+
+            }, RunTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
