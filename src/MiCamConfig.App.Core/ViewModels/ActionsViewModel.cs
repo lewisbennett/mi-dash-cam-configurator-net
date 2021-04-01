@@ -33,6 +33,21 @@ namespace MiCamConfig.App.Core.ViewModels
 
             DashCamActions?.OnActionClick(item);
         }
+
+        protected override void OnPropertyChanged(string propertyName)
+        {
+            base.OnPropertyChanged(propertyName);
+
+            switch (propertyName)
+            {
+                case nameof(SearchText):
+                    Search(SearchText);
+                    return;
+
+                default:
+                    return;
+            }
+        }
         #endregion
 
         #region Public Methods

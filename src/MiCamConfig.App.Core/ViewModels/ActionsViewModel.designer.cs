@@ -18,12 +18,7 @@
         {
             get => _searchText;
 
-            set
-            {
-                // TODO - remove this
-                if (SetProperty(ref _searchText, value))
-                    Search(_searchText);
-            }
+            set => SetProperty(ref _searchText, value);
         }
         #endregion
     }
