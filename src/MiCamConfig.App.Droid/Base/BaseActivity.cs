@@ -1,15 +1,15 @@
 ﻿using Android.OS;
-using Android.Support.V7.Widget;
 using Android.Views;
+using AndroidX.AppCompat.Widget;
 using DialogMessaging;
 using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Droid.Attributes;
-using MvvmCross.Droid.Support.V7.AppCompat;
+using MvvmCross.Platforms.Android.Views;
 using System.Reflection;
 
 namespace MiCamConfig.App.Droid.Base
 {
-    public class BaseActivity<TViewModel> : MvxAppCompatActivity<TViewModel>
+    public class BaseActivity<TViewModel> : MvxActivity<TViewModel>
         where TViewModel : BaseViewModel
     {
         #region Properties

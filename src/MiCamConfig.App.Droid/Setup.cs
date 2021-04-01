@@ -1,21 +1,14 @@
-﻿using MvvmCross.Binding.Bindings.Target.Construction;
-using MvvmCross.Droid.Support.V7.AppCompat;
+﻿using MvvmCross.Platforms.Android.Core;
 using MvvmCross.Platforms.Android.Presenters;
 
 namespace MiCamConfig.App.Droid
 {
-    public class Setup : MvxAppCompatSetup<Core.App>
+    public class Setup : MvxAndroidSetup<Core.App>
     {
         #region Public Methods
         protected override IMvxAndroidViewPresenter CreateViewPresenter()
         {
-            return new MvxAppCompatViewPresenter(AndroidViewAssemblies);
-        }
-
-        protected override void FillTargetFactories(IMvxTargetBindingFactoryRegistry registry)
-        {
-            MvxAppCompatSetupHelper.FillTargetFactories(registry);
-            base.FillTargetFactories(registry);
+            return new MvxAndroidViewPresenter(AndroidViewAssemblies);
         }
         #endregion
     }

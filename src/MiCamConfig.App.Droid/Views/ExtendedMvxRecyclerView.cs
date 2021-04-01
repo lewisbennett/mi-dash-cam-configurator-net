@@ -2,7 +2,7 @@
 using Android.Runtime;
 using Android.Util;
 using Android.Views;
-using MvvmCross.Droid.Support.V7.RecyclerView;
+using MvvmCross.DroidX.RecyclerView;
 using System;
 
 namespace MiCamConfig.App.Droid.Views

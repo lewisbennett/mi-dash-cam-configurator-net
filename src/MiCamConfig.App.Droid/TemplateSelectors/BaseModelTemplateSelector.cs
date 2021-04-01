@@ -1,6 +1,6 @@
 ﻿using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Models;
-using MvvmCross.Droid.Support.V7.RecyclerView.ItemTemplates;
+using MvvmCross.DroidX.RecyclerView.ItemTemplates;
 using System;
 using System.Collections.Generic;
 

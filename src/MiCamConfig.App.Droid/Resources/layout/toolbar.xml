@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	style="@style/AppTheme.Widgets.ActionBar"
     android:id="@+id/appbar">
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
@@ -18,5 +17,5 @@
             android:layout_gravity="center"
             android:id="@+id/toolbar_text"
             app:MvxBind="Text Title" />
-    </android.support.v7.widget.Toolbar>
-</android.support.design.widget.AppBarLayout>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

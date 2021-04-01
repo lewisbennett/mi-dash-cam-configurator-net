@@ -1,6 +1,6 @@
 ﻿using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V7.Widget;
+using AndroidX.RecyclerView.Widget;
+using Google.Android.Material.AppBar;
 using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Droid.Base;
 using MiCamConfig.App.Droid.TemplateSelectors;
