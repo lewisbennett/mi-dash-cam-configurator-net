@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using DialogMessaging;
+using DialogMessaging.Interactions;
 using MvvmCross.Platforms.Android.Views;
 
 namespace MiCamConfig.App.Droid.Activities
@@ -22,9 +23,11 @@ namespace MiCamConfig.App.Droid.Activities
         {
             MessagingService.Init(this);
 
-#if DEBUG
-            MessagingService.VerboseLogging = true;
-#endif
+            ActionSheetBottomConfigDefaults.Cancelable = true;
+
+            ActionSheetConfigDefaults.Cancelable = true;
+
+            AlertConfigDefaults.Cancelable = true;
         }
         #endregion
     }

@@ -71,9 +71,9 @@ namespace MiCamConfig.App.Core.Actions
                 CancelButtonText = Resources.ActionCancel
             };
 
-            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintGetValue}" });
-            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintSetValueTo}: \"On\"" });
-            config.Items.Add(new ActionSheetItemAsyncConfig { Text = $"{Resources.HintSetValueTo}: \"Off\"" });
+            config.Items.Add(new ActionSheetItemAsyncConfig { Message = $"{Resources.HintGetValue}" });
+            config.Items.Add(new ActionSheetItemAsyncConfig { Message = $"{Resources.HintSetValueTo}: \"On\"" });
+            config.Items.Add(new ActionSheetItemAsyncConfig { Message = $"{Resources.HintSetValueTo}: \"Off\"" });
 
             var selectedItem = await MessagingService.ActionSheetBottomAsync(config).ConfigureAwait(false);
 

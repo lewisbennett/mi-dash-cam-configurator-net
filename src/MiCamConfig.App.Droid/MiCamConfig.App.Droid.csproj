@@ -111,7 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DialogMessaging.MvvmCross">
-      <Version>0.1.0</Version>
+      <Version>0.99.0-alpha</Version>
     </PackageReference>
     <PackageReference Include="MvvmCross">
       <Version>7.1.2</Version>
@@ -121,6 +121,9 @@
     </PackageReference>
     <PackageReference Include="MvvmCross.DroidX.RecyclerView">
       <Version>7.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Arch.Core.Runtime">
+      <Version>2.1.0.8</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
