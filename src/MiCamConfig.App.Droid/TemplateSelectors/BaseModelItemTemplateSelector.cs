@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace MiCamConfig.App.Droid.TemplateSelectors
 {
-    public class BaseModelTemplateSelector : MvxTemplateSelector<BaseModel>
+    public class BaseModelItemTemplateSelector : MvxTemplateSelector<BaseModel>
     {
         #region Public Methods
         public override int GetItemLayoutId(int fromViewType)

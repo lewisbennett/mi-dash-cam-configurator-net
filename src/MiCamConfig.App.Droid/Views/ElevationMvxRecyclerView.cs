@@ -8,13 +8,10 @@ using System.Collections.Generic;
 
 namespace MiCamConfig.App.Droid.Views
 {
-    public class ElevationMvxRecyclerView : ExtendedMvxRecyclerView
+    public class ElevationMvxRecyclerView : MvxRecyclerView
     {
-        #region Properties
-        /// <summary>
-        /// Gets the collection of views that should have different elevation values when this view scrolls.
-        /// </summary>
-        public IList<View> ElevationViews { get; } = new List<View>();
+        #region Fields
+        private readonly List<View> _elevationViews = new List<View>();
         #endregion
 
         #region Event Handlers
@@ -22,13 +19,38 @@ namespace MiCamConfig.App.Droid.Views
         {
             base.OnScrolled(dx, dy);
 
-            if (ElevationViews.Count < 1)
-                return;
+            if (_elevationViews.Count > 0)
+            {
+                var shouldSelect = ShouldSelect();
 
-            var selected = VerticalScrollPosition != 0;
+                foreach (var view in _elevationViews)
+                    view.Selected = shouldSelect;
+            }
+        }
+        #endregion
 
-            foreach (var view in ElevationViews)
-                view.Selected = selected;
+        #region Public Methods
+        /// <summary>
+        /// Registers a view to be elevated when this ElevationMvxRecyclerView is scrolled.
+        /// </summary>
+        /// <param name="view">The view to be registered.</param>
+        public void RegisterElevationView(View view)
+        {
+            if (!_elevationViews.Contains(view))
+                _elevationViews.Add(view);
+
+            view.Selected = ShouldSelect();
+        }
+
+        /// <summary>
+        /// Unregisters a view from being elevated when this ElevationMvxRecyclerView is scrolled.
+        /// </summary>
+        /// <param name="view">The view to be unregistered.</param>
+        public void UnregisterElevationView(View view)
+        {
+            view.Selected = false;
+
+            _elevationViews.Remove(view);
         }
         #endregion
 
@@ -51,6 +73,13 @@ namespace MiCamConfig.App.Droid.Views
         public ElevationMvxRecyclerView(Context context, IAttributeSet attrs, int defStyle, IMvxRecyclerAdapter adapter)
             : base(context, attrs, defStyle, adapter)
         {
+        }
+        #endregion
+
+        #region Private Methods
+        private bool ShouldSelect()
+        {
+            return CanScrollVertically(-1);
         }
         #endregion
     }

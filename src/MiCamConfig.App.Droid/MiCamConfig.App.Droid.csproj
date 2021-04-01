@@ -73,19 +73,22 @@
     <Compile Include="Activities\CustomRequestActvity.cs" />
     <Compile Include="Activities\ConnectToDashcamActivity.cs" />
     <Compile Include="Activities\DisclaimerActivity.cs" />
-    <Compile Include="Activities\ListActivity.cs" />
+    <Compile Include="Activities\List\PrimaryListBaseActivity.cs" />
+    <Compile Include="Activities\List\PrimaryListBaseActivity.designer.cs">
+      <DependentUpon>PrimaryListBaseActivity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Activities\SplashScreenActivity.cs" />
     <Compile Include="Activities\SubmittingRequestActivity.cs" />
     <Compile Include="Activities\Base\BaseActivity.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CoreService.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="TemplateSelectors\BaseModelTemplateSelector.cs" />
+    <Compile Include="TemplateSelectors\BaseModelItemTemplateSelector.cs" />
     <Compile Include="ValueConverters\VisibilityValueConverter.cs" />
     <Compile Include="Views\ElevationMvxRecyclerView.cs" />
-    <Compile Include="Views\ExtendedMvxRecyclerView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -189,13 +192,13 @@
     <AndroidResource Include="Resources\drawable-night-nodpi\ba_splash.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\activity_list.xml" />
+    <AndroidResource Include="Resources\layout\activity_primary_list.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\frag_connect_to_dashcam.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\frag_list.xml" />
+    <AndroidResource Include="Resources\layout\frag_primary_list.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\frag_searchable_list.xml">
@@ -224,6 +227,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\activity_custom_request.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\frag_loading.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
