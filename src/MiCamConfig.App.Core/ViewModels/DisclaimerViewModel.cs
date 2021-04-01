@@ -1,11 +1,16 @@
 ﻿using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Properties;
 using MvvmCross.Commands;
+using MvvmCross.Navigation;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
     public class DisclaimerViewModel : BaseViewModel
     {
+        #region Fields
+        private readonly IMvxNavigationService _navigationService;
+        #endregion
+
         #region Properties
         /// <summary>
         /// Gets the command triggered when the continue button is clicked.
@@ -26,7 +31,7 @@ namespace MiCamConfig.App.Core.ViewModels
         #region Event Handlers
         private void ContinueButton_Click()
         {
-            NavigationService.Navigate<ConnectToDashcamViewModel>();
+            _navigationService.Navigate<ConnectToDashcamViewModel>();
         }
         #endregion
 
@@ -38,6 +43,14 @@ namespace MiCamConfig.App.Core.ViewModels
             ContinueButtonClickCommand = new MvxCommand(ContinueButton_Click);
 
             Title = Resources.TitleDisclaimer;
+        }
+        #endregion
+
+        #region Constructors
+        public DisclaimerViewModel(IMvxNavigationService navigationService)
+            : base()
+        {
+            _navigationService = navigationService;
         }
         #endregion
     }

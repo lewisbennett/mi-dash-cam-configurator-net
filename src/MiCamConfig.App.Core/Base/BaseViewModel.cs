@@ -1,7 +1,5 @@
 ﻿using MiCam.Api.Client;
-using MvvmCross;
 using MvvmCross.Commands;
-using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using System;
 using System.Threading.Tasks;
@@ -20,11 +18,6 @@ namespace MiCamConfig.App.Core.Base
         /// Gets the app's CamClient.
         /// </summary>
         public static CamClient CamClient => AppCore.CamClient;
-
-        /// <summary>
-        /// Gets the navigation service.
-        /// </summary>
-        public IMvxNavigationService NavigationService { get; } = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
 
         /// <summary>
         /// Runs a task and handles any exceptions.

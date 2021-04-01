@@ -2,6 +2,7 @@
 using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Properties;
 using MvvmCross.Commands;
+using MvvmCross.Navigation;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
@@ -19,6 +20,7 @@ namespace MiCamConfig.App.Core.ViewModels
     {
         #region Fields
         private string _action = "set", _property = string.Empty, _request = string.Empty, _value = string.Empty;
+        private readonly IMvxNavigationService _navigationService;
         #endregion
 
         #region Properties
@@ -136,7 +138,7 @@ namespace MiCamConfig.App.Core.ViewModels
                 .Replace(RequestElement.Property, Property?.Trim())
                 .Replace(RequestElement.Value, Value?.Trim());
 
-            NavigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
+            _navigationService.Navigate<SubmittingRequestViewModel, SubmittingRequestViewModelNavigationParams>(new SubmittingRequestViewModelNavigationParams
             {
                 Title = Resources.TitleCustomRequest,
                 Task = () => CamClient.RequestAsync(request)
@@ -159,6 +161,14 @@ namespace MiCamConfig.App.Core.ViewModels
             base.Prepare(parameter);
 
             Request = parameter?.DefaultRequest;
+        }
+        #endregion
+
+        #region Constructors
+        public CustomRequestViewModel(IMvxNavigationService navigationService)
+            : base()
+        {
+            _navigationService = navigationService;
         }
         #endregion
     }

@@ -5,6 +5,7 @@ using MiCamConfig.App.Core.Actions;
 using MiCamConfig.App.Core.Base;
 using MiCamConfig.App.Core.Properties;
 using MvvmCross.Commands;
+using MvvmCross.Navigation;
 using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.ViewModels
@@ -13,6 +14,7 @@ namespace MiCamConfig.App.Core.ViewModels
     {
         #region Fields
         private ResponseEntity _apkAuthorization;
+        private readonly IMvxNavigationService _navigationService;
         #endregion
 
         #region Properties
@@ -50,7 +52,7 @@ namespace MiCamConfig.App.Core.ViewModels
 
             if (_apkAuthorization != null && _apkAuthorization.Success)
             {
-                await NavigationService.Navigate<ActionsViewModel, ActionsViewModelNavigationParams>(new ActionsViewModelNavigationParams
+                await _navigationService.Navigate<ActionsViewModel, ActionsViewModelNavigationParams>(new ActionsViewModelNavigationParams
                 {
                     DashCamActions = new MaiActions()
 
@@ -83,6 +85,14 @@ namespace MiCamConfig.App.Core.ViewModels
             ContinueButtonClickCommand = new MvxCommand(ContinueButton_Click);
 
             Title = Resources.TitleConnectToDashcam;
+        }
+        #endregion
+
+        #region Constructors
+        public ConnectToDashcamViewModel(IMvxNavigationService navigationService)
+            : base()
+        {
+            _navigationService = navigationService;
         }
         #endregion
     }
