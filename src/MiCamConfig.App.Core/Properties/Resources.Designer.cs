@@ -200,6 +200,15 @@ namespace MiCamConfig.App.Core.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to An unknown error occurred. Please try again later..
+        /// </summary>
+        internal static string MessageUnknownError {
+            get {
+                return ResourceManager.GetString("MessageUnknownError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Settings &gt; WiFi.
         /// </summary>
         internal static string MessageWifiDirectory {

@@ -166,6 +166,9 @@ This project is open source on GitHub and licensed under Apache 2.0.</value>
   <data name="MessageNothingToDisplay" xml:space="preserve">
     <value>Nothing to display.</value>
   </data>
+  <data name="MessageUnknownError" xml:space="preserve">
+    <value>An unknown error occurred. Please try again later.</value>
+  </data>
   <data name="MessageWifiDirectory" xml:space="preserve">
     <value>Settings &gt; WiFi</value>
   </data>

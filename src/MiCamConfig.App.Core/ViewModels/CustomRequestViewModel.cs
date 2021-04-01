@@ -56,8 +56,6 @@ namespace MiCamConfig.App.Core.ViewModels
 
         public override void Prepare(CustomRequestViewModelNavigationParams parameter)
         {
-            base.Prepare(parameter);
-
             Request = parameter?.DefaultRequest;
         }
         #endregion

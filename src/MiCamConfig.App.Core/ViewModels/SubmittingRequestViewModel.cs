@@ -152,11 +152,6 @@ namespace MiCamConfig.App.Core.ViewModels
         #region Lifecycle
         public override void Prepare(SubmittingRequestViewModelNavigationParams parameter)
         {
-            base.Prepare(parameter);
-
-            if (parameter == null)
-                return;
-
             _task = parameter.Task;
             Title = parameter.Title;
         }
