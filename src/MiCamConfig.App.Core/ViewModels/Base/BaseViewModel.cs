@@ -1,18 +1,12 @@
 ﻿using MiCam.Api.Client;
-using MvvmCross.Commands;
 using MvvmCross.ViewModels;
 using System;
 using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.ViewModels.Base
 {
-    public class BaseViewModel : MvxViewModel
+    public partial class BaseViewModel : MvxViewModel
     {
-        #region Fields
-        private IMvxCommand _backButtonClickCommand;
-        private string _title;
-        #endregion
-
         #region Properties
         /// <summary>
         /// Gets the app's CamClient.
@@ -25,20 +19,6 @@ namespace MiCamConfig.App.Core.ViewModels.Base
         public Task<bool> RunTaskAsync(Func<Task> task)
         {
             return AppCore.RunTaskAsync(task);
-        }
-
-        /// <summary>
-        /// Gets or sets the title for this ViewModel.
-        /// </summary>
-        public virtual string Title
-        {
-            get => _title;
-
-            set
-            {
-                _title = value;
-                RaisePropertyChanged(() => Title);
-            }
         }
         #endregion
     }

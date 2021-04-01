@@ -5,27 +5,10 @@ using MvvmCross.Navigation;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
-    public class DisclaimerViewModel : BaseViewModel
+    public partial class DisclaimerViewModel : BaseViewModel
     {
         #region Fields
         private readonly IMvxNavigationService _navigationService;
-        #endregion
-
-        #region Properties
-        /// <summary>
-        /// Gets the command triggered when the continue button is clicked.
-        /// </summary>
-        public IMvxCommand ContinueButtonClickCommand { get; private set; }
-
-        /// <summary>
-        /// Gets the text displayed on the continue button.
-        /// </summary>
-        public string ContinueButtonText => Resources.ActionContinue;
-
-        /// <summary>
-        /// Gets the disclaimer message.
-        /// </summary>
-        public string Message => Resources.MessageDisclaimer;
         #endregion
 
         #region Event Handlers
@@ -42,6 +25,8 @@ namespace MiCamConfig.App.Core.ViewModels
 
             ContinueButtonClickCommand = new MvxCommand(ContinueButton_Click);
 
+            ContinueButtonText = Resources.ActionContinue;
+            Message = Resources.MessageDisclaimer;
             Title = Resources.TitleDisclaimer;
         }
         #endregion

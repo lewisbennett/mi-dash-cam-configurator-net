@@ -16,119 +16,10 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
     }
 
-    public class CustomRequestViewModel : BaseViewModel<CustomRequestViewModelNavigationParams>
+    public partial class CustomRequestViewModel : BaseViewModel<CustomRequestViewModelNavigationParams>
     {
         #region Fields
-        private string _action = "set", _property = string.Empty, _request = string.Empty, _value = string.Empty;
         private readonly IMvxNavigationService _navigationService;
-        #endregion
-
-        #region Properties
-        /// <summary>
-        /// Gets or sets the action.
-        /// </summary>
-        public string Action
-        {
-            get => _action;
-
-            set
-            {
-                value ??= string.Empty;
-
-                if (_action.Equals(value))
-                    return;
-
-                _action = value;
-                RaisePropertyChanged(() => Action);
-            }
-        }
-
-        /// <summary>
-        /// Gets the placeholder text for the action field.
-        /// </summary>
-        public string ActionHint => RequestElement.Action;
-
-        /// <summary>
-        /// Gets or sets the property.
-        /// </summary>
-        public string Property
-        {
-            get => _property;
-
-            set
-            {
-                value ??= string.Empty;
-
-                if (_property.Equals(value))
-                    return;
-
-                _property = value;
-                RaisePropertyChanged(() => Property);
-            }
-        }
-
-        /// <summary>
-        /// Gets the placeholder text for the property field.
-        /// </summary>
-        public string PropertyHint => RequestElement.Property;
-
-        /// <summary>
-        /// Gets or sets the request.
-        /// </summary>
-        public string Request
-        {
-            get => _request;
-
-            set
-            {
-                value ??= string.Empty;
-
-                if (_request.Equals(value))
-                    return;
-
-                _request = value;
-                RaisePropertyChanged(() => Request);
-            }
-        }
-
-        /// <summary>
-        /// Gets the placeholder text for the request field.
-        /// </summary>
-        public string RequestHint => Resources.HintRequest;
-
-        /// <summary>
-        /// Gets the submit button click command.
-        /// </summary>
-        public IMvxCommand SubmitRequestButtonClickCommand { get; private set; }
-
-        /// <summary>
-        /// Gets the text displayed on the submit request button.
-        /// </summary>
-        public string SubmitRequestButtonText => Resources.ActionSubmitRequest;
-
-        /// <summary>
-        /// Gets or sets the value.
-        /// </summary>
-        public string Value
-        {
-            get => _value;
-
-            set
-            {
-                value ??= string.Empty;
-
-                if (_value.Equals(value))
-                    return;
-
-                _value = value;
-                RaisePropertyChanged(() => Value);
-            }
-        }
-
-        /// <summary>
-        /// Gets the placeholder text for the value field.
-        /// </summary>
-        public string ValueHint => RequestElement.Value;
         #endregion
 
         #region Event Handlers
@@ -153,7 +44,13 @@ namespace MiCamConfig.App.Core.ViewModels
 
             SubmitRequestButtonClickCommand = new MvxCommand(SubmitButton_Click);
 
+            Action = "set";
+            ActionHint = RequestElement.Action;
+            PropertyHint = RequestElement.Property;
+            RequestHint = Resources.HintRequest;
+            SubmitRequestButtonText = Resources.ActionSubmitRequest;
             Title = Resources.TitleCustomRequest;
+            ValueHint = RequestElement.Value;
         }
 
         public override void Prepare(CustomRequestViewModelNavigationParams parameter)

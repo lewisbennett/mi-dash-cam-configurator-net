@@ -16,43 +16,13 @@ namespace MiCamConfig.App.Core.ViewModels
         #endregion
     }
 
-    public class ActionsViewModel : ListViewModel<ActionModel, ActionsViewModelNavigationParams>
+    public partial class ActionsViewModel : ListViewModel<ActionModel, ActionsViewModelNavigationParams>
     {
-        #region Fields
-        private string _searchText = string.Empty;
-        #endregion
-
         #region Properties
         /// <summary>
         /// Gets the dash cam actions.
         /// </summary>
         public IActions DashCamActions { get; private set; }
-
-        /// <summary>
-        /// Gets or sets the placeholder text for the search field.
-        /// </summary>
-        public string SearchHint => Resources.HintSearch;
-
-        /// <summary>
-        /// Gets or sets the search text.
-        /// </summary>
-        public string SearchText
-        {
-            get => _searchText;
-
-            set
-            {
-                value ??= string.Empty;
-
-                if (_searchText.Equals(value))
-                    return;
-
-                _searchText = value;
-                RaisePropertyChanged(() => SearchText);
-
-                Search(_searchText);
-            }
-        }
         #endregion
 
         #region Event Handlers
@@ -85,6 +55,7 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             base.Prepare();
 
+            SearchHint = Resources.HintSearch;
             Title = Resources.TitleActions;
         }
 

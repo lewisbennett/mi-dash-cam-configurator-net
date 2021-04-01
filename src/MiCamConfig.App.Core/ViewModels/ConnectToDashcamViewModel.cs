@@ -10,33 +10,11 @@ using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
-    public class ConnectToDashcamViewModel : BaseViewModel
+    public partial class ConnectToDashcamViewModel : BaseViewModel
     {
         #region Fields
         private ResponseEntity _apkAuthorization;
         private readonly IMvxNavigationService _navigationService;
-        #endregion
-
-        #region Properties
-        /// <summary>
-        /// Gets the title displayed underneath the dashcam image.
-        /// </summary>
-        public string ConnectToDashcamTitle => Resources.TitleConnectToDashcam;
-        
-        /// <summary>
-        /// Gets the command triggered when the continue button is clicked.
-        /// </summary>
-        public IMvxCommand ContinueButtonClickCommand { get; private set; }
-
-        /// <summary>
-        /// Gets the text displayed on the continue button.
-        /// </summary>
-        public string ContinueButtonText => Resources.ActionContinue;
-
-        /// <summary>
-        /// Gets the message showing where WiFi settings are located.
-        /// </summary>
-        public string WifiDirectory => Resources.MessageWifiDirectory;
         #endregion
 
         #region Event Handlers
@@ -84,7 +62,10 @@ namespace MiCamConfig.App.Core.ViewModels
 
             ContinueButtonClickCommand = new MvxCommand(ContinueButton_Click);
 
+            ConnectToDashcamTitle = Resources.TitleConnectToDashcam;
+            ContinueButtonText = Resources.ActionContinue;
             Title = Resources.TitleConnectToDashcam;
+            WifiDirectory = Resources.MessageWifiDirectory;
         }
         #endregion
 
