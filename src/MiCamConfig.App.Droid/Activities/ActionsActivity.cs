@@ -30,8 +30,7 @@ namespace MiCamConfig.App.Droid.Activities
         #region Protected Methods
         protected override RecyclerView.LayoutManager CreatePrimaryLayoutManager()
         {
-            // TODO
-            return new LinearLayoutManager(this);
+            return new GridLayoutManager(this, CalculateHorizontalItemCount(400));
         }
         #endregion
     }

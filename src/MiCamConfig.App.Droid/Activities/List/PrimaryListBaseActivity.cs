@@ -2,6 +2,7 @@
 using AndroidX.RecyclerView.Widget;
 using MiCamConfig.App.Core.ViewModels.Base;
 using MiCamConfig.App.Droid.Activities.Base;
+using MiCamConfig.App.Droid.Helper;
 using MiCamConfig.App.Droid.Views;
 using MvvmCross.Views;
 
@@ -20,8 +21,7 @@ namespace MiCamConfig.App.Droid.Activities.List
 
         protected virtual int CalculateHorizontalItemCount(float nominalWidth)
         {
-            // TODO
-            return 1;
+            return RecyclerViewHelper.CalculateHorizontalItemCount(nominalWidth);
         }
 
         protected abstract RecyclerView.LayoutManager CreatePrimaryLayoutManager();
