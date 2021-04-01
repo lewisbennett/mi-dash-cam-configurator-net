@@ -33,14 +33,14 @@ namespace MiCamConfig.App.Core.ViewModels
         /// <summary>
         /// Submits the task.
         /// </summary>
-        public async void SubmitTask()
+        public void SubmitTask()
         {
             if (IsRequesting)
                 return;
 
             IsRequesting = true;
 
-            await CoreService.ExecuteTaskAsync(_task.Invoke, (response) =>
+            CoreService.ExecuteTaskAsync(_task.Invoke, (response) =>
             {
                 _response = response;
 
@@ -50,9 +50,10 @@ namespace MiCamConfig.App.Core.ViewModels
                 SuccessTitle = CalculateSuccessTitle();
                 ValueTitle = CalculateValueTitle();
 
-            }, HandleException).ConfigureAwait(false);
-
-            IsRequesting = false;
+            }, HandleException).ContinueWith((task) =>
+            {
+                IsRequesting = false;
+            });
         }
         #endregion
 

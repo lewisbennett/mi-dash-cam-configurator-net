@@ -7,52 +7,20 @@ using MiCamConfig.App.Core.Services;
 using MiCamConfig.App.Core.ViewModels.Base;
 using MvvmCross.Commands;
 using MvvmCross.Navigation;
-using System.Threading.Tasks;
 
 namespace MiCamConfig.App.Core.ViewModels
 {
     public partial class ConnectToDashcamViewModel : BaseViewModel
     {
         #region Fields
-        private ResponseEntity _apkAuthorization;
+        private bool _isLoading;
         private readonly IMvxNavigationService _navigationService;
         #endregion
 
         #region Event Handlers
-        private async void ContinueButton_Click()
+        private void ContinueButton_Click()
         {
-            _apkAuthorization = null;
-
-            await MessagingService.Instance.ShowLoadingAsync(new LoadingAsyncConfig
-            {
-                Message = Resources.MessagingConnecting
-
-            }, CoreService.ExecuteTaskAsync(ApkAuthorizeAsync)).ConfigureAwait(false);
-
-            if (_apkAuthorization != null && _apkAuthorization.Success)
-            {
-                await _navigationService.Navigate<ActionsViewModel, ActionsViewModelNavigationParams>(new ActionsViewModelNavigationParams
-                {
-                    DashCamActions = new MaiActions()
-
-                }).ConfigureAwait(false);
-
-                return;
-            }
-
-            MessagingService.Instance.Alert(new AlertConfig
-            {
-                Title = Resources.TitleNotConnected,
-                Message = Resources.MessageNotConnectedToDashcam,
-                OkButtonText = Resources.ActionOkay
-            });
-        }
-        #endregion
-
-        #region Public Methods
-        public async Task ApkAuthorizeAsync()
-        {
-            _apkAuthorization = await CoreService.CamClient.AdminOperations.ApkAuthorizeAsync().ConfigureAwait(false);
+            ApkAuthorize();
         }
         #endregion
 
@@ -75,6 +43,44 @@ namespace MiCamConfig.App.Core.ViewModels
             : base(coreService)
         {
             _navigationService = navigationService;
+        }
+        #endregion
+
+        #region Private Methods
+        private void ApkAuthorize()
+        {
+            if (_isLoading)
+                return;
+
+            _isLoading = true;
+
+            MessagingService.Instance.ShowLoadingAsync(new LoadingAsyncConfig
+            {
+                Message = Resources.MessagingConnecting
+
+            }, CoreService.ExecuteTaskAsync(CoreService.CamClient.AdminOperations.ApkAuthorizeAsync, (response) =>
+            {
+                if (response is ResponseEntity apkAuthorization && apkAuthorization.Success)
+                {
+                    _navigationService.Navigate<ActionsViewModel, ActionsViewModelNavigationParams>(new ActionsViewModelNavigationParams
+                    {
+                        DashCamActions = new MaiActions()
+                    });
+                }
+                else
+                {
+                    MessagingService.Instance.Alert(new AlertConfig
+                    {
+                        Title = Resources.TitleNotConnected,
+                        Message = Resources.MessageNotConnectedToDashcam,
+                        OkButtonText = Resources.ActionOkay
+                    });
+                }
+
+            })).ContinueWith((task) =>
+            {
+                _isLoading = false;
+            });
         }
         #endregion
     }
