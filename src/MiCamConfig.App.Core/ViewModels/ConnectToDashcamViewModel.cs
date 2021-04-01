@@ -1,4 +1,5 @@
-﻿using DialogMessaging.Interactions;
+﻿using DialogMessaging;
+using DialogMessaging.Interactions;
 using MiCam.Api.Client.Entities;
 using MiCamConfig.App.Core.Actions;
 using MiCamConfig.App.Core.Base;
@@ -41,7 +42,7 @@ namespace MiCamConfig.App.Core.ViewModels
         {
             _apkAuthorization = null;
 
-            await MessagingService.ShowLoadingAsync(new LoadingAsyncConfig
+            await MessagingService.Instance.ShowLoadingAsync(new LoadingAsyncConfig
             {
                 Message = Resources.MessagingConnecting
 
@@ -58,7 +59,7 @@ namespace MiCamConfig.App.Core.ViewModels
                 return;
             }
 
-            MessagingService.Alert(new AlertConfig
+            MessagingService.Instance.Alert(new AlertConfig
             {
                 Title = Resources.TitleNotConnected,
                 Message = Resources.MessageNotConnectedToDashcam,

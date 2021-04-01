@@ -36,11 +36,6 @@ namespace MiCamConfig.App.Core.Base
         public static CamClient CamClient => AppCore.CamClient;
 
         /// <summary>
-        /// Gets the messaging service.
-        /// </summary>
-        public IMessagingService MessagingService => DialogMessaging.MessagingService.Instance;
-
-        /// <summary>
         /// Gets the navigation service.
         /// </summary>
         public IMvxNavigationService NavigationService { get; } = Mvx.IoCProvider.Resolve<IMvxNavigationService>();
