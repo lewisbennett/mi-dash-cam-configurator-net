@@ -54,6 +54,8 @@ namespace MiCamConfig.App.Core.ViewModels
 
             _isLoading = true;
 
+            var success = false;
+
             MessagingService.Instance.ShowLoadingAsync(new LoadingAsyncConfig
             {
                 Message = Resources.MessagingConnecting
@@ -62,12 +64,19 @@ namespace MiCamConfig.App.Core.ViewModels
             {
                 if (response is ResponseEntity apkAuthorization && apkAuthorization.Success)
                 {
+                    success = true;
+
                     _navigationService.Navigate<ActionsViewModel, ActionsViewModelNavigationParams>(new ActionsViewModelNavigationParams
                     {
                         DashCamActions = new MaiActions(CoreService, _navigationService)
                     });
                 }
-                else
+
+            })).ContinueWith((task) =>
+            {
+                _isLoading = false;
+
+                if (!success)
                 {
                     MessagingService.Instance.Alert(new AlertConfig
                     {
@@ -76,10 +85,6 @@ namespace MiCamConfig.App.Core.ViewModels
                         OkButtonText = Resources.ActionOkay
                     });
                 }
-
-            })).ContinueWith((task) =>
-            {
-                _isLoading = false;
             });
         }
         #endregion
