@@ -19,6 +19,13 @@ namespace MiCamConfig.App.Droid
         }
         #endregion
 
+        #region Constructors
+        public MainApplication(IntPtr javaReference, JniHandleOwnership transfer)
+            : base(javaReference, transfer)
+        {
+        }
+        #endregion
+
         #region Private Methods
         private void ConfigureDialogMessaging()
         {
@@ -29,13 +36,6 @@ namespace MiCamConfig.App.Droid
             ActionSheetConfigDefaults.Cancelable = true;
 
             AlertConfigDefaults.Cancelable = true;
-        }
-        #endregion
-
-        #region Constructors
-        public MainApplication(IntPtr javaReference, JniHandleOwnership transfer)
-            : base(javaReference, transfer)
-        {
         }
         #endregion
     }
