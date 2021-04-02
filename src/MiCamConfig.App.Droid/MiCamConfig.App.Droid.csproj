@@ -81,7 +81,10 @@
     <Compile Include="Activities\SubmittingRequestActivity.cs" />
     <Compile Include="Activities\Base\BaseActivity.cs" />
     <Compile Include="Extensions.cs" />
+    <Compile Include="Helper\BindingBuilder.cs" />
     <Compile Include="Helper\RecyclerViewHelper.cs" />
+    <Compile Include="Helper\ViewBinder.cs" />
+    <Compile Include="Helper\ViewBinderFactory.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
