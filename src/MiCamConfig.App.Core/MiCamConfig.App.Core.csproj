@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DialogMessaging.MvvmCross" Version="0.99.1-alpha" />
+    <PackageReference Include="DialogMessaging.MvvmCross" Version="0.99.5-alpha" />
     <PackageReference Include="MvvmCross" Version="7.1.2" />
   </ItemGroup>
 
