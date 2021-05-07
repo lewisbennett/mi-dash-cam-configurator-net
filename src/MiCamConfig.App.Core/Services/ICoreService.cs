@@ -18,18 +18,9 @@ namespace MiCamConfig.App.Core.Services
         /// <summary>
         /// Execute a task, with optional success and exception handlers.
         /// </summary>
-        /// <param name="task">A function to invoke the task to execute.</param>
-        /// <param name="successHandler">An action invoked if the task is successful (i.e. no exceptions were thrown).</param>
+        /// <param name="task">The task to execute.</param>
         /// <param name="exceptionHandler">A function invoked to generate a messaging configuration if an exception is thrown.</param>
-        Task ExecuteTaskAsync(Func<Task> task, Action successHandler = null, Func<Exception, object> exceptionHandler = null);
-
-        /// <summary>
-        /// Execute a task, with optional success and exception handlers.
-        /// </summary>
-        /// <param name="task">A function to invoke the task to execute.</param>
-        /// <param name="successHandler">An action invoked if the task is successful (i.e. no exceptions were thrown).</param>
-        /// <param name="exceptionHandler">A function invoked to generate a messaging configuration if an exception is thrown.</param>
-        Task ExecuteTaskAsync<T>(Func<Task<T>> task, Action<T> successHandler = null, Func<Exception, object> exceptionHandler = null);
+        Task ExecuteTaskAsync(Task task, Func<Exception, object> exceptionHandler = null);
 
         /// <summary>
         /// Retrieves a saved instance state.

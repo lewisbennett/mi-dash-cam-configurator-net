@@ -25,36 +25,13 @@ namespace MiCamConfig.App.Core.Services.Base
         /// <summary>
         /// Execute a task, with optional success and exception handlers.
         /// </summary>
-        /// <param name="task">A function to invoke the task to execute.</param>
-        /// <param name="successHandler">An action invoked if the task is successful (i.e. no exceptions were thrown).</param>
+        /// <param name="task">The task to execute.</param>
         /// <param name="exceptionHandler">A function invoked to generate a messaging configuration if an exception is thrown.</param>
-        public async Task ExecuteTaskAsync(Func<Task> task, Action successHandler = null, Func<Exception, object> exceptionHandler = null)
+        public async Task ExecuteTaskAsync(Task task, Func<Exception, object> exceptionHandler = null)
         {
             try
             {
-                await Task.Run(task).ConfigureAwait(false);
-
-                successHandler?.Invoke();
-            }
-            catch (Exception e)
-            {
-                HandleException(e, exceptionHandler);
-            }
-        }
-
-        /// <summary>
-        /// Execute a task, with optional success and exception handlers.
-        /// </summary>
-        /// <param name="task">A function to invoke the task to execute.</param>
-        /// <param name="successHandler">An action invoked if the task is successful (i.e. no exceptions were thrown).</param>
-        /// <param name="exceptionHandler">A function invoked to generate a messaging configuration if an exception is thrown.</param>
-        public async Task ExecuteTaskAsync<T>(Func<Task<T>> task, Action<T> successHandler = null, Func<Exception, object> exceptionHandler = null)
-        {
-            try
-            {
-                var x = await Task.Run(task).ConfigureAwait(false);
-
-                successHandler?.Invoke(x);
+                await task.ConfigureAwait(false);
             }
             catch (Exception e)
             {

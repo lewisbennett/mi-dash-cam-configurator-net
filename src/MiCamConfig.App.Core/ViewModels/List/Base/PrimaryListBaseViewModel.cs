@@ -125,7 +125,7 @@ namespace MiCamConfig.App.Core.ViewModels.List.Base
 
             ShowLoading = IsDataEmpty;
 
-            CoreService.ExecuteTaskAsync(LoadInitialPageAsync, exceptionHandler: HandleException).ContinueWith((task) =>
+            CoreService.ExecuteTaskAsync(LoadInitialPageAsync(), HandleException).ContinueWith((_) =>
             {
                 IsLoading = ShowLoading = false;
             });
@@ -141,7 +141,7 @@ namespace MiCamConfig.App.Core.ViewModels.List.Base
 
             IsLoading = true;
 
-            CoreService.ExecuteTaskAsync(LoadNextPageAsync, exceptionHandler: HandleException).ContinueWith((task) =>
+            CoreService.ExecuteTaskAsync(LoadNextPageAsync(), HandleException).ContinueWith((_) =>
             {
                 IsLoading = false;
             });

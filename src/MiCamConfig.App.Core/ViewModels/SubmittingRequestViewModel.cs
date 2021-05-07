@@ -40,18 +40,21 @@ namespace MiCamConfig.App.Core.ViewModels
 
             IsRequesting = true;
 
-            CoreService.ExecuteTaskAsync(_task.Invoke, (response) =>
+            var task = _task.Invoke();
+
+            CoreService.ExecuteTaskAsync(task, HandleException).ContinueWith((_) =>
             {
-                _response = response;
+                if (task.IsCompletedSuccessfully)
+                {
+                    _response = task.Result;
 
-                RawResponse = _response.RawResponse;
+                    RawResponse = _response.RawResponse;
 
-                PropertyTitle = CalculatePropertyTitle();
-                SuccessTitle = CalculateSuccessTitle();
-                ValueTitle = CalculateValueTitle();
+                    PropertyTitle = CalculatePropertyTitle();
+                    SuccessTitle = CalculateSuccessTitle();
+                    ValueTitle = CalculateValueTitle();
+                }
 
-            }, HandleException).ContinueWith((task) =>
-            {
                 IsRequesting = false;
             });
         }
